@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "inputElements": 566,
+    "importedObjects": 895,
+    "buildings": 326,
+    "roads": 208,
+    "paths": 344,
+    "entrances": 0,
+    "trees": 7,
+    "areas": 10,
+    "estimatedHeights": 80,
+    "clippedObjects": 129
+  },
+  "omitted": [
+    {
+      "reason": "Complex multipolygon or courtyard holes require manual review.",
+      "count": 4
+    },
+    {
+      "reason": "Unsupported or invalid geometry/attributes.",
+      "count": 3
+    }
+  ],
+  "timestamp": null,
+  "warnings": [
+    "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+    "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+    "No database snapshot timestamp supplied; acquisition time is recorded separately from element edit dates.",
+    "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+    "Parent outlines with mapped parts are marked as containers; mapped parts may still be incomplete and require review.",
+    "Some mapped features were omitted; review the omission counts."
+  ]
+}

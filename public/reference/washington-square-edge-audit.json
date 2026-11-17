@@ -1,0 +1,1866 @@
+{
+  "source": {
+    "sourceUrl": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41224641494269,37.799183014789826,-122.4081535850573,37.80241694981248",
+    "accessed": "2026-11-15",
+    "capturedAtUTC": "2026-11-16T03:24:27.930514+00:00",
+    "license": "Open Database License (ODbL)1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors",
+    "bounds": {
+      "west": -122.41224641494269,
+      "south": 37.799183014789826,
+      "east": -122.4081535850573,
+      "north": 37.80241694981248
+    },
+    "rawSha256": "983e0dc47a8821e3e29a51c32ff9981f838defa1474d7f5d86951afd94c61397",
+    "rawBytes": 1293959,
+    "normalizedBytes": 390801,
+    "elementCount": 566,
+    "note": "One bounded official API extraction after Overpass capacity/timeouts. Normalized to the same element shape accepted by the importer; not claimed to be an Overpass response. Element timestamps are edit dates, not survey dates. Snapshot timestamp not supplied. Raw source retained compressed.",
+    "originalSourceSha256": "a8ffd5cd1e22b972b967f430fde6a3c9e4afb9bac3fee899602abb85d74011c0",
+    "redaction": "Contributor user and uid attributes removed from the public raw XML. Geodata, feature tags, element versions and edit timestamps retained. Unmodified response remains only in the local temporary directory.",
+    "redactedAttributeCount": 10086,
+    "normalizedSha256": "d2fdecb087ca53305f03f93e4a8ca776916762fcfa0ffc5a9c07543384d8b423"
+  },
+  "beforeObjects": 139,
+  "candidateCount": 326,
+  "selectedCount": 24,
+  "selectedRouteSegments": 2,
+  "selectionRules": {
+    "peripheralBandMetres": 70,
+    "maximumFractionInsideCentralRectangle": 0.25,
+    "minimumFootprintAreaM2": 15,
+    "maximumOverlapM2": 0.01,
+    "minimumExistingBuildingGapM": 0.5,
+    "scopeCap": 24
+  },
+  "selected": [
+    {
+      "id": "osm-way-262574420",
+      "label": "721/725 Filbert Street",
+      "height": 10,
+      "heightEvidence": "sourced",
+      "footprintVertices": 9
+    },
+    {
+      "id": "osm-way-32611662",
+      "label": "1520 Stockton Street",
+      "height": 22,
+      "heightEvidence": "sourced",
+      "footprintVertices": 6
+    },
+    {
+      "id": "osm-way-32611759",
+      "label": "Edge building 3",
+      "height": 6,
+      "heightEvidence": "inferred",
+      "footprintVertices": 8
+    },
+    {
+      "id": "osm-way-1443107207",
+      "label": "653/655 Green Street",
+      "height": 9,
+      "heightEvidence": "inferred",
+      "footprintVertices": 6
+    },
+    {
+      "id": "osm-way-262121245",
+      "label": "Edge building 5",
+      "height": 9,
+      "heightEvidence": "inferred",
+      "footprintVertices": 7
+    },
+    {
+      "id": "osm-way-262574419",
+      "label": "729/731 Filbert Street",
+      "height": 10,
+      "heightEvidence": "sourced",
+      "footprintVertices": 8
+    },
+    {
+      "id": "osm-way-262121239",
+      "label": "Edge building 7",
+      "height": 11,
+      "heightEvidence": "sourced",
+      "footprintVertices": 21
+    },
+    {
+      "id": "osm-way-262121241",
+      "label": "Edge building 8",
+      "height": 9,
+      "heightEvidence": "inferred",
+      "footprintVertices": 9
+    },
+    {
+      "id": "osm-way-262112732",
+      "label": "Edge building 9",
+      "height": 12,
+      "heightEvidence": "sourced",
+      "footprintVertices": 26
+    },
+    {
+      "id": "osm-way-32611760",
+      "label": "Columbus Avenue building",
+      "height": 9,
+      "heightEvidence": "inferred",
+      "footprintVertices": 6
+    },
+    {
+      "id": "osm-way-32611674",
+      "label": "1510/1512/1514 Stockton Street",
+      "height": 7,
+      "heightEvidence": "sourced",
+      "footprintVertices": 5
+    },
+    {
+      "id": "osm-way-262585102",
+      "label": "725/727/731/733/735/737 Columbus Avenue",
+      "height": 8,
+      "heightEvidence": "sourced",
+      "footprintVertices": 27
+    },
+    {
+      "id": "osm-way-262477446",
+      "label": "755/757/759/761/763 Union Street",
+      "height": 13,
+      "heightEvidence": "sourced",
+      "footprintVertices": 17
+    },
+    {
+      "id": "osm-way-262574403",
+      "label": "733 Filbert Street",
+      "height": 12,
+      "heightEvidence": "sourced",
+      "footprintVertices": 18
+    },
+    {
+      "id": "osm-way-262112725",
+      "label": "553/555/561 Greenwich Street",
+      "height": 12,
+      "heightEvidence": "sourced",
+      "footprintVertices": 14
+    },
+    {
+      "id": "osm-way-262479623",
+      "label": "9 August Alley",
+      "height": 12,
+      "heightEvidence": "sourced",
+      "footprintVertices": 7
+    },
+    {
+      "id": "osm-way-262574405",
+      "label": "741/743/745 Filbert Street",
+      "height": 10,
+      "heightEvidence": "sourced",
+      "footprintVertices": 18
+    },
+    {
+      "id": "osm-way-262128559",
+      "label": "666/668/670/672/674/676 Greenwich Street",
+      "height": 12,
+      "heightEvidence": "sourced",
+      "footprintVertices": 10
+    },
+    {
+      "id": "osm-way-262477437",
+      "label": "Edge building 19",
+      "height": 9,
+      "heightEvidence": "inferred",
+      "footprintVertices": 14
+    },
+    {
+      "id": "osm-way-262112756",
+      "label": "Edge building 20",
+      "height": 13,
+      "heightEvidence": "sourced",
+      "footprintVertices": 11
+    },
+    {
+      "id": "osm-way-262104205",
+      "label": "152/154/156/158/160/162 Jasper Place",
+      "height": 12,
+      "heightEvidence": "sourced",
+      "footprintVertices": 7
+    },
+    {
+      "id": "osm-way-262104192",
+      "label": "525/527/529/531/533/535 Filbert Street",
+      "height": 13,
+      "heightEvidence": "sourced",
+      "footprintVertices": 15
+    },
+    {
+      "id": "osm-way-262104191",
+      "label": "114/116/118/120 Jasper Place",
+      "height": 12,
+      "heightEvidence": "sourced",
+      "footprintVertices": 14
+    },
+    {
+      "id": "osm-way-262479612",
+      "label": "1724/1726/1728/1730 Mason Street",
+      "height": 10,
+      "heightEvidence": "sourced",
+      "footprintVertices": 18
+    }
+  ],
+  "routes": [
+    {
+      "id": "osm-way-8920460-segment-0",
+      "label": "Via Ferlinghetti"
+    },
+    {
+      "id": "osm-way-8920460-segment-1",
+      "label": "Via Ferlinghetti"
+    }
+  ],
+  "routeAudit": [
+    {
+      "sourceId": "way/8916311",
+      "label": "Kramer Place",
+      "segments": 3,
+      "overlapWithRecordedBuildingsAndGroundsM2": 0.371603,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/8916638",
+      "label": "Winter Place",
+      "segments": 1,
+      "overlapWithRecordedBuildingsAndGroundsM2": 20.076833,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/8916851",
+      "label": "Brant Alley",
+      "segments": 3,
+      "overlapWithRecordedBuildingsAndGroundsM2": 78.153711,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/8919586",
+      "label": "Medau Place",
+      "segments": 2,
+      "overlapWithRecordedBuildingsAndGroundsM2": 84.625995,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/8919593",
+      "label": "Via Bufano",
+      "segments": 4,
+      "overlapWithRecordedBuildingsAndGroundsM2": 3.918189,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/8919755",
+      "label": "Jasper Place",
+      "segments": 5,
+      "overlapWithRecordedBuildingsAndGroundsM2": 208.047609,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/8919816",
+      "label": "Krausgrill Place",
+      "segments": 2,
+      "overlapWithRecordedBuildingsAndGroundsM2": 187.736583,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/8920460",
+      "label": "Via Ferlinghetti",
+      "segments": 2,
+      "overlapWithRecordedBuildingsAndGroundsM2": 0,
+      "accepted": true,
+      "note": "All segments of the bounded way retained together; mapped centerline, inferred corridor width."
+    },
+    {
+      "sourceId": "way/8922665",
+      "label": "August Alley",
+      "segments": 5,
+      "overlapWithRecordedBuildingsAndGroundsM2": 77.918708,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/146155940",
+      "label": "Jack Micheline Alley",
+      "segments": 2,
+      "overlapWithRecordedBuildingsAndGroundsM2": 0.888378,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    },
+    {
+      "sourceId": "way/1307907547",
+      "label": "Jasper Place",
+      "segments": 4,
+      "overlapWithRecordedBuildingsAndGroundsM2": 49.367439,
+      "accepted": false,
+      "note": "Whole bounded way omitted: inferred corridor width intersects recorded building/ground polygons."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "osm-way-29100422",
+      "areaM2": 200.97,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-29902626",
+      "areaM2": 1670.526,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-30105983",
+      "areaM2": 927.185,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32609888",
+      "areaM2": 565.677,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32611515",
+      "areaM2": 543.077,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-32611647",
+      "areaM2": 322.907,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-32611649",
+      "areaM2": 150.554,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-32611696",
+      "areaM2": 244.078,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-32611699",
+      "areaM2": 596.426,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-32611756",
+      "areaM2": 199.561,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32611958",
+      "areaM2": 150.063,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32611966",
+      "areaM2": 227.075,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32839937",
+      "areaM2": 369.141,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32839940",
+      "areaM2": 113.001,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32839950",
+      "areaM2": 263.485,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32840024",
+      "areaM2": 99.017,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32857648",
+      "areaM2": 97.45,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-32857672",
+      "areaM2": 510.722,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32857685",
+      "areaM2": 173.888,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32857709",
+      "areaM2": 210.719,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32866034",
+      "areaM2": 541.009,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-32966576",
+      "areaM2": 479.593,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-32966578",
+      "areaM2": 448.666,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-48211194",
+      "areaM2": 87.298,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-196872430",
+      "areaM2": 529.511,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-256998671",
+      "areaM2": 145.402,
+      "reason": "Mapped part excluded; no partial architectural assembly added."
+    },
+    {
+      "id": "osm-way-256998675",
+      "areaM2": 125.644,
+      "reason": "Mapped part excluded; no partial architectural assembly added."
+    },
+    {
+      "id": "osm-way-256998688",
+      "areaM2": 150.514,
+      "reason": "Mapped part excluded; no partial architectural assembly added."
+    },
+    {
+      "id": "osm-way-256999030",
+      "areaM2": 135.288,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-256999034",
+      "areaM2": 700.493,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-257000908",
+      "areaM2": 1.629,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-260964794",
+      "areaM2": 103.259,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-260964796",
+      "areaM2": 252.015,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262102552",
+      "areaM2": 115.757,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262102554",
+      "areaM2": 126.319,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262102555",
+      "areaM2": 138.55,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262102556",
+      "areaM2": 257.989,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262102557",
+      "areaM2": 186.551,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262102558",
+      "areaM2": 215.418,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262102559",
+      "areaM2": 198.026,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262102560",
+      "areaM2": 217.066,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262102561",
+      "areaM2": 317.075,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262104189",
+      "areaM2": 11.646,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262112716",
+      "areaM2": 105.049,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262112720",
+      "areaM2": 118.546,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262112729",
+      "areaM2": 168.654,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262112733",
+      "areaM2": 189.622,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262112734",
+      "areaM2": 213.098,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262112735",
+      "areaM2": 195.033,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262112736",
+      "areaM2": 0.225,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262112747",
+      "areaM2": 208.133,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262112748",
+      "areaM2": 128.003,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262112749",
+      "areaM2": 79.585,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262112750",
+      "areaM2": 125.101,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262112751",
+      "areaM2": 6.65,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262112752",
+      "areaM2": 199.911,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262112753",
+      "areaM2": 100.811,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262112758",
+      "areaM2": 146.018,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262112760",
+      "areaM2": 6.783,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262112761",
+      "areaM2": 179.2,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262112762",
+      "areaM2": 101.783,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120189",
+      "areaM2": 915.013,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120190",
+      "areaM2": 79.284,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120191",
+      "areaM2": 170.1,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120192",
+      "areaM2": 133.348,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120193",
+      "areaM2": 149.939,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120194",
+      "areaM2": 142.19,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120195",
+      "areaM2": 102.782,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120196",
+      "areaM2": 103.451,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120197",
+      "areaM2": 97.229,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120198",
+      "areaM2": 104.044,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120199",
+      "areaM2": 166.687,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120200",
+      "areaM2": 133.402,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120201",
+      "areaM2": 142.325,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120202",
+      "areaM2": 156.162,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120203",
+      "areaM2": 185.458,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120204",
+      "areaM2": 124.242,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120205",
+      "areaM2": 129.458,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120206",
+      "areaM2": 132.007,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120207",
+      "areaM2": 138.069,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120213",
+      "areaM2": 130.571,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120216",
+      "areaM2": 208.395,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120218",
+      "areaM2": 121.217,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120220",
+      "areaM2": 267.144,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120222",
+      "areaM2": 88.068,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120224",
+      "areaM2": 63.218,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120225",
+      "areaM2": 61.573,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120227",
+      "areaM2": 81.897,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120228",
+      "areaM2": 281.319,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120229",
+      "areaM2": 74.272,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120230",
+      "areaM2": 131.443,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120231",
+      "areaM2": 91.359,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120232",
+      "areaM2": 132.812,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120233",
+      "areaM2": 189.007,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120234",
+      "areaM2": 255.112,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262120235",
+      "areaM2": 67.924,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120236",
+      "areaM2": 130.76,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120237",
+      "areaM2": 130.395,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262120238",
+      "areaM2": 90.515,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262121235",
+      "areaM2": 157.283,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262121237",
+      "areaM2": 150.97,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262121238",
+      "areaM2": 147.434,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262121246",
+      "areaM2": 163.834,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262121248",
+      "areaM2": 161.416,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262128546",
+      "areaM2": 5.161,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262212913",
+      "areaM2": 4.851,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262473539",
+      "areaM2": 39.564,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262477434",
+      "areaM2": 70.019,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262477436",
+      "areaM2": 97.011,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262477438",
+      "areaM2": 133.319,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262477439",
+      "areaM2": 161.676,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262477441",
+      "areaM2": 144.705,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262477442",
+      "areaM2": 177.646,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262477443",
+      "areaM2": 196.859,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262477444",
+      "areaM2": 150.564,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262477445",
+      "areaM2": 134.379,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262477447",
+      "areaM2": 343.921,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262477448",
+      "areaM2": 216.379,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262477449",
+      "areaM2": 216.73,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262477450",
+      "areaM2": 191.607,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262477451",
+      "areaM2": 223.189,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262477454",
+      "areaM2": 247.588,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262479604",
+      "areaM2": 209.364,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262479608",
+      "areaM2": 207.502,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262479610",
+      "areaM2": 9.823,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262479614",
+      "areaM2": 128.295,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262479615",
+      "areaM2": 140.518,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262479617",
+      "areaM2": 204.203,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262479618",
+      "areaM2": 155.659,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262479619",
+      "areaM2": 157.077,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262574394",
+      "areaM2": 122.308,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262574395",
+      "areaM2": 129.934,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262574398",
+      "areaM2": 84.228,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262574399",
+      "areaM2": 147.512,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262574400",
+      "areaM2": 107.08,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262574404",
+      "areaM2": 98.306,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262574410",
+      "areaM2": 151.961,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262574414",
+      "areaM2": 13.994,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262574415",
+      "areaM2": 0.528,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262574417",
+      "areaM2": 27.905,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262574422",
+      "areaM2": 132.478,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262585100",
+      "areaM2": 115.858,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262585101",
+      "areaM2": 5.539,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-262585103",
+      "areaM2": 249.391,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262585106",
+      "areaM2": 62.268,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262585107",
+      "areaM2": 149.47,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-262585108",
+      "areaM2": 159.85,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-288483483",
+      "areaM2": 194.631,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-288483484",
+      "areaM2": 191.034,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-288487231",
+      "areaM2": 9.529,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-288487232",
+      "areaM2": 471.032,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-288487233",
+      "areaM2": 320.753,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-288487235",
+      "areaM2": 449.433,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-288487238",
+      "areaM2": 284.129,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-288487241",
+      "areaM2": 148.584,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-288487242",
+      "areaM2": 112.502,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-307077936",
+      "areaM2": 151.344,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-361986183",
+      "areaM2": 144.419,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-374384492",
+      "areaM2": 565.132,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-939427293",
+      "areaM2": 71.881,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-940055304",
+      "areaM2": 10.598,
+      "reason": "Small clipped fragment under 15 m² excluded."
+    },
+    {
+      "id": "osm-way-1204319851",
+      "areaM2": 280.901,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-1301549412",
+      "areaM2": 62.185,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-1392271749",
+      "areaM2": 200.703,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-1392271843",
+      "areaM2": 123.006,
+      "reason": "Overlaps a preserved building, road, park or path footprint."
+    },
+    {
+      "id": "osm-way-1395041690",
+      "areaM2": 1027.712,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-1395041692",
+      "areaM2": 16.681,
+      "reason": "Outside the peripheral 70 m audit band."
+    },
+    {
+      "id": "osm-way-262128568",
+      "areaM2": 215.268,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262121236",
+      "areaM2": 213.45,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-32858323",
+      "areaM2": 211.358,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104196",
+      "areaM2": 209.491,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112731",
+      "areaM2": 205.162,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262574418",
+      "areaM2": 204.474,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112730",
+      "areaM2": 198.764,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000911",
+      "areaM2": 192.702,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262477455",
+      "areaM2": 190.978,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104203",
+      "areaM2": 189.373,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262102553",
+      "areaM2": 184.098,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112743",
+      "areaM2": 181.833,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112763",
+      "areaM2": 180.077,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112711",
+      "areaM2": 179.939,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262574407",
+      "areaM2": 176.603,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262574411",
+      "areaM2": 173.944,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112739",
+      "areaM2": 173.534,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262477453",
+      "areaM2": 170.677,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-288483474",
+      "areaM2": 166.953,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128552",
+      "areaM2": 163.303,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112715",
+      "areaM2": 162.403,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256999035",
+      "areaM2": 160.294,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262477440",
+      "areaM2": 157.555,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479609",
+      "areaM2": 153.791,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112759",
+      "areaM2": 153.416,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1245637506",
+      "areaM2": 153.308,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1245637505",
+      "areaM2": 152.147,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262121247",
+      "areaM2": 151.578,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256999033",
+      "areaM2": 151.27,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479620",
+      "areaM2": 151.117,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256999029",
+      "areaM2": 150.537,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112737",
+      "areaM2": 147.97,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112722",
+      "areaM2": 147.287,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262102550",
+      "areaM2": 145.666,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-407853283",
+      "areaM2": 143.86,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262102551",
+      "areaM2": 142.912,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128570",
+      "areaM2": 142.271,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479616",
+      "areaM2": 141.383,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112714",
+      "areaM2": 139.738,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000924",
+      "areaM2": 139.292,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-32611765",
+      "areaM2": 139.075,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-288483473",
+      "areaM2": 139.071,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112757",
+      "areaM2": 137.705,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112718",
+      "areaM2": 135.533,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1469655999",
+      "areaM2": 135.135,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262477435",
+      "areaM2": 134.9,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112724",
+      "areaM2": 131.369,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104194",
+      "areaM2": 130.214,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256998674",
+      "areaM2": 127.871,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112713",
+      "areaM2": 127.555,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112738",
+      "areaM2": 125.34,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479613",
+      "areaM2": 123.668,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112712",
+      "areaM2": 119.16,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1469655995",
+      "areaM2": 119.09,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000928",
+      "areaM2": 116.778,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1469655998",
+      "areaM2": 115.639,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-939426643",
+      "areaM2": 115.357,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1395041694",
+      "areaM2": 109.156,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112723",
+      "areaM2": 108.615,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-29100414",
+      "areaM2": 107.593,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256999031",
+      "areaM2": 106.812,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000906",
+      "areaM2": 105.731,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104190",
+      "areaM2": 105.129,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000915",
+      "areaM2": 104.962,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112719",
+      "areaM2": 104.801,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479606",
+      "areaM2": 104.106,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128591",
+      "areaM2": 102.832,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104200",
+      "areaM2": 102.341,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112754",
+      "areaM2": 102.11,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256999032",
+      "areaM2": 100.455,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104199",
+      "areaM2": 99.494,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000919",
+      "areaM2": 99.467,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-940055303",
+      "areaM2": 98.89,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262121249",
+      "areaM2": 97.714,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479611",
+      "areaM2": 96.275,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-407852081",
+      "areaM2": 95.683,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256998676",
+      "areaM2": 95.564,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262121242",
+      "areaM2": 94.992,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000918",
+      "areaM2": 94.513,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-407853287",
+      "areaM2": 94.189,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000907",
+      "areaM2": 93.009,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112717",
+      "areaM2": 92.95,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262121244",
+      "areaM2": 92.682,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112727",
+      "areaM2": 92.251,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479605",
+      "areaM2": 91.977,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000923",
+      "areaM2": 91.3,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000921",
+      "areaM2": 90.924,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112745",
+      "areaM2": 90.041,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-260954035",
+      "areaM2": 87.985,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128567",
+      "areaM2": 87.71,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112755",
+      "areaM2": 87.075,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479624",
+      "areaM2": 86.35,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479607",
+      "areaM2": 84.529,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128551",
+      "areaM2": 84.064,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128560",
+      "areaM2": 83.818,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104204",
+      "areaM2": 82.963,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479622",
+      "areaM2": 81.927,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112744",
+      "areaM2": 81.082,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128561",
+      "areaM2": 79.5,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256999028",
+      "areaM2": 79.297,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128586",
+      "areaM2": 78.959,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-257000930",
+      "areaM2": 78.311,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262477452",
+      "areaM2": 77.91,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-407853280",
+      "areaM2": 77.394,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112721",
+      "areaM2": 76.139,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256998669",
+      "areaM2": 74.008,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262574421",
+      "areaM2": 73.147,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1469655993",
+      "areaM2": 69.774,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112742",
+      "areaM2": 69.519,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112746",
+      "areaM2": 67.815,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128558",
+      "areaM2": 62.165,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262128585",
+      "areaM2": 59.969,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104208",
+      "areaM2": 59.14,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1395041691",
+      "areaM2": 55.808,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-407852079",
+      "areaM2": 55.498,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-407851809",
+      "areaM2": 55.453,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1469655994",
+      "areaM2": 55.075,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-407850325",
+      "areaM2": 53.571,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479625",
+      "areaM2": 48.402,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-32609743",
+      "areaM2": 47.328,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1469656000",
+      "areaM2": 46.165,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262479621",
+      "areaM2": 45.011,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112728",
+      "areaM2": 44.3,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1395041696",
+      "areaM2": 44.09,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262585105",
+      "areaM2": 43.241,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-940055302",
+      "areaM2": 43.224,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262104198",
+      "areaM2": 37.664,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262112740",
+      "areaM2": 35.344,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262585099",
+      "areaM2": 33.087,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262585098",
+      "areaM2": 32.579,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-32858307",
+      "areaM2": 31.008,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1392271991",
+      "areaM2": 29.649,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-262574402",
+      "areaM2": 27.565,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-1395041693",
+      "areaM2": 21.675,
+      "reason": "Beyond the explicit 24-building scope cap."
+    },
+    {
+      "id": "osm-way-256998672",
+      "areaM2": 17.719,
+      "reason": "Beyond the explicit 24-building scope cap."
+    }
+  ],
+  "converterDiagnostics": {
+    "counts": {
+      "inputElements": 330,
+      "importedObjects": 326,
+      "buildings": 326,
+      "roads": 0,
+      "paths": 0,
+      "entrances": 0,
+      "trees": 0,
+      "areas": 0,
+      "estimatedHeights": 80,
+      "clippedObjects": 65
+    },
+    "omitted": [
+      {
+        "reason": "Complex multipolygon or courtyard holes require manual review.",
+        "count": 1
+      },
+      {
+        "reason": "Unsupported or invalid geometry/attributes.",
+        "count": 3
+      }
+    ],
+    "timestamp": null,
+    "warnings": [
+      "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+      "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+      "No database snapshot timestamp supplied; acquisition time is recorded separately from element edit dates.",
+      "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+      "Parent outlines with mapped parts are marked as containers; mapped parts may still be incomplete and require review.",
+      "Some mapped features were omitted; review the omission counts."
+    ]
+  },
+  "baselineCanonicalSha256": "b426a7b8ad8b105b0d7d9d62bd2d8ee9d65af369b8677fe44be0449ba35015a2",
+  "afterObjects": 165,
+  "addedRelations": 1,
+  "validation": {
+    "errors": [],
+    "warnings": []
+  },
+  "imageCheck": {
+    "images": [
+      "washington-square-noaa-2022.jpg",
+      "washington-square-naip.jpg"
+    ],
+    "method": "North-up overlay visually inspected against both retained official imagery crops; roof displacement/date differences remain. Colors are authored, not sampled from the photographs."
+  }
+}

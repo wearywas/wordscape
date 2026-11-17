@@ -1,0 +1,3289 @@
+{
+  "bounds": {
+    "depth": 180,
+    "width": 180
+  },
+  "description": "An entirely invented rural retreat on flat, 180-by-180-metre ground. Three small hut groups follow successive path bends along the western and northern margins. A broad, irregular central clearing remains unobstructed, with long views toward a small eastern pond. Loose edge groves frame rather than fill the clearing. All placements, geometry and descriptive claims are authored fiction.",
+  "format": "wordscape",
+  "imaginary": {
+    "brief": "Create Mossbell Retreat, an imaginary woodland clearing on a flat 180 metre square. This should feel open and rural, not urban: only five small huts, a shared pavilion, a narrow meandering footpath, a small irregular pond, and groups of trees of varied size concentrated at the edges and in a few loose groves. Use 24–32 total objects. Keep a generous irregular central clearing and three small hut groups following the path, with orientations reflecting the local bend. Avoid grids, evenly spaced trees, giant straight boulevards and urban density. Keep dry buildings and tree trunks clear of water and routes. Simple authored geometry is sufficient; a memorable little pavilion may use a few normalized parts. All geometry and claims are invented.",
+    "guideVersion": "1.0"
+  },
+  "name": "Mossbell Retreat",
+  "objects": [
+    {
+      "depth": 180,
+      "description": "Low meadow grass with an uninterrupted central clearing; woodland character gathers around the margins.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.02,
+      "id": "moss-ground",
+      "kind": "grass",
+      "label": "Woodland clearing ground",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "open-clearing",
+        "flat-ground"
+      ],
+      "terrainAnchor": "center",
+      "width": 180,
+      "x": 90,
+      "y": 90
+    },
+    {
+      "depth": 24,
+      "description": "A small, irregular pond tucked against the eastern side of the clearing, without a crossing.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -15,
+          -3
+        ],
+        [
+          -10,
+          -10
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          10,
+          -8
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          -7,
+          8
+        ],
+        [
+          -12,
+          5
+        ]
+      ],
+      "grounding": "absolute",
+      "height": 0.03,
+      "id": "moss-pond",
+      "kind": "water",
+      "label": "Quietleaf Pond",
+      "layer": 1,
+      "rotation": 0,
+      "tags": [
+        "pond",
+        "irregular-shore"
+      ],
+      "width": 30,
+      "x": 132,
+      "y": 77
+    },
+    {
+      "depth": 2.4,
+      "description": "Narrow earth-toned footpath entering from the southwest.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "moss-path-1",
+      "kind": "pavement",
+      "label": "Arrival bend",
+      "layer": 2,
+      "rotation": 61.82,
+      "tags": [
+        "footpath",
+        "earth"
+      ],
+      "terrainAnchor": "center",
+      "width": 32.8,
+      "x": 32.5,
+      "y": 34
+    },
+    {
+      "depth": 2.4,
+      "description": "A narrow northward reach beside the first pair of huts.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "moss-path-2",
+      "kind": "pavement",
+      "label": "Fern bend",
+      "layer": 2,
+      "rotation": 97.59,
+      "tags": [
+        "footpath",
+        "earth"
+      ],
+      "terrainAnchor": "center",
+      "width": 31.3,
+      "x": 38,
+      "y": 63
+    },
+    {
+      "depth": 2.4,
+      "description": "An angled reach tracing the western edge of the open meadow.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "moss-path-3",
+      "kind": "pavement",
+      "label": "Hazel turn",
+      "layer": 2,
+      "rotation": 55.01,
+      "tags": [
+        "footpath",
+        "earth"
+      ],
+      "terrainAnchor": "center",
+      "width": 37.6,
+      "x": 46.5,
+      "y": 93
+    },
+    {
+      "depth": 2.4,
+      "description": "A gentle diagonal leaving the second hut pair and opening a view across the meadow.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "moss-path-4",
+      "kind": "pavement",
+      "label": "Upper clearing walk",
+      "layer": 2,
+      "rotation": 27.15,
+      "tags": [
+        "footpath",
+        "earth"
+      ],
+      "terrainAnchor": "center",
+      "width": 44.8,
+      "x": 76.5,
+      "y": 118
+    },
+    {
+      "depth": 2.4,
+      "description": "A shallow bend past the shared pavilion.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "moss-path-5",
+      "kind": "pavement",
+      "label": "Bell approach",
+      "layer": 2,
+      "rotation": 18.85,
+      "tags": [
+        "footpath",
+        "earth"
+      ],
+      "terrainAnchor": "center",
+      "width": 44.3,
+      "x": 116.5,
+      "y": 135
+    },
+    {
+      "depth": 2.4,
+      "description": "The final narrow bend passes the solitary fifth hut and reaches the northeast woodland margin.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "moss-path-6",
+      "kind": "pavement",
+      "label": "Birch departure",
+      "layer": 2,
+      "rotation": 38.05,
+      "tags": [
+        "footpath",
+        "earth"
+      ],
+      "terrainAnchor": "center",
+      "width": 30.2,
+      "x": 148.5,
+      "y": 151
+    },
+    {
+      "depth": 10,
+      "description": "A short pedestrian spur joins the pavilion threshold to the main path.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "moss-pavilion-spur",
+      "kind": "pavement",
+      "label": "Pavilion threshold walk",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "footpath",
+        "pavilion-access"
+      ],
+      "terrainAnchor": "center",
+      "width": 2.4,
+      "x": 107,
+      "y": 127
+    },
+    {
+      "depth": 7,
+      "description": "The southern hut of a close western pair, facing the nearby path across a clear grass doorstep.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "weathered timber"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 4.5,
+      "id": "moss-hut-1",
+      "kind": "building",
+      "label": "Fern Hut",
+      "layer": 3,
+      "rotation": 7.6,
+      "tags": [
+        "hut",
+        "fern-group"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 9,
+      "x": 22,
+      "y": 52
+    },
+    {
+      "depth": 9,
+      "description": "A narrower companion hut, set slightly farther north beside the same path bend.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 4.2,
+      "id": "moss-hut-2",
+      "kind": "building",
+      "label": "Bracken Hut",
+      "layer": 3,
+      "rotation": 7.6,
+      "tags": [
+        "hut",
+        "fern-group"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 7,
+      "x": 25,
+      "y": 69
+    },
+    {
+      "depth": 7,
+      "description": "A small timber hut on the outside of the upper bend, paired with Rowan Hut.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 4.3,
+      "id": "moss-hut-3",
+      "kind": "building",
+      "label": "Hazel Hut",
+      "layer": 3,
+      "rotation": 27.15,
+      "tags": [
+        "hut",
+        "hazel-group"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 8,
+      "x": 44,
+      "y": 116
+    },
+    {
+      "depth": 7,
+      "description": "A slightly broader hut aligned with the diagonal walk; the pair shares an informal grass apron.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 4.6,
+      "id": "moss-hut-4",
+      "kind": "building",
+      "label": "Rowan Hut",
+      "layer": 3,
+      "rotation": 27.15,
+      "tags": [
+        "hut",
+        "hazel-group"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 10,
+      "x": 59,
+      "y": 124
+    },
+    {
+      "depth": 8,
+      "description": "A solitary final hut forms the third lodging group, turned with the northeast path bend.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 4.4,
+      "id": "moss-hut-5",
+      "kind": "building",
+      "label": "Birch Hut",
+      "layer": 3,
+      "rotation": 38.05,
+      "tags": [
+        "hut",
+        "birch-group"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 8,
+      "x": 135,
+      "y": 157
+    },
+    {
+      "depth": 12,
+      "description": "An open-sided timber shelter overlooking the clearing, distinguished by a low green roof and a tiny central bell.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "timber with moss-green metal roof"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#99816A",
+            "dimensions": [
+              1,
+              0.05,
+              1
+            ],
+            "footprint": null,
+            "id": "deck",
+            "label": "Timber deck",
+            "position": [
+              0,
+              0.025,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#69513B",
+            "dimensions": [
+              0.045,
+              0.62,
+              0.05
+            ],
+            "footprint": null,
+            "id": "post-sw",
+            "label": "Southwest post",
+            "position": [
+              -0.4,
+              0.36,
+              -0.4
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#69513B",
+            "dimensions": [
+              0.045,
+              0.62,
+              0.05
+            ],
+            "footprint": null,
+            "id": "post-se",
+            "label": "Southeast post",
+            "position": [
+              0.4,
+              0.36,
+              -0.4
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#69513B",
+            "dimensions": [
+              0.045,
+              0.62,
+              0.05
+            ],
+            "footprint": null,
+            "id": "post-nw",
+            "label": "Northwest post",
+            "position": [
+              -0.4,
+              0.36,
+              0.4
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#69513B",
+            "dimensions": [
+              0.045,
+              0.62,
+              0.05
+            ],
+            "footprint": null,
+            "id": "post-ne",
+            "label": "Northeast post",
+            "position": [
+              0.4,
+              0.36,
+              0.4
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#526B52",
+            "dimensions": [
+              1,
+              0.26,
+              1
+            ],
+            "footprint": null,
+            "id": "roof",
+            "label": "Broad green roof",
+            "position": [
+              0,
+              0.79,
+              0
+            ],
+            "primitive": "cone",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#69513B",
+            "dimensions": [
+              0.025,
+              0.06,
+              0.025
+            ],
+            "footprint": null,
+            "id": "bell-stem",
+            "label": "Bell support",
+            "position": [
+              0,
+              0.95,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#B89550",
+            "dimensions": [
+              0.065,
+              0.06,
+              0.065
+            ],
+            "footprint": null,
+            "id": "bell",
+            "label": "Little bronze bell",
+            "position": [
+              0,
+              0.97,
+              0
+            ],
+            "primitive": "sphere",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "grounding": "terrain",
+      "height": 6,
+      "id": "moss-pavilion",
+      "kind": "building",
+      "label": "Mossbell Pavilion",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "shared-pavilion",
+        "focal-place"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 14,
+      "x": 107,
+      "y": 117
+    },
+    {
+      "depth": 13,
+      "description": "A broad edge tree framing arrival.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "oak"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 15,
+      "id": "moss-tree-1",
+      "kind": "tree",
+      "label": "Southwest oak",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "edge-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 14,
+      "x": 11,
+      "y": 18
+    },
+    {
+      "depth": 6,
+      "description": "A slender smaller tree beside the southwest oak.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "birch"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 10,
+      "id": "moss-tree-2",
+      "kind": "tree",
+      "label": "Arrival birch",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "edge-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 7,
+      "x": 18,
+      "y": 32
+    },
+    {
+      "depth": 15,
+      "description": "A large canopy behind the first hut group.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "beech"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 17,
+      "id": "moss-tree-3",
+      "kind": "tree",
+      "label": "Western beech",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "western-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 16,
+      "x": 10,
+      "y": 86
+    },
+    {
+      "depth": 9,
+      "description": "A low spreading companion in the western grove.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "hazel"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 6,
+      "id": "moss-tree-4",
+      "kind": "tree",
+      "label": "Western hazel",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "western-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 8,
+      "x": 23,
+      "y": 98
+    },
+    {
+      "depth": 11,
+      "description": "A tall boundary tree behind the upper huts.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pine"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 18,
+      "id": "moss-tree-5",
+      "kind": "tree",
+      "label": "Northwest pine",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "northwest-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 10,
+      "x": 31,
+      "y": 148
+    },
+    {
+      "depth": 7,
+      "description": "A smaller irregular crown offset from the pine.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "rowan"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 9,
+      "id": "moss-tree-6",
+      "kind": "tree",
+      "label": "Northwest rowan",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "northwest-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 8,
+      "x": 46,
+      "y": 157
+    },
+    {
+      "depth": 15,
+      "description": "A broad northern canopy leaving a generous gap toward Birch Hut.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "oak"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 16,
+      "id": "moss-tree-7",
+      "kind": "tree",
+      "label": "Northern oak",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "northern-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 17,
+      "x": 94,
+      "y": 167
+    },
+    {
+      "depth": 8,
+      "description": "A light crown loosely paired with the northern oak.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "birch"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 12,
+      "id": "moss-tree-8",
+      "kind": "tree",
+      "label": "Northern birch",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "northern-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 7,
+      "x": 110,
+      "y": 160
+    },
+    {
+      "depth": 11,
+      "description": "A tall tree at the eastern boundary, clear of the departure walk.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pine"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 19,
+      "id": "moss-tree-9",
+      "kind": "tree",
+      "label": "Eastern pine",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "eastern-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 10,
+      "x": 169,
+      "y": 132
+    },
+    {
+      "depth": 12,
+      "description": "A medium tree on dry ground east of the pond.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "alder"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 13,
+      "id": "moss-tree-10",
+      "kind": "tree",
+      "label": "Pond-side alder",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "pond-edge-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 11,
+      "x": 163,
+      "y": 89
+    },
+    {
+      "depth": 13,
+      "description": "A spreading willow well back from the southern pond shore.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "willow"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 11,
+      "id": "moss-tree-11",
+      "kind": "tree",
+      "label": "Southeast willow",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "southeastern-grove"
+      ],
+      "terrainAnchor": "center",
+      "width": 15,
+      "x": 157,
+      "y": 51
+    },
+    {
+      "depth": 14,
+      "description": "A lone broad tree defining the southern edge without interrupting the central view.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "beech"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 16,
+      "id": "moss-tree-12",
+      "kind": "tree",
+      "label": "Southern beech",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "southern-edge"
+      ],
+      "terrainAnchor": "center",
+      "width": 16,
+      "x": 102,
+      "y": 16
+    },
+    {
+      "depth": 0.8,
+      "description": "A simple timber seat beside, not on, the upper clearing walk.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.9,
+      "id": "moss-bench-1",
+      "kind": "fixture",
+      "label": "Meadow-view bench",
+      "layer": 3,
+      "rotation": 27.15,
+      "tags": [
+        "rest",
+        "clearing-view"
+      ],
+      "terrainAnchor": "center",
+      "width": 3,
+      "x": 79,
+      "y": 111
+    },
+    {
+      "depth": 0.8,
+      "description": "An informal seat beside the pavilion with a clear grass approach.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:sf-wharf",
+            "layout-ref:la-digue-coast"
+          ],
+          "value": "[\"sf-wharf\",\"la-digue-coast\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.9,
+      "id": "moss-bench-2",
+      "kind": "fixture",
+      "label": "Pavilion-side bench",
+      "layer": 3,
+      "rotation": 90,
+      "tags": [
+        "rest",
+        "shared-place"
+      ],
+      "terrainAnchor": "center",
+      "width": 3,
+      "x": 118,
+      "y": 118
+    }
+  ],
+  "origin": {
+    "latitude": 0,
+    "longitude": 0,
+    "note": "Imaginary local coordinates; 0/0 is a placeholder, not a geographic location."
+  },
+  "relations": [
+    {
+      "from": "moss-path-1",
+      "note": "Authored generation: Overlapping path ends form the first bend.",
+      "to": "moss-path-2",
+      "type": "connects"
+    },
+    {
+      "from": "moss-path-2",
+      "note": "Authored generation: The footpath continues along the western clearing edge.",
+      "to": "moss-path-3",
+      "type": "connects"
+    },
+    {
+      "from": "moss-path-3",
+      "note": "Authored generation: A shared bend links the western and northern reaches.",
+      "to": "moss-path-4",
+      "type": "connects"
+    },
+    {
+      "from": "moss-path-4",
+      "note": "Authored generation: The continuous walk approaches the pavilion.",
+      "to": "moss-path-5",
+      "type": "connects"
+    },
+    {
+      "from": "moss-path-5",
+      "note": "Authored generation: The route bends toward the final hut and woodland margin.",
+      "to": "moss-path-6",
+      "type": "connects"
+    },
+    {
+      "from": "moss-pavilion-spur",
+      "note": "Authored generation: The short spur joins the main walk.",
+      "to": "moss-path-5",
+      "type": "connects"
+    },
+    {
+      "from": "moss-pavilion-spur",
+      "note": "Authored generation: The spur meets the pavilion deck threshold.",
+      "to": "moss-pavilion",
+      "type": "connects"
+    },
+    {
+      "from": "moss-hut-1",
+      "note": "Authored generation: A clear grass doorstep links the hut to the path.",
+      "to": "moss-path-2",
+      "type": "near"
+    },
+    {
+      "from": "moss-hut-2",
+      "note": "Authored generation: The companion hut shares the same path-side grass apron.",
+      "to": "moss-path-2",
+      "type": "near"
+    },
+    {
+      "from": "moss-hut-1",
+      "note": "Authored generation: These two huts form the first lodging group.",
+      "to": "moss-hut-2",
+      "type": "near"
+    },
+    {
+      "from": "moss-hut-3",
+      "note": "Authored generation: The hut stands outside the upper bend with open grass access.",
+      "to": "moss-path-3",
+      "type": "near"
+    },
+    {
+      "from": "moss-hut-4",
+      "note": "Authored generation: The hut follows the diagonal path orientation.",
+      "to": "moss-path-4",
+      "type": "near"
+    },
+    {
+      "from": "moss-hut-3",
+      "note": "Authored generation: These two huts form the second lodging group.",
+      "to": "moss-hut-4",
+      "type": "near"
+    },
+    {
+      "from": "moss-hut-5",
+      "note": "Authored generation: The solitary hut forms the third group beside the last bend.",
+      "to": "moss-path-6",
+      "type": "near"
+    },
+    {
+      "from": "moss-bench-1",
+      "note": "Authored generation: The seat is offset from the walking corridor.",
+      "to": "moss-path-4",
+      "type": "near"
+    },
+    {
+      "from": "moss-bench-2",
+      "note": "Authored generation: The seat supports the shared gathering place.",
+      "to": "moss-pavilion",
+      "type": "near"
+    },
+    {
+      "from": "moss-tree-10",
+      "note": "Authored generation: The alder frames the pond from separate dry ground.",
+      "to": "moss-pond",
+      "type": "near"
+    }
+  ],
+  "seed": 0,
+  "sources": [
+    {
+      "accessed": "",
+      "attribution": "© OpenStreetMap contributors. Open Database License 1.0.",
+      "id": "layout-guide",
+      "notes": "Authoring guidance only; generated placements are fiction, not measurements of the study places. Study wordscape-layout-study-v1; version 1.0. Observations and authored heuristics are distinguished in src/data/layoutGuide.json. Provided reference geometry may inform authored interpretations; no fictional placement is claimed as a real-world observation.",
+      "title": "Wordscape layout authoring guide 1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+    },
+    {
+      "accessed": "2026-11-16",
+      "attribution": "© OpenStreetMap contributors; ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+      "id": "layout-ref:sf-wharf",
+      "notes": "Layout reference sf-wharf, provided as inspiration only: generated geometry is not surveyed geometry of this place. Complete converted world: /reference/layout-examples/sf-wharf.wordscape.json. Source snapshot: null; retained source SHA-256 d8c6b72022545e810d1ebf4410c09731154b76448dbcb603ad295808f0e791a7. Compact contiguous cluster and full-world statistics have different scopes. Attribution/license: https://opendatacommons.org/licenses/odbl/1-0/.",
+      "title": "Layout inspiration: San Francisco · pier and harbor edge",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41868162595988%2C37.806798014784974%2C-122.41458837404012%2C37.81003194980763"
+    },
+    {
+      "accessed": "2026-11-16",
+      "attribution": "© OpenStreetMap contributors; ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+      "id": "layout-ref:la-digue-coast",
+      "notes": "Layout reference la-digue-coast, provided as inspiration only: generated geometry is not surveyed geometry of this place. Complete converted world: /reference/layout-examples/la-digue-coast.wordscape.json. Source snapshot: 2026-11-15T21:22:28Z; retained source SHA-256 873b5af62419e2ea800c3ad4113582fa5b64f8a6c7c7b08ae93adbbe7d22377b. Compact contiguous cluster and full-world statistics have different scopes. Attribution/license: https://opendatacommons.org/licenses/odbl/1-0/.",
+      "title": "Layout inspiration: La Digue · dispersed island buildings",
+      "url": "https://download.geofabrik.de/africa/seychelles-latest.osm.pbf"
+    },
+    {
+      "accessed": "",
+      "attribution": "Authored interpretation via codex / gpt-6.1-sol",
+      "id": "authored-terrain",
+      "notes": "Not surveyed or geographic terrain. Recipe uses normalized east/north centers and radii, metre heights, CCW rotation. Each feature contributes height*(1-u²-v²)² inside its ellipse and zero outside. {\"type\":\"analytic-heightfield\",\"version\":1,\"evidence\":\"authored\",\"baseElevation\":0.2,\"features\":[{\"x\":0.12,\"y\":0.94,\"radiusX\":0.32,\"radiusY\":0.25,\"height\":29.8,\"rotation\":-15},{\"x\":0.7333333333,\"y\":0.4277777778,\"radiusX\":0.11,\"radiusY\":0.095,\"height\":-4,\"rotation\":0}]}",
+      "title": "Authored imaginary terrain",
+      "url": ""
+    }
+  ],
+  "terrain": {
+    "columns": 33,
+    "evidence": "authored",
+    "heights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.192,
+      0.04,
+      0.048,
+      0.197,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.04,
+      -0.872,
+      -1.616,
+      -1.587,
+      -0.806,
+      0.08,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      -0.638,
+      -2.203,
+      -3.268,
+      -3.228,
+      -2.104,
+      -0.542,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.198,
+      -0.794,
+      -2.463,
+      -3.579,
+      -3.537,
+      -2.359,
+      -0.689,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      -0.217,
+      -1.44,
+      -2.337,
+      -2.303,
+      -1.359,
+      -0.151,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      -0.047,
+      -0.454,
+      -0.437,
+      -0.016,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.203,
+      0.214,
+      0.205,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.202,
+      0.473,
+      1,
+      1.541,
+      1.922,
+      2.045,
+      1.879,
+      1.465,
+      0.914,
+      0.409,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      1.639,
+      2.967,
+      4.274,
+      5.33,
+      5.974,
+      6.116,
+      5.737,
+      4.889,
+      3.693,
+      2.344,
+      1.104,
+      0.308,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      4.999,
+      7.157,
+      9.057,
+      10.478,
+      11.271,
+      11.356,
+      10.725,
+      9.441,
+      7.636,
+      5.515,
+      3.352,
+      1.492,
+      0.352,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      9.292,
+      12.073,
+      14.395,
+      16.047,
+      16.892,
+      16.861,
+      15.955,
+      14.25,
+      11.888,
+      9.084,
+      6.124,
+      3.363,
+      1.23,
+      0.22,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      13.697,
+      16.909,
+      19.498,
+      21.265,
+      22.081,
+      21.89,
+      20.704,
+      18.609,
+      15.758,
+      12.377,
+      8.763,
+      5.282,
+      2.372,
+      0.542,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      17.558,
+      21.026,
+      23.743,
+      25.523,
+      26.248,
+      25.87,
+      24.416,
+      21.978,
+      18.723,
+      14.888,
+      10.779,
+      6.774,
+      3.322,
+      0.942,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      20.384,
+      23.948,
+      26.673,
+      28.382,
+      28.967,
+      28.394,
+      26.697,
+      23.982,
+      20.425,
+      16.274,
+      11.846,
+      7.531,
+      3.786,
+      1.144,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      21.849,
+      25.368,
+      27.996,
+      29.565,
+      29.981,
+      29.219,
+      27.323,
+      24.412,
+      20.671,
+      16.359,
+      11.805,
+      7.409,
+      3.639,
+      1.038,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      21.793,
+      25.142,
+      27.584,
+      28.964,
+      29.196,
+      28.267,
+      26.234,
+      23.223,
+      19.433,
+      15.133,
+      10.662,
+      6.431,
+      2.92,
+      0.681,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      20.223,
+      23.293,
+      25.477,
+      26.632,
+      26.684,
+      25.628,
+      23.534,
+      20.538,
+      16.851,
+      12.75,
+      8.588,
+      4.785,
+      1.832,
+      0.293,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "interpolation": "bilinear",
+    "notes": "Authored smooth elliptical features sampled on a bounded regular grid, then bilinearly interpolated. Grid pitch is an authoring resolution, not measurement accuracy. No geographic or surveyed elevation claim.",
+    "origin": {
+      "x": 0,
+      "y": 0
+    },
+    "referenceElevation": 0,
+    "rows": 33,
+    "sourceId": "authored-terrain",
+    "spacing": 5.625,
+    "type": "height-grid",
+    "verticalDatum": "Authored local metres; no geodetic datum"
+  },
+  "units": "metres",
+  "version": "0.8"
+}

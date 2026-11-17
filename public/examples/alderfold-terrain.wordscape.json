@@ -1,0 +1,2666 @@
+{
+  "bounds": {
+    "depth": 180,
+    "width": 180
+  },
+  "description": "Small timber buildings occupy the gentler southern ground. Short entrance spurs connect them to a modest dogleg path, while benches and peripheral tree groups preserve an open central clearing and views toward the ridge.",
+  "format": "wordscape",
+  "imaginary": {
+    "brief": "Create Alderfold, a small imaginary hillside retreat on a 180 metre square. Generate actual terrain: a broad smooth ridge near the north edge, about 25 metres above a gentler southern clearing. Place five small huts and one simple pavilion on the gentler part, linked by a modest path with several bends. Add loose tree groups around the edges and a few useful benches. Use 20–26 total objects, varied hut orientations, simple rectangles or low-sided polygons, and no water. Keep all objects comfortably inside the scene with clear paths. Terrain is the landform; do not add cone or pyramid landmark mountains. Simple stock forms are sufficient, with at most one small pavilion recipe.",
+    "guideVersion": "1.0"
+  },
+  "name": "Alderfold",
+  "objects": [
+    {
+      "depth": 10,
+      "description": "A small west-facing retreat beside the arrival bend.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 5,
+      "id": "hut-fern",
+      "kind": "building",
+      "label": "Fern Hut",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "hut",
+        "timber"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 12,
+      "x": 36,
+      "y": 35
+    },
+    {
+      "depth": 10,
+      "description": "A slightly turned hut opening toward its northern entrance spur.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 4.8,
+      "id": "hut-sorrel",
+      "kind": "building",
+      "label": "Sorrel Hut",
+      "layer": 2,
+      "rotation": 12,
+      "tags": [
+        "hut",
+        "timber"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 12,
+      "x": 67,
+      "y": 33
+    },
+    {
+      "depth": 10,
+      "description": "An angled cabin tucked into the inside of the path's second bend.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 4.7,
+      "id": "hut-moss",
+      "kind": "building",
+      "label": "Moss Hut",
+      "layer": 2,
+      "rotation": -15,
+      "tags": [
+        "hut",
+        "timber"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 11,
+      "x": 66,
+      "y": 58
+    },
+    {
+      "depth": 10,
+      "description": "The northernmost hut rests near the gentle foot of the ridge.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 5,
+      "id": "hut-heather",
+      "kind": "building",
+      "label": "Heather Hut",
+      "layer": 2,
+      "rotation": 10,
+      "tags": [
+        "hut",
+        "timber"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 12,
+      "x": 103,
+      "y": 84
+    },
+    {
+      "depth": 10,
+      "description": "A transverse hut closes the eastern end of the walking route.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 4.9,
+      "id": "hut-rowan",
+      "kind": "building",
+      "label": "Rowan Hut",
+      "layer": 2,
+      "rotation": 90,
+      "tags": [
+        "hut",
+        "timber"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 12,
+      "x": 142,
+      "y": 70
+    },
+    {
+      "depth": 14,
+      "description": "A simple communal timber shelter facing the broad, unbuilt southern clearing.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "timber"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 5.5,
+      "id": "pavilion",
+      "kind": "building",
+      "label": "Clearing Pavilion",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "pavilion",
+        "gathering"
+      ],
+      "terrainAnchor": "highest-footprint",
+      "width": 18,
+      "x": 112,
+      "y": 56
+    },
+    {
+      "depth": 49,
+      "description": "A narrow gravel walk with successive right-angle bends, linking arrival, hut entrances and the pavilion.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -42,
+          -24.5
+        ],
+        [
+          -38,
+          -24.5
+        ],
+        [
+          -38,
+          -4.5
+        ],
+        [
+          -3,
+          -4.5
+        ],
+        [
+          -3,
+          20.5
+        ],
+        [
+          42,
+          20.5
+        ],
+        [
+          42,
+          24.5
+        ],
+        [
+          -7,
+          24.5
+        ],
+        [
+          -7,
+          -0.5
+        ],
+        [
+          -42,
+          -0.5
+        ]
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "bending-path",
+      "kind": "pavement",
+      "label": "Clearing Walk",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "pedestrian",
+        "gravel"
+      ],
+      "terrainAnchor": "center",
+      "width": 84,
+      "x": 90,
+      "y": 47.5
+    },
+    {
+      "depth": 3,
+      "description": "Short entrance connection from the arrival leg to Fern Hut.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "fern-spur",
+      "kind": "pavement",
+      "label": "Fern Entrance",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "pedestrian"
+      ],
+      "terrainAnchor": "center",
+      "width": 8,
+      "x": 46,
+      "y": 35
+    },
+    {
+      "depth": 5,
+      "description": "A slim southward entrance spur.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "sorrel-spur",
+      "kind": "pavement",
+      "label": "Sorrel Entrance",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "pedestrian"
+      ],
+      "terrainAnchor": "center",
+      "width": 3,
+      "x": 67,
+      "y": 41.5
+    },
+    {
+      "depth": 8,
+      "description": "A short approach to the angled cabin's southern door.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "moss-spur",
+      "kind": "pavement",
+      "label": "Moss Entrance",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "pedestrian"
+      ],
+      "terrainAnchor": "center",
+      "width": 3,
+      "x": 66,
+      "y": 49
+    },
+    {
+      "depth": 10,
+      "description": "A gentle uphill spur to the northern hut.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "heather-spur",
+      "kind": "pavement",
+      "label": "Heather Entrance",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "pedestrian"
+      ],
+      "terrainAnchor": "center",
+      "width": 3,
+      "x": 103,
+      "y": 75
+    },
+    {
+      "depth": 3,
+      "description": "The final short connection to the eastern hut.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "rowan-spur",
+      "kind": "pavement",
+      "label": "Rowan Entrance",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "pedestrian"
+      ],
+      "terrainAnchor": "center",
+      "width": 5,
+      "x": 134.5,
+      "y": 70
+    },
+    {
+      "depth": 6,
+      "description": "A broad little approach connecting the shelter to the upper path.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.04,
+      "id": "pavilion-spur",
+      "kind": "pavement",
+      "label": "Pavilion Approach",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "pedestrian"
+      ],
+      "terrainAnchor": "center",
+      "width": 4,
+      "x": 112,
+      "y": 66
+    },
+    {
+      "depth": 9,
+      "description": "One of a loose pair marking the western woodland edge.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "alder"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 12,
+      "id": "alder-west-one",
+      "kind": "tree",
+      "label": "West Alder",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "edge-woodland"
+      ],
+      "terrainAnchor": "center",
+      "width": 9,
+      "x": 19,
+      "y": 65
+    },
+    {
+      "depth": 8,
+      "description": "A smaller tree set back from the western hut.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "alder"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 10,
+      "id": "alder-west-two",
+      "kind": "tree",
+      "label": "West Companion Alder",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "edge-woodland"
+      ],
+      "terrainAnchor": "center",
+      "width": 8,
+      "x": 29,
+      "y": 85
+    },
+    {
+      "depth": 8,
+      "description": "A light-canopied tree on the western shoulder of the ridge.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "birch"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 13,
+      "id": "birch-northwest",
+      "kind": "tree",
+      "label": "Ridgefoot Birch",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "ridge-woodland"
+      ],
+      "terrainAnchor": "center",
+      "width": 8,
+      "x": 40,
+      "y": 121
+    },
+    {
+      "depth": 10,
+      "description": "A tall pine framing rather than blocking the central ridge view.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pine"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 16,
+      "id": "pine-northwest",
+      "kind": "tree",
+      "label": "Western Ridge Pine",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "ridge-woodland"
+      ],
+      "terrainAnchor": "center",
+      "width": 10,
+      "x": 58,
+      "y": 149
+    },
+    {
+      "depth": 11,
+      "description": "A counterpart pine across the open ridge crest.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pine"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 17,
+      "id": "pine-northeast",
+      "kind": "tree",
+      "label": "Eastern Ridge Pine",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "ridge-woodland"
+      ],
+      "terrainAnchor": "center",
+      "width": 11,
+      "x": 127,
+      "y": 153
+    },
+    {
+      "depth": 9,
+      "description": "A birch below the eastern ridge shoulder.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "birch"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 12,
+      "id": "birch-east",
+      "kind": "tree",
+      "label": "Eastern Birch",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "edge-woodland"
+      ],
+      "terrainAnchor": "center",
+      "width": 9,
+      "x": 153,
+      "y": 122
+    },
+    {
+      "depth": 9,
+      "description": "A sheltering tree beyond Rowan Hut, clear of its entrance.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "alder"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 11,
+      "id": "alder-east",
+      "kind": "tree",
+      "label": "Eastern Alder",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "edge-woodland"
+      ],
+      "terrainAnchor": "center",
+      "width": 9,
+      "x": 161,
+      "y": 90
+    },
+    {
+      "depth": 8,
+      "description": "A solitary rowan marking the clearing's southeastern edge without enclosing it.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "rowan"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 9,
+      "id": "rowan-southeast",
+      "kind": "tree",
+      "label": "Clearing Edge Rowan",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "clearing-edge"
+      ],
+      "terrainAnchor": "center",
+      "width": 8,
+      "x": 153,
+      "y": 29
+    },
+    {
+      "depth": 0.8,
+      "description": "A resting seat beside, not within, the first path leg.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.9,
+      "id": "bench-arrival",
+      "kind": "fixture",
+      "label": "Arrival Bench",
+      "layer": 2,
+      "rotation": 90,
+      "tags": [
+        "seating"
+      ],
+      "terrainAnchor": "center",
+      "width": 2.4,
+      "x": 56,
+      "y": 27
+    },
+    {
+      "depth": 0.8,
+      "description": "A seat outside the middle bend looking across the unbuilt southern meadow.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.9,
+      "id": "bench-clearing",
+      "kind": "fixture",
+      "label": "Clearing Bench",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "seating"
+      ],
+      "terrainAnchor": "center",
+      "width": 2.4,
+      "x": 77,
+      "y": 39
+    },
+    {
+      "depth": 0.8,
+      "description": "A bench just north of the upper walk, with an open view toward the ridge.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "open"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "value": "[]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "grounding": "terrain",
+      "height": 0.9,
+      "id": "bench-ridgeview",
+      "kind": "fixture",
+      "label": "Ridgeview Bench",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "seating"
+      ],
+      "terrainAnchor": "center",
+      "width": 2.8,
+      "x": 124,
+      "y": 76
+    }
+  ],
+  "origin": {
+    "latitude": 0,
+    "longitude": 0,
+    "note": "Imaginary local coordinates; 0/0 is a placeholder, not a geographic location."
+  },
+  "relations": [
+    {
+      "from": "bending-path",
+      "note": "Authored generation: Arrival leg meets the western hut entrance.",
+      "to": "fern-spur",
+      "type": "connects"
+    },
+    {
+      "from": "bending-path",
+      "note": "Authored generation: Lower crosswalk serves Sorrel Hut.",
+      "to": "sorrel-spur",
+      "type": "connects"
+    },
+    {
+      "from": "bending-path",
+      "note": "Authored generation: Inner bend serves Moss Hut.",
+      "to": "moss-spur",
+      "type": "connects"
+    },
+    {
+      "from": "bending-path",
+      "note": "Authored generation: Upper walk links to the ridgefoot hut.",
+      "to": "heather-spur",
+      "type": "connects"
+    },
+    {
+      "from": "bending-path",
+      "note": "Authored generation: Eastern end continues to Rowan Hut.",
+      "to": "rowan-spur",
+      "type": "connects"
+    },
+    {
+      "from": "bending-path",
+      "note": "Authored generation: Communal shelter connects to the same walking network.",
+      "to": "pavilion-spur",
+      "type": "connects"
+    },
+    {
+      "from": "hut-fern",
+      "note": "Authored generation: Eastern entrance approach.",
+      "to": "fern-spur",
+      "type": "connects"
+    },
+    {
+      "from": "hut-sorrel",
+      "note": "Authored generation: Northern entrance approach.",
+      "to": "sorrel-spur",
+      "type": "connects"
+    },
+    {
+      "from": "hut-moss",
+      "note": "Authored generation: Southern entrance approach.",
+      "to": "moss-spur",
+      "type": "connects"
+    },
+    {
+      "from": "hut-heather",
+      "note": "Authored generation: Southern entrance approach.",
+      "to": "heather-spur",
+      "type": "connects"
+    },
+    {
+      "from": "hut-rowan",
+      "note": "Authored generation: Western entrance approach.",
+      "to": "rowan-spur",
+      "type": "connects"
+    },
+    {
+      "from": "pavilion",
+      "note": "Authored generation: Northern approach leaves the clearing-facing side open.",
+      "to": "pavilion-spur",
+      "type": "connects"
+    },
+    {
+      "from": "bench-arrival",
+      "note": "Authored generation: Seating is offset from the walking corridor.",
+      "to": "bending-path",
+      "type": "near"
+    },
+    {
+      "from": "bench-clearing",
+      "note": "Authored generation: A pause beside the lower bend.",
+      "to": "bending-path",
+      "type": "near"
+    },
+    {
+      "from": "bench-ridgeview",
+      "note": "Authored generation: Ridge-facing seating beside the upper walk.",
+      "to": "bending-path",
+      "type": "near"
+    }
+  ],
+  "seed": 0,
+  "sources": [
+    {
+      "accessed": "",
+      "attribution": "© OpenStreetMap contributors. Open Database License 1.0.",
+      "id": "layout-guide",
+      "notes": "Authoring guidance only; generated placements are fiction, not measurements of the study places. Study wordscape-layout-study-v1; version 1.0. Observations and authored heuristics are distinguished in src/data/layoutGuide.json. No source geometry is copied into this world.",
+      "title": "Wordscape layout authoring guide 1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+    },
+    {
+      "accessed": "",
+      "attribution": "Authored interpretation via codex / gpt-6.1-sol",
+      "id": "authored-terrain",
+      "notes": "Not surveyed or geographic terrain. Recipe uses normalized east/north centers and radii, metre heights, CCW rotation. Each feature contributes height*(1-u²-v²)² inside its ellipse and zero outside. {\"type\":\"analytic-heightfield\",\"version\":1,\"evidence\":\"authored\",\"baseElevation\":0,\"features\":[{\"x\":0.5,\"y\":0.88,\"radiusX\":0.72,\"radiusY\":0.43,\"height\":25,\"rotation\":0}]}",
+      "title": "Authored imaginary terrain",
+      "url": ""
+    }
+  ],
+  "terrain": {
+    "columns": 33,
+    "evidence": "authored",
+    "heights": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.008,
+      0.037,
+      0.076,
+      0.117,
+      0.151,
+      0.174,
+      0.182,
+      0.174,
+      0.151,
+      0.117,
+      0.076,
+      0.037,
+      0.008,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.023,
+      0.11,
+      0.242,
+      0.402,
+      0.572,
+      0.739,
+      0.892,
+      1.021,
+      1.118,
+      1.179,
+      1.199,
+      1.179,
+      1.118,
+      1.021,
+      0.892,
+      0.739,
+      0.572,
+      0.402,
+      0.242,
+      0.11,
+      0.023,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.014,
+      0.126,
+      0.326,
+      0.592,
+      0.899,
+      1.228,
+      1.561,
+      1.882,
+      2.177,
+      2.435,
+      2.645,
+      2.8,
+      2.895,
+      2.928,
+      2.895,
+      2.8,
+      2.645,
+      2.435,
+      2.177,
+      1.882,
+      1.561,
+      1.228,
+      0.899,
+      0.592,
+      0.326,
+      0.126,
+      0.014,
+      0,
+      0,
+      0,
+      0,
+      0.024,
+      0.183,
+      0.465,
+      0.842,
+      1.287,
+      1.775,
+      2.283,
+      2.793,
+      3.285,
+      3.744,
+      4.156,
+      4.509,
+      4.793,
+      5.001,
+      5.128,
+      5.171,
+      5.128,
+      5.001,
+      4.793,
+      4.509,
+      4.156,
+      3.744,
+      3.285,
+      2.793,
+      2.283,
+      1.775,
+      1.287,
+      0.842,
+      0.465,
+      0.183,
+      0.024,
+      0,
+      0.139,
+      0.442,
+      0.88,
+      1.422,
+      2.039,
+      2.704,
+      3.394,
+      4.086,
+      4.759,
+      5.395,
+      5.979,
+      6.496,
+      6.935,
+      7.287,
+      7.544,
+      7.7,
+      7.752,
+      7.7,
+      7.544,
+      7.287,
+      6.935,
+      6.496,
+      5.979,
+      5.395,
+      4.759,
+      4.086,
+      3.394,
+      2.704,
+      2.039,
+      1.422,
+      0.88,
+      0.442,
+      0.139,
+      0.689,
+      1.26,
+      1.947,
+      2.722,
+      3.554,
+      4.418,
+      5.289,
+      6.144,
+      6.963,
+      7.729,
+      8.425,
+      9.037,
+      9.554,
+      9.966,
+      10.265,
+      10.447,
+      10.508,
+      10.447,
+      10.265,
+      9.966,
+      9.554,
+      9.037,
+      8.425,
+      7.729,
+      6.963,
+      6.144,
+      5.289,
+      4.418,
+      3.554,
+      2.722,
+      1.947,
+      1.26,
+      0.689,
+      1.525,
+      2.331,
+      3.24,
+      4.22,
+      5.243,
+      6.282,
+      7.313,
+      8.313,
+      9.262,
+      10.142,
+      10.937,
+      11.633,
+      12.218,
+      12.684,
+      13.021,
+      13.226,
+      13.295,
+      13.226,
+      13.021,
+      12.684,
+      12.218,
+      11.633,
+      10.937,
+      10.142,
+      9.262,
+      8.313,
+      7.313,
+      6.282,
+      5.243,
+      4.22,
+      3.24,
+      2.331,
+      1.525,
+      2.518,
+      3.529,
+      4.63,
+      5.789,
+      6.978,
+      8.17,
+      9.339,
+      10.465,
+      11.527,
+      12.506,
+      13.387,
+      14.156,
+      14.801,
+      15.313,
+      15.684,
+      15.908,
+      15.984,
+      15.908,
+      15.684,
+      15.313,
+      14.801,
+      14.156,
+      13.387,
+      12.506,
+      11.527,
+      10.465,
+      9.339,
+      8.17,
+      6.978,
+      5.789,
+      4.63,
+      3.529,
+      2.518,
+      3.556,
+      4.742,
+      6.006,
+      7.317,
+      8.647,
+      9.968,
+      11.256,
+      12.489,
+      13.646,
+      14.71,
+      15.664,
+      16.495,
+      17.191,
+      17.742,
+      18.141,
+      18.382,
+      18.463,
+      18.382,
+      18.141,
+      17.742,
+      17.191,
+      16.495,
+      15.664,
+      14.71,
+      13.646,
+      12.489,
+      11.256,
+      9.968,
+      8.647,
+      7.317,
+      6.006,
+      4.742,
+      3.556,
+      4.544,
+      5.874,
+      7.273,
+      8.709,
+      10.155,
+      11.582,
+      12.968,
+      14.289,
+      15.525,
+      16.658,
+      17.673,
+      18.555,
+      19.292,
+      19.876,
+      20.298,
+      20.553,
+      20.639,
+      20.553,
+      20.298,
+      19.876,
+      19.292,
+      18.555,
+      17.673,
+      16.658,
+      15.525,
+      14.289,
+      12.968,
+      11.582,
+      10.155,
+      8.709,
+      7.273,
+      5.874,
+      4.544,
+      5.406,
+      6.849,
+      8.353,
+      9.888,
+      11.424,
+      12.936,
+      14.397,
+      15.788,
+      17.086,
+      18.274,
+      19.336,
+      20.257,
+      21.028,
+      21.637,
+      22.077,
+      22.343,
+      22.433,
+      22.343,
+      22.077,
+      21.637,
+      21.028,
+      20.257,
+      19.336,
+      18.274,
+      17.086,
+      15.788,
+      14.397,
+      12.936,
+      11.424,
+      9.888,
+      8.353,
+      6.849,
+      5.406,
+      6.079,
+      7.604,
+      9.185,
+      10.791,
+      12.394,
+      13.966,
+      15.483,
+      16.924,
+      18.267,
+      19.495,
+      20.591,
+      21.542,
+      22.336,
+      22.963,
+      23.417,
+      23.691,
+      23.783,
+      23.691,
+      23.417,
+      22.963,
+      22.336,
+      21.542,
+      20.591,
+      19.495,
+      18.267,
+      16.924,
+      15.483,
+      13.966,
+      12.394,
+      10.791,
+      9.185,
+      7.604,
+      6.079,
+      6.519,
+      8.095,
+      9.724,
+      11.375,
+      13.019,
+      14.629,
+      16.181,
+      17.653,
+      19.024,
+      20.276,
+      21.394,
+      22.363,
+      23.172,
+      23.811,
+      24.273,
+      24.552,
+      24.646,
+      24.552,
+      24.273,
+      23.811,
+      23.172,
+      22.363,
+      21.394,
+      20.276,
+      19.024,
+      17.653,
+      16.181,
+      14.629,
+      13.019,
+      11.375,
+      9.724,
+      8.095,
+      6.519,
+      6.698,
+      8.295,
+      9.943,
+      11.611,
+      13.271,
+      14.897,
+      16.463,
+      17.947,
+      19.329,
+      20.592,
+      21.718,
+      22.694,
+      23.509,
+      24.153,
+      24.618,
+      24.899,
+      24.993,
+      24.899,
+      24.618,
+      24.153,
+      23.509,
+      22.694,
+      21.718,
+      20.592,
+      19.329,
+      17.947,
+      16.463,
+      14.897,
+      13.271,
+      11.611,
+      9.943,
+      8.295,
+      6.698,
+      6.605,
+      8.192,
+      9.83,
+      11.489,
+      13.141,
+      14.758,
+      16.317,
+      17.795,
+      19.172,
+      20.429,
+      21.551,
+      22.523,
+      23.335,
+      23.977,
+      24.44,
+      24.72,
+      24.814,
+      24.72,
+      24.44,
+      23.977,
+      23.335,
+      22.523,
+      21.551,
+      20.429,
+      19.172,
+      17.795,
+      16.317,
+      14.758,
+      13.141,
+      11.489,
+      9.83,
+      8.192,
+      6.605,
+      6.247,
+      7.791,
+      9.391,
+      11.014,
+      12.633,
+      14.22,
+      15.751,
+      17.203,
+      18.557,
+      19.794,
+      20.899,
+      21.857,
+      22.657,
+      23.289,
+      23.745,
+      24.022,
+      24.114,
+      24.022,
+      23.745,
+      23.289,
+      22.657,
+      21.857,
+      20.899,
+      19.794,
+      18.557,
+      17.203,
+      15.751,
+      14.22,
+      12.633,
+      11.014,
+      9.391,
+      7.791,
+      6.247,
+      5.644,
+      7.117,
+      8.649,
+      10.209,
+      11.769,
+      13.303,
+      14.785,
+      16.193,
+      17.507,
+      18.71,
+      19.784,
+      20.716,
+      21.495,
+      22.111,
+      22.556,
+      22.825,
+      22.915,
+      22.825,
+      22.556,
+      22.111,
+      21.495,
+      20.716,
+      19.784,
+      18.71,
+      17.507,
+      16.193,
+      14.785,
+      13.303,
+      11.769,
+      10.209,
+      8.649,
+      7.117,
+      5.644,
+      4.837,
+      6.207,
+      7.642,
+      9.113,
+      10.59,
+      12.047,
+      13.459,
+      14.804,
+      16.062,
+      17.215,
+      18.246,
+      19.142,
+      19.891,
+      20.483,
+      20.912,
+      21.171,
+      21.258,
+      21.171,
+      20.912,
+      20.483,
+      19.891,
+      19.142,
+      18.246,
+      17.215,
+      16.062,
+      14.804,
+      13.459,
+      12.047,
+      10.59,
+      9.113,
+      7.642,
+      6.207,
+      4.837
+    ],
+    "interpolation": "bilinear",
+    "notes": "Authored smooth elliptical features sampled on a bounded regular grid, then bilinearly interpolated. Grid pitch is an authoring resolution, not measurement accuracy. No geographic or surveyed elevation claim.",
+    "origin": {
+      "x": 0,
+      "y": 0
+    },
+    "referenceElevation": 0,
+    "rows": 33,
+    "sourceId": "authored-terrain",
+    "spacing": 5.625,
+    "type": "height-grid",
+    "verticalDatum": "Authored local metres; no geodetic datum"
+  },
+  "units": "metres",
+  "version": "0.8"
+}

@@ -1,0 +1,144 @@
+{
+  "startedAt": "2026-11-16T06:29:38.813Z",
+  "task": "One live east-adjacent 360 m survey combined with retained Fishermans Wharf",
+  "originalBounds": {
+    "west": -122.41868162595988,
+    "south": 37.806798014784974,
+    "east": -122.41458837404012,
+    "north": 37.81003194980763
+  },
+  "attempts": [
+    {
+      "endpoint": "/api/terrain/extract",
+      "startedAt": "2026-11-16T06:29:39.270Z",
+      "completedAt": "2026-11-16T06:29:57.676Z",
+      "status": 200,
+      "cached": false,
+      "responseFile": "test-results/atlas-06-east-terrain.json",
+      "responseSha256": "fb7c46f80721d6f37176cdc4606991e37b8906816ec3eb594d677e8946f59d18",
+      "warnings": []
+    },
+    {
+      "endpoint": "/api/maps/extract",
+      "startedAt": "2026-11-16T06:29:39.268Z",
+      "completedAt": "2026-11-16T06:30:39.313Z",
+      "status": 400,
+      "cached": false,
+      "responseFile": "test-results/atlas-06-east-maps.json",
+      "responseSha256": "8e34bb4d155684f4270b01addf45deac73ea995f7913ee2f10fd79f072b649eb",
+      "warnings": [],
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "endpoint": "/api/maps/extract",
+      "startedAt": "2026-11-16T06:30:59.956Z",
+      "completedAt": "2026-11-16T06:31:46.811Z",
+      "status": 400,
+      "cached": false,
+      "responseFile": "test-results/atlas-06-east-maps-retry.json",
+      "responseSha256": "7eb101ba36a1397e55a2b8a21bbf67884472a2a9c2524e4d42de67d86d1db81b",
+      "warnings": [],
+      "error": "Map provider returned 503."
+    }
+  ],
+  "isolation": "Fresh headless browser context; existing browser documents and library unchanged; no model or Google requests.",
+  "adjacentBounds": {
+    "west": -122.41458837404012,
+    "south": 37.806798014784974,
+    "east": -122.41049512212037,
+    "north": 37.81003194980763
+  },
+  "result": {
+    "status": "blocked-by-map-provider",
+    "reason": "Initial map request timed out; the one allowed transient retry returned upstream HTTP 503. The terrain request succeeded through USGS 3DEP. No further network requests were sent.",
+    "mapRequests": 2,
+    "terrainRequests": 1,
+    "combinedWorldCreated": false,
+    "exports": [],
+    "worldCompositionValidation": "Not run because the adjacent map extract was unavailable. Retained input validation and canonical JSON round trip passed.",
+    "warnings": [
+      "No adjacent mapped objects or seam fragments were invented.",
+      "Successful adjacent USGS terrain is retained in the ignored test-results file and service cache for a later user-requested retry."
+    ]
+  },
+  "completedAt": "2026-11-16T06:32:23.613Z",
+  "retryReason": "One retry of the map request after a provider timeout; successful terrain response reused without another network request.",
+  "retainedInput": {
+    "sourceFile": "public/reference/fishermans-wharf-osm-regression.json",
+    "sourceUrl": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41868162595988%2C37.806798014784974%2C-122.41458837404012%2C37.81003194980763",
+    "capturedAt": "2026-11-16T04:08:47.550Z",
+    "inputElements": 247,
+    "objects": 390,
+    "counts": {
+      "inputElements": 247,
+      "importedObjects": 390,
+      "buildings": 43,
+      "roads": 187,
+      "paths": 155,
+      "entrances": 1,
+      "trees": 0,
+      "areas": 4,
+      "estimatedHeights": 22,
+      "clippedObjects": 45
+    },
+    "validationErrors": [],
+    "validationWarningCount": 0,
+    "canonicalRoundTrip": true,
+    "compactJsonBytes": 1102352,
+    "terrain": {
+      "provider": "usgs-3dep",
+      "datum": "NAVD88 (CA_SanFrancisco_B23; GEOID18)",
+      "sourceResolution": 1,
+      "grid": {
+        "columns": 65,
+        "rows": 65,
+        "spacing": 5.625
+      },
+      "validSamples": 4225,
+      "totalSamples": 4225,
+      "rangeMetres": [
+        -1.07,
+        6.847
+      ],
+      "source": {
+        "id": "terrain-usgs-3dep-89722d0c9646",
+        "title": "USGS 3DEP terrain sample",
+        "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/getSamples",
+        "attribution": "USGS National Map 3D Elevation Program. Public-domain elevation data courtesy of the U.S. Geological Survey.",
+        "accessed": "2026-11-16",
+        "notes": "USGS source raster(s): CA_SanFrancisco_B23. Native resolution is the coarsest reported sample resolution, not vertical accuracy. Retrieval date is not acquisition date. Missing samples remain null."
+      }
+    }
+  },
+  "adjacentTerrain": {
+    "provider": "usgs-3dep",
+    "datum": "NAVD88 (CA_SanFrancisco_B23; GEOID18)",
+    "sourceResolution": 1,
+    "grid": {
+      "columns": 65,
+      "rows": 65,
+      "spacing": 5.625
+    },
+    "validSamples": 4225,
+    "totalSamples": 4225,
+    "rangeMetres": [
+      -1.07,
+      5.004
+    ],
+    "source": {
+      "id": "terrain-usgs-3dep-93419c0040c8",
+      "title": "USGS 3DEP terrain sample",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/getSamples",
+      "attribution": "USGS National Map 3D Elevation Program. Public-domain elevation data courtesy of the U.S. Geological Survey.",
+      "accessed": "2026-11-16",
+      "notes": "USGS source raster(s): CA_SanFrancisco_B23. Native resolution is the coarsest reported sample resolution, not vertical accuracy. Retrieval date is not acquisition date. Missing samples remain null."
+    }
+  },
+  "sharedEdge": {
+    "exactGeographicEdge": true,
+    "checkedSamples": 65,
+    "knownPairs": 65,
+    "maximumElevationDifferenceMetres": 0,
+    "note": "Comparison uses the retained east-edge and live west-edge grid vertices, both 65 rows at 5.625 m spacing in the same latitude interval. This checks elevation seam consistency only; adjacent map coverage was unavailable."
+  }
+}

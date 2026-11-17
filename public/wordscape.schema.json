@@ -1,0 +1,571 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wordscape.local/wordscape.schema.json",
+  "title": "Wordscape world document 0.1–0.8",
+  "description": "A bounded spatial document. Version 0.2 adds containers and facts; 0.3 adds sourced terrain grids and explicit grounding. Semantic validation also checks IDs, parent cycles, source references, exact grid sample counts, date ordering, footprint topology, byte limits, and physical overlaps. Version 0.4 adds bounded, non-executable normalized geometry recipes. Version 0.5 adds online aerial references and separates native DEM resolution from sampled raster pitch. Version 0.6 adds optional survey composition provenance and conditional atlas resource limits. Version 0.7 marks imaginary local worlds. Version 0.8 adds explicit authored/sourced terrain evidence while retaining all earlier readable versions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "version",
+    "name",
+    "description",
+    "units",
+    "bounds",
+    "origin",
+    "seed",
+    "sources",
+    "objects",
+    "relations"
+  ],
+  "properties": {
+    "format": { "const": "wordscape" },
+    "version": { "enum": ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8"] },
+    "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "description": { "$ref": "#/$defs/text" },
+    "units": { "const": "metres" },
+    "bounds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "depth"],
+      "properties": {
+        "width": { "$ref": "#/$defs/dimension" },
+        "depth": { "$ref": "#/$defs/dimension" }
+      }
+    },
+    "origin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["latitude", "longitude", "note"],
+      "properties": {
+        "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+        "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+        "note": { "$ref": "#/$defs/text" }
+      }
+    },
+    "seed": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
+    "sources": { "type": "array", "maxItems": 400, "items": { "$ref": "#/$defs/source" } },
+    "terrain": { "$ref": "#/$defs/terrain" },
+    "aerial": { "$ref": "#/$defs/aerial" },
+    "composition": { "$ref": "#/$defs/composition" },
+    "imaginary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["brief", "guideVersion"],
+      "properties": {
+        "brief": { "type": "string", "maxLength": 4000 },
+        "guideVersion": { "type": "string", "minLength": 1, "maxLength": 100 }
+      }
+    },
+    "objects": { "type": "array", "maxItems": 4000, "items": { "$ref": "#/$defs/object" } },
+    "relations": { "type": "array", "maxItems": 16000, "items": { "$ref": "#/$defs/relation" } }
+  },
+  "allOf": [
+    {
+      "if": { "required": ["terrain"], "properties": { "terrain": { "required": ["evidence"] } } },
+      "then": { "properties": { "version": { "const": "0.8" } } }
+    },
+    {
+      "if": { "required": ["imaginary"] },
+      "then": {
+        "properties": {
+          "version": { "enum": ["0.7", "0.8"] },
+          "aerial": false,
+          "composition": false,
+          "origin": { "properties": { "latitude": { "const": 0 }, "longitude": { "const": 0 } } }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "version": { "enum": ["0.1", "0.2", "0.3", "0.4", "0.5"] } } },
+      "then": {
+        "properties": { "objects": { "items": { "properties": { "terrainCorrection": false } } } }
+      }
+    },
+    {
+      "if": {
+        "required": ["composition"],
+        "properties": { "version": { "enum": ["0.6", "0.7", "0.8"] } }
+      },
+      "then": {
+        "properties": {
+          "bounds": {
+            "properties": { "width": { "maximum": 2000.01 }, "depth": { "maximum": 2000.01 } }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "composition": false,
+          "sources": { "maxItems": 100 },
+          "objects": { "maxItems": 1000 },
+          "relations": { "maxItems": 4000 }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "version": { "enum": ["0.1", "0.2", "0.3", "0.4"] } } },
+      "then": {
+        "properties": {
+          "aerial": false,
+          "terrain": {
+            "required": ["sourceResolution"],
+            "properties": { "sampledResolution": false }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "version": { "enum": ["0.1", "0.2", "0.3"] } } },
+      "then": { "properties": { "objects": { "items": { "properties": { "geometry": false } } } } }
+    },
+    {
+      "if": { "properties": { "version": { "const": "0.1" } } },
+      "then": {
+        "properties": {
+          "objects": {
+            "items": {
+              "properties": {
+                "kind": {
+                  "enum": ["grass", "pavement", "road", "building", "water", "tree", "landmark"]
+                },
+                "parentId": false,
+                "facts": false,
+                "references": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "version": { "enum": ["0.1", "0.2"] } } },
+      "then": {
+        "properties": {
+          "terrain": false,
+          "objects": { "items": { "properties": { "grounding": false, "terrainAnchor": false } } }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "objects": {
+            "contains": {
+              "required": ["grounding"],
+              "properties": { "grounding": { "const": "terrain" } }
+            }
+          }
+        }
+      },
+      "then": { "required": ["terrain"] }
+    }
+  ],
+  "$defs": {
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "tiles"],
+      "properties": {
+        "type": { "const": "survey-atlas" },
+        "tiles": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "name", "description", "seed", "bounds", "sourceIds"],
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+              "description": { "$ref": "#/$defs/text" },
+              "seed": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
+              "sourceIds": { "type": "array", "maxItems": 100, "items": { "$ref": "#/$defs/id" } },
+              "bounds": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["west", "south", "east", "north"],
+                "properties": {
+                  "west": { "type": "number", "minimum": -180, "maximum": 180 },
+                  "east": { "type": "number", "minimum": -180, "maximum": 180 },
+                  "south": { "type": "number", "minimum": -85, "maximum": 85 },
+                  "north": { "type": "number", "minimum": -85, "maximum": 85 }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "aerial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "provider", "bounds", "sourceId"],
+      "properties": {
+        "type": { "const": "online-imagery" },
+        "provider": { "const": "usgs-imagery" },
+        "sourceId": { "$ref": "#/$defs/id" },
+        "bounds": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["west", "south", "east", "north"],
+          "properties": {
+            "west": { "type": "number", "minimum": -180, "maximum": 180 },
+            "east": { "type": "number", "minimum": -180, "maximum": 180 },
+            "south": { "type": "number", "minimum": -85, "maximum": 85 },
+            "north": { "type": "number", "minimum": -85, "maximum": 85 }
+          }
+        }
+      }
+    },
+    "geometryRecipe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "version", "space", "evidence", "parts"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["parts"]
+        },
+        "version": {
+          "type": "integer",
+          "enum": [1]
+        },
+        "space": {
+          "type": "string",
+          "enum": ["normalized-object"]
+        },
+        "evidence": {
+          "type": "string",
+          "enum": ["authored"]
+        },
+        "parts": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 32,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "label",
+              "primitive",
+              "position",
+              "rotation",
+              "dimensions",
+              "color",
+              "footprint"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 64,
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120
+              },
+              "primitive": {
+                "type": "string",
+                "enum": ["box", "cylinder", "cone", "sphere", "extruded-polygon"]
+              },
+              "position": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "number",
+                  "minimum": -0.5,
+                  "maximum": 1
+                }
+              },
+              "rotation": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "number",
+                  "minimum": -180,
+                  "maximum": 180
+                }
+              },
+              "dimensions": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "number",
+                  "minimum": 0.001,
+                  "maximum": 1
+                }
+              },
+              "color": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$"
+              },
+              "footprint": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 16,
+                    "items": {
+                      "type": "array",
+                      "minItems": 2,
+                      "maxItems": 2,
+                      "items": {
+                        "type": "number",
+                        "minimum": -0.5,
+                        "maximum": 0.5
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]*$"
+    },
+    "text": { "type": "string", "maxLength": 10000 },
+    "dimension": { "type": "number", "exclusiveMinimum": 0, "maximum": 100000 },
+    "coordinate": { "type": "number", "minimum": -1000000, "maximum": 1000000 },
+    "point": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "prefixItems": [{ "$ref": "#/$defs/coordinate" }, { "$ref": "#/$defs/coordinate" }],
+      "items": false
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "url", "attribution", "accessed", "notes"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "url": { "type": "string", "maxLength": 2048, "pattern": "^(https?://|$)" },
+        "attribution": { "$ref": "#/$defs/text" },
+        "accessed": { "type": "string", "maxLength": 100 },
+        "notes": { "$ref": "#/$defs/text" }
+      }
+    },
+    "object": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label",
+        "kind",
+        "description",
+        "x",
+        "y",
+        "width",
+        "depth",
+        "height",
+        "elevation",
+        "rotation",
+        "layer",
+        "evidence"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "label": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "kind": {
+          "enum": ["grass", "pavement", "road", "building", "water", "tree", "landmark", "fixture"]
+        },
+        "description": { "$ref": "#/$defs/text" },
+        "x": { "$ref": "#/$defs/coordinate" },
+        "y": { "$ref": "#/$defs/coordinate" },
+        "width": { "$ref": "#/$defs/dimension" },
+        "depth": { "$ref": "#/$defs/dimension" },
+        "height": { "type": "number", "minimum": 0, "maximum": 100000 },
+        "elevation": { "type": "number", "minimum": -100000, "maximum": 100000 },
+        "grounding": {
+          "enum": ["absolute", "terrain"],
+          "description": "Absent/absolute: elevation is local base height. Terrain: elevation is an offset above the sampled anchor."
+        },
+        "terrainAnchor": {
+          "enum": ["center", "highest-footprint"],
+          "description": "Terrain-only anchoring policy. Defaults to center."
+        },
+        "terrainCorrection": {
+          "type": "number",
+          "minimum": -200000,
+          "maximum": 200000,
+          "description": "Derived resampling compensation for grounded solids. Added to the physical base, excluded from the authored elevation and flat comparison."
+        },
+        "rotation": { "type": "number", "minimum": -360000, "maximum": 360000 },
+        "layer": { "type": "integer", "minimum": -1000, "maximum": 1000 },
+        "evidence": { "enum": ["observed", "inferred", "authored"] },
+        "sourceId": { "$ref": "#/$defs/id" },
+        "footprint": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 256,
+          "items": { "$ref": "#/$defs/point" }
+        },
+        "tags": { "type": "array", "maxItems": 32, "items": { "type": "string", "maxLength": 64 } },
+        "parentId": {
+          "$ref": "#/$defs/id",
+          "description": "Parent placement ID. Positions remain absolute world metres."
+        },
+        "facts": { "type": "array", "maxItems": 64, "items": { "$ref": "#/$defs/fact" } },
+        "geometry": { "$ref": "#/$defs/geometryRecipe" },
+        "references": { "type": "array", "maxItems": 32, "items": { "$ref": "#/$defs/reference" } }
+      },
+      "allOf": [
+        {
+          "if": { "required": ["terrainCorrection"] },
+          "then": {
+            "required": ["grounding"],
+            "properties": {
+              "grounding": { "const": "terrain" },
+              "kind": { "enum": ["building", "landmark"] }
+            }
+          }
+        },
+        {
+          "if": { "required": ["terrainAnchor"] },
+          "then": {
+            "required": ["grounding"],
+            "properties": { "grounding": { "const": "terrain" } }
+          }
+        }
+      ]
+    },
+    "terrain": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "columns",
+        "rows",
+        "spacing",
+        "origin",
+        "heights",
+        "verticalDatum",
+        "referenceElevation",
+        "sourceId",
+        "interpolation"
+      ],
+      "properties": {
+        "type": { "const": "height-grid" },
+        "evidence": {
+          "enum": ["authored", "sourced"],
+          "description": "Explicit terrain provenance class. Absent legacy evidence is not assumed authored."
+        },
+        "columns": { "type": "integer", "minimum": 2, "maximum": 257 },
+        "rows": { "type": "integer", "minimum": 2, "maximum": 257 },
+        "spacing": { "$ref": "#/$defs/dimension" },
+        "origin": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y"],
+          "properties": {
+            "x": { "$ref": "#/$defs/coordinate" },
+            "y": { "$ref": "#/$defs/coordinate" }
+          }
+        },
+        "heights": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 66049,
+          "description": "Exactly columns*rows values, west-to-east then south-to-north. Absolute source-datum metres; null means no data.",
+          "items": {
+            "oneOf": [
+              { "type": "number", "minimum": -100000, "maximum": 100000 },
+              { "type": "null" }
+            ]
+          }
+        },
+        "verticalDatum": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "referenceElevation": { "type": "number", "minimum": -100000, "maximum": 100000 },
+        "sourceId": { "$ref": "#/$defs/id" },
+        "sourceResolution": { "$ref": "#/$defs/dimension" },
+        "sampledResolution": { "$ref": "#/$defs/dimension" },
+        "interpolation": { "const": "bilinear" },
+        "verticalAccuracy": { "type": "number", "minimum": 0, "maximum": 100000 },
+        "acquired": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {
+            "start": { "type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+            "end": { "type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+          }
+        },
+        "notes": { "$ref": "#/$defs/text" }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "value", "evidence"],
+      "properties": {
+        "key": {
+          "$ref": "#/$defs/id",
+          "description": "Unique per placement. Dotted names such as building.levels are recommended."
+        },
+        "value": {
+          "oneOf": [
+            { "$ref": "#/$defs/text" },
+            { "type": "number", "minimum": -1000000000000000, "maximum": 1000000000000000 },
+            { "type": "boolean" },
+            { "type": "null" }
+          ]
+        },
+        "unit": { "type": "string", "maxLength": 64 },
+        "evidence": { "enum": ["observed", "inferred", "authored", "sourced", "unknown"] },
+        "sourceIds": { "type": "array", "maxItems": 32, "items": { "$ref": "#/$defs/id" } },
+        "note": { "$ref": "#/$defs/text" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "evidence": { "const": "unknown" } } },
+          "then": { "properties": { "value": { "type": "null" } } },
+          "else": { "properties": { "value": { "not": { "type": "null" } } } }
+        },
+        {
+          "if": { "properties": { "evidence": { "const": "sourced" } } },
+          "then": { "required": ["sourceIds"], "properties": { "sourceIds": { "minItems": 1 } } }
+        }
+      ]
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "role"],
+      "properties": {
+        "sourceId": { "$ref": "#/$defs/id" },
+        "role": { "enum": ["photo", "map", "history", "dataset", "inspiration"] },
+        "view": { "type": "string", "maxLength": 200 },
+        "note": { "$ref": "#/$defs/text" }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to", "type"],
+      "properties": {
+        "from": { "$ref": "#/$defs/id" },
+        "to": { "$ref": "#/$defs/id" },
+        "type": { "enum": ["near", "within", "connects", "overlaps"] },
+        "note": { "$ref": "#/$defs/text" }
+      }
+    }
+  }
+}

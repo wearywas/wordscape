@@ -1,0 +1,3442 @@
+{
+  "bounds": {
+    "depth": 180,
+    "width": 180
+  },
+  "description": "An original storybook settlement on flat ground. Ochre cottages line the older southern lane; a skewed western workshop quarter gathers around an orchard court; and a copper-domed archive anchors the northern bend beside the canal. Rooflines, building depths and narrow passages vary between these locally aligned groups.",
+  "format": "wordscape",
+  "imaginary": {
+    "brief": "Create Lanternwater Lanes, a fictional storybook canal village on a flat 180 metre square. Retain the idea of a copper-domed archive, workshops, cottages, market courts, orchard planting and a canal, but make a denser settlement that feels grown over time. Use 45–60 objects, including about 24–30 varied buildings arranged into three close clusters along a gently bending market lane and a short waterfront spine. Aim for about 25–35% summed building footprint coverage, with varied narrow gaps and occasional shared walls, while keeping useful routes clear. Include two small uneven gathering courts rather than a giant central square. Orient buildings to their nearby route and cluster; avoid identical rows, equal setbacks and right-angle symmetry. Let the canal or shore have a simple bent polygon outline. Place only a few useful trees and fixtures in leftover pockets. Keep all footprints inside the scene and avoid solid overlaps. Use original bounded geometry for the copper-domed archive and one workshop, with other roofs interpreted from authored facts. Reference real layout relationships creatively; this is fiction, not a copy of a real town.",
+    "guideVersion": "1.0"
+  },
+  "name": "Lanternwater Lanes",
+  "objects": [
+    {
+      "depth": 180,
+      "description": "A continuous quiet green base beneath the village and its garden pockets.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.02,
+      "id": "ground",
+      "kind": "grass",
+      "label": "Village ground",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "ground"
+      ],
+      "width": 180,
+      "x": 90,
+      "y": 90
+    },
+    {
+      "depth": 180,
+      "description": "A simple bent canal edge bounds the village to the east, widening opposite the working quay.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -10,
+          -90
+        ],
+        [
+          14,
+          -90
+        ],
+        [
+          14,
+          90
+        ],
+        [
+          -10,
+          90
+        ],
+        [
+          -10,
+          57
+        ],
+        [
+          -14,
+          17
+        ],
+        [
+          -12,
+          -25
+        ]
+      ],
+      "height": 0.03,
+      "id": "canal",
+      "kind": "water",
+      "label": "Lanternwater Canal",
+      "layer": 1,
+      "rotation": 0,
+      "tags": [
+        "canal",
+        "boundary"
+      ],
+      "width": 28,
+      "x": 166,
+      "y": 90
+    },
+    {
+      "depth": 8,
+      "description": "The broadest old lane runs between cottage shops and their opposing frontages.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "market-south",
+      "kind": "pavement",
+      "label": "Old Market Lane",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "primary-route"
+      ],
+      "width": 132,
+      "x": 74,
+      "y": 44
+    },
+    {
+      "depth": 6,
+      "description": "A narrow diagonal continuation turns between the southern houses and western workshops.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "market-rise",
+      "kind": "pavement",
+      "label": "Coppersmith Bend",
+      "layer": 2,
+      "rotation": 77.9,
+      "tags": [
+        "primary-route"
+      ],
+      "width": 59,
+      "x": 72,
+      "y": 71
+    },
+    {
+      "depth": 6,
+      "description": "The lane changes direction again, threading past the western quarter toward the northern court.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "market-middle",
+      "kind": "pavement",
+      "label": "Archive Approach",
+      "layer": 2,
+      "rotation": 56.3,
+      "tags": [
+        "primary-route"
+      ],
+      "width": 48,
+      "x": 91,
+      "y": 117.5
+    },
+    {
+      "depth": 7,
+      "description": "A shallow final bend opens toward the archive forecourt and waterfront.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "market-north",
+      "kind": "pavement",
+      "label": "Lantern Bend",
+      "layer": 2,
+      "rotation": 15,
+      "tags": [
+        "primary-route"
+      ],
+      "width": 43,
+      "x": 123,
+      "y": 142
+    },
+    {
+      "depth": 116,
+      "description": "A short waterside spine joins the southern market, quay workshops and northern bend.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "waterfront",
+      "kind": "pavement",
+      "label": "Short Lantern Quay",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "waterfront",
+        "spine"
+      ],
+      "width": 5,
+      "x": 149,
+      "y": 98
+    },
+    {
+      "depth": 5,
+      "description": "An unobstructed continuation carries the old lane onto the quay.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "south-quay-link",
+      "kind": "pavement",
+      "label": "Basket Passage",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "connector"
+      ],
+      "width": 12,
+      "x": 144,
+      "y": 44
+    },
+    {
+      "depth": 5,
+      "description": "A gently angled neighborhood lane gives the western workshops their shared frontage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "workshop-lane",
+      "kind": "pavement",
+      "label": "Crooked Apron Lane",
+      "layer": 2,
+      "rotation": 10,
+      "tags": [
+        "secondary-route"
+      ],
+      "width": 84,
+      "x": 49,
+      "y": 111
+    },
+    {
+      "depth": 40,
+      "description": "A narrow passage between workshop pairs opens into the rear orchard court.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "orchard-passage",
+      "kind": "pavement",
+      "label": "Orchard Passage",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "secondary-route"
+      ],
+      "width": 4,
+      "x": 84,
+      "y": 136
+    },
+    {
+      "depth": 3,
+      "description": "A short transverse passage connects the main bend to the quay between the two eastern building pairs.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "quay-crossing",
+      "kind": "pavement",
+      "label": "Netmakers Passage",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "connector"
+      ],
+      "width": 60,
+      "x": 119,
+      "y": 104
+    },
+    {
+      "depth": 8,
+      "description": "A broad threshold connects the archive court to the final lane bend.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "archive-link",
+      "kind": "pavement",
+      "label": "Archive Threshold",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "connector"
+      ],
+      "width": 38,
+      "x": 112,
+      "y": 151
+    },
+    {
+      "depth": 9,
+      "description": "An uneven, intimate gathering court occupies the gap between two workshop ranges, with orchard trees at its quiet ends.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -40,
+          -2
+        ],
+        [
+          -19,
+          -4.5
+        ],
+        [
+          8,
+          -3
+        ],
+        [
+          40,
+          -1
+        ],
+        [
+          40,
+          4
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          -14,
+          4.5
+        ],
+        [
+          -40,
+          2
+        ]
+      ],
+      "height": 0.04,
+      "id": "orchard-court",
+      "kind": "pavement",
+      "label": "Pearwright Court",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "court",
+        "gathering"
+      ],
+      "width": 80,
+      "x": 45,
+      "y": 147
+    },
+    {
+      "depth": 10,
+      "description": "A small tapered market court sits immediately before the archive and neighboring northern houses.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -27.5,
+          -3
+        ],
+        [
+          -12,
+          -5
+        ],
+        [
+          10,
+          -3
+        ],
+        [
+          27.5,
+          0
+        ],
+        [
+          26,
+          5
+        ],
+        [
+          -7,
+          4
+        ],
+        [
+          -25,
+          5
+        ]
+      ],
+      "height": 0.04,
+      "id": "archive-court",
+      "kind": "pavement",
+      "label": "Copperleaf Court",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "court",
+        "market",
+        "gathering"
+      ],
+      "width": 55,
+      "x": 119,
+      "y": 150
+    },
+    {
+      "depth": 28,
+      "description": "A deep bakery presents a modest shopfront to the old lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "ochre plaster"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "baker",
+      "kind": "building",
+      "label": "Embercrust Bakery",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "shop"
+      ],
+      "width": 18,
+      "x": 18,
+      "y": 20
+    },
+    {
+      "depth": 26,
+      "description": "A narrow candle shop with a dwelling above stands close beside the bakery.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 10,
+      "id": "candlehouse",
+      "kind": "building",
+      "label": "Waxwick House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "shop"
+      ],
+      "width": 20,
+      "x": 39,
+      "y": 20
+    },
+    {
+      "depth": 24,
+      "description": "A broad ribbon seller's house has a slightly shallower rear yard edge.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "ribbonhouse",
+      "kind": "building",
+      "label": "Ribbonkeeper House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "shop"
+      ],
+      "width": 22,
+      "x": 62,
+      "y": 21
+    },
+    {
+      "depth": 28,
+      "description": "A taller inn anchors the lane bend without occupying its turning space.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "rose brick and timber"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 12,
+      "id": "inn",
+      "kind": "building",
+      "label": "The Drowsy Lantern",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "inn"
+      ],
+      "width": 22,
+      "x": 86,
+      "y": 20
+    },
+    {
+      "depth": 28,
+      "description": "A deep provisions shop serves the market and quay.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "provisions",
+      "kind": "building",
+      "label": "Reedbasket Provisions",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "shop"
+      ],
+      "width": 20,
+      "x": 110,
+      "y": 20
+    },
+    {
+      "depth": 26,
+      "description": "A sturdy end house marks the approach to Basket Passage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "boathouse-home",
+      "kind": "building",
+      "label": "Ferryman's House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "cottage"
+      ],
+      "width": 20,
+      "x": 133,
+      "y": 20
+    },
+    {
+      "depth": 25,
+      "description": "A mender's cottage faces the bakery across the old lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "mender",
+      "kind": "building",
+      "label": "Patchwindow Cottage",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "cottage"
+      ],
+      "width": 20,
+      "x": 19,
+      "y": 65
+    },
+    {
+      "depth": 24,
+      "description": "An herbalist's broad house closes the western frontage before the diagonal passage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 10,
+      "id": "herbalist",
+      "kind": "building",
+      "label": "Sageglass House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "shop"
+      ],
+      "width": 22,
+      "x": 43,
+      "y": 65
+    },
+    {
+      "depth": 24,
+      "description": "A low sailmaker's range faces south, leaving a clear gap beside the bending lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "sailmaker",
+      "kind": "building",
+      "label": "Folded Sail Rooms",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "workshop"
+      ],
+      "width": 22,
+      "x": 105,
+      "y": 64
+    },
+    {
+      "depth": 24,
+      "description": "A broad storage house completes the lane's eastern north frontage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "quay-store",
+      "kind": "building",
+      "label": "Blue Door Store",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "store"
+      ],
+      "width": 22,
+      "x": 131,
+      "y": 64
+    },
+    {
+      "depth": 18,
+      "description": "A squat pottery turns with Crooked Apron Lane rather than the older southern frontage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "pottery",
+      "kind": "building",
+      "label": "Pearglaze Pottery",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "workshop"
+      ],
+      "width": 20,
+      "x": 18,
+      "y": 90
+    },
+    {
+      "depth": 18,
+      "description": "A compact bindery faces the angled workshop lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "bookbinder",
+      "kind": "building",
+      "label": "Threadspine Bindery",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "workshop"
+      ],
+      "width": 20,
+      "x": 42,
+      "y": 91
+    },
+    {
+      "depth": 18,
+      "description": "A narrower locksmith's shop leaves the turning passage open at the cluster's eastern tip.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "locksmith",
+      "kind": "building",
+      "label": "Little Keyworks",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "workshop"
+      ],
+      "width": 16,
+      "x": 63,
+      "y": 91
+    },
+    {
+      "depth": 23,
+      "description": "An original three-bay workshop has stepped copper roof caps above a brick working hall, facing the angled lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "warm brick and copper"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#A96649",
+            "dimensions": [
+              1,
+              0.64,
+              1
+            ],
+            "footprint": null,
+            "id": "hall",
+            "label": "Brick working hall",
+            "position": [
+              0,
+              0.32,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#63877B",
+            "dimensions": [
+              0.32,
+              0.16,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-west",
+            "label": "Low copper roof bay",
+            "position": [
+              -0.33,
+              0.72,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#B67545",
+            "dimensions": [
+              0.34,
+              0.36,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-middle",
+            "label": "Raised copper roof bay",
+            "position": [
+              0,
+              0.82,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#729387",
+            "dimensions": [
+              0.32,
+              0.24,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-east",
+            "label": "Middle copper roof bay",
+            "position": [
+              0.33,
+              0.76,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 10,
+      "id": "copper-workshop",
+      "kind": "building",
+      "label": "Threefold Copperworks",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "workshop",
+        "focal"
+      ],
+      "width": 22,
+      "x": 19,
+      "y": 133
+    },
+    {
+      "depth": 23,
+      "description": "A deep weaving house shares the workshop frontage and backs onto Pearwright Court.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 11,
+      "id": "weaver",
+      "kind": "building",
+      "label": "Rainthread Weaving House",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "workshop"
+      ],
+      "width": 22,
+      "x": 45,
+      "y": 134
+    },
+    {
+      "depth": 20,
+      "description": "A shallow printshop terminates the workshop range beside Orchard Passage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "printshop",
+      "kind": "building",
+      "label": "Pearleaf Press",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "workshop"
+      ],
+      "width": 20,
+      "x": 70,
+      "y": 134
+    },
+    {
+      "depth": 22,
+      "description": "A substantial orchard household faces the rear court across a narrow shared apron.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "orchard-house-west",
+      "kind": "building",
+      "label": "Russet Pear Cottage",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "cottage"
+      ],
+      "width": 22,
+      "x": 19,
+      "y": 162
+    },
+    {
+      "depth": 22,
+      "description": "A deeper family house forms the middle of the orchard court's northern edge.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 10,
+      "id": "orchard-house-middle",
+      "kind": "building",
+      "label": "Pipkeeper House",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "cottage"
+      ],
+      "width": 22,
+      "x": 45,
+      "y": 162
+    },
+    {
+      "depth": 22,
+      "description": "A smaller end cottage leaves an opening beside the passage back to the market lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "orchard-house-east",
+      "kind": "building",
+      "label": "Green Shutter Cottage",
+      "layer": 4,
+      "rotation": 10,
+      "tags": [
+        "west-cluster",
+        "cottage"
+      ],
+      "width": 20,
+      "x": 70,
+      "y": 162
+    },
+    {
+      "depth": 20,
+      "description": "An angled netmaker's range presents its long side toward the quay quarter.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "netmaker",
+      "kind": "building",
+      "label": "Silvermesh Workshop",
+      "layer": 4,
+      "rotation": -15,
+      "tags": [
+        "quay-cluster",
+        "workshop"
+      ],
+      "width": 18,
+      "x": 110,
+      "y": 90
+    },
+    {
+      "depth": 20,
+      "description": "A neighboring boatwright's hall has a slightly lower roof and a clear apron toward the waterfront.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 6,
+      "id": "boatwright",
+      "kind": "building",
+      "label": "Willow Rib Boatworks",
+      "layer": 4,
+      "rotation": -15,
+      "tags": [
+        "quay-cluster",
+        "workshop"
+      ],
+      "width": 18,
+      "x": 134,
+      "y": 90
+    },
+    {
+      "depth": 20,
+      "description": "A chartmaker's tall house faces the passage between the paired waterfront ranges.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 11,
+      "id": "chartmaker",
+      "kind": "building",
+      "label": "Blue Compass House",
+      "layer": 4,
+      "rotation": -15,
+      "tags": [
+        "quay-cluster",
+        "shop"
+      ],
+      "width": 18,
+      "x": 110,
+      "y": 117
+    },
+    {
+      "depth": 20,
+      "description": "An angled guesthouse completes the small quay group without blocking its cross-passage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 10,
+      "id": "quay-guesthouse",
+      "kind": "building",
+      "label": "Moonwake Guesthouse",
+      "layer": 4,
+      "rotation": -15,
+      "tags": [
+        "quay-cluster",
+        "guesthouse"
+      ],
+      "width": 18,
+      "x": 134,
+      "y": 117
+    },
+    {
+      "depth": 22,
+      "description": "A square masonry archive crowned by a broad copper dome overlooks the northern market court. Its authored geometry is an original storybook interpretation.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "pale masonry and weathered copper"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "dome"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#D8C49C",
+            "dimensions": [
+              1,
+              0.6,
+              1
+            ],
+            "footprint": null,
+            "id": "archive-base",
+            "label": "Masonry archive hall",
+            "position": [
+              0,
+              0.3,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#A76B42",
+            "dimensions": [
+              0.84,
+              0.08,
+              0.84
+            ],
+            "footprint": null,
+            "id": "archive-drum",
+            "label": "Copper dome drum",
+            "position": [
+              0,
+              0.64,
+              0
+            ],
+            "primitive": "cylinder",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#5F9587",
+            "dimensions": [
+              0.84,
+              0.4,
+              0.84
+            ],
+            "footprint": null,
+            "id": "archive-dome",
+            "label": "Rounded copper crown",
+            "position": [
+              0,
+              0.8,
+              0
+            ],
+            "primitive": "sphere",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 17,
+      "id": "archive",
+      "kind": "building",
+      "label": "Copperleaf Archive",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "quay-cluster",
+        "archive",
+        "focal"
+      ],
+      "width": 22,
+      "x": 99,
+      "y": 167
+    },
+    {
+      "depth": 22,
+      "description": "The archive keeper's house shares a wall with the smaller lantern guild house.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 10,
+      "id": "archive-steward",
+      "kind": "building",
+      "label": "Keeper's House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "quay-cluster",
+        "cottage"
+      ],
+      "width": 18,
+      "x": 122,
+      "y": 167
+    },
+    {
+      "depth": 22,
+      "description": "A narrow guild house adjoins the keeper's house and closes the court near the canal.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "lantern-guild",
+      "kind": "building",
+      "label": "Lantern Guild House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "quay-cluster",
+        "guild"
+      ],
+      "width": 16,
+      "x": 139,
+      "y": 167
+    },
+    {
+      "depth": 5,
+      "description": "A trained pear occupies the western pocket beside the orchard court, away from its walking strip.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pear"
+        },
+        {
+          "evidence": "authored",
+          "key": "tree.form",
+          "value": "trained spreading crown"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 6,
+      "id": "pear-west",
+      "kind": "tree",
+      "label": "Old Court Pear",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 5,
+      "x": 4,
+      "y": 145
+    },
+    {
+      "depth": 4,
+      "description": "A second pear tree sits beyond the orchard passage in an unbuilt garden pocket.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pear"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 5,
+      "id": "pear-east",
+      "kind": "tree",
+      "label": "Passage Pear",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 4,
+      "x": 91,
+      "y": 157
+    },
+    {
+      "depth": 4,
+      "description": "An apple tree shades the open pocket south of the western lane entrance.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "apple"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 5,
+      "id": "apple-pocket",
+      "kind": "tree",
+      "label": "Little Russet Apple",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 4,
+      "x": 5,
+      "y": 83
+    },
+    {
+      "depth": 0.7,
+      "description": "A short bench rests at the court edge, outside the through passage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.9,
+      "id": "court-bench",
+      "kind": "fixture",
+      "label": "Pearwright Bench",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "seating"
+      ],
+      "width": 2.5,
+      "x": 33,
+      "y": 150
+    },
+    {
+      "depth": 0.6,
+      "description": "A single tall lantern marks the court's canal-side edge without occupying its market passage.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "lamp"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 4,
+      "id": "archive-lantern",
+      "kind": "fixture",
+      "label": "Copperleaf Lantern",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "lighting"
+      ],
+      "width": 0.6,
+      "x": 145,
+      "y": 154
+    },
+    {
+      "depth": 0.5,
+      "description": "A small mooring post stands on the waterward margin of the quay.",
+      "elevation": 0.04,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bollard"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:sf-wharf"
+          ],
+          "value": "[\"monaco-old-town\",\"sf-wharf\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.7,
+      "id": "quay-bollard",
+      "kind": "fixture",
+      "label": "Boatwright Mooring",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "mooring"
+      ],
+      "width": 0.5,
+      "x": 151,
+      "y": 95
+    }
+  ],
+  "origin": {
+    "latitude": 0,
+    "longitude": 0,
+    "note": "Imaginary local coordinates; 0/0 is a placeholder, not a geographic location."
+  },
+  "relations": [
+    {
+      "from": "market-south",
+      "note": "Authored generation: The old lane turns into the diagonal market route.",
+      "to": "market-rise",
+      "type": "connects"
+    },
+    {
+      "from": "market-rise",
+      "note": "Authored generation: The primary pedestrian route continues through the next bend.",
+      "to": "market-middle",
+      "type": "connects"
+    },
+    {
+      "from": "market-middle",
+      "note": "Authored generation: The archive approach joins Lantern Bend.",
+      "to": "market-north",
+      "type": "connects"
+    },
+    {
+      "from": "market-north",
+      "note": "Authored generation: The northern bend reaches the short quay spine.",
+      "to": "waterfront",
+      "type": "connects"
+    },
+    {
+      "from": "market-south",
+      "note": "Authored generation: Basket Passage extends the old lane eastward.",
+      "to": "south-quay-link",
+      "type": "connects"
+    },
+    {
+      "from": "south-quay-link",
+      "note": "Authored generation: The southern lane opens onto the waterfront.",
+      "to": "waterfront",
+      "type": "connects"
+    },
+    {
+      "from": "workshop-lane",
+      "note": "Authored generation: The western neighborhood lane meets the main route.",
+      "to": "market-middle",
+      "type": "connects"
+    },
+    {
+      "from": "workshop-lane",
+      "note": "Authored generation: A side passage leads behind the workshop range.",
+      "to": "orchard-passage",
+      "type": "connects"
+    },
+    {
+      "from": "orchard-passage",
+      "note": "Authored generation: The rear gathering court is reached through the passage.",
+      "to": "orchard-court",
+      "type": "connects"
+    },
+    {
+      "from": "quay-crossing",
+      "note": "Authored generation: The quay cross-passage meets the diagonal lane.",
+      "to": "market-middle",
+      "type": "connects"
+    },
+    {
+      "from": "quay-crossing",
+      "note": "Authored generation: The cross-passage reaches the quay between building pairs.",
+      "to": "waterfront",
+      "type": "connects"
+    },
+    {
+      "from": "market-north",
+      "note": "Authored generation: A broad threshold leads from the bend into the court.",
+      "to": "archive-link",
+      "type": "connects"
+    },
+    {
+      "from": "archive-link",
+      "note": "Authored generation: The threshold and court form a continuous open surface.",
+      "to": "archive-court",
+      "type": "connects"
+    },
+    {
+      "from": "waterfront",
+      "note": "Authored generation: The quay follows the landward side of the bent canal edge.",
+      "to": "canal",
+      "type": "near"
+    },
+    {
+      "from": "baker",
+      "note": "Authored generation: The bakery fronts the old lane.",
+      "to": "market-south",
+      "type": "near"
+    },
+    {
+      "from": "candlehouse",
+      "note": "Authored generation: The candle shop joins the southern commercial frontage.",
+      "to": "market-south",
+      "type": "near"
+    },
+    {
+      "from": "ribbonhouse",
+      "note": "Authored generation: The ribbon seller faces the market lane.",
+      "to": "market-south",
+      "type": "near"
+    },
+    {
+      "from": "inn",
+      "note": "Authored generation: The inn overlooks the lane near its turning point.",
+      "to": "market-south",
+      "type": "near"
+    },
+    {
+      "from": "provisions",
+      "note": "Authored generation: The provisions shop serves the old market frontage.",
+      "to": "market-south",
+      "type": "near"
+    },
+    {
+      "from": "boathouse-home",
+      "note": "Authored generation: The ferryman's house marks the quay approach.",
+      "to": "south-quay-link",
+      "type": "near"
+    },
+    {
+      "from": "mender",
+      "note": "Authored generation: The cottage faces the opposing southern shops.",
+      "to": "market-south",
+      "type": "near"
+    },
+    {
+      "from": "herbalist",
+      "note": "Authored generation: The herbalist completes the western north frontage.",
+      "to": "market-south",
+      "type": "near"
+    },
+    {
+      "from": "sailmaker",
+      "note": "Authored generation: The sailmaking range addresses the old lane.",
+      "to": "market-south",
+      "type": "near"
+    },
+    {
+      "from": "quay-store",
+      "note": "Authored generation: The store stands beside the route to the quay.",
+      "to": "south-quay-link",
+      "type": "near"
+    },
+    {
+      "from": "pottery",
+      "note": "Authored generation: The pottery follows the angled neighborhood frontage.",
+      "to": "workshop-lane",
+      "type": "near"
+    },
+    {
+      "from": "bookbinder",
+      "note": "Authored generation: The bindery faces the workshop lane.",
+      "to": "workshop-lane",
+      "type": "near"
+    },
+    {
+      "from": "locksmith",
+      "note": "Authored generation: The small end shop sits beside the market turning passage.",
+      "to": "market-rise",
+      "type": "near"
+    },
+    {
+      "from": "copper-workshop",
+      "note": "Authored generation: The copperworks fronts the local lane.",
+      "to": "workshop-lane",
+      "type": "near"
+    },
+    {
+      "from": "weaver",
+      "note": "Authored generation: The weaving house shares the angled working frontage.",
+      "to": "workshop-lane",
+      "type": "near"
+    },
+    {
+      "from": "printshop",
+      "note": "Authored generation: The press stands beside the route into the rear court.",
+      "to": "orchard-passage",
+      "type": "near"
+    },
+    {
+      "from": "orchard-house-west",
+      "note": "Authored generation: The cottage faces the court's western end.",
+      "to": "orchard-court",
+      "type": "near"
+    },
+    {
+      "from": "orchard-house-middle",
+      "note": "Authored generation: The family house helps enclose the rear gathering place.",
+      "to": "orchard-court",
+      "type": "near"
+    },
+    {
+      "from": "orchard-house-east",
+      "note": "Authored generation: The end cottage faces the orchard court.",
+      "to": "orchard-court",
+      "type": "near"
+    },
+    {
+      "from": "netmaker",
+      "note": "Authored generation: The netmaker's workshop opens toward the cross-passage.",
+      "to": "quay-crossing",
+      "type": "near"
+    },
+    {
+      "from": "boatwright",
+      "note": "Authored generation: The boatworks faces the working quay.",
+      "to": "waterfront",
+      "type": "near"
+    },
+    {
+      "from": "chartmaker",
+      "note": "Authored generation: The chartmaker addresses the passage between the paired ranges.",
+      "to": "quay-crossing",
+      "type": "near"
+    },
+    {
+      "from": "quay-guesthouse",
+      "note": "Authored generation: The guesthouse belongs to the short waterfront frontage.",
+      "to": "waterfront",
+      "type": "near"
+    },
+    {
+      "from": "archive",
+      "note": "Authored generation: The domed archive anchors the court's northern edge.",
+      "to": "archive-court",
+      "type": "near"
+    },
+    {
+      "from": "archive-steward",
+      "note": "Authored generation: The keeper's house faces the archive gathering court.",
+      "to": "archive-court",
+      "type": "near"
+    },
+    {
+      "from": "lantern-guild",
+      "note": "Authored generation: The two northern houses share a party-wall boundary.",
+      "to": "archive-steward",
+      "type": "near"
+    },
+    {
+      "from": "pear-west",
+      "note": "Authored generation: Orchard planting occupies a pocket beside the court.",
+      "to": "orchard-court",
+      "type": "near"
+    },
+    {
+      "from": "court-bench",
+      "note": "Authored generation: Seating occupies the court margin rather than its walking line.",
+      "to": "orchard-court",
+      "type": "within"
+    },
+    {
+      "from": "archive-lantern",
+      "note": "Authored generation: The lantern marks the canal-side court edge.",
+      "to": "archive-court",
+      "type": "near"
+    },
+    {
+      "from": "quay-bollard",
+      "note": "Authored generation: The mooring post occupies the waterward quay margin.",
+      "to": "waterfront",
+      "type": "within"
+    }
+  ],
+  "seed": 0,
+  "sources": [
+    {
+      "accessed": "",
+      "attribution": "© OpenStreetMap contributors. Open Database License 1.0.",
+      "id": "layout-guide",
+      "notes": "Authoring guidance only; generated placements are fiction, not measurements of the study places. Study wordscape-layout-study-v1; version 1.0. Observations and authored heuristics are distinguished in src/data/layoutGuide.json. Provided reference geometry may inform authored interpretations; no fictional placement is claimed as a real-world observation.",
+      "title": "Wordscape layout authoring guide 1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+    },
+    {
+      "accessed": "2026-11-16",
+      "attribution": "© OpenStreetMap contributors; ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+      "id": "layout-ref:monaco-old-town",
+      "notes": "Layout reference monaco-old-town, provided as inspiration only: generated geometry is not surveyed geometry of this place. Complete converted world: /reference/layout-examples/monaco-old-town.wordscape.json. Source snapshot: 2026-11-15T21:22:28Z; retained source SHA-256 8f53b0364f2f6da072a729a7f26439d1277b994d57b98fd0cc066f29c91a63f9. Compact contiguous cluster and full-world statistics have different scopes. Attribution/license: https://opendatacommons.org/licenses/odbl/1-0/.",
+      "title": "Layout inspiration: Monaco · close old-town fabric",
+      "url": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf"
+    },
+    {
+      "accessed": "2026-11-16",
+      "attribution": "© OpenStreetMap contributors; ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+      "id": "layout-ref:sf-wharf",
+      "notes": "Layout reference sf-wharf, provided as inspiration only: generated geometry is not surveyed geometry of this place. Complete converted world: /reference/layout-examples/sf-wharf.wordscape.json. Source snapshot: null; retained source SHA-256 d8c6b72022545e810d1ebf4410c09731154b76448dbcb603ad295808f0e791a7. Compact contiguous cluster and full-world statistics have different scopes. Attribution/license: https://opendatacommons.org/licenses/odbl/1-0/.",
+      "title": "Layout inspiration: San Francisco · pier and harbor edge",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41868162595988%2C37.806798014784974%2C-122.41458837404012%2C37.81003194980763"
+    }
+  ],
+  "units": "metres",
+  "version": "0.7"
+}

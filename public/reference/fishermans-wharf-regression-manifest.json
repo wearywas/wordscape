@@ -1,0 +1,35 @@
+{
+  "sourceUrl": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41868162595988%2C37.806798014784974%2C-122.41458837404012%2C37.81003194980763",
+  "bounds": {
+    "west": -122.41868162595988,
+    "south": 37.806798014784974,
+    "east": -122.41458837404012,
+    "north": 37.81003194980763
+  },
+  "capturedAtUTC": "2026-11-16T04:08:47.550Z",
+  "accessed": "2026-11-16",
+  "sourceSnapshotTimestamp": null,
+  "attribution": "© OpenStreetMap contributors",
+  "license": "Open Database License (ODbL) 1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "sourceResponseSha256": "3390167301b96c9be18d60fc5b2edcd567e0be11f84c13af04ee2a5df593378a",
+  "normalizedSha256": "56ae3b48a6f29209a26270f1c922004a62f0b64aab20a0a9204a47fd66b36ed5",
+  "normalization": "Retained 247 relevant mapped elements and complete way geometry/node IDs, tags, versions and edit timestamps. Contributor user/uid metadata omitted. Source response is retained in local ignored map cache, not redistributed.",
+  "coastlineWays": [
+    32648495
+  ],
+  "aerial": {
+    "file": "fishermans-wharf-naip-regression.jpg",
+    "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-13627585.302185727%2C4552168.689191851%2C-13627129.643466333%2C4552624.347911245&bboxSR=3857&imageSR=3857&size=900%2C900&format=jpg&f=image&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B11934%5D%7D",
+    "width": 900,
+    "height": 900,
+    "northUp": true,
+    "nativeGroundSampleDistance": 0.6,
+    "exportPixelSizeLocalMetres": 0.4,
+    "acquired": "2024-05-20",
+    "attribution": "USDA NAIP",
+    "license": "Public domain",
+    "note": "Same USDA raster11934 as Washington Square; diagnostic reference only. Source resolution is not improved by resampling."
+  },
+  "diagnosis": "Shed A and Shed B are real long diagonal pier buildings. Their mapped 9m/10m heights and clipped outlines align with USDA NAIP. Missing coastal water was a separate importer omission. Coastline-derived faces use mean high-water boundary; water level is unknown."
+}

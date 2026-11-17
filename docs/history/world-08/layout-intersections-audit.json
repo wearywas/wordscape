@@ -1,0 +1,906 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-16T18:59:45.361175+00:00",
+  "tool": "Python Shapely 2.1.1",
+  "method": "Exact intersection of declared simple plan polygons after object-local metre coordinates are rotated counterclockwise and translated into world x-east/y-north metres. Rectangular fallback matches getFootprint for buildings, landmarks, roads, pavement and water.",
+  "positiveAreaThresholdM2": 1e-06,
+  "contactDistanceThresholdM": 1e-07,
+  "limitations": [
+    "Exact refers to polygon intersection rather than bounding envelopes; floating-point tolerances remain. This is not surveying accuracy or a navigation/accessibility guarantee.",
+    "Declared footprints are not mesh silhouettes. Open-sided pavilions, overhangs, decks, columns and custom recipes can make a footprint overlap intentional or physically clear.",
+    "This audit does not resolve vertical separation, terrain, walking collision meshes, doorway clearance, street usability, route-network connectivity, tree trunks or fixtures.",
+    "No input world is changed, repaired or moved. Source SHA-256 hashes bind each result to the precise retained output.",
+    "Boundary-only contact is listed separately from positive-area overlap so intended shared walls are not counted as overlapping area."
+  ],
+  "worlds": [
+    {
+      "file": "public/examples/lanternwater-lanes.wordscape.json",
+      "sha256": "8e0d4e7dab31a9bc8b3490f93a5701ef1ee91a6fcd80f5b4e395a516ac8a9790",
+      "name": "Lanternwater Lanes",
+      "objectCount": 46,
+      "solidCount": 27,
+      "routeAndWaterObjectCount": 9,
+      "hasTerrain": false,
+      "summary": {
+        "solidPairsTested": 351,
+        "solidPositiveAreaOverlaps": 0,
+        "solidBoundaryContacts": 0,
+        "solidCorridorPairsTested": 243,
+        "conservativeEnvelopeWarnings": 5,
+        "solidCorridorPositiveAreaOverlaps": 4,
+        "envelopeWarningsWithoutPositiveAreaOverlap": 1,
+        "positiveOverlapAreaM2": 89.358495633
+      },
+      "solidOverlaps": [],
+      "solidBoundaryContacts": [],
+      "solidCorridorPairs": [
+        {
+          "a": {
+            "id": "s5",
+            "label": "Kiln Court Stores",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 5,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "kiln-court",
+            "label": "Uneven Kiln Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 0.05,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 57.093344118,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            16.442927042,
+            51.0,
+            63.640295478,
+            53.185690986
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 121.965951877
+        },
+        {
+          "a": {
+            "id": "m6",
+            "label": "Copper-Domed Archive",
+            "kind": "building",
+            "hasCustomRecipe": true,
+            "baseElevation": 0.02,
+            "height": 19,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "archive-court",
+            "label": "Copper Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 0.05,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 2.272727273,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            111.0,
+            111.545454545,
+            121.0,
+            112.0
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 22.0
+        },
+        {
+          "a": {
+            "id": "m7",
+            "label": "Mapbinder's Shop",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 8,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "archive-court",
+            "label": "Copper Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 0.05,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 7.992424242,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            124.0,
+            111.0,
+            134.666666667,
+            112.0
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 18.0
+        },
+        {
+          "a": {
+            "id": "n1",
+            "label": "Pear Court Inn",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 11,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "inner-passage",
+            "label": "Pear Court Passage",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 22.0,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            35.0,
+            129.0,
+            36.0,
+            151.0
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 22.0
+        },
+        {
+          "a": {
+            "id": "n2",
+            "label": "Bellflower Apartments",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 12,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "inner-passage",
+            "label": "Pear Court Passage",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "boundary-contact",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            39.0,
+            129.0,
+            39.0,
+            149.0
+          ],
+          "boundaryContactLengthM": 20.0,
+          "wouldProduceEnvelopeWarning": false,
+          "envelopeOverlapAreaM2": 0.0
+        },
+        {
+          "a": {
+            "id": "n4",
+            "label": "Storyteller's House",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 10,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "inner-passage",
+            "label": "Pear Court Passage",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 1.0,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 13.0
+        },
+        {
+          "a": {
+            "id": "n6",
+            "label": "Saffron Cottage",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 7,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "archive-court",
+            "label": "Copper Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0.02,
+            "height": 0.05,
+            "grounding": "absolute"
+          },
+          "classification": "boundary-contact",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            103.0,
+            129.0,
+            103.0,
+            129.0
+          ],
+          "boundaryContactLengthM": 0.0,
+          "wouldProduceEnvelopeWarning": false,
+          "envelopeOverlapAreaM2": 0.0
+        }
+      ]
+    },
+    {
+      "file": "public/examples/mossbell-retreat.wordscape.json",
+      "sha256": "e5ddde45b60372221a31514721f8c32071b0295a5bb4276c09c39cd5ad5cf7fa",
+      "name": "Mossbell Retreat",
+      "objectCount": 29,
+      "solidCount": 6,
+      "routeAndWaterObjectCount": 8,
+      "hasTerrain": false,
+      "summary": {
+        "solidPairsTested": 15,
+        "solidPositiveAreaOverlaps": 0,
+        "solidBoundaryContacts": 0,
+        "solidCorridorPairsTested": 48,
+        "conservativeEnvelopeWarnings": 4,
+        "solidCorridorPositiveAreaOverlaps": 1,
+        "envelopeWarningsWithoutPositiveAreaOverlap": 3,
+        "positiveOverlapAreaM2": 2.4
+      },
+      "solidOverlaps": [],
+      "solidBoundaryContacts": [],
+      "solidCorridorPairs": [
+        {
+          "a": {
+            "id": "moss-hut-1",
+            "label": "Fern Hut",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 4.5,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "moss-path-1",
+            "label": "Arrival bend",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 10.85872688,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 3.507154183
+        },
+        {
+          "a": {
+            "id": "moss-hut-4",
+            "label": "Rowan Hut",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 4.6,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "moss-path-4",
+            "label": "Upper clearing walk",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 8.624517407,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 96.442053245
+        },
+        {
+          "a": {
+            "id": "moss-hut-5",
+            "label": "Birch Hut",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 4.4,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "moss-path-6",
+            "label": "Birch departure",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 7.84554941,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 46.826929166
+        },
+        {
+          "a": {
+            "id": "moss-pavilion",
+            "label": "Mossbell Pavilion",
+            "kind": "building",
+            "hasCustomRecipe": true,
+            "baseElevation": 0,
+            "height": 6,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "moss-pavilion-spur",
+            "label": "Pavilion threshold walk",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 2.4,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            105.8,
+            122.0,
+            108.2,
+            123.0
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 2.4
+        }
+      ]
+    },
+    {
+      "file": "public/examples/lanternwater-lanes-refined.wordscape.json",
+      "sha256": "93ff66f7e063087618511910ac89ede26c19afca443eaed8f319c95a4b34544f",
+      "name": "Lanternwater Lanes",
+      "objectCount": 46,
+      "solidCount": 26,
+      "routeAndWaterObjectCount": 13,
+      "hasTerrain": false,
+      "summary": {
+        "solidPairsTested": 325,
+        "solidPositiveAreaOverlaps": 0,
+        "solidBoundaryContacts": 1,
+        "solidCorridorPairsTested": 338,
+        "conservativeEnvelopeWarnings": 14,
+        "solidCorridorPositiveAreaOverlaps": 9,
+        "envelopeWarningsWithoutPositiveAreaOverlap": 5,
+        "positiveOverlapAreaM2": 81.686531995
+      },
+      "solidOverlaps": [],
+      "solidBoundaryContacts": [
+        {
+          "a": {
+            "id": "archive-steward",
+            "label": "Keeper's House",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 10,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "lantern-guild",
+            "label": "Lantern Guild House",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 9,
+            "grounding": "absolute"
+          },
+          "classification": "boundary-contact",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            131.0,
+            156.0,
+            131.0,
+            178.0
+          ],
+          "boundaryContactLengthM": 22.0,
+          "wouldProduceEnvelopeWarning": false,
+          "envelopeOverlapAreaM2": 0.0
+        }
+      ],
+      "solidCorridorPairs": [
+        {
+          "a": {
+            "id": "bookbinder",
+            "label": "Threadspine Bindery",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 9,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "workshop-lane",
+            "label": "Crooked Apron Lane",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 6.980617817,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 8.101619061
+        },
+        {
+          "a": {
+            "id": "locksmith",
+            "label": "Little Keyworks",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 8,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "market-rise",
+            "label": "Coppersmith Bend",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 0.931425273,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            71.584781667,
+            83.374889124,
+            72.441295623,
+            85.635255155
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 188.548059762
+        },
+        {
+          "a": {
+            "id": "copper-workshop",
+            "label": "Threefold Copperworks",
+            "kind": "building",
+            "hasCustomRecipe": true,
+            "baseElevation": 0,
+            "height": 10,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "workshop-lane",
+            "label": "Crooked Apron Lane",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 12.875215896,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 24.395927858
+        },
+        {
+          "a": {
+            "id": "copper-workshop",
+            "label": "Threefold Copperworks",
+            "kind": "building",
+            "hasCustomRecipe": true,
+            "baseElevation": 0,
+            "height": 10,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "orchard-court",
+            "label": "Pearwright Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 27.32301949,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            14.449599578,
+            142.5,
+            28.470386646,
+            146.235419114
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 95.849654097
+        },
+        {
+          "a": {
+            "id": "weaver",
+            "label": "Rainthread Weaving House",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 11,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "orchard-court",
+            "label": "Pearwright Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 41.598841643,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            32.170160674,
+            142.84833924,
+            54.391092478,
+            147.235419114
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 121.50933275
+        },
+        {
+          "a": {
+            "id": "printshop",
+            "label": "Pearleaf Press",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 9,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "market-middle",
+            "label": "Archive Approach",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 9.487474048,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 106.926981228
+        },
+        {
+          "a": {
+            "id": "printshop",
+            "label": "Pearleaf Press",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 9,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "orchard-court",
+            "label": "Pearwright Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 0.001019361,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            77.979073814,
+            145.561192113,
+            78.114226578,
+            145.584559307
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 71.46652045
+        },
+        {
+          "a": {
+            "id": "orchard-house-west",
+            "label": "Russet Pear Cottage",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 9,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "orchard-court",
+            "label": "Pearwright Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 0.338031237,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            10.037155478,
+            149.256984763,
+            12.961151378,
+            149.765495325
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 57.165554698
+        },
+        {
+          "a": {
+            "id": "orchard-house-middle",
+            "label": "Pipkeeper House",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 10,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "orchard-court",
+            "label": "Pearwright Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 8.633872907,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            35.728056339,
+            149.256984763,
+            44.533880176,
+            151.237330203
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 57.165554698
+        },
+        {
+          "a": {
+            "id": "orchard-house-east",
+            "label": "Green Shutter Cottage",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 8,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "orchard-court",
+            "label": "Pearwright Court",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 1.905286272,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            61.935953399,
+            149.43063294,
+            67.229786913,
+            150.34184396
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 48.664094501
+        },
+        {
+          "a": {
+            "id": "netmaker",
+            "label": "Silvermesh Workshop",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 7,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "market-middle",
+            "label": "Archive Approach",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 16.33432767,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 49.533648112
+        },
+        {
+          "a": {
+            "id": "chartmaker",
+            "label": "Blue Compass House",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 11,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "market-middle",
+            "label": "Archive Approach",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "envelope-only",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 1.353528129,
+          "intersectionBounds": null,
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 194.06358131
+        },
+        {
+          "a": {
+            "id": "chartmaker",
+            "label": "Blue Compass House",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 11,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "quay-crossing",
+            "label": "Netmakers Passage",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 0.477517906,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            114.281551235,
+            105.011370331,
+            116.236069911,
+            105.5
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 11.024973585
+        },
+        {
+          "a": {
+            "id": "quay-guesthouse",
+            "label": "Moonwake Guesthouse",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 10,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "quay-crossing",
+            "label": "Netmakers Passage",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "positive-area-overlap",
+          "intersectionAreaM2": 0.477517906,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            138.281551235,
+            105.011370331,
+            140.236069911,
+            105.5
+          ],
+          "boundaryContactLengthM": null,
+          "wouldProduceEnvelopeWarning": true,
+          "envelopeOverlapAreaM2": 11.024973585
+        },
+        {
+          "a": {
+            "id": "lantern-guild",
+            "label": "Lantern Guild House",
+            "kind": "building",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 9,
+            "grounding": "absolute"
+          },
+          "b": {
+            "id": "waterfront",
+            "label": "Short Lantern Quay",
+            "kind": "pavement",
+            "hasCustomRecipe": false,
+            "baseElevation": 0,
+            "height": 0.04,
+            "grounding": "absolute"
+          },
+          "classification": "boundary-contact",
+          "intersectionAreaM2": 0.0,
+          "minimumGapM": 0.0,
+          "intersectionBounds": [
+            146.5,
+            156.0,
+            147.0,
+            156.0
+          ],
+          "boundaryContactLengthM": 0.5,
+          "wouldProduceEnvelopeWarning": false,
+          "envelopeOverlapAreaM2": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2588 @@
+{
+  "bounds": {
+    "depth": 180,
+    "width": 180
+  },
+  "description": "A fictional miniature village on flat ground. Western craft cottages frame the market approach, an orchard softens the northern quarter, and a copper archive overlooks the eastern canal. All dimensions and details are design inventions, not surveyed facts.",
+  "format": "wordscape",
+  "imaginary": {
+    "brief": "Create Lanternwater: a fictional storybook canal village, on a flat 180 metre square. Plan a clear connected pedestrian layout first, with a market square, a narrow aquamarine canal along the eastern side, two small jetties, six to eight varied cottages and workshops, a copper-domed archive tower, an orchard and public benches. Use 26–36 named objects total, distinct ground/surface top heights so paths remain visible, sensible human scale, dry building foundations and generous walkable clearances. Give at least three important buildings original geometry recipes using a few colored primitive parts, including the archive dome. Fit all rotated footprints inside the square. No surveyed facts or real geographic location. Aim for a legible, charming miniature world rather than uniform blocks.",
+    "guideVersion": "1.0"
+  },
+  "name": "Lanternwater",
+  "objects": [
+    {
+      "depth": 180,
+      "description": "Continuous flat meadow beneath the village.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.02,
+      "id": "lw-ground",
+      "kind": "grass",
+      "label": "Village Meadow",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "ground"
+      ],
+      "width": 180,
+      "x": 90,
+      "y": 90
+    },
+    {
+      "depth": 160,
+      "description": "A narrow aquamarine canal along the eastern side, with uninterrupted water between the jetties.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.03,
+      "id": "lw-canal",
+      "kind": "water",
+      "label": "Aquamarine Ribbon",
+      "layer": 1,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "aquamarine",
+        "canal"
+      ],
+      "width": 12,
+      "x": 160,
+      "y": 90
+    },
+    {
+      "depth": 30,
+      "description": "An uncluttered market gathering place with generous room for temporary stalls and walking.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.06,
+      "id": "lw-square",
+      "kind": "pavement",
+      "label": "Lantern Market Square",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "market",
+        "pedestrian"
+      ],
+      "width": 40,
+      "x": 88,
+      "y": 83
+    },
+    {
+      "depth": 58,
+      "description": "The principal pedestrian entrance leads directly into the market square.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "lw-entry",
+      "kind": "pavement",
+      "label": "South Arrival Walk",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "pedestrian"
+      ],
+      "width": 8,
+      "x": 90,
+      "y": 39
+    },
+    {
+      "depth": 12,
+      "description": "A broad shared doorstep lane between four western cottages and workshops.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "lw-craft-lane",
+      "kind": "pavement",
+      "label": "Storymakers Lane",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "pedestrian"
+      ],
+      "width": 48,
+      "x": 44,
+      "y": 83
+    },
+    {
+      "depth": 58,
+      "description": "A clear northbound promenade beside the orchard.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "lw-orchard-walk",
+      "kind": "pavement",
+      "label": "Orchardward Walk",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "pedestrian"
+      ],
+      "width": 6,
+      "x": 90,
+      "y": 127
+    },
+    {
+      "depth": 160,
+      "description": "A continuous dry waterside promenade, set back from the canal edge.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "lw-quay",
+      "kind": "pavement",
+      "label": "Kingfisher Quay",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "pedestrian",
+        "quay"
+      ],
+      "width": 8,
+      "x": 146,
+      "y": 90
+    },
+    {
+      "depth": 6,
+      "description": "The direct connection from the square to the quay.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "lw-market-link",
+      "kind": "pavement",
+      "label": "Market-to-Water Walk",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "pedestrian"
+      ],
+      "width": 34,
+      "x": 125,
+      "y": 83
+    },
+    {
+      "depth": 6,
+      "description": "A northern crosswalk completes the pedestrian loop between orchard and quay.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "lw-north-link",
+      "kind": "pavement",
+      "label": "Copper Loop Walk",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "pedestrian"
+      ],
+      "width": 58,
+      "x": 119,
+      "y": 145
+    },
+    {
+      "depth": 18,
+      "description": "A short approach to the archive's north-facing entrance.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "lw-archive-walk",
+      "kind": "pavement",
+      "label": "Archive Door Walk",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "pedestrian"
+      ],
+      "width": 5,
+      "x": 115,
+      "y": 136
+    },
+    {
+      "depth": 4,
+      "description": "A small timber landing extends from the quay over the canal without crossing it.",
+      "elevation": 0.04,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.14,
+      "id": "lw-south-jetty",
+      "kind": "pavement",
+      "label": "Parcel Jetty",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "jetty",
+        "timber"
+      ],
+      "width": 18,
+      "x": 155,
+      "y": 43
+    },
+    {
+      "depth": 4,
+      "description": "A second compact landing offers a quiet place to watch imaginary letter boats.",
+      "elevation": 0.04,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.14,
+      "id": "lw-north-jetty",
+      "kind": "pavement",
+      "label": "Moonletter Jetty",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "jetty",
+        "timber"
+      ],
+      "width": 18,
+      "x": 155,
+      "y": 129
+    },
+    {
+      "depth": 22,
+      "description": "Authored model interpretation: The ivory archive retains its original drum, dry stone plinth, copper cornice, rounded dome and north-facing blue door. A slender copper belt and paired blue upper windows enrich its storybook silhouette.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 4
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "dome"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#A69C88",
+            "dimensions": [
+              0.96,
+              0.05,
+              0.88
+            ],
+            "footprint": null,
+            "id": "plinth",
+            "label": "Dry stone plinth",
+            "position": [
+              0,
+              0.025,
+              0
+            ],
+            "primitive": "cylinder",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#F1DEB5",
+            "dimensions": [
+              0.76,
+              0.62,
+              0.7
+            ],
+            "footprint": null,
+            "id": "tower",
+            "label": "Ivory archive drum",
+            "position": [
+              0,
+              0.36,
+              0
+            ],
+            "primitive": "cylinder",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#986043",
+            "dimensions": [
+              0.84,
+              0.04,
+              0.78
+            ],
+            "footprint": null,
+            "id": "cornice",
+            "label": "Copper cornice",
+            "position": [
+              0,
+              0.68,
+              0
+            ],
+            "primitive": "cylinder",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#B77850",
+            "dimensions": [
+              0.8,
+              0.4,
+              0.74
+            ],
+            "footprint": null,
+            "id": "dome",
+            "label": "Rounded copper dome",
+            "position": [
+              0,
+              0.79,
+              0
+            ],
+            "primitive": "sphere",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#356F7C",
+            "dimensions": [
+              0.15,
+              0.16,
+              0.025
+            ],
+            "footprint": null,
+            "id": "door",
+            "label": "Blue north door",
+            "position": [
+              0,
+              0.13,
+              0.35
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#B77850",
+            "dimensions": [
+              0.78,
+              0.018,
+              0.72
+            ],
+            "footprint": null,
+            "id": "belt",
+            "label": "Slender copper belt",
+            "position": [
+              0,
+              0.39,
+              0
+            ],
+            "primitive": "cylinder",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#356F7C",
+            "dimensions": [
+              0.09,
+              0.12,
+              0.035
+            ],
+            "footprint": null,
+            "id": "window-west",
+            "label": "West blue upper window",
+            "position": [
+              -0.15,
+              0.53,
+              0.318
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#356F7C",
+            "dimensions": [
+              0.09,
+              0.12,
+              0.035
+            ],
+            "footprint": null,
+            "id": "window-east",
+            "label": "East blue upper window",
+            "position": [
+              0.15,
+              0.53,
+              0.318
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 23,
+      "id": "lw-archive",
+      "kind": "building",
+      "label": "Archive of Unfinished Tales",
+      "layer": 5,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "focal",
+        "archive"
+      ],
+      "width": 20,
+      "x": 115,
+      "y": 116
+    },
+    {
+      "depth": 20,
+      "description": "A plum-colored bookbinding workshop with a warm pyramidal roof and a door opening south onto Storymakers Lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#A49B8B",
+            "dimensions": [
+              1,
+              0.06,
+              1
+            ],
+            "footprint": null,
+            "id": "base",
+            "label": "Stone foundation",
+            "position": [
+              0,
+              0.03,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#89647C",
+            "dimensions": [
+              0.88,
+              0.58,
+              0.88
+            ],
+            "footprint": null,
+            "id": "walls",
+            "label": "Plum plaster walls",
+            "position": [
+              0,
+              0.35,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#BC765C",
+            "dimensions": [
+              1,
+              0.34,
+              1
+            ],
+            "footprint": null,
+            "id": "roof",
+            "label": "Terracotta pyramid roof",
+            "position": [
+              0,
+              0.81,
+              0
+            ],
+            "primitive": "cone",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#D9AC59",
+            "dimensions": [
+              0.17,
+              0.3,
+              0.02
+            ],
+            "footprint": null,
+            "id": "door",
+            "label": "Ochre lane door",
+            "position": [
+              0,
+              0.21,
+              -0.445
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 9,
+      "id": "lw-bookbinder",
+      "kind": "building",
+      "label": "Mothwing Bindery",
+      "layer": 5,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "workshop"
+      ],
+      "width": 18,
+      "x": 28,
+      "y": 99
+    },
+    {
+      "depth": 20,
+      "description": "A teal lantern workshop with an oversized golden display window facing the lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#AAA18F",
+            "dimensions": [
+              1,
+              0.06,
+              1
+            ],
+            "footprint": null,
+            "id": "base",
+            "label": "Dry masonry base",
+            "position": [
+              0,
+              0.03,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#55938F",
+            "dimensions": [
+              0.9,
+              0.66,
+              0.9
+            ],
+            "footprint": null,
+            "id": "walls",
+            "label": "Teal workshop",
+            "position": [
+              0,
+              0.39,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#4B5963",
+            "dimensions": [
+              1,
+              0.08,
+              1
+            ],
+            "footprint": null,
+            "id": "roof",
+            "label": "Dark overhanging roof",
+            "position": [
+              0,
+              0.76,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#F5CE76",
+            "dimensions": [
+              0.32,
+              0.28,
+              0.02
+            ],
+            "footprint": null,
+            "id": "window",
+            "label": "Golden display window",
+            "position": [
+              -0.15,
+              0.35,
+              -0.455
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#A66E59",
+            "dimensions": [
+              0.1,
+              0.24,
+              0.12
+            ],
+            "footprint": null,
+            "id": "chimney",
+            "label": "Small brick chimney",
+            "position": [
+              0.27,
+              0.88,
+              0.2
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 10,
+      "id": "lw-lanternmaker",
+      "kind": "building",
+      "label": "Firefly Lanternworks",
+      "layer": 5,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "workshop"
+      ],
+      "width": 20,
+      "x": 53,
+      "y": 99
+    },
+    {
+      "depth": 20,
+      "description": "Authored model interpretation: Butter-yellow plaster walls support an editable red-clay roof with a deliberately stepped gabled profile. A north-facing ochre door and warm display windows welcome visitors from Storymakers Lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "yellow plaster and red clay tile"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#ABA08D",
+            "dimensions": [
+              1,
+              0.06,
+              1
+            ],
+            "footprint": null,
+            "id": "base",
+            "label": "Stone cottage base",
+            "position": [
+              0,
+              0.03,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#EBCB79",
+            "dimensions": [
+              0.88,
+              0.58,
+              0.88
+            ],
+            "footprint": null,
+            "id": "walls",
+            "label": "Butter-yellow plaster",
+            "position": [
+              0,
+              0.35,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#AA5544",
+            "dimensions": [
+              1,
+              0.09,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-low",
+            "label": "Broad clay eaves",
+            "position": [
+              0,
+              0.685,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#BF6850",
+            "dimensions": [
+              0.67,
+              0.12,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-middle",
+            "label": "Raised tile courses",
+            "position": [
+              0,
+              0.79,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#CE7959",
+            "dimensions": [
+              0.3,
+              0.15,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-ridge",
+            "label": "Narrow clay ridge",
+            "position": [
+              0,
+              0.925,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#A36A3D",
+            "dimensions": [
+              0.17,
+              0.34,
+              0.025
+            ],
+            "footprint": null,
+            "id": "door",
+            "label": "North bakery door",
+            "position": [
+              0,
+              0.23,
+              0.445
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#FFE4A0",
+            "dimensions": [
+              0.22,
+              0.22,
+              0.025
+            ],
+            "footprint": null,
+            "id": "window-west",
+            "label": "West pastry window",
+            "position": [
+              -0.27,
+              0.37,
+              0.445
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#FFE4A0",
+            "dimensions": [
+              0.22,
+              0.22,
+              0.025
+            ],
+            "footprint": null,
+            "id": "window-east",
+            "label": "East pastry window",
+            "position": [
+              0.27,
+              0.37,
+              0.445
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 8,
+      "id": "lw-baker",
+      "kind": "building",
+      "label": "Crumbcurl Bakehouse",
+      "layer": 5,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "bakery",
+        "cottage"
+      ],
+      "width": 18,
+      "x": 28,
+      "y": 67
+    },
+    {
+      "depth": 20,
+      "description": "Authored model interpretation: Blue limewash and a dark timber floor band distinguish the two-storey cottage. An indigo stepped gabled roof crowns its narrow form, while a north-facing door and tall amber window overlook the lane.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 2
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "blue limewash and timber"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#9D9C91",
+            "dimensions": [
+              1,
+              0.05,
+              1
+            ],
+            "footprint": null,
+            "id": "base",
+            "label": "Stone foundation",
+            "position": [
+              0,
+              0.025,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#719EBA",
+            "dimensions": [
+              0.88,
+              0.65,
+              0.88
+            ],
+            "footprint": null,
+            "id": "walls",
+            "label": "Blue limewashed walls",
+            "position": [
+              0,
+              0.375,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#5C514A",
+            "dimensions": [
+              0.9,
+              0.035,
+              0.9
+            ],
+            "footprint": null,
+            "id": "floor-band",
+            "label": "Timber storey band",
+            "position": [
+              0,
+              0.39,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#414E70",
+            "dimensions": [
+              1,
+              0.08,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-low",
+            "label": "Indigo eaves",
+            "position": [
+              0,
+              0.74,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#536286",
+            "dimensions": [
+              0.66,
+              0.1,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-middle",
+            "label": "Stepped slate slopes",
+            "position": [
+              0,
+              0.83,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#667597",
+            "dimensions": [
+              0.28,
+              0.12,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-ridge",
+            "label": "Narrow indigo ridge",
+            "position": [
+              0,
+              0.94,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#665344",
+            "dimensions": [
+              0.17,
+              0.3,
+              0.025
+            ],
+            "footprint": null,
+            "id": "door",
+            "label": "North timber door",
+            "position": [
+              -0.22,
+              0.2,
+              0.445
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#F1D397",
+            "dimensions": [
+              0.24,
+              0.25,
+              0.025
+            ],
+            "footprint": null,
+            "id": "window",
+            "label": "Tall amber weaving window",
+            "position": [
+              0.2,
+              0.53,
+              0.445
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 10,
+      "id": "lw-weaver",
+      "kind": "building",
+      "label": "Blue Thread Cottage",
+      "layer": 5,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "cottage",
+        "weaver"
+      ],
+      "width": 16,
+      "x": 53,
+      "y": 67
+    },
+    {
+      "depth": 18,
+      "description": "A low timber workshop facing east onto the dry quay, near Parcel Jetty.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "weathered timber"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 6,
+      "id": "lw-boatwright",
+      "kind": "building",
+      "label": "Minnow Boatworks",
+      "layer": 5,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "workshop"
+      ],
+      "width": 20,
+      "x": 132,
+      "y": 27
+    },
+    {
+      "depth": 18,
+      "description": "A rose-colored cottage tea room with an east-facing quay entrance and a compact hipped roof.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "rose plaster"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "lw-teahouse",
+      "kind": "building",
+      "label": "Rosehip Kettle Cottage",
+      "layer": 5,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "cottage",
+        "tea-room"
+      ],
+      "width": 18,
+      "x": 133,
+      "y": 61
+    },
+    {
+      "depth": 18,
+      "description": "A small cream cottage at the quiet northern end of the quay, with its door facing east.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 1
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "lw-keeper",
+      "kind": "building",
+      "label": "Moonletter Keeper's Cottage",
+      "layer": 5,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "cottage"
+      ],
+      "width": 16,
+      "x": 134,
+      "y": 164
+    },
+    {
+      "depth": 44,
+      "description": "A public orchard meadow with generous gaps between its six fruit trees and an open eastern approach.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.025,
+      "id": "lw-orchard",
+      "kind": "grass",
+      "label": "Six Wishes Orchard",
+      "layer": 1,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "orchard",
+        "public-open-space"
+      ],
+      "width": 70,
+      "x": 47,
+      "y": 140
+    },
+    {
+      "depth": 8,
+      "description": "A rounded apple tree in the western orchard row.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "apple"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 6,
+      "id": "lw-tree-1",
+      "kind": "tree",
+      "label": "First Wish Apple",
+      "layer": 5,
+      "parentId": "lw-orchard",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "fruit-tree"
+      ],
+      "width": 8,
+      "x": 26,
+      "y": 132
+    },
+    {
+      "depth": 7,
+      "description": "An upright pear tree in the middle orchard row.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pear"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "lw-tree-2",
+      "kind": "tree",
+      "label": "Second Wish Pear",
+      "layer": 5,
+      "parentId": "lw-orchard",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "fruit-tree"
+      ],
+      "width": 7,
+      "x": 46,
+      "y": 132
+    },
+    {
+      "depth": 7,
+      "description": "A compact plum tree beside the orchard's open eastern margin.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "plum"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 5,
+      "id": "lw-tree-3",
+      "kind": "tree",
+      "label": "Third Wish Plum",
+      "layer": 5,
+      "parentId": "lw-orchard",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "fruit-tree"
+      ],
+      "width": 7,
+      "x": 66,
+      "y": 132
+    },
+    {
+      "depth": 9,
+      "description": "A broad apple tree in the northern orchard row.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "apple"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 6,
+      "id": "lw-tree-4",
+      "kind": "tree",
+      "label": "Fourth Wish Apple",
+      "layer": 5,
+      "parentId": "lw-orchard",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "fruit-tree"
+      ],
+      "width": 9,
+      "x": 26,
+      "y": 150
+    },
+    {
+      "depth": 7,
+      "description": "A tall pear tree with open grass around its trunk.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pear"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "lw-tree-5",
+      "kind": "tree",
+      "label": "Fifth Wish Pear",
+      "layer": 5,
+      "parentId": "lw-orchard",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "fruit-tree"
+      ],
+      "width": 7,
+      "x": 46,
+      "y": 150
+    },
+    {
+      "depth": 8,
+      "description": "The orchard's northeastern plum tree.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "plum"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 5,
+      "id": "lw-tree-6",
+      "kind": "tree",
+      "label": "Sixth Wish Plum",
+      "layer": 5,
+      "parentId": "lw-orchard",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "fruit-tree"
+      ],
+      "width": 8,
+      "x": 66,
+      "y": 150
+    },
+    {
+      "depth": 1.2,
+      "description": "A public bench along the square's southern margin, away from its through-route.",
+      "elevation": 0.06,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 1,
+      "id": "lw-bench-market",
+      "kind": "fixture",
+      "label": "Market Story Bench",
+      "layer": 6,
+      "parentId": "lw-square",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "public-seating"
+      ],
+      "width": 4,
+      "x": 76,
+      "y": 71
+    },
+    {
+      "depth": 1.2,
+      "description": "A meadow bench beside, rather than across, the orchard promenade.",
+      "elevation": 0.025,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 1,
+      "id": "lw-bench-orchard",
+      "kind": "fixture",
+      "label": "Pearshade Bench",
+      "layer": 6,
+      "parentId": "lw-orchard",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "public-seating"
+      ],
+      "width": 4,
+      "x": 79,
+      "y": 141
+    },
+    {
+      "depth": 4,
+      "description": "A canal-facing bench on the inland edge of the quay, leaving its main walking strip clear.",
+      "elevation": 0.04,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 1,
+      "id": "lw-bench-quay",
+      "kind": "fixture",
+      "label": "Kingfisher Watching Bench",
+      "layer": 6,
+      "parentId": "lw-quay",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "public-seating"
+      ],
+      "width": 1.2,
+      "x": 143,
+      "y": 101
+    },
+    {
+      "depth": 1.2,
+      "description": "A quiet bench beside the archive approach without obstructing the doorway.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 1,
+      "id": "lw-bench-archive",
+      "kind": "fixture",
+      "label": "Unfinished Chapter Bench",
+      "layer": 6,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "public-seating"
+      ],
+      "width": 4,
+      "x": 122,
+      "y": 134
+    },
+    {
+      "depth": 0.8,
+      "description": "A single golden lantern marks the market's northwest corner while leaving the central square open.",
+      "elevation": 0.06,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "lamp"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 4,
+      "id": "lw-lantern",
+      "kind": "fixture",
+      "label": "First Evening Lantern",
+      "layer": 6,
+      "parentId": "lw-square",
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "village-emblem"
+      ],
+      "width": 0.8,
+      "x": 71,
+      "y": 95
+    },
+    {
+      "depth": 0.7,
+      "description": "A small honey-gold lamp beside the arrival walk, outside its walking strip.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "lamp"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 3,
+      "id": "lw-evening-lamp-south",
+      "kind": "fixture",
+      "label": "Arrival Glow",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "golden"
+      ],
+      "width": 0.7,
+      "x": 97,
+      "y": 48
+    },
+    {
+      "depth": 0.7,
+      "description": "A copper-framed lantern just south of the northern crosswalk, clear of the archive approach.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "lamp"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 3,
+      "id": "lw-evening-lamp-loop",
+      "kind": "fixture",
+      "label": "Copper Loop Glow",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "copper"
+      ],
+      "width": 0.7,
+      "x": 130,
+      "y": 139
+    },
+    {
+      "depth": 0.7,
+      "description": "A compact golden lamp on the grassy canal-side margin of the quay, leaving the promenade unobstructed.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "lamp"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 3,
+      "id": "lw-evening-lamp-water",
+      "kind": "fixture",
+      "label": "Waterside Glow",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "authored",
+        "golden"
+      ],
+      "width": 0.7,
+      "x": 152,
+      "y": 112
+    }
+  ],
+  "origin": {
+    "latitude": 0,
+    "longitude": 0,
+    "note": "Imaginary local coordinates; 0/0 is a placeholder, not a geographic location."
+  },
+  "relations": [
+    {
+      "from": "lw-entry",
+      "note": "Authored generation: The southern arrival opens directly onto the market.",
+      "to": "lw-square",
+      "type": "connects"
+    },
+    {
+      "from": "lw-craft-lane",
+      "note": "Authored generation: The western workshop lane joins the square's west edge.",
+      "to": "lw-square",
+      "type": "connects"
+    },
+    {
+      "from": "lw-square",
+      "note": "Authored generation: The north exit continues toward the orchard.",
+      "to": "lw-orchard-walk",
+      "type": "connects"
+    },
+    {
+      "from": "lw-square",
+      "note": "Authored generation: The east exit leads to the canal.",
+      "to": "lw-market-link",
+      "type": "connects"
+    },
+    {
+      "from": "lw-market-link",
+      "note": "Authored generation: A clear pedestrian junction links market and waterfront.",
+      "to": "lw-quay",
+      "type": "connects"
+    },
+    {
+      "from": "lw-orchard-walk",
+      "note": "Authored generation: The northern junction begins the return leg of the loop.",
+      "to": "lw-north-link",
+      "type": "connects"
+    },
+    {
+      "from": "lw-north-link",
+      "note": "Authored generation: The crosswalk meets the continuous quay.",
+      "to": "lw-quay",
+      "type": "connects"
+    },
+    {
+      "from": "lw-archive-walk",
+      "note": "Authored generation: A short spur provides the archive's formal approach.",
+      "to": "lw-north-link",
+      "type": "connects"
+    },
+    {
+      "from": "lw-archive",
+      "note": "Authored generation: The north door meets its dedicated walk.",
+      "to": "lw-archive-walk",
+      "type": "connects"
+    },
+    {
+      "from": "lw-bookbinder",
+      "note": "Authored generation: The south-facing door opens onto the lane frontage.",
+      "to": "lw-craft-lane",
+      "type": "connects"
+    },
+    {
+      "from": "lw-lanternmaker",
+      "note": "Authored generation: The workshop's south frontage meets the lane.",
+      "to": "lw-craft-lane",
+      "type": "connects"
+    },
+    {
+      "from": "lw-baker",
+      "note": "Authored generation: The bakery's north entrance opens onto the lane.",
+      "to": "lw-craft-lane",
+      "type": "connects"
+    },
+    {
+      "from": "lw-weaver",
+      "note": "Authored generation: The cottage's north door addresses the shared lane.",
+      "to": "lw-craft-lane",
+      "type": "connects"
+    },
+    {
+      "from": "lw-boatwright",
+      "note": "Authored generation: The east workshop door meets the dry quay.",
+      "to": "lw-quay",
+      "type": "connects"
+    },
+    {
+      "from": "lw-teahouse",
+      "note": "Authored generation: The east-facing tea room entrance meets the quay.",
+      "to": "lw-quay",
+      "type": "connects"
+    },
+    {
+      "from": "lw-keeper",
+      "note": "Authored generation: The keeper's east entrance opens onto the northern quay.",
+      "to": "lw-quay",
+      "type": "connects"
+    },
+    {
+      "from": "lw-south-jetty",
+      "note": "Authored generation: The timber landing overlaps the quay at its landward end.",
+      "to": "lw-quay",
+      "type": "connects"
+    },
+    {
+      "from": "lw-north-jetty",
+      "note": "Authored generation: The northern landing begins on the quay.",
+      "to": "lw-quay",
+      "type": "connects"
+    },
+    {
+      "from": "lw-south-jetty",
+      "note": "Authored generation: The raised deck deliberately projects over water without crossing the canal.",
+      "to": "lw-canal",
+      "type": "overlaps"
+    },
+    {
+      "from": "lw-north-jetty",
+      "note": "Authored generation: The raised deck deliberately projects over water without crossing the canal.",
+      "to": "lw-canal",
+      "type": "overlaps"
+    },
+    {
+      "from": "lw-orchard",
+      "note": "Authored generation: The open eastern meadow margin gives an informal dry approach from the promenade.",
+      "to": "lw-orchard-walk",
+      "type": "near"
+    },
+    {
+      "from": "lw-bench-market",
+      "note": "Authored generation: Seating occupies a peripheral part of the market paving.",
+      "to": "lw-square",
+      "type": "within"
+    },
+    {
+      "from": "lw-bench-orchard",
+      "note": "Authored generation: The orchard bench sits in open meadow beyond the tree rows.",
+      "to": "lw-orchard",
+      "type": "within"
+    },
+    {
+      "from": "lw-bench-quay",
+      "note": "Authored generation: The bench occupies the inland margin, preserving the waterside walking strip.",
+      "to": "lw-quay",
+      "type": "within"
+    },
+    {
+      "from": "lw-bench-archive",
+      "note": "Authored generation: Reading seating is beside the approach rather than on it.",
+      "to": "lw-archive-walk",
+      "type": "near"
+    },
+    {
+      "from": "lw-evening-lamp-south",
+      "note": "Authored generation: Authored edge lighting outside the arrival walking strip.",
+      "to": "lw-entry",
+      "type": "near"
+    },
+    {
+      "from": "lw-evening-lamp-loop",
+      "note": "Authored generation: Authored lantern beside the northern loop.",
+      "to": "lw-north-link",
+      "type": "near"
+    },
+    {
+      "from": "lw-evening-lamp-water",
+      "note": "Authored generation: Authored lighting beside the promenade.",
+      "to": "lw-quay",
+      "type": "near"
+    },
+    {
+      "from": "lw-entry",
+      "note": "Authored generation: Intended arrival route into the open market.",
+      "to": "lw-square",
+      "type": "connects"
+    },
+    {
+      "from": "lw-square",
+      "note": "Authored generation: Intended pedestrian access to the cottage frontages.",
+      "to": "lw-craft-lane",
+      "type": "connects"
+    },
+    {
+      "from": "lw-baker",
+      "note": "Authored generation: North-facing bakery entrance meets the lane.",
+      "to": "lw-craft-lane",
+      "type": "connects"
+    },
+    {
+      "from": "lw-weaver",
+      "note": "Authored generation: North-facing cottage entrance meets the lane.",
+      "to": "lw-craft-lane",
+      "type": "connects"
+    },
+    {
+      "from": "lw-archive",
+      "note": "Authored generation: North-facing archive entrance retains its dedicated approach.",
+      "to": "lw-archive-walk",
+      "type": "connects"
+    },
+    {
+      "from": "lw-archive-walk",
+      "note": "Authored generation: Intended archive connection to the northern loop.",
+      "to": "lw-north-link",
+      "type": "connects"
+    },
+    {
+      "from": "lw-north-link",
+      "note": "Authored generation: Intended northern return to the waterside promenade.",
+      "to": "lw-quay",
+      "type": "connects"
+    },
+    {
+      "from": "lw-square",
+      "note": "Authored generation: Intended eastbound market route.",
+      "to": "lw-market-link",
+      "type": "connects"
+    },
+    {
+      "from": "lw-market-link",
+      "note": "Authored generation: Intended market access to the waterfront.",
+      "to": "lw-quay",
+      "type": "connects"
+    }
+  ],
+  "seed": 0,
+  "sources": [
+    {
+      "accessed": "",
+      "attribution": "© OpenStreetMap contributors. Open Database License 1.0.",
+      "id": "layout-guide",
+      "notes": "Authoring guidance only; generated placements are fiction, not measurements of the study places. Study wordscape-layout-study-v1; version 1.0. Observations and authored heuristics are distinguished in src/data/layoutGuide.json. No source geometry is copied into this world.",
+      "title": "Wordscape layout authoring guide 1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+    }
+  ],
+  "units": "metres",
+  "version": "0.7"
+}

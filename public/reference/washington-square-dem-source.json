@@ -1,0 +1,8 @@
+{
+  "id": "usgs-dem-2023",
+  "title": "USGS 3DEP bare-earth terrain \u00b7 20 April 2023",
+  "url": "https://www.fisheries.noaa.gov/inport/item/73506",
+  "attribution": "U.S. Geological Survey / NV5 Geospatial. Public-domain 3DEP data; NOAA metadata.",
+  "accessed": "2026-11-15",
+  "notes": "CA_SanFrancisco_B23 lidar, acquired 2023-04-20. Native project DEM 0.25 m; this world uses the standardized USGS 1 m DEM, sampled onto 5 m nodes. Absolute NAVD88 (GEOID18) metres. Source project accuracy tests are not local accuracy claims for this sampled grid. Native subset, metadata and extraction script are retained under public/reference. Ground beneath buildings is interpolated."
+}

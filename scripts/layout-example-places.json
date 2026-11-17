@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "examples": [
+    {
+      "id": "monaco-old-town",
+      "name": "Monaco · close old-town fabric",
+      "context": "Close, irregular footprints and narrow routes around a historic street network.",
+      "tags": ["organic", "dense", "historic", "irregular"],
+      "size": 220,
+      "center": [185, 135]
+    },
+    {
+      "id": "sf-wharf",
+      "name": "San Francisco · pier and harbor edge",
+      "context": "Large elongated pier sheds meet a finer street and pedestrian network.",
+      "tags": ["harbor", "waterfront", "industrial", "large-footprints"],
+      "size": 240,
+      "center": [180, 225]
+    },
+    {
+      "id": "hulhumale-grid",
+      "name": "Hulhumalé · planned blocks beside a park",
+      "context": "Regular building rows and orthogonal roads adjoining a large open-space boundary.",
+      "tags": ["planned", "grid", "park-edge", "dense"],
+      "size": 220,
+      "center": [275, 215]
+    },
+    {
+      "id": "thulusdhoo-village",
+      "name": "Thulusdhoo · close island settlement",
+      "context": "Small varied footprints packed along a connected street network.",
+      "tags": ["island", "dense", "small-buildings", "mixed-spacing"],
+      "size": 220,
+      "center": [205, 195]
+    },
+    {
+      "id": "schaan-housing",
+      "name": "Schaan · detached residential fabric",
+      "context": "Detached buildings, varied setbacks, gardens and branching local roads.",
+      "tags": ["suburban", "detached", "gardens", "setbacks"],
+      "size": 220,
+      "center": [305, 160]
+    },
+    {
+      "id": "malbun-village",
+      "name": "Malbun · mountain village edge",
+      "context": "Freestanding buildings and curved routes with larger intervals between the mapped buildings.",
+      "tags": ["village", "mountain", "curved", "open-spacing"],
+      "size": 250,
+      "center": [210, 155]
+    },
+    {
+      "id": "vaduz-center",
+      "name": "Vaduz · mixed civic center",
+      "context": "Contrasting civic footprints and local streets with several different orientations.",
+      "tags": ["civic", "mixed-footprints", "angular", "small-town"],
+      "size": 240,
+      "center": [145, 205]
+    },
+    {
+      "id": "la-digue-coast",
+      "name": "La Digue · dispersed island buildings",
+      "context": "Many small separate buildings around a sparse road network and larger gaps.",
+      "tags": ["island", "dispersed", "small-buildings", "irregular"],
+      "size": 240,
+      "center": [250, 250]
+    },
+    {
+      "id": "apia-center",
+      "name": "Apia · civic district and open grounds",
+      "context": "Large and small urban footprints around branching roads and open grounds.",
+      "tags": ["civic", "mixed-scale", "open-space", "urban"],
+      "size": 240,
+      "center": [235, 220]
+    },
+    {
+      "id": "lefaga-village",
+      "name": "Matautu Lefaga · roadside village",
+      "context": "A sparse sequence of detached buildings follows a curving road.",
+      "tags": ["village", "ribbon", "curved", "sparse"],
+      "size": 250,
+      "center": [305, 210]
+    }
+  ]
+}

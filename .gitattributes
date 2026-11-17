@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.glb binary
+*.tif binary
+# Retain original prompt and source-record whitespace as verification evidence.
+docs/history/** -whitespace
+public/reference/*-source-metadata.xml -whitespace

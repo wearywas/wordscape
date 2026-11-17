@@ -1,0 +1,1816 @@
+{
+  "version": 1,
+  "studyId": "wordscape-layout-study-v1",
+  "generatedAt": "2026-11-16T07:44:29.232Z",
+  "plannedCount": 20,
+  "completedCount": 20,
+  "sourceLicense": {
+    "name": "Open Database License 1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "providerPolicy": "https://download.geofabrik.de/",
+  "acquisition": {
+    "method": "Small Geofabrik region downloads + two retained extracts; offline bounding-box candidate selection",
+    "requests": "Six regional downloads, one attempt each; cached files reused. No public editing-API batch or imagery requests.",
+    "failedOverpassProbes": [
+      {
+        "endpoint": "https://overpass.private.coffee/api/interpreter",
+        "method": "POST",
+        "timeoutSeconds": 25
+      },
+      {
+        "endpoint": "https://overpass-api.de/api/interpreter",
+        "method": "POST",
+        "timeoutSeconds": 25
+      },
+      {
+        "endpoint": "https://overpass-api.de/api/interpreter",
+        "method": "GET",
+        "timeoutSeconds": 18
+      }
+    ],
+    "note": "All three preliminary Overpass probes timed out before the download strategy was selected; they are not completed samples."
+  },
+  "limitations": [
+    "Purposive 20-window case study, selected partly by small downloadable regions after Overpass timeouts. Not random, statistically representative, or machine-learning training.",
+    "OSM records mapped geometry, not complete real-world inventories. Zero means no retained feature, never proven absence. The intendedContext labels are authored sampling intentions.",
+    "Only simple closed ways are measured as areas. Multipolygon relations/holes and building parts are omitted; very long ways over 5000 nodes are omitted. Retained SF query coverage differs from whole-region crops.",
+    "Distances use local scaled Web Mercator metres. Nearest-building gaps are edge-to-edge within the clipped window; edge censoring and unmapped neighbors bias them. Shared walls yield zero.",
+    "Road proximity is from each building footprint envelope center to a mapped motor-road centerline, not a setback, entrance distance, route length, or access guarantee.",
+    "Connectivity uses shared original OSM node identities and is cut by window boundaries. It is not navigation, access, accessibility, or grade-separation validation.",
+    "Land-use adjacency counts building/area pairs within an authored 10 m threshold, including overlaps. Areas may overlap; summed footprint coverage is not polygon-union coverage.",
+    "No terrain, imagery, field-verified heights/widths, traffic conditions, or tree-species inventory was acquired. Retained height tags are not used in these metrics. Snapshot/edit dates are not survey acquisition dates."
+  ],
+  "samples": [
+    {
+      "id": "sf-washington",
+      "label": "Washington Square, San Francisco",
+      "intendedContext": "urban park and surrounding blocks",
+      "bounds": {
+        "west": -122.41224641494269,
+        "south": 37.799183014789826,
+        "east": -122.4081535850573,
+        "north": 37.80241694981248
+      },
+      "source": {
+        "provider": "Retained OpenStreetMap extraction",
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41224641494269,37.799183014789826,-122.4081535850573,37.80241694981248",
+        "downloadedAt": "2026-11-16T03:24:27.930514+00:00",
+        "snapshotAt": null,
+        "originalManifest": "washington-square-osm-manifest.json",
+        "note": "Existing bounded category extraction; not a new request. Kept tags match this study; feature query differs from the regional files."
+      },
+      "file": "sf-washington.osm.json.gz",
+      "sha256": "6ad4c56d38345aac42756a434d960788974fb41489f1b864f5bd781c36ba4af1",
+      "bytes": 53499,
+      "sourceCandidateWays": 555,
+      "frame": {
+        "width": 360,
+        "depth": 360,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.7901464546911245
+      },
+      "metrics": {
+        "buildingCount": 326,
+        "clippedBuildingCount": 62,
+        "buildingFootprintAreaM2": {
+          "n": 326,
+          "min": 0.226,
+          "median": 134.644,
+          "p90": 289.083,
+          "max": 1670.529
+        },
+        "nearestBuildingGapM": {
+          "n": 326,
+          "min": 0,
+          "median": 0,
+          "p90": 0,
+          "max": 21.613
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 326,
+          "min": 2.956,
+          "median": 15.8,
+          "p90": 25.473,
+          "max": 48.835
+        },
+        "roadSegmentCount": 208,
+        "pathSegmentCount": 344,
+        "roadLengthM": 3935.4,
+        "pathLengthM": 5671.955,
+        "roadLengthPerHa": 303.657,
+        "mappedFootprintAreaRatio": 0.428,
+        "networkNodes": 428,
+        "networkComponents": 3,
+        "largestNetworkFraction": 0.979,
+        "junctionNodes": 207,
+        "landUseClasses": [
+          "leisure:garden",
+          "leisure:park",
+          "leisure:playground",
+          "natural:water"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:park": 1,
+          "natural:water": 0,
+          "leisure:playground": 1,
+          "leisure:garden": 1
+        },
+        "areaCount": 10
+      },
+      "omissions": {
+        "relations": 4,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 0,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "sf-wharf",
+      "label": "Fisherman's Wharf, San Francisco",
+      "intendedContext": "working waterfront and visitor district",
+      "bounds": {
+        "west": -122.41868162595988,
+        "south": 37.806798014784974,
+        "east": -122.41458837404012,
+        "north": 37.81003194980763
+      },
+      "source": {
+        "provider": "Retained OpenStreetMap extraction",
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41868162595988%2C37.806798014784974%2C-122.41458837404012%2C37.81003194980763",
+        "downloadedAt": "2026-11-16T04:08:47.550Z",
+        "snapshotAt": null,
+        "originalManifest": "fishermans-wharf-regression-manifest.json",
+        "note": "Existing bounded category extraction; not a new request. Kept tags match this study; feature query differs from the regional files."
+      },
+      "file": "sf-wharf.osm.json.gz",
+      "sha256": "d8c6b72022545e810d1ebf4410c09731154b76448dbcb603ad295808f0e791a7",
+      "bytes": 17021,
+      "sourceCandidateWays": 179,
+      "frame": {
+        "width": 360,
+        "depth": 360,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.7900649867174682
+      },
+      "metrics": {
+        "buildingCount": 44,
+        "clippedBuildingCount": 15,
+        "buildingFootprintAreaM2": {
+          "n": 44,
+          "min": 0.164,
+          "median": 454.794,
+          "p90": 1654.941,
+          "max": 5295.626
+        },
+        "nearestBuildingGapM": {
+          "n": 44,
+          "min": 0,
+          "median": 0.244,
+          "p90": 17.832,
+          "max": 65.872
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 44,
+          "min": 4.123,
+          "median": 22.431,
+          "p90": 38.865,
+          "max": 59.268
+        },
+        "roadSegmentCount": 187,
+        "pathSegmentCount": 155,
+        "roadLengthM": 2778.917,
+        "pathLengthM": 3136.535,
+        "roadLengthPerHa": 214.423,
+        "mappedFootprintAreaRatio": 0.314,
+        "networkNodes": 284,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "junctionNodes": 110,
+        "landUseClasses": [
+          "leisure:park"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:park": 0
+        },
+        "areaCount": 1
+      },
+      "omissions": {
+        "relations": 2,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 0,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "monaco-old-town",
+      "label": "Monaco old town",
+      "intendedContext": "compact historic urban fabric",
+      "bounds": {
+        "west": 7.420124437847416,
+        "east": 7.424475562152584,
+        "south": 43.72922792762116,
+        "north": 43.73237203111554
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "d35d64fde04dc83062910bb858ccb4750e223694b85def924a200b4246621d36",
+        "downloadBytes": 708123,
+        "downloadedAt": "2026-11-16T07:28:32.836Z",
+        "lastModified": "Mon, 16 Nov 2026 03:17:56 GMT",
+        "timestampBasis": "Local download file modification time; HTTP Last-Modified captured during acquisition."
+      },
+      "file": "monaco-old-town.osm.json.gz",
+      "sha256": "8f53b0364f2f6da072a729a7f26439d1277b994d57b98fd0cc066f29c91a63f9",
+      "bytes": 28487,
+      "sourceCandidateWays": 301,
+      "frame": {
+        "width": 350,
+        "depth": 350,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.7225956499948731
+      },
+      "metrics": {
+        "buildingCount": 58,
+        "clippedBuildingCount": 8,
+        "buildingFootprintAreaM2": {
+          "n": 58,
+          "min": 8.393,
+          "median": 297.31,
+          "p90": 952.538,
+          "max": 2039.439
+        },
+        "nearestBuildingGapM": {
+          "n": 58,
+          "min": 0,
+          "median": 0,
+          "p90": 8.709,
+          "max": 74.124
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 58,
+          "min": 0.599,
+          "median": 13.921,
+          "p90": 35.417,
+          "max": 61.425
+        },
+        "roadSegmentCount": 233,
+        "pathSegmentCount": 534,
+        "roadLengthM": 3116.073,
+        "pathLengthM": 5122.194,
+        "roadLengthPerHa": 254.373,
+        "mappedFootprintAreaRatio": 0.207,
+        "networkNodes": 703,
+        "networkComponents": 6,
+        "largestNetworkFraction": 0.977,
+        "junctionNodes": 146,
+        "landUseClasses": [
+          "landuse:forest",
+          "landuse:residential",
+          "leisure:garden",
+          "leisure:outdoor_seating",
+          "leisure:playground",
+          "natural:bare_rock",
+          "natural:wood"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:garden": 9,
+          "landuse:residential": 6,
+          "landuse:forest": 8,
+          "leisure:playground": 0,
+          "natural:wood": 0,
+          "leisure:outdoor_seating": 2,
+          "natural:bare_rock": 0
+        },
+        "areaCount": 12
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 0,
+        "unsupportedHighways": 1
+      }
+    },
+    {
+      "id": "monaco-harbor",
+      "label": "Monaco harbor edge",
+      "intendedContext": "dense urban waterfront",
+      "bounds": {
+        "west": 7.422213344298372,
+        "east": 7.427186655701627,
+        "south": 43.73620334247755,
+        "north": 43.739796603613975
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "d35d64fde04dc83062910bb858ccb4750e223694b85def924a200b4246621d36",
+        "downloadBytes": 708123,
+        "downloadedAt": "2026-11-16T07:28:32.836Z",
+        "lastModified": "Mon, 16 Nov 2026 03:17:56 GMT",
+        "timestampBasis": "Local download file modification time; HTTP Last-Modified captured during acquisition."
+      },
+      "file": "monaco-harbor.osm.json.gz",
+      "sha256": "eadfe81e637549ec472a1d2eaef90d434833f0953d511848567c5f0cd9119321",
+      "bytes": 39744,
+      "sourceCandidateWays": 367,
+      "frame": {
+        "width": 400,
+        "depth": 400,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.7225087766964537
+      },
+      "metrics": {
+        "buildingCount": 64,
+        "clippedBuildingCount": 9,
+        "buildingFootprintAreaM2": {
+          "n": 64,
+          "min": 5.202,
+          "median": 480.068,
+          "p90": 1469.462,
+          "max": 3840.63
+        },
+        "nearestBuildingGapM": {
+          "n": 64,
+          "min": 0,
+          "median": 1.31,
+          "p90": 19.723,
+          "max": 41.008
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 64,
+          "min": 0.387,
+          "median": 15.565,
+          "p90": 27.711,
+          "max": 47.435
+        },
+        "roadSegmentCount": 437,
+        "pathSegmentCount": 630,
+        "roadLengthM": 4484.101,
+        "pathLengthM": 5752.624,
+        "roadLengthPerHa": 280.256,
+        "mappedFootprintAreaRatio": 0.276,
+        "networkNodes": 972,
+        "networkComponents": 5,
+        "largestNetworkFraction": 0.983,
+        "junctionNodes": 228,
+        "landUseClasses": [
+          "landuse:construction",
+          "landuse:grass",
+          "landuse:residential",
+          "leisure:garden",
+          "leisure:outdoor_seating",
+          "leisure:park",
+          "leisure:playground",
+          "leisure:swimming_pool",
+          "natural:water"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:park": 6,
+          "landuse:residential": 68,
+          "natural:water": 0,
+          "landuse:grass": 12,
+          "leisure:playground": 0,
+          "leisure:garden": 2,
+          "landuse:construction": 2,
+          "leisure:swimming_pool": 7,
+          "leisure:outdoor_seating": 1
+        },
+        "areaCount": 53
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 1,
+        "unsupportedHighways": 4
+      }
+    },
+    {
+      "id": "vaduz-center",
+      "label": "Vaduz center",
+      "intendedContext": "small civic center",
+      "bounds": {
+        "west": 9.518858649548957,
+        "east": 9.524141350451043,
+        "south": 47.13940333907499,
+        "north": 47.14299660021154
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "e931cd1d3a14fe653b712da07a31a88f3d52a544e3292ff89e5edcd8ef15cb5f",
+        "downloadBytes": 3519004,
+        "downloadedAt": "2026-11-16T07:32:28.804Z",
+        "lastModified": "Mon, 16 Nov 2026 02:17:28 GMT",
+        "responseSha256": "e931cd1d3a14fe653b712da07a31a88f3d52a544e3292ff89e5edcd8ef15cb5f"
+      },
+      "file": "vaduz-center.osm.json.gz",
+      "sha256": "0982c3170074c2c32409530c283a8bdcc694aecf1342b34416686d8f3175deca",
+      "bytes": 34312,
+      "sourceCandidateWays": 464,
+      "frame": {
+        "width": 400,
+        "depth": 400,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.6801939396401666
+      },
+      "metrics": {
+        "buildingCount": 172,
+        "clippedBuildingCount": 16,
+        "buildingFootprintAreaM2": {
+          "n": 172,
+          "min": 0.742,
+          "median": 173.638,
+          "p90": 474.21,
+          "max": 1356.941
+        },
+        "nearestBuildingGapM": {
+          "n": 172,
+          "min": 0,
+          "median": 0,
+          "p90": 9.901,
+          "max": 21.542
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 172,
+          "min": 4.02,
+          "median": 13.538,
+          "p90": 30.433,
+          "max": 71.85
+        },
+        "roadSegmentCount": 439,
+        "pathSegmentCount": 502,
+        "roadLengthM": 4125.969,
+        "pathLengthM": 4135.514,
+        "roadLengthPerHa": 257.873,
+        "mappedFootprintAreaRatio": 0.247,
+        "networkNodes": 860,
+        "networkComponents": 9,
+        "largestNetworkFraction": 0.978,
+        "junctionNodes": 186,
+        "landUseClasses": [
+          "landuse:construction",
+          "landuse:grass",
+          "landuse:residential",
+          "landuse:retail",
+          "landuse:vineyard",
+          "leisure:outdoor_seating",
+          "leisure:park",
+          "natural:bare_rock",
+          "natural:heath",
+          "natural:scrub",
+          "natural:water"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "landuse:vineyard": 13,
+          "landuse:grass": 3,
+          "landuse:retail": 96,
+          "landuse:residential": 4,
+          "natural:scrub": 3,
+          "natural:heath": 3,
+          "leisure:park": 9,
+          "landuse:construction": 9,
+          "natural:bare_rock": 3,
+          "natural:water": 3,
+          "leisure:outdoor_seating": 3
+        },
+        "areaCount": 15
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 2,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "schaan-housing",
+      "label": "Schaan residential area",
+      "intendedContext": "residential streets and gardens",
+      "bounds": {
+        "west": 9.50732705452942,
+        "east": 9.513272945470582,
+        "south": 47.164678752156085,
+        "north": 47.16872117093476
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "e931cd1d3a14fe653b712da07a31a88f3d52a544e3292ff89e5edcd8ef15cb5f",
+        "downloadBytes": 3519004,
+        "downloadedAt": "2026-11-16T07:32:28.804Z",
+        "lastModified": "Mon, 16 Nov 2026 02:17:28 GMT",
+        "responseSha256": "e931cd1d3a14fe653b712da07a31a88f3d52a544e3292ff89e5edcd8ef15cb5f"
+      },
+      "file": "schaan-housing.osm.json.gz",
+      "sha256": "e43d194d10a3539050d495d1faa2b1bb9d06b6f315c4a8d13dde75bee383b604",
+      "bytes": 46514,
+      "sourceCandidateWays": 555,
+      "frame": {
+        "width": 450,
+        "depth": 450,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.6798676298415327
+      },
+      "metrics": {
+        "buildingCount": 208,
+        "clippedBuildingCount": 33,
+        "buildingFootprintAreaM2": {
+          "n": 208,
+          "min": 0.9,
+          "median": 156.151,
+          "p90": 456.543,
+          "max": 2476.128
+        },
+        "nearestBuildingGapM": {
+          "n": 208,
+          "min": 0,
+          "median": 3.481,
+          "p90": 12.905,
+          "max": 36.024
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 208,
+          "min": 3.103,
+          "median": 15.514,
+          "p90": 28.423,
+          "max": 41.622
+        },
+        "roadSegmentCount": 481,
+        "pathSegmentCount": 689,
+        "roadLengthM": 5623.972,
+        "pathLengthM": 6659.053,
+        "roadLengthPerHa": 277.727,
+        "mappedFootprintAreaRatio": 0.237,
+        "networkNodes": 1045,
+        "networkComponents": 8,
+        "largestNetworkFraction": 0.959,
+        "junctionNodes": 267,
+        "landUseClasses": [
+          "landuse:cemetery",
+          "landuse:commercial",
+          "landuse:grass",
+          "landuse:industrial",
+          "landuse:meadow",
+          "landuse:railway",
+          "landuse:residential",
+          "landuse:retail",
+          "leisure:garden",
+          "leisure:playground",
+          "leisure:swimming_pool"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:swimming_pool": 4,
+          "landuse:cemetery": 3,
+          "landuse:railway": 6,
+          "landuse:retail": 98,
+          "landuse:industrial": 8,
+          "landuse:grass": 10,
+          "landuse:residential": 9,
+          "leisure:playground": 2,
+          "landuse:meadow": 8,
+          "landuse:commercial": 2,
+          "leisure:garden": 0
+        },
+        "areaCount": 21
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 1,
+        "unsupportedHighways": 6
+      }
+    },
+    {
+      "id": "ruggell-fields",
+      "label": "Ruggell fields",
+      "intendedContext": "agricultural edge",
+      "bounds": {
+        "west": 9.548597016100091,
+        "east": 9.55521498389991,
+        "south": 47.25606616416232,
+        "north": 47.2605577405831
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "e931cd1d3a14fe653b712da07a31a88f3d52a544e3292ff89e5edcd8ef15cb5f",
+        "downloadBytes": 3519004,
+        "downloadedAt": "2026-11-16T07:32:28.804Z",
+        "lastModified": "Mon, 16 Nov 2026 02:17:28 GMT",
+        "responseSha256": "e931cd1d3a14fe653b712da07a31a88f3d52a544e3292ff89e5edcd8ef15cb5f"
+      },
+      "file": "ruggell-fields.osm.json.gz",
+      "sha256": "a0154d0d0e269b2433003c0c3d9e7c57a0397e9a3d7f6f5339f28b978f09b681",
+      "bytes": 8766,
+      "sourceCandidateWays": 10,
+      "frame": {
+        "width": 500,
+        "depth": 500,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.6786942095365424
+      },
+      "metrics": {
+        "buildingCount": 0,
+        "clippedBuildingCount": 0,
+        "buildingFootprintAreaM2": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "nearestBuildingGapM": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "roadSegmentCount": 18,
+        "pathSegmentCount": 13,
+        "roadLengthM": 479.069,
+        "pathLengthM": 209.498,
+        "roadLengthPerHa": 19.163,
+        "mappedFootprintAreaRatio": 0,
+        "networkNodes": 34,
+        "networkComponents": 3,
+        "largestNetworkFraction": 0.5,
+        "junctionNodes": 1,
+        "landUseClasses": [
+          "landuse:farmland",
+          "landuse:grass"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "landuse:grass": 0,
+          "landuse:farmland": 0
+        },
+        "areaCount": 3
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 1,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "malbun-village",
+      "label": "Malbun village",
+      "intendedContext": "mountain village",
+      "bounds": {
+        "west": 9.606400700378199,
+        "east": 9.612999299621801,
+        "south": 47.10045416442107,
+        "north": 47.10494574084185
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "e931cd1d3a14fe653b712da07a31a88f3d52a544e3292ff89e5edcd8ef15cb5f",
+        "downloadBytes": 3519004,
+        "downloadedAt": "2026-11-16T07:32:28.804Z",
+        "lastModified": "Mon, 16 Nov 2026 02:17:28 GMT",
+        "responseSha256": "e931cd1d3a14fe653b712da07a31a88f3d52a544e3292ff89e5edcd8ef15cb5f"
+      },
+      "file": "malbun-village.osm.json.gz",
+      "sha256": "f0ebe471a7d4532051087c54820922bb413234aeaf5bb33a394b37cd7d8a4df5",
+      "bytes": 31712,
+      "sourceCandidateWays": 201,
+      "frame": {
+        "width": 500,
+        "depth": 500,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.6806863485379132
+      },
+      "metrics": {
+        "buildingCount": 85,
+        "clippedBuildingCount": 7,
+        "buildingFootprintAreaM2": {
+          "n": 85,
+          "min": 6.182,
+          "median": 132.992,
+          "p90": 409.453,
+          "max": 2961.124
+        },
+        "nearestBuildingGapM": {
+          "n": 85,
+          "min": 0,
+          "median": 6.378,
+          "p90": 13.583,
+          "max": 139.837
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 85,
+          "min": 4.34,
+          "median": 13.313,
+          "p90": 21.704,
+          "max": 38.483
+        },
+        "roadSegmentCount": 349,
+        "pathSegmentCount": 179,
+        "roadLengthM": 3728.344,
+        "pathLengthM": 1609.696,
+        "roadLengthPerHa": 149.134,
+        "mappedFootprintAreaRatio": 0.079,
+        "networkNodes": 513,
+        "networkComponents": 4,
+        "largestNetworkFraction": 0.982,
+        "junctionNodes": 66,
+        "landUseClasses": [
+          "landuse:forest",
+          "landuse:meadow",
+          "landuse:residential",
+          "landuse:winter_sports",
+          "leisure:playground",
+          "natural:wood"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "landuse:forest": 9,
+          "natural:wood": 0,
+          "landuse:residential": 80,
+          "landuse:winter_sports": 85,
+          "leisure:playground": 5,
+          "landuse:meadow": 9
+        },
+        "areaCount": 16
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 1,
+        "unsupportedHighways": 1
+      }
+    },
+    {
+      "id": "male-center",
+      "label": "Male center",
+      "intendedContext": "dense island city",
+      "bounds": {
+        "west": 73.50742376385314,
+        "east": 73.51057623614686,
+        "south": 4.174227946678403,
+        "north": 4.177372050172421
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/asia/maldives-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "b955ed07ad8a9feaf8e2d289735b9cfdd1167e8299490200777d78da9ba8c8dc",
+        "downloadBytes": 3666554,
+        "downloadedAt": "2026-11-16T07:32:47.021Z",
+        "lastModified": "Sun, 15 Nov 2026 23:57:37 GMT",
+        "responseSha256": "b955ed07ad8a9feaf8e2d289735b9cfdd1167e8299490200777d78da9ba8c8dc"
+      },
+      "file": "male-center.osm.json.gz",
+      "sha256": "e3a3a7d7151b9f2b525a3cb487102d1bdac0a2635ae86c9ce3d29670a18ea1f8",
+      "bytes": 9954,
+      "sourceCandidateWays": 83,
+      "frame": {
+        "width": 350,
+        "depth": 350,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9973453218608215
+      },
+      "metrics": {
+        "buildingCount": 30,
+        "clippedBuildingCount": 10,
+        "buildingFootprintAreaM2": {
+          "n": 30,
+          "min": 2.229,
+          "median": 335.636,
+          "p90": 923.059,
+          "max": 1405.831
+        },
+        "nearestBuildingGapM": {
+          "n": 30,
+          "min": 0,
+          "median": 3.961,
+          "p90": 26.499,
+          "max": 61.25
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 30,
+          "min": 2.576,
+          "median": 15.021,
+          "p90": 24.334,
+          "max": 29.74
+        },
+        "roadSegmentCount": 121,
+        "pathSegmentCount": 4,
+        "roadLengthM": 3643.064,
+        "pathLengthM": 58.155,
+        "roadLengthPerHa": 297.393,
+        "mappedFootprintAreaRatio": 0.111,
+        "networkNodes": 115,
+        "networkComponents": 3,
+        "largestNetworkFraction": 0.957,
+        "junctionNodes": 47,
+        "landUseClasses": [
+          "leisure:park"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:park": 1
+        },
+        "areaCount": 1
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 0,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "hulhumale-grid",
+      "label": "Hulhumale streets",
+      "intendedContext": "planned island street grid",
+      "bounds": {
+        "west": 73.53959849082423,
+        "east": 73.54320150917576,
+        "south": 4.21580336735479,
+        "north": 4.219396628490679
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/asia/maldives-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "b955ed07ad8a9feaf8e2d289735b9cfdd1167e8299490200777d78da9ba8c8dc",
+        "downloadBytes": 3666554,
+        "downloadedAt": "2026-11-16T07:32:47.021Z",
+        "lastModified": "Sun, 15 Nov 2026 23:57:37 GMT",
+        "responseSha256": "b955ed07ad8a9feaf8e2d289735b9cfdd1167e8299490200777d78da9ba8c8dc"
+      },
+      "file": "hulhumale-grid.osm.json.gz",
+      "sha256": "2ff3366938e692be3700a7bfa663442f27d3853850eaeae8514085354b9f3be5",
+      "bytes": 42730,
+      "sourceCandidateWays": 308,
+      "frame": {
+        "width": 400,
+        "depth": 400,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9972919330158987
+      },
+      "metrics": {
+        "buildingCount": 138,
+        "clippedBuildingCount": 21,
+        "buildingFootprintAreaM2": {
+          "n": 138,
+          "min": 2.634,
+          "median": 77.118,
+          "p90": 239.576,
+          "max": 2188.73
+        },
+        "nearestBuildingGapM": {
+          "n": 138,
+          "min": 0,
+          "median": 0,
+          "p90": 7.439,
+          "max": 177.191
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 138,
+          "min": 1.898,
+          "median": 14.231,
+          "p90": 26.208,
+          "max": 84.32
+        },
+        "roadSegmentCount": 197,
+        "pathSegmentCount": 379,
+        "roadLengthM": 2720.104,
+        "pathLengthM": 4418.306,
+        "roadLengthPerHa": 170.007,
+        "mappedFootprintAreaRatio": 0.129,
+        "networkNodes": 525,
+        "networkComponents": 4,
+        "largestNetworkFraction": 0.971,
+        "junctionNodes": 140,
+        "landUseClasses": [
+          "landuse:construction",
+          "landuse:grass",
+          "leisure:garden",
+          "leisure:park",
+          "leisure:pitch",
+          "leisure:sports_centre",
+          "natural:heath",
+          "natural:sand",
+          "natural:scrub",
+          "natural:wood"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:park": 8,
+          "leisure:sports_centre": 1,
+          "leisure:pitch": 0,
+          "landuse:construction": 3,
+          "landuse:grass": 7,
+          "leisure:garden": 0,
+          "natural:wood": 4,
+          "natural:scrub": 0,
+          "natural:heath": 0,
+          "natural:sand": 0
+        },
+        "areaCount": 45
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 2,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "thulusdhoo-village",
+      "label": "Thulusdhoo settlement",
+      "intendedContext": "island village",
+      "bounds": {
+        "west": 73.65109812187575,
+        "east": 73.65470187812426,
+        "south": 4.372003367277544,
+        "north": 4.375596628413445
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/asia/maldives-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "b955ed07ad8a9feaf8e2d289735b9cfdd1167e8299490200777d78da9ba8c8dc",
+        "downloadBytes": 3666554,
+        "downloadedAt": "2026-11-16T07:32:47.021Z",
+        "lastModified": "Sun, 15 Nov 2026 23:57:37 GMT",
+        "responseSha256": "b955ed07ad8a9feaf8e2d289735b9cfdd1167e8299490200777d78da9ba8c8dc"
+      },
+      "file": "thulusdhoo-village.osm.json.gz",
+      "sha256": "3c8879ee7af0df9f75199a81b0e789dd76951f80294fcf5800cebf274a9f92a9",
+      "bytes": 19570,
+      "sourceCandidateWays": 256,
+      "frame": {
+        "width": 400,
+        "depth": 400,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9970877297764748
+      },
+      "metrics": {
+        "buildingCount": 209,
+        "clippedBuildingCount": 13,
+        "buildingFootprintAreaM2": {
+          "n": 209,
+          "min": 0.502,
+          "median": 129.953,
+          "p90": 259.988,
+          "max": 817.636
+        },
+        "nearestBuildingGapM": {
+          "n": 209,
+          "min": 0,
+          "median": 0.99,
+          "p90": 6.202,
+          "max": 18.376
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 209,
+          "min": 3.084,
+          "median": 10.629,
+          "p90": 16.085,
+          "max": 44.776
+        },
+        "roadSegmentCount": 120,
+        "pathSegmentCount": 13,
+        "roadLengthM": 4832.657,
+        "pathLengthM": 307.075,
+        "roadLengthPerHa": 302.041,
+        "mappedFootprintAreaRatio": 0.19,
+        "networkNodes": 101,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "junctionNodes": 56,
+        "landUseClasses": [
+          "landuse:cemetery",
+          "leisure:pitch",
+          "natural:beach",
+          "natural:wood"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "natural:beach": 6,
+          "landuse:cemetery": 10,
+          "leisure:pitch": 1,
+          "natural:wood": 15
+        },
+        "areaCount": 9
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 1,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "victoria-center",
+      "label": "Victoria, Seychelles",
+      "intendedContext": "island civic and commercial center",
+      "bounds": {
+        "west": 55.45129751079801,
+        "east": 55.45490248920199,
+        "south": -4.622596628291266,
+        "north": -4.619003367155364
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/africa/seychelles-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "7873301ae2074613c3aea6f7ab291e03eadf42032338f2241217126fb91c8896",
+        "downloadBytes": 2776424,
+        "downloadedAt": "2026-11-16T07:32:59.236Z",
+        "lastModified": "Sun, 15 Nov 2026 23:43:28 GMT",
+        "responseSha256": "7873301ae2074613c3aea6f7ab291e03eadf42032338f2241217126fb91c8896"
+      },
+      "file": "victoria-center.osm.json.gz",
+      "sha256": "11c6034311e06aa43d46c3e1d1e4441f02f0ea6f52be11f80c77b9da61277a6c",
+      "bytes": 22712,
+      "sourceCandidateWays": 163,
+      "frame": {
+        "width": 400,
+        "depth": 400,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9967496982835528
+      },
+      "metrics": {
+        "buildingCount": 87,
+        "clippedBuildingCount": 19,
+        "buildingFootprintAreaM2": {
+          "n": 87,
+          "min": 0.444,
+          "median": 416.892,
+          "p90": 1250.172,
+          "max": 4617.634
+        },
+        "nearestBuildingGapM": {
+          "n": 87,
+          "min": 0,
+          "median": 2.776,
+          "p90": 8.085,
+          "max": 54.05
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 87,
+          "min": 1.376,
+          "median": 17.919,
+          "p90": 38.575,
+          "max": 68.811
+        },
+        "roadSegmentCount": 247,
+        "pathSegmentCount": 8,
+        "roadLengthM": 3560.508,
+        "pathLengthM": 113.102,
+        "roadLengthPerHa": 222.532,
+        "mappedFootprintAreaRatio": 0.329,
+        "networkNodes": 250,
+        "networkComponents": 3,
+        "largestNetworkFraction": 0.972,
+        "junctionNodes": 40,
+        "landUseClasses": [
+          "landuse:residential",
+          "leisure:pitch"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:pitch": 6,
+          "landuse:residential": 87
+        },
+        "areaCount": 2
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 0,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "la-digue-coast",
+      "label": "La Digue coastal settlement",
+      "intendedContext": "rural island coast",
+      "bounds": {
+        "west": 55.827747720717625,
+        "east": 55.83225227928237,
+        "south": -4.353245784860928,
+        "north": -4.348754208441473
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/africa/seychelles-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "7873301ae2074613c3aea6f7ab291e03eadf42032338f2241217126fb91c8896",
+        "downloadBytes": 2776424,
+        "downloadedAt": "2026-11-16T07:32:59.236Z",
+        "lastModified": "Sun, 15 Nov 2026 23:43:28 GMT",
+        "responseSha256": "7873301ae2074613c3aea6f7ab291e03eadf42032338f2241217126fb91c8896"
+      },
+      "file": "la-digue-coast.osm.json.gz",
+      "sha256": "873b5af62419e2ea800c3ad4113582fa5b64f8a6c7c7b08ae93adbbe7d22377b",
+      "bytes": 53346,
+      "sourceCandidateWays": 289,
+      "frame": {
+        "width": 500,
+        "depth": 500,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9971179985903023
+      },
+      "metrics": {
+        "buildingCount": 262,
+        "clippedBuildingCount": 22,
+        "buildingFootprintAreaM2": {
+          "n": 262,
+          "min": 1.183,
+          "median": 103.305,
+          "p90": 209.383,
+          "max": 436.513
+        },
+        "nearestBuildingGapM": {
+          "n": 262,
+          "min": 0,
+          "median": 3.955,
+          "p90": 13.048,
+          "max": 29.676
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 262,
+          "min": 3.497,
+          "median": 21.774,
+          "p90": 43.93,
+          "max": 93.281
+        },
+        "roadSegmentCount": 63,
+        "pathSegmentCount": 15,
+        "roadLengthM": 3328.596,
+        "pathLengthM": 417.979,
+        "roadLengthPerHa": 133.144,
+        "mappedFootprintAreaRatio": 0.116,
+        "networkNodes": 78,
+        "networkComponents": 2,
+        "largestNetworkFraction": 0.936,
+        "junctionNodes": 16,
+        "landUseClasses": [
+          "landuse:residential",
+          "natural:beach"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "natural:beach": 2,
+          "landuse:residential": 262
+        },
+        "areaCount": 2
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 1,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "mahe-forest",
+      "label": "Mahe interior",
+      "intendedContext": "forest and sparse routes",
+      "bounds": {
+        "west": 55.434746808183064,
+        "east": 55.43925319181693,
+        "south": -4.648245784632927,
+        "north": -4.64375420821346
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/africa/seychelles-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "7873301ae2074613c3aea6f7ab291e03eadf42032338f2241217126fb91c8896",
+        "downloadBytes": 2776424,
+        "downloadedAt": "2026-11-16T07:32:59.236Z",
+        "lastModified": "Sun, 15 Nov 2026 23:43:28 GMT",
+        "responseSha256": "7873301ae2074613c3aea6f7ab291e03eadf42032338f2241217126fb91c8896"
+      },
+      "file": "mahe-forest.osm.json.gz",
+      "sha256": "5b0f7f1b75a69bbccded5a3c398940476d06f87485a91d1e04603946de2682f4",
+      "bytes": 8730,
+      "sourceCandidateWays": 1,
+      "frame": {
+        "width": 500,
+        "depth": 500,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9967141693979674
+      },
+      "metrics": {
+        "buildingCount": 0,
+        "clippedBuildingCount": 0,
+        "buildingFootprintAreaM2": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "nearestBuildingGapM": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "roadSegmentCount": 0,
+        "pathSegmentCount": 0,
+        "roadLengthM": 0,
+        "pathLengthM": 0,
+        "roadLengthPerHa": 0,
+        "mappedFootprintAreaRatio": 0,
+        "networkNodes": 0,
+        "networkComponents": 0,
+        "largestNetworkFraction": null,
+        "junctionNodes": 0,
+        "landUseClasses": [],
+        "buildingAreaAdjacencyPairsWithin10m": {},
+        "areaCount": 0
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 1,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "yaren-coast",
+      "label": "Yaren coastal strip",
+      "intendedContext": "low-density coastal settlement",
+      "bounds": {
+        "west": 166.91620328710266,
+        "east": 166.91979671289735,
+        "south": -0.5502966302982857,
+        "north": -0.5467033691623843
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/australia-oceania/nauru-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "53dc1a4e6769bd2d1550eeb2e11968fda4049eadd7542b77c8d5e801dcc26b26",
+        "downloadBytes": 268011,
+        "downloadedAt": "2026-11-16T07:33:08.013Z",
+        "lastModified": "Sun, 15 Nov 2026 23:46:27 GMT",
+        "responseSha256": "53dc1a4e6769bd2d1550eeb2e11968fda4049eadd7542b77c8d5e801dcc26b26"
+      },
+      "file": "yaren-coast.osm.json.gz",
+      "sha256": "04d73c91b567398b910ec337595d2989cca6b6c566b1563933937eb17ff550eb",
+      "bytes": 16862,
+      "sourceCandidateWays": 79,
+      "frame": {
+        "width": 400,
+        "depth": 400,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.999954177931927
+      },
+      "metrics": {
+        "buildingCount": 62,
+        "clippedBuildingCount": 8,
+        "buildingFootprintAreaM2": {
+          "n": 62,
+          "min": 0.332,
+          "median": 138.157,
+          "p90": 441.819,
+          "max": 2729.472
+        },
+        "nearestBuildingGapM": {
+          "n": 62,
+          "min": 0,
+          "median": 1.365,
+          "p90": 9.966,
+          "max": 16.968
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 62,
+          "min": 5.989,
+          "median": 20.261,
+          "p90": 38.618,
+          "max": 46.058
+        },
+        "roadSegmentCount": 38,
+        "pathSegmentCount": 0,
+        "roadLengthM": 1034.851,
+        "pathLengthM": 0,
+        "roadLengthPerHa": 64.678,
+        "mappedFootprintAreaRatio": 0.087,
+        "networkNodes": 41,
+        "networkComponents": 4,
+        "largestNetworkFraction": 0.61,
+        "junctionNodes": 5,
+        "landUseClasses": [
+          "landuse:grass",
+          "landuse:residential",
+          "natural:beach"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "landuse:grass": 0,
+          "landuse:residential": 2,
+          "natural:beach": 8
+        },
+        "areaCount": 4
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 2,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "buada-lagoon",
+      "label": "Buada lagoon surroundings",
+      "intendedContext": "village and inland water",
+      "bounds": {
+        "west": 166.92355411486778,
+        "east": 166.92804588513224,
+        "south": -0.5345457878008123,
+        "north": -0.5300542113813713
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/australia-oceania/nauru-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "53dc1a4e6769bd2d1550eeb2e11968fda4049eadd7542b77c8d5e801dcc26b26",
+        "downloadBytes": 268011,
+        "downloadedAt": "2026-11-16T07:33:08.013Z",
+        "lastModified": "Sun, 15 Nov 2026 23:46:27 GMT",
+        "responseSha256": "53dc1a4e6769bd2d1550eeb2e11968fda4049eadd7542b77c8d5e801dcc26b26"
+      },
+      "file": "buada-lagoon.osm.json.gz",
+      "sha256": "0c806475eb1cfc665a8301b2dc36655f253cad4253aeb966ea20ee67acef16b6",
+      "bytes": 16527,
+      "sourceCandidateWays": 47,
+      "frame": {
+        "width": 500,
+        "depth": 500,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9999568446595103
+      },
+      "metrics": {
+        "buildingCount": 28,
+        "clippedBuildingCount": 3,
+        "buildingFootprintAreaM2": {
+          "n": 28,
+          "min": 36.524,
+          "median": 126.103,
+          "p90": 254.147,
+          "max": 732.476
+        },
+        "nearestBuildingGapM": {
+          "n": 28,
+          "min": 0,
+          "median": 6.108,
+          "p90": 15.691,
+          "max": 74.758
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 28,
+          "min": 9.821,
+          "median": 23.198,
+          "p90": 123.354,
+          "max": 171.513
+        },
+        "roadSegmentCount": 65,
+        "pathSegmentCount": 3,
+        "roadLengthM": 999.999,
+        "pathLengthM": 87.194,
+        "roadLengthPerHa": 40,
+        "mappedFootprintAreaRatio": 0.018,
+        "networkNodes": 72,
+        "networkComponents": 5,
+        "largestNetworkFraction": 0.403,
+        "junctionNodes": 3,
+        "landUseClasses": [
+          "landuse:residential",
+          "leisure:pitch",
+          "natural:scrub",
+          "natural:wood"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:pitch": 0,
+          "landuse:residential": 31,
+          "natural:scrub": 0,
+          "natural:wood": 0
+        },
+        "areaCount": 7
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 1,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "nauru-interior",
+      "label": "Nauru interior",
+      "intendedContext": "mining landscape and tracks",
+      "bounds": {
+        "west": 166.93675411965077,
+        "east": 166.94124588034921,
+        "south": -0.5212457878110209,
+        "north": -0.51675421139158
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/australia-oceania/nauru-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "53dc1a4e6769bd2d1550eeb2e11968fda4049eadd7542b77c8d5e801dcc26b26",
+        "downloadBytes": 268011,
+        "downloadedAt": "2026-11-16T07:33:08.013Z",
+        "lastModified": "Sun, 15 Nov 2026 23:46:27 GMT",
+        "responseSha256": "53dc1a4e6769bd2d1550eeb2e11968fda4049eadd7542b77c8d5e801dcc26b26"
+      },
+      "file": "nauru-interior.osm.json.gz",
+      "sha256": "466213aff5858b8b0112cb06317d49feaecd04132cbd58a5a065f936c59779c2",
+      "bytes": 17535,
+      "sourceCandidateWays": 15,
+      "frame": {
+        "width": 500,
+        "depth": 500,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9999589742541791
+      },
+      "metrics": {
+        "buildingCount": 0,
+        "clippedBuildingCount": 0,
+        "buildingFootprintAreaM2": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "nearestBuildingGapM": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "roadSegmentCount": 20,
+        "pathSegmentCount": 0,
+        "roadLengthM": 571.324,
+        "pathLengthM": 0,
+        "roadLengthPerHa": 22.853,
+        "mappedFootprintAreaRatio": 0,
+        "networkNodes": 21,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "junctionNodes": 1,
+        "landUseClasses": [
+          "natural:bare_rock",
+          "natural:wood"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "natural:bare_rock": 0,
+          "natural:wood": 0
+        },
+        "areaCount": 6
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 3,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "apia-center",
+      "label": "Apia center",
+      "intendedContext": "coastal town center",
+      "bounds": {
+        "west": -171.7700815641787,
+        "east": -171.7659184358213,
+        "south": -13.833021200611734,
+        "north": -13.828978781833987
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/australia-oceania/samoa-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "37df1c02b770ecdcabc5afe29b1733987c6b2dd18aad3dbbb708484bde3f1e53",
+        "downloadBytes": 3464258,
+        "downloadedAt": "2026-11-16T07:33:16.637Z",
+        "lastModified": "Sun, 15 Nov 2026 23:46:18 GMT",
+        "responseSha256": "37df1c02b770ecdcabc5afe29b1733987c6b2dd18aad3dbbb708484bde3f1e53"
+      },
+      "file": "apia-center.osm.json.gz",
+      "sha256": "621a1a68cbc7eb60cee3e20bac90a499a4e85ab07dd4b85005c30af781e39425",
+      "bytes": 26621,
+      "sourceCandidateWays": 273,
+      "frame": {
+        "width": 450,
+        "depth": 450,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9710050787883863
+      },
+      "metrics": {
+        "buildingCount": 130,
+        "clippedBuildingCount": 21,
+        "buildingFootprintAreaM2": {
+          "n": 130,
+          "min": 1.695,
+          "median": 205.407,
+          "p90": 1308.918,
+          "max": 5050.177
+        },
+        "nearestBuildingGapM": {
+          "n": 130,
+          "min": 0,
+          "median": 1.15,
+          "p90": 11.523,
+          "max": 35.354
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 130,
+          "min": 1.018,
+          "median": 17.086,
+          "p90": 31.417,
+          "max": 62.115
+        },
+        "roadSegmentCount": 342,
+        "pathSegmentCount": 178,
+        "roadLengthM": 5847.822,
+        "pathLengthM": 2417.034,
+        "roadLengthPerHa": 288.781,
+        "mappedFootprintAreaRatio": 0.304,
+        "networkNodes": 463,
+        "networkComponents": 4,
+        "largestNetworkFraction": 0.981,
+        "junctionNodes": 148,
+        "landUseClasses": [
+          "landuse:commercial",
+          "landuse:recreation_ground",
+          "landuse:religious",
+          "leisure:fitness_station",
+          "leisure:garden",
+          "leisure:park",
+          "leisure:pitch",
+          "leisure:stadium",
+          "natural:water",
+          "natural:wetland"
+        ],
+        "buildingAreaAdjacencyPairsWithin10m": {
+          "leisure:park": 35,
+          "natural:wetland": 0,
+          "landuse:recreation_ground": 8,
+          "natural:water": 3,
+          "leisure:pitch": 6,
+          "leisure:stadium": 1,
+          "landuse:commercial": 25,
+          "leisure:fitness_station": 1,
+          "leisure:garden": 6,
+          "landuse:religious": 16
+        },
+        "areaCount": 21
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 0,
+        "unsupportedHighways": 3
+      }
+    },
+    {
+      "id": "lefaga-village",
+      "label": "Matautu Lefaga village",
+      "intendedContext": "rural coastal settlement",
+      "bounds": {
+        "west": -171.94041913755402,
+        "east": -171.935790862446,
+        "south": -13.962231777268636,
+        "north": -13.95774020084912
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/australia-oceania/samoa-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "37df1c02b770ecdcabc5afe29b1733987c6b2dd18aad3dbbb708484bde3f1e53",
+        "downloadBytes": 3464258,
+        "downloadedAt": "2026-11-16T07:33:16.637Z",
+        "lastModified": "Sun, 15 Nov 2026 23:46:18 GMT",
+        "responseSha256": "37df1c02b770ecdcabc5afe29b1733987c6b2dd18aad3dbbb708484bde3f1e53"
+      },
+      "file": "lefaga-village.osm.json.gz",
+      "sha256": "1ca4302a20d56a0a51cd88dc937c05cc0d59041fe3a50a70b19d266dcab6184d",
+      "bytes": 4528,
+      "sourceCandidateWays": 37,
+      "frame": {
+        "width": 500,
+        "depth": 500,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9704644421447136
+      },
+      "metrics": {
+        "buildingCount": 34,
+        "clippedBuildingCount": 5,
+        "buildingFootprintAreaM2": {
+          "n": 34,
+          "min": 0.852,
+          "median": 72.039,
+          "p90": 241.78,
+          "max": 454.391
+        },
+        "nearestBuildingGapM": {
+          "n": 34,
+          "min": 1.268,
+          "median": 7.189,
+          "p90": 36.508,
+          "max": 85.719
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 34,
+          "min": 27.144,
+          "median": 50.544,
+          "p90": 71.005,
+          "max": 97.544
+        },
+        "roadSegmentCount": 10,
+        "pathSegmentCount": 0,
+        "roadLengthM": 529.259,
+        "pathLengthM": 0,
+        "roadLengthPerHa": 21.17,
+        "mappedFootprintAreaRatio": 0.016,
+        "networkNodes": 11,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "junctionNodes": 0,
+        "landUseClasses": [],
+        "buildingAreaAdjacencyPairsWithin10m": {},
+        "areaCount": 0
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 0,
+        "unsupportedHighways": 0
+      }
+    },
+    {
+      "id": "upolu-interior",
+      "label": "Upolu interior",
+      "intendedContext": "forest and agricultural edge",
+      "bounds": {
+        "west": -171.74131358667867,
+        "east": -171.73668641332134,
+        "south": -13.907245777313465,
+        "north": -13.902754200893947
+      },
+      "source": {
+        "provider": "Geofabrik",
+        "url": "https://download.geofabrik.de/australia-oceania/samoa-latest.osm.pbf",
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "sha256": "37df1c02b770ecdcabc5afe29b1733987c6b2dd18aad3dbbb708484bde3f1e53",
+        "downloadBytes": 3464258,
+        "downloadedAt": "2026-11-16T07:33:16.637Z",
+        "lastModified": "Sun, 15 Nov 2026 23:46:18 GMT",
+        "responseSha256": "37df1c02b770ecdcabc5afe29b1733987c6b2dd18aad3dbbb708484bde3f1e53"
+      },
+      "file": "upolu-interior.osm.json.gz",
+      "sha256": "d10ce42ac8ff9ee5756d58ca805144089c217d60b69387200ddbec918290b4f4",
+      "bytes": 840,
+      "sourceCandidateWays": 1,
+      "frame": {
+        "width": 500,
+        "depth": 500,
+        "units": "metres",
+        "axis": "x east, y north",
+        "mercatorScale": 0.9706955140762206
+      },
+      "metrics": {
+        "buildingCount": 0,
+        "clippedBuildingCount": 0,
+        "buildingFootprintAreaM2": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "nearestBuildingGapM": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "p90": null,
+          "max": null
+        },
+        "roadSegmentCount": 12,
+        "pathSegmentCount": 0,
+        "roadLengthM": 470.575,
+        "pathLengthM": 0,
+        "roadLengthPerHa": 18.823,
+        "mappedFootprintAreaRatio": 0,
+        "networkNodes": 13,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "junctionNodes": 0,
+        "landUseClasses": [],
+        "buildingAreaAdjacencyPairsWithin10m": {},
+        "areaCount": 0
+      },
+      "omissions": {
+        "relations": 0,
+        "incompleteWays": 0,
+        "openAreaWays": 0,
+        "buildingParts": 0,
+        "degeneratePolygons": 0,
+        "unsupportedHighways": 0
+      }
+    }
+  ],
+  "failures": []
+}

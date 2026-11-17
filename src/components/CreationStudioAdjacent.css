@@ -1,0 +1,47 @@
+.studio-adjacent {
+  padding: 11px 12px;
+  margin: 0 0 14px;
+  border: 1px solid #d2d9cc;
+  border-radius: 8px;
+  background: #f1f4eb;
+  font-size: 12px;
+}
+.studio-adjacent > span {
+  display: block;
+  margin-bottom: 8px;
+  color: #50674e;
+}
+.studio-adjacent [role='group'] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.studio-adjacent button {
+  border: 1px solid #bac7b1;
+  border-radius: 5px;
+  background: #fcfcf5;
+  color: #3c553d;
+  padding: 7px 11px;
+  font: inherit;
+  cursor: pointer;
+}
+.studio-adjacent button[aria-pressed='true'] {
+  background: #3c5941;
+  border-color: #3c5941;
+  color: #fff;
+}
+.studio-adjacent button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.studio-adjacent p {
+  margin: 10px 0 0;
+  font-size: 11px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.studio-adjacent p button {
+  display: block;
+  margin-top: 7px;
+  padding: 4px 7px;
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "treeid": "142752",
+    "species": "Platanus x hispanica :: Sycamore, London Plane",
+    "latitude": "37.801266",
+    "longitude": "-122.410676",
+    "onstreet": "FILBERT ST",
+    "crossstreet": "STOCKTON ST",
+    "description": "668 FILBERT ST | Tree 2",
+    "mapdbh": "16",
+    "data_as_of": "2026-09-30"
+  },
+  {
+    "treeid": "142753",
+    "species": "Platanus x hispanica :: Sycamore, London Plane",
+    "latitude": "37.80126",
+    "longitude": "-122.41076",
+    "onstreet": "FILBERT ST",
+    "crossstreet": "STOCKTON ST",
+    "description": "668 FILBERT ST | Tree 3",
+    "mapdbh": "16",
+    "data_as_of": "2026-09-30"
+  },
+  {
+    "treeid": "142754",
+    "species": "Platanus x hispanica :: Sycamore, London Plane",
+    "latitude": "37.801246",
+    "longitude": "-122.410848",
+    "onstreet": "FILBERT ST",
+    "crossstreet": "STOCKTON ST",
+    "description": "668 FILBERT ST | Tree 4",
+    "mapdbh": "16",
+    "data_as_of": "2026-09-30"
+  },
+  {
+    "treeid": "142751",
+    "species": "Platanus x hispanica :: Sycamore, London Plane",
+    "latitude": "37.80128",
+    "longitude": "-122.41059",
+    "onstreet": "FILBERT ST",
+    "crossstreet": "STOCKTON ST",
+    "description": "668 FILBERT ST | Tree 1",
+    "mapdbh": "17",
+    "data_as_of": "2026-09-30"
+  }
+]

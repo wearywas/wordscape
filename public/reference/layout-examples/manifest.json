@@ -1,0 +1,1220 @@
+{
+  "version": "1.0",
+  "sourceStudy": "wordscape-layout-study-v1",
+  "method": "Offline retained-source conversion with convertOsmToWorld",
+  "limitations": [
+    "Ten purposively selected examples from retained OSM extracts, not a representative sample or model training. Context labels and tags are authored descriptions.",
+    "The complete Wordscapes preserve converter omissions and estimated heights/widths. Source footprint geometry does not establish height, roof form, entrances, terrain, access or mapping completeness.",
+    "Compact context clips the processed Wordscape to a contiguous rectangle, never a disconnected random sample. Intersecting footprints and centerline-intersecting routes are retained unless clipping is invalid, with omissions counted in the manifest. Consecutive segments of the same mapped way are grouped only when endpoints meet; this does not invent new connections.",
+    "Compact footprints use absolute cluster-local x/y metres and are rounded to 0.01 m; centerlines to 0.001 m. Full Wordscapes retain their original object-local footprint convention. No outline is replaced with a stock rectangle.",
+    "Building gaps and density are censored by crop boundaries and missing mapping. Orientation alignment describes mapped road segments: a single straight road can score highly; it is not a universal grid or naturalness score.",
+    "Regional retained sources omit relation multipolygon assembly, nodes, names, contributor identities and most tags. No new network acquisition or terrain inference occurs in this conversion."
+  ],
+  "examples": [
+    {
+      "id": "monaco-old-town",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/monaco-old-town.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/monaco-old-town.plan.png",
+        "bounds": {
+          "west": 7.421056821626772,
+          "south": 43.729452511915795,
+          "east": 7.423791814046223,
+          "north": 43.73142881739706
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "monaco-old-town",
+        "retainedSourceSha256": "8f53b0364f2f6da072a729a7f26439d1277b994d57b98fd0cc066f29c91a63f9"
+      },
+      "sha256": "888d19a887d68724f37ad04e8308b9631f1891289ab7cc1ae5cafe1ed376a18e",
+      "bytes": 799868,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 362,
+        "buildingCount": 45,
+        "importedEstimatedHeightCount": 45,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 9.3,
+        "summedBuildingAreaRatio": 0.366,
+        "footprintAreaM2": {
+          "n": 45,
+          "min": 0.278,
+          "median": 254.147,
+          "p90": 820.161,
+          "max": 2039.459
+        },
+        "nearestBuildingGapM": {
+          "n": 45,
+          "min": 0,
+          "median": 0,
+          "p90": 4.952,
+          "max": 17.528
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 45,
+          "min": 0.599,
+          "median": 17.075,
+          "p90": 34.776,
+          "max": 47.084
+        },
+        "roadLengthM": 715.49,
+        "pathLengthM": 2121.66,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            102.69,
+            67.67,
+            199.6,
+            130.52,
+            138.48,
+            76.52
+          ],
+          "orthogonalAlignment": 0.301
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 301,
+          "importedObjects": 362,
+          "buildings": 45,
+          "roads": 65,
+          "paths": 249,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 3,
+          "estimatedHeights": 45,
+          "clippedObjects": 42
+        },
+        "omitted": [
+          {
+            "reason": "Highway area omitted from centerline route conversion.",
+            "count": 2
+          }
+        ],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+          "Some mapped features were omitted; review the omission counts."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 42,
+          "y": 75,
+          "width": 70,
+          "depth": 70
+        },
+        "geometryRecords": 33,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 2
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {
+          "landuse:forest": 1,
+          "leisure:outdoor_seating": 1,
+          "natural:bare_rock": 1
+        },
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "sf-wharf",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41868162595988%2C37.806798014784974%2C-122.41458837404012%2C37.81003194980763",
+        "worldPath": "/reference/layout-examples/sf-wharf.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/sf-wharf.plan.png",
+        "bounds": {
+          "west": -122.41799941730676,
+          "south": 37.80774126046314,
+          "east": -122.41527058269425,
+          "north": 37.80989720534197
+        },
+        "snapshotAt": null,
+        "accessed": "2026-11-16",
+        "studySampleId": "sf-wharf",
+        "retainedSourceSha256": "d8c6b72022545e810d1ebf4410c09731154b76448dbcb603ad295808f0e791a7"
+      },
+      "sha256": "02679866cc9344af81af9113b19c411e3c5c2b5f36c054f3c333a6b83249b981",
+      "bytes": 492604,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 214,
+        "buildingCount": 26,
+        "importedEstimatedHeightCount": 15,
+        "importedMappedHeightCount": 11,
+        "buildingCountPerHa": 4.51,
+        "summedBuildingAreaRatio": 0.319,
+        "footprintAreaM2": {
+          "n": 26,
+          "min": 5.534,
+          "median": 266.924,
+          "p90": 1297.304,
+          "max": 4410.1
+        },
+        "nearestBuildingGapM": {
+          "n": 26,
+          "min": 0,
+          "median": 1.76,
+          "p90": 19.333,
+          "max": 23.266
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 26,
+          "min": 5.05,
+          "median": 20.276,
+          "p90": 37.586,
+          "max": 60.531
+        },
+        "roadLengthM": 1042.1,
+        "pathLengthM": 1307.51,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            68.94,
+            3.6,
+            376.95,
+            206.93,
+            115.27,
+            270.42
+          ],
+          "orthogonalAlignment": 0.661
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 181,
+          "importedObjects": 214,
+          "buildings": 26,
+          "roads": 94,
+          "paths": 91,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 3,
+          "estimatedHeights": 16,
+          "clippedObjects": 43
+        },
+        "omitted": [
+          {
+            "reason": "Complex multipolygon or courtyard holes require manual review.",
+            "count": 2
+          },
+          {
+            "reason": "Unsupported or invalid geometry/attributes.",
+            "count": 1
+          },
+          {
+            "reason": "Highway area omitted from centerline route conversion.",
+            "count": 2
+          }
+        ],
+        "timestamp": null,
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "No database snapshot timestamp supplied; acquisition time is recorded separately from element edit dates.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+          "Some mapped features were omitted; review the omission counts."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 101,
+          "y": 65,
+          "width": 110,
+          "depth": 110
+        },
+        "geometryRecords": 33,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 1
+        }
+      },
+      "retainedSourceRelations": 2,
+      "coverage": {
+        "unrepresentedAreaClasses": {},
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "hulhumale-grid",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/asia/maldives-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/hulhumale-grid.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/hulhumale-grid.plan.png",
+        "bounds": {
+          "west": 73.54108473589424,
+          "south": 4.2167466000114375,
+          "east": 73.54306639598757,
+          "north": 4.218722893293643
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "hulhumale-grid",
+        "retainedSourceSha256": "2ff3366938e692be3700a7bfa663442f27d3853850eaeae8514085354b9f3be5"
+      },
+      "sha256": "509673cfea27c3e388f4a6a0bf07bdff792355239fe9909abf925a4caf3469b3",
+      "bytes": 329616,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 174,
+        "buildingCount": 82,
+        "importedEstimatedHeightCount": 82,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 16.94,
+        "summedBuildingAreaRatio": 0.151,
+        "footprintAreaM2": {
+          "n": 82,
+          "min": 3.351,
+          "median": 69.625,
+          "p90": 104.028,
+          "max": 574.873
+        },
+        "nearestBuildingGapM": {
+          "n": 82,
+          "min": 0,
+          "median": 0,
+          "p90": 0,
+          "max": 4.621
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 82,
+          "min": 9.58,
+          "median": 14.245,
+          "p90": 19.997,
+          "max": 30.352
+        },
+        "roadLengthM": 803.14,
+        "pathLengthM": 852.77,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            299.67,
+            11.6,
+            15.63,
+            448.36,
+            15.37,
+            12.51
+          ],
+          "orthogonalAlignment": 0.869
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 308,
+          "importedObjects": 174,
+          "buildings": 82,
+          "roads": 41,
+          "paths": 49,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 2,
+          "estimatedHeights": 82,
+          "clippedObjects": 38
+        },
+        "omitted": [
+          {
+            "reason": "Coastline topology could not safely establish water polygons.",
+            "count": 1
+          }
+        ],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "Coastal water omitted: no coastline crosses this selection; land/sea coverage is unknown.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+          "Some mapped features were omitted; review the omission counts."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 55,
+          "y": 88,
+          "width": 110,
+          "depth": 110
+        },
+        "geometryRecords": 26,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 0
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {
+          "leisure:sports_centre": 1,
+          "landuse:construction": 2,
+          "leisure:pitch": 3
+        },
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "thulusdhoo-village",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/asia/maldives-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/thulusdhoo-village.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/thulusdhoo-village.plan.png",
+        "bounds": {
+          "west": 73.65195401398478,
+          "south": 4.372766936710977,
+          "east": 73.65393607992144,
+          "north": 4.374743230454439
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "thulusdhoo-village",
+        "retainedSourceSha256": "3c8879ee7af0df9f75199a81b0e789dd76951f80294fcf5800cebf274a9f92a9"
+      },
+      "sha256": "c2ae472a014116ed84dc7752df1dca44c5aec4119f5fde83967633dc44e44861",
+      "bytes": 299003,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 170,
+        "buildingCount": 113,
+        "importedEstimatedHeightCount": 113,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 23.35,
+        "summedBuildingAreaRatio": 0.287,
+        "footprintAreaM2": {
+          "n": 113,
+          "min": 0.084,
+          "median": 117.223,
+          "p90": 226.582,
+          "max": 635.522
+        },
+        "nearestBuildingGapM": {
+          "n": 113,
+          "min": 0,
+          "median": 1.157,
+          "p90": 6.111,
+          "max": 21.275
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 113,
+          "min": 3.478,
+          "median": 10.193,
+          "p90": 14.67,
+          "max": 21.364
+        },
+        "roadLengthM": 2046.93,
+        "pathLengthM": 0,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            1109,
+            0,
+            0,
+            937.93,
+            0,
+            0
+          ],
+          "orthogonalAlignment": 0.996
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 256,
+          "importedObjects": 170,
+          "buildings": 113,
+          "roads": 57,
+          "paths": 0,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 0,
+          "estimatedHeights": 113,
+          "clippedObjects": 50
+        },
+        "omitted": [
+          {
+            "reason": "Coastline topology could not safely establish water polygons.",
+            "count": 1
+          }
+        ],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "Coastal water omitted: no coastline crosses this selection; land/sea coverage is unknown.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+          "Some mapped features were omitted; review the omission counts."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 65,
+          "y": 65,
+          "width": 90,
+          "depth": 90
+        },
+        "geometryRecords": 33,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 0
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {
+          "landuse:cemetery": 1,
+          "natural:wood": 1
+        },
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "schaan-housing",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/schaan-housing.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/schaan-housing.plan.png",
+        "bounds": {
+          "west": 9.509903607268726,
+          "south": 47.16512792498979,
+          "east": 9.5128104872823,
+          "north": 47.16710424033792
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "schaan-housing",
+        "retainedSourceSha256": "e43d194d10a3539050d495d1faa2b1bb9d06b6f315c4a8d13dde75bee383b604"
+      },
+      "sha256": "8ab96836bc441e4b9e6b81e21d7f9ac5042c5dbcb78e426e842d2f393973db79",
+      "bytes": 610722,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 282,
+        "buildingCount": 54,
+        "importedEstimatedHeightCount": 54,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 11.16,
+        "summedBuildingAreaRatio": 0.219,
+        "footprintAreaM2": {
+          "n": 54,
+          "min": 0.002,
+          "median": 136.104,
+          "p90": 310.067,
+          "max": 2110.065
+        },
+        "nearestBuildingGapM": {
+          "n": 54,
+          "min": 0,
+          "median": 5.465,
+          "p90": 10.605,
+          "max": 26.847
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 54,
+          "min": 7.576,
+          "median": 15.526,
+          "p90": 29.418,
+          "max": 47.425
+        },
+        "roadLengthM": 1232.17,
+        "pathLengthM": 1216.42,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            515.72,
+            134.07,
+            4.31,
+            555.45,
+            8.78,
+            13.84
+          ],
+          "orthogonalAlignment": 0.85
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 555,
+          "importedObjects": 282,
+          "buildings": 54,
+          "roads": 73,
+          "paths": 153,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 2,
+          "estimatedHeights": 56,
+          "clippedObjects": 55
+        },
+        "omitted": [
+          {
+            "reason": "Unsupported or invalid geometry/attributes.",
+            "count": 2
+          },
+          {
+            "reason": "Highway area omitted from centerline route conversion.",
+            "count": 2
+          }
+        ],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+          "Some mapped features were omitted; review the omission counts."
+        ]
+      },
+      "validationWarnings": [
+        "Buildings \"osm-way-483546745\" and \"osm-way-1067198655\" physically overlap."
+      ],
+      "cluster": {
+        "bounds": {
+          "x": 65,
+          "y": 65,
+          "width": 90,
+          "depth": 90
+        },
+        "geometryRecords": 32,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 2
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {
+          "landuse:retail": 1,
+          "landuse:meadow": 2,
+          "leisure:swimming_pool": 2
+        },
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "malbun-village",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/malbun-village.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/malbun-village.plan.png",
+        "bounds": {
+          "west": 9.607522462248612,
+          "south": 47.100723669692435,
+          "east": 9.61082176186748,
+          "north": 47.102969493900886
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "malbun-village",
+        "retainedSourceSha256": "f0ebe471a7d4532051087c54820922bb413234aeaf5bb33a394b37cd7d8a4df5"
+      },
+      "sha256": "843d4c0c14d2a8c6b6e77d0f7e0f1ca33512a79830eab7afedf3ef74950619b7",
+      "bytes": 646860,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 290,
+        "buildingCount": 61,
+        "importedEstimatedHeightCount": 61,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 9.76,
+        "summedBuildingAreaRatio": 0.206,
+        "footprintAreaM2": {
+          "n": 61,
+          "min": 1.994,
+          "median": 118.677,
+          "p90": 388.59,
+          "max": 1635.542
+        },
+        "nearestBuildingGapM": {
+          "n": 61,
+          "min": 0,
+          "median": 6.097,
+          "p90": 12.076,
+          "max": 34.135
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 61,
+          "min": 4.661,
+          "median": 12.677,
+          "p90": 20.356,
+          "max": 35.896
+        },
+        "roadLengthM": 1732.97,
+        "pathLengthM": 638.09,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            37.65,
+            306.68,
+            306.56,
+            116.24,
+            546.18,
+            419.66
+          ],
+          "orthogonalAlignment": 0.459
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 201,
+          "importedObjects": 290,
+          "buildings": 61,
+          "roads": 169,
+          "paths": 58,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 2,
+          "estimatedHeights": 61,
+          "clippedObjects": 35
+        },
+        "omitted": [],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 60,
+          "y": 60,
+          "width": 130,
+          "depth": 130
+        },
+        "geometryRecords": 29,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 0
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {
+          "landuse:forest": 2,
+          "landuse:residential": 1,
+          "landuse:winter_sports": 1,
+          "landuse:meadow": 1
+        },
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "vaduz-center",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/vaduz-center.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/vaduz-center.plan.png",
+        "bounds": {
+          "west": 9.519188818355149,
+          "south": 47.14016692738615,
+          "east": 9.52235843889459,
+          "north": 47.1423228822454
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "vaduz-center",
+        "retainedSourceSha256": "0982c3170074c2c32409530c283a8bdcc694aecf1342b34416686d8f3175deca"
+      },
+      "sha256": "f54edb3b8e25855f318d580311754c60fe5c550fefbfa006cbef4535aa8e1935",
+      "bytes": 1287280,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 572,
+        "buildingCount": 79,
+        "importedEstimatedHeightCount": 79,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 13.72,
+        "summedBuildingAreaRatio": 0.299,
+        "footprintAreaM2": {
+          "n": 79,
+          "min": 3.837,
+          "median": 159.549,
+          "p90": 446.679,
+          "max": 1356.917
+        },
+        "nearestBuildingGapM": {
+          "n": 79,
+          "min": 0,
+          "median": 0,
+          "p90": 8.836,
+          "max": 26.221
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 79,
+          "min": 5.643,
+          "median": 13.128,
+          "p90": 19.906,
+          "max": 38.085
+        },
+        "roadLengthM": 2051.98,
+        "pathLengthM": 1795.42,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            194.12,
+            481.74,
+            254.22,
+            226.26,
+            683.61,
+            212.02
+          ],
+          "orthogonalAlignment": 0.39
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 464,
+          "importedObjects": 572,
+          "buildings": 79,
+          "roads": 248,
+          "paths": 243,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 2,
+          "estimatedHeights": 79,
+          "clippedObjects": 52
+        },
+        "omitted": [
+          {
+            "reason": "Highway area omitted from centerline route conversion.",
+            "count": 3
+          }
+        ],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+          "Some mapped features were omitted; review the omission counts."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 49,
+          "y": 121,
+          "width": 70,
+          "depth": 70
+        },
+        "geometryRecords": 35,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 8
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {
+          "landuse:vineyard": 1,
+          "landuse:retail": 1,
+          "landuse:construction": 1
+        },
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "la-digue-coast",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/africa/seychelles-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/la-digue-coast.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/la-digue-coast.plan.png",
+        "bounds": {
+          "west": 55.82891890594445,
+          "south": -4.35207797756931,
+          "east": 55.83108109405551,
+          "north": -4.349922020887561
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "la-digue-coast",
+        "retainedSourceSha256": "873b5af62419e2ea800c3ad4113582fa5b64f8a6c7c7b08ae93adbbe7d22377b"
+      },
+      "sha256": "13ea1cfc9114b8a280d46b441c113b6e2ce638c0707f87bacade2b08cb1f4409",
+      "bytes": 133753,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 81,
+        "buildingCount": 62,
+        "importedEstimatedHeightCount": 62,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 10.76,
+        "summedBuildingAreaRatio": 0.115,
+        "footprintAreaM2": {
+          "n": 62,
+          "min": 0.415,
+          "median": 111.967,
+          "p90": 197.726,
+          "max": 273.093
+        },
+        "nearestBuildingGapM": {
+          "n": 62,
+          "min": 0,
+          "median": 6.178,
+          "p90": 15.759,
+          "max": 21.427
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 62,
+          "min": 3.854,
+          "median": 18.867,
+          "p90": 55.344,
+          "max": 76.907
+        },
+        "roadLengthM": 797.54,
+        "pathLengthM": 36.76,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            220.67,
+            0,
+            0,
+            547.96,
+            0,
+            28.91
+          ],
+          "orthogonalAlignment": 0.976
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 289,
+          "importedObjects": 81,
+          "buildings": 62,
+          "roads": 16,
+          "paths": 3,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 0,
+          "estimatedHeights": 62,
+          "clippedObjects": 15
+        },
+        "omitted": [
+          {
+            "reason": "Coastline topology could not safely establish water polygons.",
+            "count": 1
+          }
+        ],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "Coastal water omitted: no coastline crosses this selection; land/sea coverage is unknown.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+          "Some mapped features were omitted; review the omission counts."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 55,
+          "y": 19,
+          "width": 130,
+          "depth": 130
+        },
+        "geometryRecords": 31,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 0
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {
+          "landuse:residential": 1
+        },
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "apia-center",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/australia-oceania/samoa-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/apia-center.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/apia-center.plan.png",
+        "bounds": {
+          "west": -171.7690176535985,
+          "south": -13.832122891396134,
+          "east": -171.76679731847466,
+          "north": -13.82996693513054
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "apia-center",
+        "retainedSourceSha256": "621a1a68cbc7eb60cee3e20bac90a499a4e85ab07dd4b85005c30af781e39425"
+      },
+      "sha256": "5bf24864c3e3fd2b170db41a747d6d3a70b7dbcd04063e46f140c340104cda52",
+      "bytes": 615692,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 265,
+        "buildingCount": 38,
+        "importedEstimatedHeightCount": 38,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 6.6,
+        "summedBuildingAreaRatio": 0.23,
+        "footprintAreaM2": {
+          "n": 38,
+          "min": 0.424,
+          "median": 229.474,
+          "p90": 834.595,
+          "max": 1677.943
+        },
+        "nearestBuildingGapM": {
+          "n": 38,
+          "min": 0,
+          "median": 2.223,
+          "p90": 24.133,
+          "max": 32.52
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 38,
+          "min": 1.019,
+          "median": 14.138,
+          "p90": 24.063,
+          "max": 34.178
+        },
+        "roadLengthM": 2364.55,
+        "pathLengthM": 530.71,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            696.9,
+            172.71,
+            155.28,
+            978,
+            166.85,
+            194.81
+          ],
+          "orthogonalAlignment": 0.54
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 273,
+          "importedObjects": 265,
+          "buildings": 38,
+          "roads": 173,
+          "paths": 49,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 5,
+          "estimatedHeights": 38,
+          "clippedObjects": 50
+        },
+        "omitted": [
+          {
+            "reason": "Coastline topology could not safely establish water polygons.",
+            "count": 1
+          }
+        ],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "Coastal water omitted: no coastline crosses this selection; land/sea coverage is unknown.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances.",
+          "Some mapped features were omitted; review the omission counts."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 19,
+          "y": 55,
+          "width": 130,
+          "depth": 130
+        },
+        "geometryRecords": 34,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [
+            {
+              "id": "osm-way-186581379",
+              "errors": [
+                "objects[0].footprint must be a simple polygon with nonzero area, no crossings, and no repeated closing vertex."
+              ]
+            }
+          ],
+          "routeCorridorsWithCenterlineOutside": 3
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {
+          "landuse:recreation_ground": 1,
+          "landuse:commercial": 2,
+          "leisure:fitness_station": 1,
+          "landuse:religious": 2
+        },
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    },
+    {
+      "id": "lefaga-village",
+      "source": {
+        "attribution": "© OpenStreetMap contributors",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "url": "https://download.geofabrik.de/australia-oceania/samoa-latest.osm.pbf",
+        "worldPath": "/reference/layout-examples/lefaga-village.wordscape.json",
+        "thumbnailPath": "/reference/layout-examples/lefaga-village.plan.png",
+        "bounds": {
+          "west": -171.93875295851524,
+          "south": -13.961468215452733,
+          "east": -171.93643882096134,
+          "north": -13.95922243074388
+        },
+        "snapshotAt": "2026-11-15T21:22:28Z",
+        "accessed": "2026-11-16",
+        "studySampleId": "lefaga-village",
+        "retainedSourceSha256": "1ca4302a20d56a0a51cd88dc937c05cc0d59041fe3a50a70b19d266dcab6184d"
+      },
+      "sha256": "1f6190fb4e8134fb957dd2960c5b43378c8d53c8d6ccad788daec07b7ba74c82",
+      "bytes": 33989,
+      "stats": {
+        "scope": "complete converted world",
+        "objectCount": 22,
+        "buildingCount": 19,
+        "importedEstimatedHeightCount": 19,
+        "importedMappedHeightCount": 0,
+        "buildingCountPerHa": 3.04,
+        "summedBuildingAreaRatio": 0.038,
+        "footprintAreaM2": {
+          "n": 19,
+          "min": 12.419,
+          "median": 104.195,
+          "p90": 216.567,
+          "max": 326.42
+        },
+        "nearestBuildingGapM": {
+          "n": 19,
+          "min": 1.268,
+          "median": 5.582,
+          "p90": 8.355,
+          "max": 14.307
+        },
+        "buildingEnvelopeCenterToRoadCenterlineM": {
+          "n": 19,
+          "min": 38.756,
+          "median": 51.14,
+          "p90": 72.941,
+          "max": 97.543
+        },
+        "roadLengthM": 231.64,
+        "pathLengthM": 0,
+        "roadOrientation": {
+          "convention": "Undirected degrees clockwise from north; bins [0,30), [30,60), … [150,180). Length weighted.",
+          "binLengthM": [
+            0,
+            231.64,
+            0,
+            0,
+            0,
+            0
+          ],
+          "orthogonalAlignment": 0.85
+        },
+        "relationCount": 0
+      },
+      "diagnostics": {
+        "counts": {
+          "inputElements": 37,
+          "importedObjects": 22,
+          "buildings": 19,
+          "roads": 3,
+          "paths": 0,
+          "entrances": 0,
+          "trees": 0,
+          "areas": 0,
+          "estimatedHeights": 19,
+          "clippedObjects": 2
+        },
+        "omitted": [],
+        "timestamp": "2026-11-15T21:22:28Z",
+        "warnings": [
+          "OpenStreetMap coverage varies: absent features and tags are unknown, not evidence that they do not exist.",
+          "Imported ground is a flat local plane. No terrain, surveyed floor elevations or accessibility routing is inferred.",
+          "No mapped entrances were imported. This does not imply that buildings lack entrances."
+        ]
+      },
+      "validationWarnings": [],
+      "cluster": {
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 250,
+          "depth": 250
+        },
+        "geometryRecords": 20,
+        "diagnostics": {
+          "method": "Clip the complete processed Wordscape; do not reinterpret source coastlines.",
+          "invalidClippedObjects": [],
+          "routeCorridorsWithCenterlineOutside": 0
+        }
+      },
+      "retainedSourceRelations": 0,
+      "coverage": {
+        "unrepresentedAreaClasses": {},
+        "retainedNodes": 0,
+        "note": "Source crops intentionally omit nodes and most relation geometry. Missing mapped trees, entrances and land-use surfaces must not be interpreted as real-world absence."
+      }
+    }
+  ]
+}

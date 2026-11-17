@@ -1,0 +1,3285 @@
+{
+  "bounds": {
+    "depth": 180,
+    "width": 180
+  },
+  "description": "An entirely authored fictional village on flat 180 × 180 metre ground. Three close building clusters frame a gently bending market lane and a short canal-side promenade. Summed building footprints occupy approximately 29% of the scene. Narrow passages, varied rooflines, orchard pockets and two uneven courts suggest incremental growth rather than a formal grid.",
+  "format": "wordscape",
+  "imaginary": {
+    "brief": "Create Lanternwater Lanes, a fictional storybook canal village on a flat 180 metre square. Retain the idea of a copper-domed archive, workshops, cottages, market courts, orchard planting and a canal, but make a denser settlement that feels grown over time. Use 45–60 objects, including about 24–30 varied buildings arranged into three close clusters along a gently bending market lane and a short waterfront spine. Aim for about 25–35% summed building footprint coverage, with varied narrow gaps and occasional shared walls, while keeping useful routes clear. Include two small uneven gathering courts rather than a giant central square. Orient buildings to their nearby route and cluster; avoid identical rows, equal setbacks and right-angle symmetry. Let the canal or shore have a simple bent polygon outline. Place only a few useful trees and fixtures in leftover pockets. Keep all footprints inside the scene and avoid solid overlaps. Use original bounded geometry for the copper-domed archive and one workshop, with other roofs interpreted from authored facts. Reference real layout relationships creatively; this is fiction, not a copy of a real town.",
+    "guideVersion": "1.0"
+  },
+  "name": "Lanternwater Lanes",
+  "objects": [
+    {
+      "depth": 180,
+      "description": "Flat grassy ground beneath the settlement.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.02,
+      "id": "ground",
+      "kind": "grass",
+      "label": "Village ground",
+      "layer": 0,
+      "rotation": 0,
+      "tags": [
+        "authored"
+      ],
+      "width": 180,
+      "x": 90,
+      "y": 90
+    },
+    {
+      "depth": 180,
+      "description": "A simple bent eastern water boundary, widening toward the south.",
+      "elevation": 0,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -16,
+          -90
+        ],
+        [
+          16,
+          -90
+        ],
+        [
+          16,
+          90
+        ],
+        [
+          -7,
+          90
+        ],
+        [
+          -7,
+          35
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "height": 0.03,
+      "id": "canal",
+      "kind": "water",
+      "label": "Lanternwater Canal",
+      "layer": 1,
+      "rotation": 0,
+      "tags": [
+        "canal",
+        "authored"
+      ],
+      "width": 32,
+      "x": 164,
+      "y": 90
+    },
+    {
+      "depth": 180,
+      "description": "The continuous pedestrian backbone; its broad bends leave clear passage between clustered fronts.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -12,
+          -90
+        ],
+        [
+          -2,
+          -90
+        ],
+        [
+          12,
+          -20
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          -1,
+          65
+        ],
+        [
+          -1,
+          90
+        ],
+        [
+          -11,
+          90
+        ],
+        [
+          -11,
+          63
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          -18
+        ]
+      ],
+      "height": 0.04,
+      "id": "market-lane",
+      "kind": "pavement",
+      "label": "Bending Market Lane",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "primary-route"
+      ],
+      "width": 24,
+      "x": 82,
+      "y": 90
+    },
+    {
+      "depth": 116,
+      "description": "A short waterfront spine beside the canal's narrow middle reach.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "quay",
+      "kind": "pavement",
+      "label": "Lantern Quay",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "waterfront-route"
+      ],
+      "width": 8,
+      "x": 147,
+      "y": 91
+    },
+    {
+      "depth": 6,
+      "description": "Cross-village passage linking the southern court, market lane and quay.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "south-link",
+      "kind": "pavement",
+      "label": "Kiln Passage",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "secondary-route"
+      ],
+      "width": 137,
+      "x": 78.5,
+      "y": 60
+    },
+    {
+      "depth": 6,
+      "description": "The second cross-village connection, opening into a small eastern court.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.04,
+      "id": "north-link",
+      "kind": "pavement",
+      "label": "Archive Passage",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "secondary-route"
+      ],
+      "width": 137,
+      "x": 78.5,
+      "y": 120
+    },
+    {
+      "depth": 18,
+      "description": "A compact western gathering place with clipped corners and an unobstructed through-route.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -29,
+          -6
+        ],
+        [
+          -20,
+          -9
+        ],
+        [
+          23,
+          -9
+        ],
+        [
+          29,
+          -3
+        ],
+        [
+          27,
+          7
+        ],
+        [
+          -15,
+          9
+        ],
+        [
+          -29,
+          3
+        ]
+      ],
+      "height": 0.05,
+      "id": "kiln-court",
+      "kind": "pavement",
+      "label": "Uneven Kiln Court",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "gathering-court"
+      ],
+      "width": 58,
+      "x": 43,
+      "y": 60
+    },
+    {
+      "depth": 18,
+      "description": "An irregular small market court between the archive quarter and waterfront.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -27,
+          -7
+        ],
+        [
+          17,
+          -9
+        ],
+        [
+          27,
+          -3
+        ],
+        [
+          24,
+          7
+        ],
+        [
+          -13,
+          9
+        ],
+        [
+          -27,
+          3
+        ]
+      ],
+      "height": 0.05,
+      "id": "archive-court",
+      "kind": "pavement",
+      "label": "Copper Court",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "gathering-court"
+      ],
+      "width": 54,
+      "x": 116,
+      "y": 120
+    },
+    {
+      "depth": 16,
+      "description": "Broad bakery anchoring the southern cluster's western edge.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "s1",
+      "kind": "building",
+      "label": "Willow Bakers",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster"
+      ],
+      "width": 26,
+      "x": 21,
+      "y": 14
+    },
+    {
+      "depth": 18,
+      "description": "A deeper lodging house opening east toward Market Lane.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 11,
+      "id": "s2",
+      "kind": "building",
+      "label": "Apricot Lodgings",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster"
+      ],
+      "width": 28,
+      "x": 51,
+      "y": 15
+    },
+    {
+      "depth": 16,
+      "description": "Tailor's dwelling sharing a narrow service gap with the bakery.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "s3",
+      "kind": "building",
+      "label": "Blue Thread House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster"
+      ],
+      "width": 24,
+      "x": 20,
+      "y": 33
+    },
+    {
+      "depth": 16,
+      "description": "A stepped copper-and-timber workshop facing the market lane across a clear threshold.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "timber and brick"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#A66B50",
+            "dimensions": [
+              1,
+              0.6,
+              1
+            ],
+            "footprint": null,
+            "id": "hall",
+            "label": "Brick work hall",
+            "position": [
+              0,
+              0.3,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#679B8D",
+            "dimensions": [
+              0.5,
+              0.14,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-low",
+            "label": "Lower copper roof",
+            "position": [
+              -0.25,
+              0.67,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#997044",
+            "dimensions": [
+              0.5,
+              0.4,
+              1
+            ],
+            "footprint": null,
+            "id": "roof-high",
+            "label": "Raised lantern assembly loft",
+            "position": [
+              0.25,
+              0.8,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 9,
+      "id": "s4",
+      "kind": "building",
+      "label": "Lanternmakers' Workshop",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster",
+        "focal-workshop"
+      ],
+      "width": 28,
+      "x": 51,
+      "y": 34
+    },
+    {
+      "depth": 9,
+      "description": "A low, slightly skewed store range defining the court's southern edge.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 5,
+      "id": "s5",
+      "kind": "building",
+      "label": "Kiln Court Stores",
+      "layer": 4,
+      "rotation": -2,
+      "tags": [
+        "south-cluster"
+      ],
+      "width": 55,
+      "x": 36,
+      "y": 48
+    },
+    {
+      "depth": 22,
+      "description": "Small southern cottage with a lane-facing front.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "s6",
+      "kind": "building",
+      "label": "Reed Cottage",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster"
+      ],
+      "width": 18,
+      "x": 108,
+      "y": 17
+    },
+    {
+      "depth": 20,
+      "description": "Canal-side house and repair room.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "painted timber"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "s7",
+      "kind": "building",
+      "label": "Boatwright's House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster"
+      ],
+      "width": 20,
+      "x": 130,
+      "y": 16
+    },
+    {
+      "depth": 22,
+      "description": "Narrow-fronted chandlery serving the lane and Kiln Passage.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 10,
+      "id": "s8",
+      "kind": "building",
+      "label": "Wick Chandlery",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster"
+      ],
+      "width": 20,
+      "x": 109,
+      "y": 42
+    },
+    {
+      "depth": 20,
+      "description": "Tea rooms with an eastern front facing the promenade.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "s9",
+      "kind": "building",
+      "label": "Quay Tea Rooms",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "south-cluster"
+      ],
+      "width": 18,
+      "x": 132,
+      "y": 42
+    },
+    {
+      "depth": 18,
+      "description": "A broad pottery building overlooking the northern lip of Kiln Court.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "ochre brick"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "m1",
+      "kind": "building",
+      "label": "Clay Cooperative",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster"
+      ],
+      "width": 28,
+      "x": 22,
+      "y": 80
+    },
+    {
+      "depth": 18,
+      "description": "Tall workshop with its long front parallel to Market Lane.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 12,
+      "id": "m2",
+      "kind": "building",
+      "label": "Glaziers' Hall",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster"
+      ],
+      "width": 28,
+      "x": 53,
+      "y": 80
+    },
+    {
+      "depth": 16,
+      "description": "A shallow dye workshop beside the shared inner service opening.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "m3",
+      "kind": "building",
+      "label": "Madder Dye House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster"
+      ],
+      "width": 24,
+      "x": 20,
+      "y": 99
+    },
+    {
+      "depth": 16,
+      "description": "A compact upper-storey workhouse fronting the market bend.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 10,
+      "id": "m4",
+      "kind": "building",
+      "label": "Patternmakers' Rooms",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster"
+      ],
+      "width": 28,
+      "x": 51,
+      "y": 99
+    },
+    {
+      "depth": 8,
+      "description": "A low narrow range turning its shopfronts toward Archive Passage.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 5,
+      "id": "m5",
+      "kind": "building",
+      "label": "Print Sellers' Range",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster"
+      ],
+      "width": 54,
+      "x": 36,
+      "y": 112
+    },
+    {
+      "depth": 26,
+      "description": "The village focal building: a masonry archive with a rounded verdigris copper crown and a south-facing approach from Copper Court.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "cream masonry and copper"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "geometry": {
+        "evidence": "authored",
+        "parts": [
+          {
+            "color": "#D9C8A3",
+            "dimensions": [
+              1,
+              0.5,
+              1
+            ],
+            "footprint": null,
+            "id": "base",
+            "label": "Archive masonry block",
+            "position": [
+              0,
+              0.25,
+              0
+            ],
+            "primitive": "box",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#C5B48D",
+            "dimensions": [
+              0.8,
+              0.16,
+              0.68
+            ],
+            "footprint": null,
+            "id": "drum",
+            "label": "Circular dome drum",
+            "position": [
+              0,
+              0.53,
+              0
+            ],
+            "primitive": "cylinder",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "color": "#609487",
+            "dimensions": [
+              0.8,
+              0.56,
+              0.68
+            ],
+            "footprint": null,
+            "id": "dome",
+            "label": "Rounded copper crown",
+            "position": [
+              0,
+              0.72,
+              0
+            ],
+            "primitive": "sphere",
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "space": "normalized-object",
+        "type": "parts",
+        "version": 1
+      },
+      "height": 19,
+      "id": "m6",
+      "kind": "building",
+      "label": "Copper-Domed Archive",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster",
+        "focal-archive"
+      ],
+      "width": 22,
+      "x": 110,
+      "y": 99
+    },
+    {
+      "depth": 24,
+      "description": "A small book trade building close to the archive's eastern flank.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "m7",
+      "kind": "building",
+      "label": "Mapbinder's Shop",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster"
+      ],
+      "width": 18,
+      "x": 133,
+      "y": 100
+    },
+    {
+      "depth": 16,
+      "description": "Paper warehouse with its frontage toward Kiln Passage.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "m8",
+      "kind": "building",
+      "label": "Paper Merchants",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster"
+      ],
+      "width": 20,
+      "x": 109,
+      "y": 75
+    },
+    {
+      "depth": 18,
+      "description": "Quay-facing house enclosing the southeastern corner of the archive group.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "limewashed brick"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "m9",
+      "kind": "building",
+      "label": "Ferry Steward's House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "middle-cluster"
+      ],
+      "width": 18,
+      "x": 133,
+      "y": 75
+    },
+    {
+      "depth": 22,
+      "description": "A generous inn facing Archive Passage on the northern side.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "hipped"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 11,
+      "id": "n1",
+      "kind": "building",
+      "label": "Pear Court Inn",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 28,
+      "x": 22,
+      "y": 140
+    },
+    {
+      "depth": 20,
+      "description": "A taller house enclosing the lane-side edge of the northern cluster.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.levels",
+          "value": 3
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 12,
+      "id": "n2",
+      "kind": "building",
+      "label": "Bellflower Apartments",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 28,
+      "x": 53,
+      "y": 139
+    },
+    {
+      "depth": 16,
+      "description": "An inn kitchen and preserving workshop beside the orchard pocket.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "n3",
+      "kind": "building",
+      "label": "Orchard Kitchen",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 26,
+      "x": 21,
+      "y": 161
+    },
+    {
+      "depth": 18,
+      "description": "A narrow-gap neighbour with a higher roof and lane-facing rooms.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 10,
+      "id": "n4",
+      "kind": "building",
+      "label": "Storyteller's House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 28,
+      "x": 52,
+      "y": 161
+    },
+    {
+      "depth": 8,
+      "description": "A long low washhouse bounding the northern edge without blocking the lane.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 5,
+      "id": "n5",
+      "kind": "building",
+      "label": "Northern Washhouse",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 56,
+      "x": 37,
+      "y": 175
+    },
+    {
+      "depth": 22,
+      "description": "A modest cottage facing Copper Court from the north.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "n6",
+      "kind": "building",
+      "label": "Saffron Cottage",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 20,
+      "x": 108,
+      "y": 140
+    },
+    {
+      "depth": 24,
+      "description": "A broad waterfront dwelling beside the quay's northern end.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.material",
+          "value": "timber and plaster"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 9,
+      "id": "n7",
+      "kind": "building",
+      "label": "Net Menders' House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 20,
+      "x": 132,
+      "y": 141
+    },
+    {
+      "depth": 20,
+      "description": "A slightly turned cottage at the lane's quiet northern exit.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "gabled"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 8,
+      "id": "n8",
+      "kind": "building",
+      "label": "Rosehip Cottage",
+      "layer": 4,
+      "rotation": 3,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 18,
+      "x": 107,
+      "y": 166
+    },
+    {
+      "depth": 20,
+      "description": "A compact northern house with a distinctive pyramidal roof.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "building.roofShape",
+          "value": "pyramidal"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 11,
+      "id": "n9",
+      "kind": "building",
+      "label": "Canal Watch House",
+      "layer": 4,
+      "rotation": 0,
+      "tags": [
+        "north-cluster"
+      ],
+      "width": 20,
+      "x": 132,
+      "y": 167
+    },
+    {
+      "depth": 42,
+      "description": "A narrow shared passage between northern western buildings, connected southward to Archive Passage.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "footprint": [
+        [
+          -2,
+          -21
+        ],
+        [
+          2,
+          -21
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          -1,
+          7
+        ],
+        [
+          -1,
+          21
+        ],
+        [
+          -2,
+          21
+        ]
+      ],
+      "height": 0.04,
+      "id": "inner-passage",
+      "kind": "pavement",
+      "label": "Pear Court Passage",
+      "layer": 2,
+      "rotation": 0,
+      "tags": [
+        "shared-access"
+      ],
+      "width": 4,
+      "x": 37,
+      "y": 144
+    },
+    {
+      "depth": 48,
+      "description": "A slim planted village boundary, leaving the cross-passages open.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.02,
+      "id": "orchard-west",
+      "kind": "grass",
+      "label": "Western Orchard Strip",
+      "layer": 1,
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 6,
+      "x": 4,
+      "y": 96
+    },
+    {
+      "depth": 42,
+      "description": "A small planted pocket at the western side of the inn cluster.",
+      "elevation": 0.02,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.02,
+      "id": "orchard-north",
+      "kind": "grass",
+      "label": "Pear Court Orchard Pocket",
+      "layer": 1,
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 6,
+      "x": 4,
+      "y": 151
+    },
+    {
+      "depth": 5,
+      "description": "Fruit tree tucked against the western village boundary.",
+      "elevation": 0.04,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pear"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "tree1",
+      "kind": "tree",
+      "label": "Potters' Pear",
+      "layer": 5,
+      "parentId": "orchard-west",
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 5,
+      "x": 4,
+      "y": 81
+    },
+    {
+      "depth": 5,
+      "description": "An apple tree outside the workshop footprints and passage.",
+      "elevation": 0.04,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "apple"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 6,
+      "id": "tree2",
+      "kind": "tree",
+      "label": "Dyers' Apple",
+      "layer": 5,
+      "parentId": "orchard-west",
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 5,
+      "x": 4,
+      "y": 101
+    },
+    {
+      "depth": 5,
+      "description": "A fruit tree in the inn's western orchard strip.",
+      "elevation": 0.04,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pear"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 7,
+      "id": "tree3",
+      "kind": "tree",
+      "label": "Inn Pear",
+      "layer": 5,
+      "parentId": "orchard-north",
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 5,
+      "x": 4,
+      "y": 138
+    },
+    {
+      "depth": 5,
+      "description": "A plum tree beside the orchard kitchen.",
+      "elevation": 0.04,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "plum"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 6,
+      "id": "tree4",
+      "kind": "tree",
+      "label": "Preservers' Plum",
+      "layer": 5,
+      "parentId": "orchard-north",
+      "rotation": 0,
+      "tags": [
+        "orchard"
+      ],
+      "width": 5,
+      "x": 4,
+      "y": 161
+    },
+    {
+      "depth": 4,
+      "description": "A single court tree in a peripheral pocket, north of the through-route.",
+      "elevation": 0.07,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "tree.species",
+          "value": "pear"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 6,
+      "id": "tree5",
+      "kind": "tree",
+      "label": "Copper Court Pear",
+      "layer": 5,
+      "parentId": "archive-court",
+      "rotation": 0,
+      "tags": [
+        "court-tree"
+      ],
+      "width": 4,
+      "x": 128,
+      "y": 126
+    },
+    {
+      "depth": 0.8,
+      "description": "A bench along the court's northern margin, away from the central walking line.",
+      "elevation": 0.07,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "bench"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 1,
+      "id": "bench",
+      "kind": "fixture",
+      "label": "Kiln Court Bench",
+      "layer": 5,
+      "parentId": "kiln-court",
+      "rotation": 0,
+      "tags": [
+        "seating"
+      ],
+      "width": 4,
+      "x": 44,
+      "y": 66
+    },
+    {
+      "depth": 0.6,
+      "description": "A tall lantern marking the court's southeastern edge without obstructing passage.",
+      "elevation": 0.07,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "fixture.type",
+          "value": "lamp"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 4,
+      "id": "lamp",
+      "kind": "fixture",
+      "label": "Copper Court Lantern",
+      "layer": 5,
+      "parentId": "archive-court",
+      "rotation": 0,
+      "tags": [
+        "lighting"
+      ],
+      "width": 0.6,
+      "x": 137,
+      "y": 115
+    },
+    {
+      "depth": 5,
+      "description": "A short timber landing extending from the quay over the canal; not a cross-canal bridge.",
+      "elevation": 0.08,
+      "evidence": "authored",
+      "facts": [
+        {
+          "evidence": "authored",
+          "key": "surface.material",
+          "value": "timber"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.model",
+          "value": "gpt-6.1-sol"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.provider",
+          "value": "codex"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.layout",
+          "note": "Requested authoring preference; the user brief remains authoritative.",
+          "value": "clustered"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.referenceIds",
+          "note": "Concrete examples supplied to the model as inspiration; this does not claim that source geometry was copied or that fictional placements were measured.",
+          "sourceIds": [
+            "layout-ref:monaco-old-town",
+            "layout-ref:thulusdhoo-village"
+          ],
+          "value": "[\"monaco-old-town\",\"thulusdhoo-village\"]"
+        },
+        {
+          "evidence": "authored",
+          "key": "generation.guideVersion",
+          "note": "Advisory study wordscape-layout-study-v1; © OpenStreetMap contributors; Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). Generated geometry is authored, not a surveyed source feature.",
+          "sourceIds": [
+            "layout-guide"
+          ],
+          "value": "1.0"
+        }
+      ],
+      "height": 0.12,
+      "id": "landing",
+      "kind": "pavement",
+      "label": "Small Canal Landing",
+      "layer": 3,
+      "rotation": 0,
+      "tags": [
+        "landing"
+      ],
+      "width": 12,
+      "x": 155,
+      "y": 91
+    }
+  ],
+  "origin": {
+    "latitude": 0,
+    "longitude": 0,
+    "note": "Imaginary local coordinates; 0/0 is a placeholder, not a geographic location."
+  },
+  "relations": [
+    {
+      "from": "market-lane",
+      "note": "Authored generation: Southern cross-passage joins the bending market route.",
+      "to": "south-link",
+      "type": "connects"
+    },
+    {
+      "from": "market-lane",
+      "note": "Authored generation: Northern cross-passage joins the market route.",
+      "to": "north-link",
+      "type": "connects"
+    },
+    {
+      "from": "south-link",
+      "note": "Authored generation: The route passes through the small western gathering court.",
+      "to": "kiln-court",
+      "type": "connects"
+    },
+    {
+      "from": "north-link",
+      "note": "Authored generation: The route opens into Copper Court.",
+      "to": "archive-court",
+      "type": "connects"
+    },
+    {
+      "from": "south-link",
+      "note": "Authored generation: Southern pedestrian connection reaches the waterfront spine.",
+      "to": "quay",
+      "type": "connects"
+    },
+    {
+      "from": "north-link",
+      "note": "Authored generation: Northern pedestrian connection closes a useful walking loop.",
+      "to": "quay",
+      "type": "connects"
+    },
+    {
+      "from": "quay",
+      "note": "Authored generation: The timber landing has deliberate access from the promenade.",
+      "to": "landing",
+      "type": "connects"
+    },
+    {
+      "from": "landing",
+      "note": "Authored generation: The elevated landing projects over the authored water surface.",
+      "to": "canal",
+      "type": "overlaps"
+    },
+    {
+      "from": "inner-passage",
+      "note": "Authored generation: The narrow residential passage opens onto Archive Passage.",
+      "to": "north-link",
+      "type": "connects"
+    },
+    {
+      "from": "s1",
+      "note": "Authored generation: Bakery belongs to the southern court's trade cluster.",
+      "to": "kiln-court",
+      "type": "near"
+    },
+    {
+      "from": "s2",
+      "note": "Authored generation: Lodging frontage addresses the southern market lane.",
+      "to": "market-lane",
+      "type": "near"
+    },
+    {
+      "from": "s3",
+      "note": "Authored generation: Tailor's dwelling sits behind the court-side store range.",
+      "to": "kiln-court",
+      "type": "near"
+    },
+    {
+      "from": "s4",
+      "note": "Authored generation: Workshop's eastern front addresses the lane.",
+      "to": "market-lane",
+      "type": "near"
+    },
+    {
+      "from": "s5",
+      "note": "Authored generation: Low stores define the gathering court's southern boundary.",
+      "to": "kiln-court",
+      "type": "near"
+    },
+    {
+      "from": "s6",
+      "note": "Authored generation: Cottage front faces the market route.",
+      "to": "market-lane",
+      "type": "near"
+    },
+    {
+      "from": "s7",
+      "note": "Authored generation: Two southern homes form a close pair with a service gap.",
+      "to": "s6",
+      "type": "near"
+    },
+    {
+      "from": "s8",
+      "note": "Authored generation: Chandlery serves the cross-passage.",
+      "to": "south-link",
+      "type": "near"
+    },
+    {
+      "from": "s9",
+      "note": "Authored generation: Tea rooms address the waterfront promenade.",
+      "to": "quay",
+      "type": "near"
+    },
+    {
+      "from": "m1",
+      "note": "Authored generation: Pottery frames the court's northern approach.",
+      "to": "kiln-court",
+      "type": "near"
+    },
+    {
+      "from": "m2",
+      "note": "Authored generation: Glaziers' frontage aligns with the market bend.",
+      "to": "market-lane",
+      "type": "near"
+    },
+    {
+      "from": "m3",
+      "note": "Authored generation: Paired workhouses leave a narrow internal service opening.",
+      "to": "m4",
+      "type": "near"
+    },
+    {
+      "from": "m4",
+      "note": "Authored generation: Patternmakers occupy the western lane edge.",
+      "to": "market-lane",
+      "type": "near"
+    },
+    {
+      "from": "m5",
+      "note": "Authored generation: Print shops face Archive Passage.",
+      "to": "north-link",
+      "type": "near"
+    },
+    {
+      "from": "m6",
+      "note": "Authored generation: The copper-domed archive anchors the southern court edge.",
+      "to": "archive-court",
+      "type": "near"
+    },
+    {
+      "from": "m7",
+      "note": "Authored generation: Mapbinder's eastern side follows the waterfront spine.",
+      "to": "quay",
+      "type": "near"
+    },
+    {
+      "from": "m8",
+      "note": "Authored generation: Paper merchants receive deliveries from Kiln Passage.",
+      "to": "south-link",
+      "type": "near"
+    },
+    {
+      "from": "m9",
+      "note": "Authored generation: Steward's house faces the canal promenade.",
+      "to": "quay",
+      "type": "near"
+    },
+    {
+      "from": "n1",
+      "note": "Authored generation: Inn frontage overlooks the northern cross-passage.",
+      "to": "north-link",
+      "type": "near"
+    },
+    {
+      "from": "n2",
+      "note": "Authored generation: Apartments form the northern lane's western frontage.",
+      "to": "market-lane",
+      "type": "near"
+    },
+    {
+      "from": "n3",
+      "note": "Authored generation: Kitchen access uses the shared narrow passage.",
+      "to": "inner-passage",
+      "type": "near"
+    },
+    {
+      "from": "n4",
+      "note": "Authored generation: Storyteller's house addresses the quieter northern lane.",
+      "to": "market-lane",
+      "type": "near"
+    },
+    {
+      "from": "n5",
+      "note": "Authored generation: The washhouse closes the cluster's northern edge.",
+      "to": "inner-passage",
+      "type": "near"
+    },
+    {
+      "from": "n6",
+      "note": "Authored generation: Cottage helps enclose Copper Court's northern side.",
+      "to": "archive-court",
+      "type": "near"
+    },
+    {
+      "from": "n7",
+      "note": "Authored generation: Net menders overlook the promenade's northern end.",
+      "to": "quay",
+      "type": "near"
+    },
+    {
+      "from": "n8",
+      "note": "Authored generation: Turned cottage marks the lane's northern exit.",
+      "to": "market-lane",
+      "type": "near"
+    },
+    {
+      "from": "n9",
+      "note": "Authored generation: Watch house occupies the quiet canal-edge end of the village.",
+      "to": "canal",
+      "type": "near"
+    }
+  ],
+  "seed": 0,
+  "sources": [
+    {
+      "accessed": "",
+      "attribution": "© OpenStreetMap contributors. Open Database License 1.0.",
+      "id": "layout-guide",
+      "notes": "Authoring guidance only; generated placements are fiction, not measurements of the study places. Study wordscape-layout-study-v1; version 1.0. Observations and authored heuristics are distinguished in src/data/layoutGuide.json. Provided reference geometry may inform authored interpretations; no fictional placement is claimed as a real-world observation.",
+      "title": "Wordscape layout authoring guide 1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+    },
+    {
+      "accessed": "2026-11-16",
+      "attribution": "© OpenStreetMap contributors; ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+      "id": "layout-ref:monaco-old-town",
+      "notes": "Layout reference monaco-old-town, provided as inspiration only: generated geometry is not surveyed geometry of this place. Complete converted world: /reference/layout-examples/monaco-old-town.wordscape.json. Source snapshot: 2026-11-15T21:22:28Z; retained source SHA-256 8f53b0364f2f6da072a729a7f26439d1277b994d57b98fd0cc066f29c91a63f9. Compact contiguous cluster and full-world statistics have different scopes. Attribution/license: https://opendatacommons.org/licenses/odbl/1-0/.",
+      "title": "Layout inspiration: Monaco · close old-town fabric",
+      "url": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf"
+    },
+    {
+      "accessed": "2026-11-16",
+      "attribution": "© OpenStreetMap contributors; ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+      "id": "layout-ref:thulusdhoo-village",
+      "notes": "Layout reference thulusdhoo-village, provided as inspiration only: generated geometry is not surveyed geometry of this place. Complete converted world: /reference/layout-examples/thulusdhoo-village.wordscape.json. Source snapshot: 2026-11-15T21:22:28Z; retained source SHA-256 3c8879ee7af0df9f75199a81b0e789dd76951f80294fcf5800cebf274a9f92a9. Compact contiguous cluster and full-world statistics have different scopes. Attribution/license: https://opendatacommons.org/licenses/odbl/1-0/.",
+      "title": "Layout inspiration: Thulusdhoo · close island settlement",
+      "url": "https://download.geofabrik.de/asia/maldives-latest.osm.pbf"
+    }
+  ],
+  "units": "metres",
+  "version": "0.7"
+}

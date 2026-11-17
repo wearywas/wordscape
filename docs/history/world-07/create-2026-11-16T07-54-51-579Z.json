@@ -1,0 +1,1379 @@
+{
+  "mode": "create",
+  "started": "2026-11-16T07:54:51.580Z",
+  "request": {
+    "provider": "codex",
+    "mode": "create",
+    "size": 180,
+    "prompt": "Create Lanternwater: a fictional storybook canal village, on a flat 180 metre square. Plan a clear connected pedestrian layout first, with a market square, a narrow aquamarine canal along the eastern side, two small jetties, six to eight varied cottages and workshops, a copper-domed archive tower, an orchard and public benches. Use 26–36 named objects total, distinct ground/surface top heights so paths remain visible, sensible human scale, dry building foundations and generous walkable clearances. Give at least three important buildings original geometry recipes using a few colored primitive parts, including the archive dome. Fit all rotated footprints inside the square. No surveyed facts or real geographic location. Aim for a legible, charming miniature world rather than uniform blocks."
+  },
+  "status": 200,
+  "result": {
+    "proposal": {
+      "summary": "Lanternwater is an authored storybook canal village with connected pedestrian lanes, a market square, seven cottages and workshops, a copper-domed archive, an orchard and two jetties.",
+      "name": "Lanternwater",
+      "description": "A fictional miniature village on flat ground. Western craft cottages frame the market approach, an orchard softens the northern quarter, and a copper archive overlooks the eastern canal. All dimensions and details are design inventions, not surveyed facts.",
+      "additions": [
+        {
+          "id": "lw-ground",
+          "label": "Village Meadow",
+          "kind": "grass",
+          "description": "Continuous flat meadow beneath the village.",
+          "x": 90,
+          "y": 90,
+          "width": 180,
+          "depth": 180,
+          "height": 0.02,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 0,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "ground"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-canal",
+          "label": "Aquamarine Ribbon",
+          "kind": "water",
+          "description": "A narrow aquamarine canal along the eastern side, with uninterrupted water between the jetties.",
+          "x": 160,
+          "y": 90,
+          "width": 12,
+          "depth": 160,
+          "height": 0.03,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 1,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "aquamarine",
+            "canal"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-square",
+          "label": "Lantern Market Square",
+          "kind": "pavement",
+          "description": "An uncluttered market gathering place with generous room for temporary stalls and walking.",
+          "x": 88,
+          "y": 83,
+          "width": 40,
+          "depth": 30,
+          "height": 0.06,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 3,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "market",
+            "pedestrian"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-entry",
+          "label": "South Arrival Walk",
+          "kind": "pavement",
+          "description": "The principal pedestrian entrance leads directly into the market square.",
+          "x": 90,
+          "y": 39,
+          "width": 8,
+          "depth": 58,
+          "height": 0.04,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 2,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "pedestrian"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-craft-lane",
+          "label": "Storymakers Lane",
+          "kind": "pavement",
+          "description": "A broad shared doorstep lane between four western cottages and workshops.",
+          "x": 44,
+          "y": 83,
+          "width": 48,
+          "depth": 12,
+          "height": 0.04,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 2,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "pedestrian"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-orchard-walk",
+          "label": "Orchardward Walk",
+          "kind": "pavement",
+          "description": "A clear northbound promenade beside the orchard.",
+          "x": 90,
+          "y": 127,
+          "width": 6,
+          "depth": 58,
+          "height": 0.04,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 2,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "pedestrian"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-quay",
+          "label": "Kingfisher Quay",
+          "kind": "pavement",
+          "description": "A continuous dry waterside promenade, set back from the canal edge.",
+          "x": 146,
+          "y": 90,
+          "width": 8,
+          "depth": 160,
+          "height": 0.04,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 2,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "pedestrian",
+            "quay"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-market-link",
+          "label": "Market-to-Water Walk",
+          "kind": "pavement",
+          "description": "The direct connection from the square to the quay.",
+          "x": 125,
+          "y": 83,
+          "width": 34,
+          "depth": 6,
+          "height": 0.04,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 2,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "pedestrian"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-north-link",
+          "label": "Copper Loop Walk",
+          "kind": "pavement",
+          "description": "A northern crosswalk completes the pedestrian loop between orchard and quay.",
+          "x": 119,
+          "y": 145,
+          "width": 58,
+          "depth": 6,
+          "height": 0.04,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 2,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "pedestrian"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-archive-walk",
+          "label": "Archive Door Walk",
+          "kind": "pavement",
+          "description": "A short approach to the archive's north-facing entrance.",
+          "x": 115,
+          "y": 136,
+          "width": 5,
+          "depth": 18,
+          "height": 0.04,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 2,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "pedestrian"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-south-jetty",
+          "label": "Parcel Jetty",
+          "kind": "pavement",
+          "description": "A small timber landing extends from the quay over the canal without crossing it.",
+          "x": 155,
+          "y": 43,
+          "width": 18,
+          "depth": 4,
+          "height": 0.14,
+          "elevation": 0.04,
+          "rotation": 0,
+          "layer": 4,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "jetty",
+            "timber"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-north-jetty",
+          "label": "Moonletter Jetty",
+          "kind": "pavement",
+          "description": "A second compact landing offers a quiet place to watch imaginary letter boats.",
+          "x": 155,
+          "y": 129,
+          "width": 18,
+          "depth": 4,
+          "height": 0.14,
+          "elevation": 0.04,
+          "rotation": 0,
+          "layer": 4,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "jetty",
+            "timber"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-archive",
+          "label": "Archive of Unfinished Tales",
+          "kind": "building",
+          "description": "An ivory cylindrical archive tower with a copper dome and a north-facing blue door, on a dry stone plinth.",
+          "x": 115,
+          "y": 116,
+          "width": 20,
+          "depth": 22,
+          "height": 23,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "focal",
+            "archive"
+          ],
+          "facts": [
+            {
+              "key": "building.levels",
+              "value": 4,
+              "unit": null,
+              "note": null
+            },
+            {
+              "key": "building.roofShape",
+              "value": "dome",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": {
+            "type": "parts",
+            "version": 1,
+            "space": "normalized-object",
+            "evidence": "authored",
+            "parts": [
+              {
+                "id": "plinth",
+                "label": "Dry stone plinth",
+                "primitive": "cylinder",
+                "position": [
+                  0,
+                  0.025,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.96,
+                  0.05,
+                  0.88
+                ],
+                "color": "#A69C88",
+                "footprint": null
+              },
+              {
+                "id": "tower",
+                "label": "Ivory archive drum",
+                "primitive": "cylinder",
+                "position": [
+                  0,
+                  0.36,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.76,
+                  0.62,
+                  0.7
+                ],
+                "color": "#F1DEB5",
+                "footprint": null
+              },
+              {
+                "id": "cornice",
+                "label": "Copper cornice",
+                "primitive": "cylinder",
+                "position": [
+                  0,
+                  0.68,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.84,
+                  0.04,
+                  0.78
+                ],
+                "color": "#986043",
+                "footprint": null
+              },
+              {
+                "id": "dome",
+                "label": "Rounded copper dome",
+                "primitive": "sphere",
+                "position": [
+                  0,
+                  0.79,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.8,
+                  0.4,
+                  0.74
+                ],
+                "color": "#B77850",
+                "footprint": null
+              },
+              {
+                "id": "door",
+                "label": "Blue north door",
+                "primitive": "box",
+                "position": [
+                  0,
+                  0.13,
+                  0.35
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.15,
+                  0.16,
+                  0.025
+                ],
+                "color": "#356F7C",
+                "footprint": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "lw-bookbinder",
+          "label": "Mothwing Bindery",
+          "kind": "building",
+          "description": "A plum-colored bookbinding workshop with a warm pyramidal roof and a door opening south onto Storymakers Lane.",
+          "x": 28,
+          "y": 99,
+          "width": 18,
+          "depth": 20,
+          "height": 9,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "workshop"
+          ],
+          "facts": [
+            {
+              "key": "building.levels",
+              "value": 1,
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": {
+            "type": "parts",
+            "version": 1,
+            "space": "normalized-object",
+            "evidence": "authored",
+            "parts": [
+              {
+                "id": "base",
+                "label": "Stone foundation",
+                "primitive": "box",
+                "position": [
+                  0,
+                  0.03,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  1,
+                  0.06,
+                  1
+                ],
+                "color": "#A49B8B",
+                "footprint": null
+              },
+              {
+                "id": "walls",
+                "label": "Plum plaster walls",
+                "primitive": "box",
+                "position": [
+                  0,
+                  0.35,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.88,
+                  0.58,
+                  0.88
+                ],
+                "color": "#89647C",
+                "footprint": null
+              },
+              {
+                "id": "roof",
+                "label": "Terracotta pyramid roof",
+                "primitive": "cone",
+                "position": [
+                  0,
+                  0.81,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  1,
+                  0.34,
+                  1
+                ],
+                "color": "#BC765C",
+                "footprint": null
+              },
+              {
+                "id": "door",
+                "label": "Ochre lane door",
+                "primitive": "box",
+                "position": [
+                  0,
+                  0.21,
+                  -0.445
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.17,
+                  0.3,
+                  0.02
+                ],
+                "color": "#D9AC59",
+                "footprint": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "lw-lanternmaker",
+          "label": "Firefly Lanternworks",
+          "kind": "building",
+          "description": "A teal lantern workshop with an oversized golden display window facing the lane.",
+          "x": 53,
+          "y": 99,
+          "width": 20,
+          "depth": 20,
+          "height": 10,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "workshop"
+          ],
+          "facts": [
+            {
+              "key": "building.levels",
+              "value": 2,
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": {
+            "type": "parts",
+            "version": 1,
+            "space": "normalized-object",
+            "evidence": "authored",
+            "parts": [
+              {
+                "id": "base",
+                "label": "Dry masonry base",
+                "primitive": "box",
+                "position": [
+                  0,
+                  0.03,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  1,
+                  0.06,
+                  1
+                ],
+                "color": "#AAA18F",
+                "footprint": null
+              },
+              {
+                "id": "walls",
+                "label": "Teal workshop",
+                "primitive": "box",
+                "position": [
+                  0,
+                  0.39,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.9,
+                  0.66,
+                  0.9
+                ],
+                "color": "#55938F",
+                "footprint": null
+              },
+              {
+                "id": "roof",
+                "label": "Dark overhanging roof",
+                "primitive": "box",
+                "position": [
+                  0,
+                  0.76,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  1,
+                  0.08,
+                  1
+                ],
+                "color": "#4B5963",
+                "footprint": null
+              },
+              {
+                "id": "window",
+                "label": "Golden display window",
+                "primitive": "box",
+                "position": [
+                  -0.15,
+                  0.35,
+                  -0.455
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.32,
+                  0.28,
+                  0.02
+                ],
+                "color": "#F5CE76",
+                "footprint": null
+              },
+              {
+                "id": "chimney",
+                "label": "Small brick chimney",
+                "primitive": "box",
+                "position": [
+                  0.27,
+                  0.88,
+                  0.2
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "dimensions": [
+                  0.1,
+                  0.24,
+                  0.12
+                ],
+                "color": "#A66E59",
+                "footprint": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "lw-baker",
+          "label": "Crumbcurl Bakehouse",
+          "kind": "building",
+          "description": "A butter-yellow cottage bakery whose north door meets the craft lane.",
+          "x": 28,
+          "y": 67,
+          "width": 18,
+          "depth": 20,
+          "height": 8,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "bakery",
+            "cottage"
+          ],
+          "facts": [
+            {
+              "key": "building.roofShape",
+              "value": "gabled",
+              "unit": null,
+              "note": null
+            },
+            {
+              "key": "building.material",
+              "value": "yellow plaster and red clay tile",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-weaver",
+          "label": "Blue Thread Cottage",
+          "kind": "building",
+          "description": "A narrow two-storey weaver's home with its entrance directly on the north lane frontage.",
+          "x": 53,
+          "y": 67,
+          "width": 16,
+          "depth": 20,
+          "height": 10,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "cottage",
+            "weaver"
+          ],
+          "facts": [
+            {
+              "key": "building.levels",
+              "value": 2,
+              "unit": null,
+              "note": null
+            },
+            {
+              "key": "building.roofShape",
+              "value": "gabled",
+              "unit": null,
+              "note": null
+            },
+            {
+              "key": "building.material",
+              "value": "blue limewash and timber",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-boatwright",
+          "label": "Minnow Boatworks",
+          "kind": "building",
+          "description": "A low timber workshop facing east onto the dry quay, near Parcel Jetty.",
+          "x": 132,
+          "y": 27,
+          "width": 20,
+          "depth": 18,
+          "height": 6,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "workshop"
+          ],
+          "facts": [
+            {
+              "key": "building.roofShape",
+              "value": "gabled",
+              "unit": null,
+              "note": null
+            },
+            {
+              "key": "building.material",
+              "value": "weathered timber",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-teahouse",
+          "label": "Rosehip Kettle Cottage",
+          "kind": "building",
+          "description": "A rose-colored cottage tea room with an east-facing quay entrance and a compact hipped roof.",
+          "x": 133,
+          "y": 61,
+          "width": 18,
+          "depth": 18,
+          "height": 8,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "cottage",
+            "tea-room"
+          ],
+          "facts": [
+            {
+              "key": "building.roofShape",
+              "value": "hipped",
+              "unit": null,
+              "note": null
+            },
+            {
+              "key": "building.material",
+              "value": "rose plaster",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-keeper",
+          "label": "Moonletter Keeper's Cottage",
+          "kind": "building",
+          "description": "A small cream cottage at the quiet northern end of the quay, with its door facing east.",
+          "x": 134,
+          "y": 164,
+          "width": 16,
+          "depth": 18,
+          "height": 8,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "cottage"
+          ],
+          "facts": [
+            {
+              "key": "building.levels",
+              "value": 1,
+              "unit": null,
+              "note": null
+            },
+            {
+              "key": "building.roofShape",
+              "value": "gabled",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-orchard",
+          "label": "Six Wishes Orchard",
+          "kind": "grass",
+          "description": "A public orchard meadow with generous gaps between its six fruit trees and an open eastern approach.",
+          "x": 47,
+          "y": 140,
+          "width": 70,
+          "depth": 44,
+          "height": 0.025,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 1,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "orchard",
+            "public-open-space"
+          ],
+          "facts": [],
+          "geometry": null
+        },
+        {
+          "id": "lw-tree-1",
+          "label": "First Wish Apple",
+          "kind": "tree",
+          "description": "A rounded apple tree in the western orchard row.",
+          "x": 26,
+          "y": 132,
+          "width": 8,
+          "depth": 8,
+          "height": 6,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": "lw-orchard",
+          "tags": [
+            "authored",
+            "fruit-tree"
+          ],
+          "facts": [
+            {
+              "key": "tree.species",
+              "value": "apple",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-tree-2",
+          "label": "Second Wish Pear",
+          "kind": "tree",
+          "description": "An upright pear tree in the middle orchard row.",
+          "x": 46,
+          "y": 132,
+          "width": 7,
+          "depth": 7,
+          "height": 7,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": "lw-orchard",
+          "tags": [
+            "authored",
+            "fruit-tree"
+          ],
+          "facts": [
+            {
+              "key": "tree.species",
+              "value": "pear",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-tree-3",
+          "label": "Third Wish Plum",
+          "kind": "tree",
+          "description": "A compact plum tree beside the orchard's open eastern margin.",
+          "x": 66,
+          "y": 132,
+          "width": 7,
+          "depth": 7,
+          "height": 5,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": "lw-orchard",
+          "tags": [
+            "authored",
+            "fruit-tree"
+          ],
+          "facts": [
+            {
+              "key": "tree.species",
+              "value": "plum",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-tree-4",
+          "label": "Fourth Wish Apple",
+          "kind": "tree",
+          "description": "A broad apple tree in the northern orchard row.",
+          "x": 26,
+          "y": 150,
+          "width": 9,
+          "depth": 9,
+          "height": 6,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": "lw-orchard",
+          "tags": [
+            "authored",
+            "fruit-tree"
+          ],
+          "facts": [
+            {
+              "key": "tree.species",
+              "value": "apple",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-tree-5",
+          "label": "Fifth Wish Pear",
+          "kind": "tree",
+          "description": "A tall pear tree with open grass around its trunk.",
+          "x": 46,
+          "y": 150,
+          "width": 7,
+          "depth": 7,
+          "height": 7,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": "lw-orchard",
+          "tags": [
+            "authored",
+            "fruit-tree"
+          ],
+          "facts": [
+            {
+              "key": "tree.species",
+              "value": "pear",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-tree-6",
+          "label": "Sixth Wish Plum",
+          "kind": "tree",
+          "description": "The orchard's northeastern plum tree.",
+          "x": 66,
+          "y": 150,
+          "width": 8,
+          "depth": 8,
+          "height": 5,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 5,
+          "parentId": "lw-orchard",
+          "tags": [
+            "authored",
+            "fruit-tree"
+          ],
+          "facts": [
+            {
+              "key": "tree.species",
+              "value": "plum",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-bench-market",
+          "label": "Market Story Bench",
+          "kind": "fixture",
+          "description": "A public bench along the square's southern margin, away from its through-route.",
+          "x": 76,
+          "y": 71,
+          "width": 4,
+          "depth": 1.2,
+          "height": 1,
+          "elevation": 0.06,
+          "rotation": 0,
+          "layer": 6,
+          "parentId": "lw-square",
+          "tags": [
+            "authored",
+            "public-seating"
+          ],
+          "facts": [
+            {
+              "key": "fixture.type",
+              "value": "bench",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-bench-orchard",
+          "label": "Pearshade Bench",
+          "kind": "fixture",
+          "description": "A meadow bench beside, rather than across, the orchard promenade.",
+          "x": 79,
+          "y": 141,
+          "width": 4,
+          "depth": 1.2,
+          "height": 1,
+          "elevation": 0.025,
+          "rotation": 0,
+          "layer": 6,
+          "parentId": "lw-orchard",
+          "tags": [
+            "authored",
+            "public-seating"
+          ],
+          "facts": [
+            {
+              "key": "fixture.type",
+              "value": "bench",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-bench-quay",
+          "label": "Kingfisher Watching Bench",
+          "kind": "fixture",
+          "description": "A canal-facing bench on the inland edge of the quay, leaving its main walking strip clear.",
+          "x": 143,
+          "y": 101,
+          "width": 1.2,
+          "depth": 4,
+          "height": 1,
+          "elevation": 0.04,
+          "rotation": 0,
+          "layer": 6,
+          "parentId": "lw-quay",
+          "tags": [
+            "authored",
+            "public-seating"
+          ],
+          "facts": [
+            {
+              "key": "fixture.type",
+              "value": "bench",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-bench-archive",
+          "label": "Unfinished Chapter Bench",
+          "kind": "fixture",
+          "description": "A quiet bench beside the archive approach without obstructing the doorway.",
+          "x": 122,
+          "y": 134,
+          "width": 4,
+          "depth": 1.2,
+          "height": 1,
+          "elevation": 0,
+          "rotation": 0,
+          "layer": 6,
+          "parentId": null,
+          "tags": [
+            "authored",
+            "public-seating"
+          ],
+          "facts": [
+            {
+              "key": "fixture.type",
+              "value": "bench",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        },
+        {
+          "id": "lw-lantern",
+          "label": "First Evening Lantern",
+          "kind": "fixture",
+          "description": "A single golden lantern marks the market's northwest corner while leaving the central square open.",
+          "x": 71,
+          "y": 95,
+          "width": 0.8,
+          "depth": 0.8,
+          "height": 4,
+          "elevation": 0.06,
+          "rotation": 0,
+          "layer": 6,
+          "parentId": "lw-square",
+          "tags": [
+            "authored",
+            "village-emblem"
+          ],
+          "facts": [
+            {
+              "key": "fixture.type",
+              "value": "lamp",
+              "unit": null,
+              "note": null
+            }
+          ],
+          "geometry": null
+        }
+      ],
+      "changes": [],
+      "relations": [
+        {
+          "from": "lw-entry",
+          "to": "lw-square",
+          "type": "connects",
+          "note": "The southern arrival opens directly onto the market."
+        },
+        {
+          "from": "lw-craft-lane",
+          "to": "lw-square",
+          "type": "connects",
+          "note": "The western workshop lane joins the square's west edge."
+        },
+        {
+          "from": "lw-square",
+          "to": "lw-orchard-walk",
+          "type": "connects",
+          "note": "The north exit continues toward the orchard."
+        },
+        {
+          "from": "lw-square",
+          "to": "lw-market-link",
+          "type": "connects",
+          "note": "The east exit leads to the canal."
+        },
+        {
+          "from": "lw-market-link",
+          "to": "lw-quay",
+          "type": "connects",
+          "note": "A clear pedestrian junction links market and waterfront."
+        },
+        {
+          "from": "lw-orchard-walk",
+          "to": "lw-north-link",
+          "type": "connects",
+          "note": "The northern junction begins the return leg of the loop."
+        },
+        {
+          "from": "lw-north-link",
+          "to": "lw-quay",
+          "type": "connects",
+          "note": "The crosswalk meets the continuous quay."
+        },
+        {
+          "from": "lw-archive-walk",
+          "to": "lw-north-link",
+          "type": "connects",
+          "note": "A short spur provides the archive's formal approach."
+        },
+        {
+          "from": "lw-archive",
+          "to": "lw-archive-walk",
+          "type": "connects",
+          "note": "The north door meets its dedicated walk."
+        },
+        {
+          "from": "lw-bookbinder",
+          "to": "lw-craft-lane",
+          "type": "connects",
+          "note": "The south-facing door opens onto the lane frontage."
+        },
+        {
+          "from": "lw-lanternmaker",
+          "to": "lw-craft-lane",
+          "type": "connects",
+          "note": "The workshop's south frontage meets the lane."
+        },
+        {
+          "from": "lw-baker",
+          "to": "lw-craft-lane",
+          "type": "connects",
+          "note": "The bakery's north entrance opens onto the lane."
+        },
+        {
+          "from": "lw-weaver",
+          "to": "lw-craft-lane",
+          "type": "connects",
+          "note": "The cottage's north door addresses the shared lane."
+        },
+        {
+          "from": "lw-boatwright",
+          "to": "lw-quay",
+          "type": "connects",
+          "note": "The east workshop door meets the dry quay."
+        },
+        {
+          "from": "lw-teahouse",
+          "to": "lw-quay",
+          "type": "connects",
+          "note": "The east-facing tea room entrance meets the quay."
+        },
+        {
+          "from": "lw-keeper",
+          "to": "lw-quay",
+          "type": "connects",
+          "note": "The keeper's east entrance opens onto the northern quay."
+        },
+        {
+          "from": "lw-south-jetty",
+          "to": "lw-quay",
+          "type": "connects",
+          "note": "The timber landing overlaps the quay at its landward end."
+        },
+        {
+          "from": "lw-north-jetty",
+          "to": "lw-quay",
+          "type": "connects",
+          "note": "The northern landing begins on the quay."
+        },
+        {
+          "from": "lw-south-jetty",
+          "to": "lw-canal",
+          "type": "overlaps",
+          "note": "The raised deck deliberately projects over water without crossing the canal."
+        },
+        {
+          "from": "lw-north-jetty",
+          "to": "lw-canal",
+          "type": "overlaps",
+          "note": "The raised deck deliberately projects over water without crossing the canal."
+        },
+        {
+          "from": "lw-orchard",
+          "to": "lw-orchard-walk",
+          "type": "near",
+          "note": "The open eastern meadow margin gives an informal dry approach from the promenade."
+        },
+        {
+          "from": "lw-bench-market",
+          "to": "lw-square",
+          "type": "within",
+          "note": "Seating occupies a peripheral part of the market paving."
+        },
+        {
+          "from": "lw-bench-orchard",
+          "to": "lw-orchard",
+          "type": "within",
+          "note": "The orchard bench sits in open meadow beyond the tree rows."
+        },
+        {
+          "from": "lw-bench-quay",
+          "to": "lw-quay",
+          "type": "within",
+          "note": "The bench occupies the inland margin, preserving the waterside walking strip."
+        },
+        {
+          "from": "lw-bench-archive",
+          "to": "lw-archive-walk",
+          "type": "near",
+          "note": "Reading seating is beside the approach rather than on it."
+        }
+      ]
+    },
+    "provider": "codex",
+    "model": "gpt-6.1-sol",
+    "guideVersion": "1.0",
+    "context": {
+      "includedObjects": 0,
+      "omittedObjects": 0
+    }
+  },
+  "output": {
+    "file": "public/examples/lanternwater.wordscape.json",
+    "objects": 32,
+    "relations": 25,
+    "recipes": 3,
+    "warnings": [
+      "Generated layout and geometry are authored interpretations, not survey evidence.",
+      "Generated water levels and crossings are authored. Inspect shorelines and floating surfaces, especially over sloping terrain."
+    ],
+    "sha256": "acf3f2097dd341bd7e1aa37ef7e099eaa95c5eb3fcb369721bb4b09adf8e0378"
+  },
+  "success": true,
+  "finished": "2026-11-16T07:57:46.811Z"
+}

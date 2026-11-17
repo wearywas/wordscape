@@ -1,0 +1,1495 @@
+[
+  {
+    "objectid": "17508",
+    "cnn": "12851000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "AUGUST ALY",
+    "to_st": "MASON ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411625516,
+            37.80013919
+          ],
+          [
+            -122.412471378,
+            37.800032399
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown, Russian Hill",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "31688",
+    "cnn": "5504000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "POWELL ST",
+    "to_st": "COLUMBUS AVE",
+    "speedlimit": "0",
+    "schoolzone": "YES",
+    "schoolzone_limit": "15",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411018517,
+            37.801169752
+          ],
+          [
+            -122.411376271,
+            37.801125132
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2018-01-02T00:00:00",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "27014",
+    "cnn": "12214000",
+    "street": "STOCKTON",
+    "st_type": "ST",
+    "from_st": "UNION ST",
+    "to_st": "FILBERT ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04469",
+    "install_date": "2023-02-14T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.409189818,
+            37.80044506
+          ],
+          [
+            -122.409369117,
+            37.801370656
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2024-04-24T15:15:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "25579",
+    "cnn": "6452000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "from_st": "BANNAM PL",
+    "to_st": "JASPER PL",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2023-07-31T17:00:00",
+    "mtab_motion": "230801-067",
+    "status": "I",
+    "workorder": "23-06179",
+    "install_date": "2024-02-29T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407698021,
+            37.799663687
+          ],
+          [
+            -122.408169309,
+            37.79960144
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2026-02-10T23:11:55",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "30970",
+    "cnn": "5501000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "JASPER PL",
+    "to_st": "KRAUSGRILL PL",
+    "speedlimit": "0",
+    "schoolzone": "YES",
+    "schoolzone_limit": "15",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.408552016,
+            37.80147291
+          ],
+          [
+            -122.408928787,
+            37.801425761
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2018-01-02T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "28076",
+    "cnn": "6495000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "from_st": "BRANT ALY",
+    "to_st": "POWELL ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.410600541,
+            37.802174735
+          ],
+          [
+            -122.411202592,
+            37.802100726
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "26210",
+    "cnn": "6455000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "from_st": "POWELL ST",
+    "to_st": "AUGUST ALY",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.410644273,
+            37.799302853
+          ],
+          [
+            -122.411439258,
+            37.799202411
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "21867",
+    "cnn": "6497000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "from_st": "VIA BUFANO",
+    "to_st": "COLUMBUS AVE",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411600022,
+            37.802050231
+          ],
+          [
+            -122.412541278,
+            37.801930636
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "21958",
+    "cnn": "12215000",
+    "street": "STOCKTON",
+    "st_type": "ST",
+    "from_st": "FILBERT ST",
+    "to_st": "GREENWICH ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.409369117,
+            37.801370656
+          ],
+          [
+            -122.409561309,
+            37.802302477
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "24274",
+    "cnn": "4294000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "from_st": "VALLEJO ST",
+    "to_st": "GREEN ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04629",
+    "install_date": "2023-02-28T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407869496,
+            37.798696861
+          ],
+          [
+            -122.409014378,
+            37.79948982
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2022-06-30T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "18013",
+    "cnn": "12846000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "JASPER PL",
+    "to_st": "VIA FERLINGHETTI",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.408358784,
+            37.800544951
+          ],
+          [
+            -122.408836051,
+            37.800487585
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "24766",
+    "cnn": "4296000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "from_st": "UNION ST",
+    "to_st": "POWELL ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04629",
+    "install_date": "2023-02-28T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.410206544,
+            37.8003155
+          ],
+          [
+            -122.41095374,
+            37.800832982
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2022-06-30T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "19048",
+    "cnn": "12850000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "POWELL ST",
+    "to_st": "AUGUST ALY",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.410833639,
+            37.800239159
+          ],
+          [
+            -122.411625516,
+            37.80013919
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "22452",
+    "cnn": "10695000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "from_st": "GREEN ST",
+    "to_st": "UNION ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.410644273,
+            37.799302853
+          ],
+          [
+            -122.410833639,
+            37.800239159
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "16199",
+    "cnn": "6493000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "from_st": "KRAMER PL",
+    "to_st": "STOCKTON ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.40826084,
+            37.802466344
+          ],
+          [
+            -122.409561309,
+            37.802302477
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "24512",
+    "cnn": "6491000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "from_st": "CHILD ST",
+    "to_st": "GRANT AVE",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407419586,
+            37.802572003
+          ],
+          [
+            -122.407955857,
+            37.802504771
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "16352",
+    "cnn": "4299000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "from_st": "GREENWICH ST",
+    "to_st": "MASON ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04629",
+    "install_date": "2023-02-28T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.412541278,
+            37.801930636
+          ],
+          [
+            -122.412908086,
+            37.802183772
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2022-06-30T00:00:00",
+    "analysis_neighborhood": "Chinatown, Russian Hill",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "17318",
+    "cnn": "12848000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "STOCKTON ST",
+    "to_st": "COLUMBUS AVE",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2023-07-31T17:00:00",
+    "mtab_motion": "230801-067",
+    "status": "I",
+    "workorder": "23-06182",
+    "install_date": "2023-10-05T17:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.409189818,
+            37.80044506
+          ],
+          [
+            -122.410206544,
+            37.8003155
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2026-02-10T22:36:49",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "23962",
+    "cnn": "4293000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "from_st": "GRANT AVE",
+    "to_st": "VALLEJO ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04629",
+    "install_date": "2023-02-28T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407082926,
+            37.798152057
+          ],
+          [
+            -122.407869496,
+            37.798696861
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2022-06-30T00:00:00",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "18521",
+    "cnn": "10694000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "from_st": "VALLEJO ST",
+    "to_st": "GREEN ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.410456159,
+            37.798372704
+          ],
+          [
+            -122.410644273,
+            37.799302853
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "31703",
+    "cnn": "5498000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "BOB KAUFMAN ALY",
+    "to_st": "GRANT AVE",
+    "speedlimit": "0",
+    "schoolzone": "YES",
+    "schoolzone_limit": "15",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407461374,
+            37.801611462
+          ],
+          [
+            -122.40776959,
+            37.801570826
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2018-01-02T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "30879",
+    "cnn": "5502000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "KRAUSGRILL PL",
+    "to_st": "STOCKTON ST",
+    "speedlimit": "0",
+    "schoolzone": "YES",
+    "schoolzone_limit": "15",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.408928787,
+            37.801425761
+          ],
+          [
+            -122.409369117,
+            37.801370656
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2018-01-02T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "18395",
+    "cnn": "12213000",
+    "street": "STOCKTON",
+    "st_type": "ST",
+    "from_st": "GREEN ST",
+    "to_st": "UNION ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04469",
+    "install_date": "2023-02-14T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.409014378,
+            37.79948982
+          ],
+          [
+            -122.409189818,
+            37.80044506
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2024-04-24T15:15:00",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "26125",
+    "cnn": "6457000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "from_st": "EATON PL",
+    "to_st": "MASON ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411941406,
+            37.799138964
+          ],
+          [
+            -122.412283021,
+            37.799095799
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown, Nob Hill",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "18188",
+    "cnn": "6453000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "from_st": "JASPER PL",
+    "to_st": "STOCKTON ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2023-07-31T17:00:00",
+    "mtab_motion": "230801-067",
+    "status": "I",
+    "workorder": "23-06179",
+    "install_date": "2024-02-29T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.408169309,
+            37.79960144
+          ],
+          [
+            -122.409014378,
+            37.79948982
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2026-02-10T23:11:55",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "29300",
+    "cnn": "12843000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "GRANT AVE",
+    "to_st": "BANNAM PL",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407584445,
+            37.800638021
+          ],
+          [
+            -122.407898373,
+            37.80060029
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "30932",
+    "cnn": "5499000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "GRANT AVE",
+    "to_st": "MEDAU PL",
+    "speedlimit": "0",
+    "schoolzone": "YES",
+    "schoolzone_limit": "15",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.40776959,
+            37.801570826
+          ],
+          [
+            -122.40813253,
+            37.801525404
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2018-01-02T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "26232",
+    "cnn": "6496000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "from_st": "POWELL ST",
+    "to_st": "VIA BUFANO",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411202592,
+            37.802100726
+          ],
+          [
+            -122.411600022,
+            37.802050231
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "26523",
+    "cnn": "10697000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "from_st": "COLUMBUS AVE",
+    "to_st": "FILBERT ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.41095374,
+            37.800832982
+          ],
+          [
+            -122.411018517,
+            37.801169752
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "26633",
+    "cnn": "12212000",
+    "street": "STOCKTON",
+    "st_type": "ST",
+    "from_st": "CARD ALY",
+    "to_st": "GREEN ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04469",
+    "install_date": "2023-02-14T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.40891234,
+            37.799035857
+          ],
+          [
+            -122.409014378,
+            37.79948982
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2024-04-24T15:15:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "22780",
+    "cnn": "12845000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "CADELL PL",
+    "to_st": "JASPER PL",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.408009825,
+            37.800586895
+          ],
+          [
+            -122.408358784,
+            37.800544951
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "22854",
+    "cnn": "12849000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "COLUMBUS AVE",
+    "to_st": "POWELL ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2023-07-31T17:00:00",
+    "mtab_motion": "230801-067",
+    "status": "I",
+    "workorder": "23-06182",
+    "install_date": "2023-10-05T17:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.410206544,
+            37.8003155
+          ],
+          [
+            -122.410833639,
+            37.800239159
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2026-02-10T22:36:49",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "22011",
+    "cnn": "12847000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "VIA FERLINGHETTI",
+    "to_st": "STOCKTON ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.408836051,
+            37.800487585
+          ],
+          [
+            -122.409189818,
+            37.80044506
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "21349",
+    "cnn": "6454000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "from_st": "STOCKTON ST",
+    "to_st": "POWELL ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2023-07-31T17:00:00",
+    "mtab_motion": "230801-067",
+    "status": "I",
+    "workorder": "23-06179",
+    "install_date": "2024-02-29T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.409014378,
+            37.79948982
+          ],
+          [
+            -122.410644273,
+            37.799302853
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2026-02-10T23:11:55",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "25036",
+    "cnn": "5506000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "SCOTLAND ST",
+    "to_st": "MASON ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.41230726,
+            37.801009012
+          ],
+          [
+            -122.412659661,
+            37.800965056
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "29289",
+    "cnn": "6492000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "from_st": "GRANT AVE",
+    "to_st": "KRAMER PL",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407955857,
+            37.802504771
+          ],
+          [
+            -122.40826084,
+            37.802466344
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "30725",
+    "cnn": "4297000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "from_st": "POWELL ST",
+    "to_st": "FILBERT ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04629",
+    "install_date": "2023-02-28T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.41095374,
+            37.800832982
+          ],
+          [
+            -122.411376271,
+            37.801125133
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2022-06-30T00:00:00",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "28496",
+    "cnn": "10698000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "from_st": "FILBERT ST",
+    "to_st": "GREENWICH ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411018517,
+            37.801169752
+          ],
+          [
+            -122.411202592,
+            37.802100726
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "26597",
+    "cnn": "4298000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "from_st": "FILBERT ST",
+    "to_st": "GREENWICH ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04629",
+    "install_date": "2023-02-28T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411376271,
+            37.801125133
+          ],
+          [
+            -122.412541278,
+            37.801930636
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2022-06-30T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "22495",
+    "cnn": "4295000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "from_st": "GREEN ST",
+    "to_st": "UNION ST",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04629",
+    "install_date": "2023-02-28T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.409014378,
+            37.79948982
+          ],
+          [
+            -122.410206544,
+            37.8003155
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2022-06-30T00:00:00",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "20531",
+    "cnn": "6498000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "from_st": "COLUMBUS AVE",
+    "to_st": "MASON ST",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.412541278,
+            37.801930636
+          ],
+          [
+            -122.412848887,
+            37.801893358
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "17278",
+    "cnn": "6494000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "from_st": "STOCKTON ST",
+    "to_st": "BRANT ALY",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.409561309,
+            37.802302477
+          ],
+          [
+            -122.410600541,
+            37.802174735
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "16047",
+    "cnn": "6456000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "from_st": "AUGUST ALY",
+    "to_st": "EATON PL",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411439258,
+            37.799202411
+          ],
+          [
+            -122.411941406,
+            37.799138964
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "31239",
+    "cnn": "5503000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "STOCKTON ST",
+    "to_st": "POWELL ST",
+    "speedlimit": "0",
+    "schoolzone": "YES",
+    "schoolzone_limit": "15",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.409369117,
+            37.801370656
+          ],
+          [
+            -122.411018517,
+            37.801169752
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2018-01-02T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "31413",
+    "cnn": "5500000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "MEDAU PL",
+    "to_st": "JASPER PL",
+    "speedlimit": "0",
+    "schoolzone": "YES",
+    "schoolzone_limit": "15",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.40813253,
+            37.801525404
+          ],
+          [
+            -122.408552016,
+            37.80147291
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2018-01-02T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "19593",
+    "cnn": "12844000",
+    "street": "UNION",
+    "st_type": "ST",
+    "from_st": "BANNAM PL",
+    "to_st": "CADELL PL",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407898373,
+            37.80060029
+          ],
+          [
+            -122.408009825,
+            37.800586895
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "16473",
+    "cnn": "6451000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "from_st": "GRANT AVE",
+    "to_st": "BANNAM PL",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2023-07-31T17:00:00",
+    "mtab_motion": "230801-067",
+    "status": "I",
+    "workorder": "23-06179",
+    "install_date": "2024-02-29T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.407395243,
+            37.799703676
+          ],
+          [
+            -122.407698021,
+            37.799663687
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2026-02-10T23:11:55",
+    "analysis_neighborhood": "North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "26399",
+    "cnn": "10696000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "from_st": "UNION ST",
+    "to_st": "COLUMBUS AVE",
+    "speedlimit": "0",
+    "schoolzone_limit": "0",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.410833639,
+            37.800239159
+          ],
+          [
+            -122.41095374,
+            37.800832982
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2016-05-10T00:00:00",
+    "analysis_neighborhood": "Chinatown, North Beach",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "26344",
+    "cnn": "12211000",
+    "street": "STOCKTON",
+    "st_type": "ST",
+    "from_st": "VALLEJO ST",
+    "to_st": "CARD ALY",
+    "speedlimit": "20",
+    "schoolzone_limit": "0",
+    "mtab_date": "2022-06-20T17:00:00",
+    "mtab_motion": "220621-052",
+    "status": "I",
+    "workorder": "22-04469",
+    "install_date": "2023-02-14T16:00:00",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.408808129,
+            37.798571324
+          ],
+          [
+            -122.40891234,
+            37.799035857
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2024-04-24T15:15:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  },
+  {
+    "objectid": "31166",
+    "cnn": "5505000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "from_st": "COLUMBUS AVE",
+    "to_st": "SCOTLAND ST",
+    "speedlimit": "0",
+    "schoolzone": "YES",
+    "schoolzone_limit": "15",
+    "shape": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -122.411376271,
+            37.801125132
+          ],
+          [
+            -122.41230726,
+            37.801009013
+          ]
+        ]
+      ]
+    },
+    "data_as_of": "2018-01-02T00:00:00",
+    "analysis_neighborhood": "Chinatown",
+    "supervisor_district": "3"
+  }
+]

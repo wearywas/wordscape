@@ -1,0 +1,3183 @@
+{
+  "source": {
+    "id": "osm-washington-edges",
+    "title": "OpenStreetMap · Washington Square peripheral buildings and alley",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41224641494269,37.799183014789826,-122.4081535850573,37.80241694981248",
+    "attribution": "© OpenStreetMap contributors · Open Database License (ODbL) 1.0",
+    "accessed": "2026-11-15",
+    "notes": "Reused the retained bounded extraction captured 2026-11-16T03:24:27.930514+00:00; no new acquisition. Snapshot timestamp was not supplied. Normalized source SHA-256 d2fdecb087ca53305f03f93e4a8ca776916762fcfa0ffc5a9c07543384d8b423. Added 24 non-overlapping peripheral building footprints and two Via Ferlinghetti segments, compared with retained 2022 NOAA and 2024 NAIP imagery. Existing interpreted objects remain unchanged. Source heights, inferred dimensions and authored colors have independent evidence. See docs/SURVEY_AUDIT.md and /reference/washington-square-edge-audit.json. ODbL terms: https://opendatacommons.org/licenses/odbl/1-0/."
+  },
+  "objects": [
+    {
+      "id": "osm-way-262574420",
+      "label": "721/725 Filbert Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 47.697,
+      "y": 180.79,
+      "width": 29.616,
+      "depth": 44.728,
+      "height": 10,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262574420",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262574420",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"721;725\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Filbert Street\",\"building\":\"garage\",\"height\":\"10\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2025-06-13T17:49:58Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 6,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 10,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d4c7af",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#837d75",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262574420",
+          "note": "https://www.openstreetmap.org/way/262574420"
+        }
+      ],
+      "footprint": [
+        [-14.808, 18.936],
+        [6.76, 22.364],
+        [9.979, 2.149],
+        [11.43, 2.383],
+        [12.459, -4.074],
+        [14.808, -18.857],
+        [-7.252, -22.364],
+        [-11.501, 4.364],
+        [-12.468, 4.208]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-32611662",
+      "label": "1520 Stockton Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 307.809,
+      "y": 84.773,
+      "width": 44.657,
+      "depth": 24.813,
+      "height": 22,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/32611662",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/32611662",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"1520\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Stockton Street\",\"building\":\"hospital\",\"height\":\"22\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2021-05-05T16:46:33Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 11,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 22,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d8c7b7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#8c8981",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/32611662",
+          "note": "https://www.openstreetmap.org/way/32611662"
+        }
+      ],
+      "footprint": [
+        [-22.329, 5.871],
+        [-19.092, -12.407],
+        [6.135, -8.066],
+        [22.328, -5.617],
+        [19.513, 12.406],
+        [-2.996, 8.877]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-32611759",
+      "label": "Edge building 3",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 331.593,
+      "y": 25.785,
+      "width": 44.709,
+      "depth": 22.074,
+      "height": 6,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/32611759",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/32611759",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"building\":\"yes\",\"building:levels\":\"2\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2025-02-20T10:35:49Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 8,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.height",
+          "value": 6,
+          "evidence": "inferred",
+          "note": "Estimated at 3 m per mapped level; roof detail unknown.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": 2,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#cabfae",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#777d79",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/32611759",
+          "note": "https://www.openstreetmap.org/way/32611759"
+        }
+      ],
+      "footprint": [
+        [-9.716, -11.037],
+        [22.354, -5.794],
+        [19.61, 11.037],
+        [-21.564, 4.302],
+        [-22.241, 3.757],
+        [-22.355, 2.833],
+        [-22.338, 1.976],
+        [-21.933, 1.119]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-1443107207",
+      "label": "653/655 Green Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 214.95,
+      "y": 9.289,
+      "width": 28.171,
+      "depth": 18.577,
+      "height": 9,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/1443107207",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/1443107207",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"653;655\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Green Street\",\"building\":\"yes\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2025-10-18T23:47:46Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 2,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "import.clipped",
+          "value": true,
+          "evidence": "authored",
+          "note": "Footprint clipped to selection boundary; the real feature continues outside."
+        },
+        {
+          "key": "building.height",
+          "value": 9,
+          "evidence": "inferred",
+          "note": "Fallback mass height; no mapped height or floor count.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.isOutline",
+          "value": true,
+          "evidence": "inferred",
+          "note": "OSM outline contains mapped building parts. Keep its footprint and metadata, but render the parts instead of an overlapping whole-building mass."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d7d2c7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#837d75",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/1443107207",
+          "note": "https://www.openstreetmap.org/way/1443107207"
+        }
+      ],
+      "footprint": [
+        [10.859, 9.288],
+        [2.679, 7.863],
+        [-5.932, 6.361],
+        [-14.086, 4.947],
+        [-11.612, -9.289],
+        [14.085, -9.289]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262121245",
+      "label": "Edge building 5",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 48.898,
+      "y": 295.083,
+      "width": 19.017,
+      "depth": 28.698,
+      "height": 9,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262121245",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262121245",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"building\":\"yes\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2024-02-02T18:49:12Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 2,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.height",
+          "value": 9,
+          "evidence": "inferred",
+          "note": "Fallback mass height; no mapped height or floor count.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#c3c7bd",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#8c8981",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262121245",
+          "note": "https://www.openstreetmap.org/way/262121245"
+        }
+      ],
+      "footprint": [
+        [9.508, -12.379],
+        [-2.921, -14.349],
+        [-3.791, -8.672],
+        [-6.325, -9.062],
+        [-7.31, -2.438],
+        [-9.509, 12.134],
+        [5.409, 14.349]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262574419",
+      "label": "729/731 Filbert Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 31.803,
+      "y": 178.509,
+      "width": 15.226,
+      "depth": 42.435,
+      "height": 10,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262574419",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262574419",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"729;731\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Filbert Street\",\"building\":\"yes\",\"height\":\"10\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T03:46:51Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 5,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 10,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d4c7af",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#777d79",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262574419",
+          "note": "https://www.openstreetmap.org/way/262574419"
+        }
+      ],
+      "footprint": [
+        [-4.816, 2.215],
+        [-5.353, 5.599],
+        [-7.613, 19.836],
+        [1.086, 21.217],
+        [3.426, 6.489],
+        [7.613, -19.827],
+        [-1.087, -21.218],
+        [-2.564, -11.901]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262121239",
+      "label": "Edge building 7",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 72.458,
+      "y": 305.246,
+      "width": 25.095,
+      "depth": 19.013,
+      "height": 11,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262121239",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262121239",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"building\":\"yes\",\"height\":\"11\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2018-01-22T17:46:40Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 3,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 11,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d8c7b7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#837d75",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262121239",
+          "note": "https://www.openstreetmap.org/way/262121239"
+        }
+      ],
+      "footprint": [
+        [-10.138, -9.506],
+        [-12.548, 5.466],
+        [-11.589, 5.622],
+        [-11.105, 6.669],
+        [-8.994, 6.98],
+        [-8.053, 6.19],
+        [-3.207, 6.969],
+        [-2.679, 8.016],
+        [-0.665, 8.394],
+        [0.382, 7.548],
+        [6.689, 8.572],
+        [7.674, 9.385],
+        [8.729, 9.507],
+        [9.486, 9.018],
+        [10.198, 8.305],
+        [10.268, 6.813],
+        [9.943, 6.168],
+        [11.271, -2.059],
+        [12.23, -2.86],
+        [12.547, -4.92],
+        [11.746, -5.989]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262121241",
+      "label": "Edge building 8",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 34.24,
+      "y": 275.463,
+      "width": 24.743,
+      "depth": 22.943,
+      "height": 9,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262121241",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262121241",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"building\":\"yes\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2024-02-02T18:49:12Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 2,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.height",
+          "value": 9,
+          "evidence": "inferred",
+          "note": "Fallback mass height; no mapped height or floor count.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#cabfae",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#8c8981",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262121241",
+          "note": "https://www.openstreetmap.org/way/262121241"
+        }
+      ],
+      "footprint": [
+        [-11.563, 2.399],
+        [-12.372, 8.744],
+        [4.674, 11.471],
+        [5.281, 7.709],
+        [8.571, 4.892],
+        [9.107, 1.564],
+        [10.436, 1.775],
+        [12.371, -10.192],
+        [4.463, -11.472]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262112732",
+      "label": "Edge building 9",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 325.436,
+      "y": 276.565,
+      "width": 17.055,
+      "depth": 25.058,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262112732",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262112732",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"building\":\"yes\",\"height\":\"12\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2018-01-22T17:48:06Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 4,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 12,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d7d2c7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#777d79",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262112732",
+          "note": "https://www.openstreetmap.org/way/262112732"
+        }
+      ],
+      "footprint": [
+        [-7.921, 0.395],
+        [-8.361, 3.323],
+        [-8.528, 4.391],
+        [-7.209, 4.614],
+        [-7.552, 6.718],
+        [-6.567, 6.874],
+        [-7.174, 10.614],
+        [-3.708, 11.171],
+        [-2.767, 5.337],
+        [-1.773, 5.493],
+        [-2.732, 11.382],
+        [4.349, 12.529],
+        [5.299, 6.64],
+        [5.95, 6.74],
+        [8.527, -9.201],
+        [8.333, -10.37],
+        [5.519, -10.837],
+        [4.762, -9.802],
+        [3.329, -10.036],
+        [2.959, -11.205],
+        [0.232, -11.65],
+        [-0.375, -10.637],
+        [-1.817, -10.871],
+        [-2.274, -12.14],
+        [-4.913, -12.529],
+        [-5.934, -11.606]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-32611760",
+      "label": "Columbus Avenue building",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 338.422,
+      "y": 12.577,
+      "width": 33.09,
+      "depth": 14.828,
+      "height": 9,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/32611760",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/32611760",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Columbus Avenue\",\"building\":\"yes\",\"building:levels\":\"3\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2025-02-20T10:35:49Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 6,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.height",
+          "value": 9,
+          "evidence": "inferred",
+          "note": "Estimated at 3 m per mapped level; roof detail unknown.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#c3c7bd",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#837d75",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/32611760",
+          "note": "https://www.openstreetmap.org/way/32611760"
+        }
+      ],
+      "footprint": [
+        [-16.545, 2.171],
+        [-5.198, -7.414],
+        [16.123, -4.43],
+        [14.953, 2.371],
+        [16.545, 2.616],
+        [15.525, 7.414]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-32611674",
+      "label": "1510/1512/1514 Stockton Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 302.236,
+      "y": 68.821,
+      "width": 27.038,
+      "depth": 15.773,
+      "height": 7,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/32611674",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/32611674",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"1510;1512;1514\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Stockton Street\",\"building\":\"retail\",\"height\":\"7\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2021-05-05T16:46:33Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 10,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 7,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d4c7af",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#8c8981",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/32611674",
+          "note": "https://www.openstreetmap.org/way/32611674"
+        }
+      ],
+      "footprint": [
+        [13.519, -3.891],
+        [-11.593, -7.887],
+        [-13.519, 3.545],
+        [11.708, 7.886],
+        [11.954, 6.417]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262585102",
+      "label": "725/727/731/733/735/737 Columbus Avenue",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 18.97,
+      "y": 248.301,
+      "width": 24.813,
+      "depth": 22.119,
+      "height": 8,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262585102",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262585102",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:housenumber\":\"725;727;731;733;735;737\",\"addr:street\":\"Columbus Avenue\",\"building\":\"yes\",\"height\":\"8\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T03:46:51Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 4,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 8,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d8c7b7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#777d79",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262585102",
+          "note": "https://www.openstreetmap.org/way/262585102"
+        }
+      ],
+      "footprint": [
+        [-12.407, 10.525],
+        [-9.689, 11.059],
+        [-9.091, 11.037],
+        [-8.159, 10.246],
+        [-7.085, 10.681],
+        [0.945, 3.779],
+        [0.778, 2.621],
+        [3.039, 0.695],
+        [4.226, 0.895],
+        [9.02, -3.235],
+        [8.826, -4.248],
+        [9.732, -5.016],
+        [10.647, -4.548],
+        [12.406, -6.24],
+        [12.169, -7.097],
+        [10.656, -8.89],
+        [7.454, -9.368],
+        [7.296, -8.377],
+        [4.112, -8.856],
+        [4.261, -9.858],
+        [0.303, -10.448],
+        [0.215, -9.914],
+        [-7.376, -11.06],
+        [-8.035, -6.83],
+        [-8.765, -6.941],
+        [-9.759, -0.529],
+        [-10.674, -0.663]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262477446",
+      "label": "755/757/759/761/763 Union Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 40.669,
+      "y": 82.608,
+      "width": 15.172,
+      "depth": 26.917,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262477446",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262477446",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"755;757;759;761;763\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Union Street\",\"building\":\"yes\",\"height\":\"13\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T03:48:03Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 6,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 13,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#cabfae",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#837d75",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262477446",
+          "note": "https://www.openstreetmap.org/way/262477446"
+        }
+      ],
+      "footprint": [
+        [-2.564, -13.459],
+        [-5.08, 2.059],
+        [-6.258, 2.893],
+        [-6.381, 3.417],
+        [-7.586, 11.075],
+        [-6.636, 11.231],
+        [-6.478, 11.921],
+        [-3.954, 12.333],
+        [-3.347, 11.765],
+        [-0.084, 12.289],
+        [0.638, 13.079],
+        [2.969, 13.458],
+        [3.602, 12.812],
+        [4.191, 12.879],
+        [5.572, 4.396],
+        [5.053, 3.873],
+        [7.586, -11.812]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262574403",
+      "label": "733 Filbert Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 22.436,
+      "y": 182.382,
+      "width": 13.607,
+      "depth": 34.242,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262574403",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262574403",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:housenumber\":\"733\",\"addr:street\":\"Filbert Street\",\"building\":\"yes\",\"height\":\"12\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2025-06-13T17:49:58Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 5,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 12,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d7d2c7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#8c8981",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262574403",
+          "note": "https://www.openstreetmap.org/way/262574403"
+        }
+      ],
+      "footprint": [
+        [-6.804, 15.14],
+        [-5.327, 15.975],
+        [-3.638, 16.843],
+        [-1.747, 17.121],
+        [0.725, 16.464],
+        [1.666, 16.487],
+        [1.754, 15.963],
+        [4.014, 1.726],
+        [2.414, 1.47],
+        [2.95, -1.914],
+        [4.551, -1.658],
+        [6.803, -15.774],
+        [-1.676, -17.121],
+        [-1.879, -16.197],
+        [-2.723, -10.085],
+        [-2.345, -10.085],
+        [-4.975, 6.401],
+        [-5.406, 6.334]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262112725",
+      "label": "553/555/561 Greenwich Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 295.529,
+      "y": 333.528,
+      "width": 13.906,
+      "depth": 30.491,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262112725",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262112725",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:housenumber\":\"553;555;561\",\"addr:street\":\"Greenwich Street\",\"building\":\"yes\",\"height\":\"12\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2021-09-15T22:29:10Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 7,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 12,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#c3c7bd",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#777d79",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262112725",
+          "note": "https://www.openstreetmap.org/way/262112725"
+        }
+      ],
+      "footprint": [
+        [-6.953, 13.898],
+        [2.371, 15.245],
+        [3.585, 6.295],
+        [3.954, 3.523],
+        [4.491, -0.407],
+        [1.368, -0.852],
+        [1.799, -3.846],
+        [5.423, -3.334],
+        [6.953, -13.91],
+        [-2.326, -15.246],
+        [-3.716, -5.65],
+        [-1.816, -5.383],
+        [-2.397, -1.375],
+        [-4.701, -1.709]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262479623",
+      "label": "9 August Alley",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 53.458,
+      "y": 44.948,
+      "width": 19.448,
+      "depth": 16.364,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262479623",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262479623",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"9\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"August Alley\",\"building\":\"yes\",\"height\":\"12\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T03:46:50Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 5,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 12,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d4c7af",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#837d75",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262479623",
+          "note": "https://www.openstreetmap.org/way/262479623"
+        }
+      ],
+      "footprint": [
+        [-6.812, -8.182],
+        [-7.445, -3.918],
+        [-8.299, -4.041],
+        [-9.724, 5.611],
+        [7.666, 8.182],
+        [9.724, -5.744],
+        [3.321, -6.69]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262574405",
+      "label": "741/743/745 Filbert Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 11.344,
+      "y": 186.546,
+      "width": 14.258,
+      "depth": 23.087,
+      "height": 10,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262574405",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262574405",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"741;743;745\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Filbert Street\",\"building\":\"yes\",\"height\":\"10\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T04:50:16Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 5,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 10,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d8c7b7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#8c8981",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262574405",
+          "note": "https://www.openstreetmap.org/way/262574405"
+        }
+      ],
+      "footprint": [
+        [-7.129, 9.161],
+        [-6.32, 9.284],
+        [-5.828, 10.241],
+        [-4.183, 10.542],
+        [-3.338, 9.762],
+        [0.189, 10.319],
+        [0.769, 11.31],
+        [2.696, 11.543],
+        [3.408, 10.831],
+        [4.288, 10.976],
+        [5.686, 2.17],
+        [7.129, -6.88],
+        [6.003, -7.058],
+        [6.487, -10.097],
+        [-2.608, -11.544],
+        [-3.092, -8.505],
+        [-4.288, -8.694],
+        [-5.159, -3.184]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262128559",
+      "label": "666/668/670/672/674/676 Greenwich Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 132.099,
+      "y": 350.697,
+      "width": 16.393,
+      "depth": 18.607,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262128559",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262128559",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:housenumber\":\"666;668;670;672;674;676\",\"addr:street\":\"Greenwich Street\",\"building\":\"yes\",\"height\":\"12\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T03:46:50Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 4,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "import.clipped",
+          "value": true,
+          "evidence": "authored",
+          "note": "Footprint clipped to selection boundary; the real feature continues outside."
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 12,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#cabfae",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#777d79",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262128559",
+          "note": "https://www.openstreetmap.org/way/262128559"
+        }
+      ],
+      "footprint": [
+        [8.196, -7.256],
+        [-5.393, -9.304],
+        [-5.481, -8.714],
+        [-6.739, -0.332],
+        [-5.578, -0.154],
+        [-6.053, 3.019],
+        [-7.223, 2.852],
+        [-7.97, 7.806],
+        [-8.197, 9.303],
+        [5.701, 9.303]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262477437",
+      "label": "Edge building 19",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 78.017,
+      "y": 61.802,
+      "width": 33.099,
+      "depth": 12.958,
+      "height": 9,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262477437",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262477437",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"building\":\"yes\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2015-11-21T18:07:50Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 2,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.height",
+          "value": 9,
+          "evidence": "inferred",
+          "note": "Fallback mass height; no mapped height or floor count.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d7d2c7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#837d75",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262477437",
+          "note": "https://www.openstreetmap.org/way/262477437"
+        }
+      ],
+      "footprint": [
+        [-16.55, 0.189],
+        [-9.566, 1.18],
+        [-6.514, 1.614],
+        [0.048, 2.549],
+        [1.561, 2.772],
+        [1.323, 4.464],
+        [13.778, 6.234],
+        [15.476, 6.479],
+        [16.549, -1.091],
+        [2.818, -3.039],
+        [2.933, -3.841],
+        [-7.429, -5.221],
+        [-13.779, -6.256],
+        [-15.6, -6.479]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262112756",
+      "label": "Edge building 20",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 322.146,
+      "y": 295.885,
+      "width": 17.125,
+      "depth": 18.011,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262112756",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262112756",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"building\":\"yes\",\"height\":\"13\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2018-01-22T17:48:08Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 5,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 13,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#c3c7bd",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#8c8981",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262112756",
+          "note": "https://www.openstreetmap.org/way/262112756"
+        }
+      ],
+      "footprint": [
+        [-8.563, 6.645],
+        [6.029, 9.005],
+        [7.225, 1.636],
+        [5.959, 1.424],
+        [6.276, -0.557],
+        [7.542, -0.357],
+        [8.562, -6.646],
+        [7.639, -6.791],
+        [0.558, -7.938],
+        [-6.03, -9.006],
+        [-6.593, -5.556]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262104205",
+      "label": "152/154/156/158/160/162 Jasper Place",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 339.641,
+      "y": 229.671,
+      "width": 20.837,
+      "depth": 14.784,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262104205",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262104205",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:housenumber\":\"152;154;156;158;160;162\",\"addr:street\":\"Jasper Place\",\"building\":\"yes\",\"height\":\"12\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2026-01-23T01:50:26Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 5,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 12,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d4c7af",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#777d79",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262104205",
+          "note": "https://www.openstreetmap.org/way/262104205"
+        }
+      ],
+      "footprint": [
+        [10.418, -4.453],
+        [-0.964, -6.323],
+        [-8.634, -7.392],
+        [-10.419, 4.375],
+        [-5.344, 5.176],
+        [8.536, 7.392],
+        [9.592, 0.746]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262104192",
+      "label": "525/527/529/531/533/535 Filbert Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 353.139,
+      "y": 240.998,
+      "width": 13.723,
+      "depth": 21.162,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262104192",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262104192",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:housenumber\":\"525;527;529;531;533;535\",\"addr:street\":\"Filbert Street\",\"building\":\"yes\",\"height\":\"13\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T03:46:50Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 4,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "import.clipped",
+          "value": true,
+          "evidence": "authored",
+          "note": "Footprint clipped to selection boundary; the real feature continues outside."
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 13,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d8c7b7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#837d75",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262104192",
+          "note": "https://www.openstreetmap.org/way/262104192"
+        }
+      ],
+      "footprint": [
+        [-4.962, -3.935],
+        [-5.331, -1.631],
+        [-6.862, 8.009],
+        [-6.457, 9.011],
+        [-4.179, 9.323],
+        [-3.546, 8.532],
+        [1.38, 9.323],
+        [1.582, 10.269],
+        [3.764, 10.581],
+        [4.388, 9.802],
+        [5.021, 9.902],
+        [6.631, -0.217],
+        [6.861, -1.665],
+        [6.861, -8.866],
+        [-3.906, -10.581]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262104191",
+      "label": "114/116/118/120 Jasper Place",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 346.48,
+      "y": 187.865,
+      "width": 19.703,
+      "depth": 14.75,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262104191",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262104191",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:housenumber\":\"114;116;118;120\",\"addr:street\":\"Jasper Place\",\"building\":\"yes\",\"height\":\"12\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T03:46:50Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 4,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 12,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#cabfae",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#8c8981",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262104191",
+          "note": "https://www.openstreetmap.org/way/262104191"
+        }
+      ],
+      "footprint": [
+        [-7.53, -7.375],
+        [-7.846, -5.371],
+        [-8.937, -4.893],
+        [-9.852, 1.196],
+        [-8.972, 2.02],
+        [-9.377, 4.636],
+        [4.82, 6.907],
+        [7.608, 7.375],
+        [9.631, -3.913],
+        [9.851, -4.659],
+        [7.845, -4.971],
+        [0.606, -6.106],
+        [-1.382, -6.418],
+        [-6.14, -7.164]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-262479612",
+      "label": "1724/1726/1728/1730 Mason Street",
+      "kind": "building",
+      "description": "Individual mapped OSM building footprint added at the specimen edge after comparison with retained NAIP/NOAA imagery. Existing hand-traced frontages are preserved. Mapped height tags remain source claims; missing heights and flat roof forms are explicit estimates. Facade and roof colors are authored display choices, not observed finishes.",
+      "x": 10.402,
+      "y": 40.011,
+      "width": 20.804,
+      "depth": 14.104,
+      "height": 10,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/262479612",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/262479612",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"addr:city\":\"San Francisco\",\"addr:housenumber\":\"1724;1726;1728;1730\",\"addr:postcode\":\"94133\",\"addr:state\":\"CA\",\"addr:street\":\"Mason Street\",\"building\":\"yes\",\"height\":\"10\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2020-07-09T03:46:50Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 5,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "import.clipped",
+          "value": true,
+          "evidence": "authored",
+          "note": "Footprint clipped to selection boundary; the real feature continues outside."
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 10,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM height is total top height above ground.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable building:levels tag."
+        },
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "note": "Neutral procedural roof; roof shape is not mapped."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable mapped material tag in the retained extract; facade material is not inferred from roof imagery."
+        },
+        {
+          "key": "building.color",
+          "value": "#d7d2c7",
+          "evidence": "authored",
+          "note": "Subdued display palette chosen to distinguish adjacent masses; not the observed facade color."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#777d79",
+          "evidence": "authored",
+          "note": "Authored display tone; no roof-color tag is supplied by this source."
+        },
+        {
+          "key": "placement.foundation",
+          "value": "Highest sampled terrain beneath footprint",
+          "evidence": "inferred",
+          "sourceIds": ["usgs-dem-2023"],
+          "note": "Modeled level foundation on the existing DEM; not a measured floor elevation."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/262479612",
+          "note": "https://www.openstreetmap.org/way/262479612"
+        }
+      ],
+      "footprint": [
+        [-4.376, 6.062],
+        [-3.1, 6.262],
+        [-2.009, 5.316],
+        [8.774, 7.052],
+        [10.402, -2.966],
+        [-0.382, -4.703],
+        [-1.077, -5.861],
+        [-8.448, -7.052],
+        [-8.554, -6.406],
+        [-9.591, -6.161],
+        [-9.882, -4.358],
+        [-9.002, -3.634],
+        [-9.917, 2.021],
+        [-10.402, 1.94],
+        [-10.402, 4.238],
+        [-10.278, 4.258],
+        [-10.402, 5.035],
+        [-10.402, 5.083]
+      ],
+      "grounding": "terrain",
+      "terrainAnchor": "highest-footprint"
+    },
+    {
+      "id": "osm-way-8920460-segment-0",
+      "label": "Via Ferlinghetti",
+      "kind": "road",
+      "description": "Mapped Via Ferlinghetti centerline, retained as a complete bounded way after checking its inferred corridor against existing and mapped building footprints. Shared node identities preserve the recorded connection. This does not establish access, current road width or accessibility.",
+      "x": 303.529,
+      "y": 117.083,
+      "width": 11,
+      "depth": 43.245,
+      "height": 0.02,
+      "elevation": 0.06,
+      "rotation": 0,
+      "layer": 1,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "road-segment", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/8920460",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/8920460",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"highway\":\"service\",\"name\":\"Via Ferlinghetti\",\"name:etymology:wikidata\":\"Q314269\",\"tiger:cfcc\":\"A41\",\"tiger:county\":\"San Francisco, CA\",\"tiger:name_base\":\"Via Ferlinghetti\",\"tiger:reviewed\":\"yes\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2026-05-14T15:49:21Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 9,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "placement.surfaceOffset",
+          "value": 0.06,
+          "unit": "m",
+          "evidence": "authored",
+          "note": "Flat preview surface separation: green space/water below paved areas, roads and paths. Rendering convention, not measured terrain, curbs, bridge clearance or pavement construction."
+        },
+        {
+          "key": "placement.surfaceThickness",
+          "value": 0.02,
+          "unit": "m",
+          "evidence": "authored",
+          "note": "Flat preview surface separation: green space/water below paved areas, roads and paths. Rendering convention, not measured terrain, curbs, bridge clearance or pavement construction."
+        },
+        {
+          "key": "osm.segmentIndex",
+          "value": 0,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "road.class",
+          "value": "service",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "road.width",
+          "value": 4,
+          "evidence": "inferred",
+          "note": "Estimated corridor width around a mapped centerline.",
+          "unit": "m"
+        },
+        {
+          "key": "path.centerline",
+          "value": "[[307.056,95.787],[300.002,138.378]]",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "Absolute local coordinates, clipped at the selection boundary. Endpoint OSM IDs are retained only when the original endpoint survives."
+        },
+        {
+          "key": "osm.fromNode",
+          "value": 65356376,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.toNode",
+          "value": 13828210107,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "road.direction",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No explicit one-way tag; direction not assumed."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable lanes tag."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No numeric mapped speed limit."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/8920460",
+          "note": "https://www.openstreetmap.org/way/8920460"
+        }
+      ],
+      "footprint": [
+        [1.554, -21.623],
+        [-5.5, 20.968],
+        [-1.554, 21.622],
+        [5.5, -20.969]
+      ],
+      "grounding": "terrain"
+    },
+    {
+      "id": "osm-way-8920460-segment-1",
+      "label": "Via Ferlinghetti",
+      "kind": "road",
+      "description": "Mapped Via Ferlinghetti centerline, retained as a complete bounded way after checking its inferred corridor against existing and mapped building footprints. Shared node identities preserve the recorded connection. This does not establish access, current road width or accessibility.",
+      "x": 299.435,
+      "y": 141.801,
+      "width": 5.081,
+      "depth": 7.5,
+      "height": 0.02,
+      "elevation": 0.06,
+      "rotation": 0,
+      "layer": 1,
+      "evidence": "observed",
+      "sourceId": "osm-washington-edges",
+      "tags": ["osm-import", "road-segment", "osm-edge-enrichment"],
+      "facts": [
+        {
+          "key": "osm.element",
+          "value": "way/8920460",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.url",
+          "value": "https://www.openstreetmap.org/way/8920460",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.tags",
+          "value": "{\"highway\":\"service\",\"name\":\"Via Ferlinghetti\",\"name:etymology:wikidata\":\"Q314269\",\"tiger:cfcc\":\"A41\",\"tiger:county\":\"San Francisco, CA\",\"tiger:name_base\":\"Via Ferlinghetti\",\"tiger:reviewed\":\"yes\"}",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.editedAt",
+          "value": "2026-05-14T15:49:21Z",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "OSM edit time, not a measurement date."
+        },
+        {
+          "key": "osm.version",
+          "value": 9,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "placement.surfaceOffset",
+          "value": 0.06,
+          "unit": "m",
+          "evidence": "authored",
+          "note": "Flat preview surface separation: green space/water below paved areas, roads and paths. Rendering convention, not measured terrain, curbs, bridge clearance or pavement construction."
+        },
+        {
+          "key": "placement.surfaceThickness",
+          "value": 0.02,
+          "unit": "m",
+          "evidence": "authored",
+          "note": "Flat preview surface separation: green space/water below paved areas, roads and paths. Rendering convention, not measured terrain, curbs, bridge clearance or pavement construction."
+        },
+        {
+          "key": "osm.segmentIndex",
+          "value": 1,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "road.class",
+          "value": "service",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "road.width",
+          "value": 4,
+          "evidence": "inferred",
+          "note": "Estimated corridor width around a mapped centerline.",
+          "unit": "m"
+        },
+        {
+          "key": "path.centerline",
+          "value": "[[300.002,138.378],[298.867,145.224]]",
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"],
+          "note": "Absolute local coordinates, clipped at the selection boundary. Endpoint OSM IDs are retained only when the original endpoint survives."
+        },
+        {
+          "key": "osm.fromNode",
+          "value": 13828210107,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "osm.toNode",
+          "value": 65312649,
+          "evidence": "sourced",
+          "sourceIds": ["osm-washington-edges"]
+        },
+        {
+          "key": "road.direction",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No explicit one-way tag; direction not assumed."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No usable lanes tag."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No numeric mapped speed limit."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "osm-washington-edges",
+          "role": "map",
+          "view": "way/8920460",
+          "note": "https://www.openstreetmap.org/way/8920460"
+        }
+      ],
+      "footprint": [
+        [-1.406, -3.75],
+        [-2.541, 3.096],
+        [1.405, 3.75],
+        [2.54, -3.096]
+      ],
+      "grounding": "terrain"
+    }
+  ],
+  "relations": [
+    {
+      "from": "osm-way-8920460-segment-0",
+      "to": "osm-way-8920460-segment-1",
+      "type": "connects",
+      "note": "Round 9 edge enrichment: shared mapped OSM node 13828210107; connectivity is not an access guarantee."
+    }
+  ]
+}

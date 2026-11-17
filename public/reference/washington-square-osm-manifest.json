@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.41224641494269,37.799183014789826,-122.4081535850573,37.80241694981248",
+  "accessed": "2026-11-15",
+  "capturedAtUTC": "2026-11-16T03:24:27.930514+00:00",
+  "license": "Open Database License (ODbL)1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "bounds": {
+    "west": -122.41224641494269,
+    "south": 37.799183014789826,
+    "east": -122.4081535850573,
+    "north": 37.80241694981248
+  },
+  "rawSha256": "983e0dc47a8821e3e29a51c32ff9981f838defa1474d7f5d86951afd94c61397",
+  "rawBytes": 1293959,
+  "normalizedBytes": 390801,
+  "elementCount": 566,
+  "note": "One bounded official API extraction after Overpass capacity/timeouts. Normalized to the same element shape accepted by the importer; not claimed to be an Overpass response. Element timestamps are edit dates, not survey dates. Snapshot timestamp not supplied. Raw source retained compressed.",
+  "originalSourceSha256": "a8ffd5cd1e22b972b967f430fde6a3c9e4afb9bac3fee899602abb85d74011c0",
+  "redaction": "Contributor user and uid attributes removed from the public raw XML. Geodata, feature tags, element versions and edit timestamps retained. Unmodified response remains only in the local temporary directory.",
+  "redactedAttributeCount": 10086
+}

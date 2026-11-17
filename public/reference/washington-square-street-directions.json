@@ -1,0 +1,674 @@
+[
+  {
+    "cnn": "12846000",
+    "street": "UNION",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25357000.0",
+    "t_node_cnn": "25359000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.408358783,
+          37.800544952
+        ],
+        [
+          -122.40883605,
+          37.800487585
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "12847000",
+    "street": "UNION",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25359000.0",
+    "t_node_cnn": "25365000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.40883605,
+          37.800487585
+        ],
+        [
+          -122.409189818,
+          37.800445061
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "12848000",
+    "street": "UNION",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25365000.0",
+    "t_node_cnn": "25364000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.409189818,
+          37.800445061
+        ],
+        [
+          -122.410206544,
+          37.800315499
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "12849000",
+    "street": "UNION",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25364000.0",
+    "t_node_cnn": "25423000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.410206544,
+          37.800315499
+        ],
+        [
+          -122.410833639,
+          37.800239159
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "12850000",
+    "street": "UNION",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25423000.0",
+    "t_node_cnn": "30067000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.410833639,
+          37.800239159
+        ],
+        [
+          -122.411625516,
+          37.80013919
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "12213000",
+    "street": "STOCKTON",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25352000.0",
+    "t_node_cnn": "25365000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.409014377,
+          37.79948982
+        ],
+        [
+          -122.409189818,
+          37.800445061
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "12214000",
+    "street": "STOCKTON",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25365000.0",
+    "t_node_cnn": "25366000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.409189818,
+          37.800445061
+        ],
+        [
+          -122.409369117,
+          37.801370656
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "12215000",
+    "street": "STOCKTON",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25366000.0",
+    "t_node_cnn": "25395000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.409369117,
+          37.801370656
+        ],
+        [
+          -122.409561308,
+          37.802302477
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "10695000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25412000.0",
+    "t_node_cnn": "25423000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.410644273,
+          37.799302853
+        ],
+        [
+          -122.410833639,
+          37.800239159
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "10696000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "oneway": "T",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25423000.0",
+    "t_node_cnn": "25424000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.410833639,
+          37.800239159
+        ],
+        [
+          -122.41095374,
+          37.800832982
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "10697000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "oneway": "F",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25424000.0",
+    "t_node_cnn": "25425000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.41095374,
+          37.800832982
+        ],
+        [
+          -122.411018517,
+          37.801169752
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "10698000",
+    "street": "POWELL",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25425000.0",
+    "t_node_cnn": "25451000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.411018517,
+          37.801169752
+        ],
+        [
+          -122.411202592,
+          37.802100726
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "6493000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25392000.0",
+    "t_node_cnn": "25395000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.40826084,
+          37.802466344
+        ],
+        [
+          -122.409561308,
+          37.802302477
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "6494000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25395000.0",
+    "t_node_cnn": "25396000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.409561308,
+          37.802302477
+        ],
+        [
+          -122.410600541,
+          37.802174735
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "6495000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25396000.0",
+    "t_node_cnn": "25451000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.410600541,
+          37.802174735
+        ],
+        [
+          -122.411202592,
+          37.802100726
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "6496000",
+    "street": "GREENWICH",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25451000.0",
+    "t_node_cnn": "25452000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.411202592,
+          37.802100726
+        ],
+        [
+          -122.411600022,
+          37.802050231
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "6453000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25353000.0",
+    "t_node_cnn": "25352000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.408169309,
+          37.79960144
+        ],
+        [
+          -122.409014377,
+          37.79948982
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "6454000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25352000.0",
+    "t_node_cnn": "25412000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.409014377,
+          37.79948982
+        ],
+        [
+          -122.410644273,
+          37.799302853
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "6455000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25412000.0",
+    "t_node_cnn": "25413000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.410644273,
+          37.799302853
+        ],
+        [
+          -122.411439257,
+          37.799202411
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "6456000",
+    "street": "GREEN",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25413000.0",
+    "t_node_cnn": "25421000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.411439257,
+          37.799202411
+        ],
+        [
+          -122.411941407,
+          37.799138964
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "5500000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "30712000.0",
+    "t_node_cnn": "30714000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.40813253,
+          37.801525404
+        ],
+        [
+          -122.408552016,
+          37.80147291
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "5501000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "30714000.0",
+    "t_node_cnn": "30711000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.408552016,
+          37.80147291
+        ],
+        [
+          -122.408928787,
+          37.801425761
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "5502000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "30711000.0",
+    "t_node_cnn": "25366000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.408928787,
+          37.801425761
+        ],
+        [
+          -122.409369117,
+          37.801370656
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "5503000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25366000.0",
+    "t_node_cnn": "25425000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.409369117,
+          37.801370656
+        ],
+        [
+          -122.411018517,
+          37.801169752
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "5504000",
+    "street": "FILBERT",
+    "st_type": "ST",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25425000.0",
+    "t_node_cnn": "30710000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.411018517,
+          37.801169752
+        ],
+        [
+          -122.411376271,
+          37.801125132
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "4295000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25352000.0",
+    "t_node_cnn": "25364000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.409014377,
+          37.79948982
+        ],
+        [
+          -122.410206544,
+          37.800315499
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "4296000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25364000.0",
+    "t_node_cnn": "25424000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.410206544,
+          37.800315499
+        ],
+        [
+          -122.41095374,
+          37.800832982
+        ]
+      ]
+    }
+  },
+  {
+    "cnn": "4297000",
+    "street": "COLUMBUS",
+    "st_type": "AVE",
+    "oneway": "B",
+    "active": true,
+    "from_st": null,
+    "to_st": null,
+    "f_node_cnn": "25424000.0",
+    "t_node_cnn": "30710000.0",
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.41095374,
+          37.800832982
+        ],
+        [
+          -122.411376271,
+          37.801125132
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "sourceId": "usgs-dem-2023",
+  "title": "USGS 3DEP 2023 San Francisco bare-earth DEM",
+  "metadataUrl": "https://www.fisheries.noaa.gov/inport/item/73506",
+  "catalogRecord": "washington-square-dem-catalog.json",
+  "attribution": "U.S. Geological Survey / NV5 Geospatial; NOAA metadata catalog.",
+  "license": "Public domain; the USGS product catalog states all 3DEP products are public domain.",
+  "accessed": "2026-11-15",
+  "acquired": {
+    "start": "2023-04-20",
+    "end": "2023-04-20"
+  },
+  "acquisitionNote": "NOAA project metadata lists a discrete ground-condition date of 2023-04-20.",
+  "verticalDatum": "NAVD88 (GEOID18)",
+  "verticalCrs": "EPSG:5703",
+  "sourceProjectHorizontalCrs": "EPSG:7131 (NAD83(2011) / San Francisco CS13)",
+  "sourceProjectResolutionMetres": 0.25,
+  "sourceProjectAccuracy": {
+    "nonVegetatedRmseMetres": 0.0163,
+    "vegetated95thPercentileMetres": 0.1105,
+    "note": "Project-wide reported tests, not independently verified local accuracy of the 1 m product or 5 m world grid."
+  },
+  "sourceRaster": {
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_SanFrancisco_B23/TIFF/USGS_1M_10_x55y419_CA_SanFrancisco_B23.tif",
+    "horizontalCrs": "EPSG:26910",
+    "resolutionMetres": [
+      1.0,
+      1.0
+    ],
+    "nodata": -999999.0,
+    "nativeSubsetSize": {
+      "columns": 384,
+      "rows": 382
+    },
+    "nativeSubsetBounds": [
+      551730.9999840065,
+      4183686.9999845778,
+      552114.9999840065,
+      4184068.9999845778
+    ],
+    "nativeSubsetTransform": [
+      1.0,
+      0.0,
+      551730.9999840065,
+      0.0,
+      -1.0,
+      4184068.9999845778
+    ],
+    "nativeSubsetNodataCount": 0,
+    "nativeSubsetMin": 11.170451164245605,
+    "nativeSubsetMax": 50.29990005493164,
+    "nativeSubsetNote": "Original raster values and 1 m grid; includes a 10 m interpolation buffer.",
+    "nativeSubsetSha256": "d1d1dcb1ddea5fafcbcf7723f040892531fbad2a461e7ff212d311a53474eebf"
+  },
+  "geographicBoundsEPSG4326": {
+    "west": -122.41224641494269,
+    "south": 37.799183014789826,
+    "east": -122.4081535850573,
+    "north": 37.80241694981248
+  },
+  "worldBoundsMetres": {
+    "width": 360,
+    "depth": 360
+  },
+  "exportBoundsEPSG3857": {
+    "xmin": -13626868.937772121,
+    "ymin": 4551095.820916071,
+    "xmax": -13626413.32603338,
+    "ymax": 4551551.432654811
+  },
+  "metresPerMercatorUnit": 0.7901464545017922,
+  "grid": {
+    "columns": 73,
+    "rows": 73,
+    "spacingMetres": 5,
+    "sampleConvention": "Nodes include all four boundaries; heights[row * columns + column], x = column * 5, y = row * 5.",
+    "nodata": null,
+    "nodataCount": 0,
+    "minElevation": 11.727850914001465,
+    "maxElevation": 49.78776168823242,
+    "cornerElevationsSW_SE_NW_NE": [
+      49.78776168823242,
+      26.204484939575195,
+      11.982524871826172,
+      48.53675842285156
+    ],
+    "medianSlopeDegrees": 4.0039028040287565,
+    "p95SlopeDegrees": 13.78540035655826,
+    "maxSlopeDegrees": 31.3974488903334,
+    "slopeNote": "Finite differences of the 5 m grid; local terrain breaks and source artifacts may influence extrema."
+  },
+  "processing": "Retain original 1 m raster window; horizontally reproject with bilinear resampling to matching 5 m node centers; reverse rows. No vertical transformation or gap fill.",
+  "limitations": "Buildings and tree canopies are excluded by the source ground classification. Ground beneath buildings and dense cover is interpolated. Later construction, retaining walls, steps and curbs require separate observations."
+}

@@ -1,0 +1,79 @@
+{
+  "format": "wordscape",
+  "version": "0.8",
+  "name": "A three-object garden",
+  "description": "A manually authored format example: grass, a path and a small building. No real place or measured data is represented.",
+  "units": "metres",
+  "bounds": { "width": 30, "depth": 30 },
+  "origin": {
+    "latitude": 0,
+    "longitude": 0,
+    "note": "Imaginary local frame. The numeric origin is a placeholder, not a geographic location."
+  },
+  "seed": 17,
+  "imaginary": {
+    "brief": "A manually authored three-object garden for learning the format.",
+    "guideVersion": "manual-example-1"
+  },
+  "sources": [],
+  "objects": [
+    {
+      "id": "lawn",
+      "label": "Garden lawn",
+      "kind": "grass",
+      "description": "A thin ground surface for the example.",
+      "x": 15,
+      "y": 15,
+      "width": 30,
+      "depth": 30,
+      "height": 0.02,
+      "elevation": 0,
+      "grounding": "absolute",
+      "rotation": 0,
+      "layer": 0,
+      "evidence": "authored"
+    },
+    {
+      "id": "path",
+      "label": "Garden path",
+      "kind": "pavement",
+      "description": "A straight path crossing the lawn, with its base at the lawn surface.",
+      "x": 15,
+      "y": 15,
+      "width": 3,
+      "depth": 26,
+      "height": 0.04,
+      "elevation": 0.02,
+      "grounding": "absolute",
+      "rotation": 0,
+      "layer": 1,
+      "evidence": "authored"
+    },
+    {
+      "id": "reading-room",
+      "label": "Reading room",
+      "kind": "building",
+      "description": "A small authored building beside the path. Its appearance is an interpreter choice.",
+      "x": 22,
+      "y": 15,
+      "width": 6,
+      "depth": 5,
+      "height": 4,
+      "elevation": 0.02,
+      "grounding": "absolute",
+      "rotation": 15,
+      "layer": 2,
+      "evidence": "authored",
+      "facts": [{ "key": "building.roofShape", "value": "gabled", "evidence": "authored" }]
+    }
+  ],
+  "relations": [
+    { "from": "path", "to": "lawn", "type": "within", "note": "Authored plan relationship." },
+    {
+      "from": "reading-room",
+      "to": "path",
+      "type": "near",
+      "note": "The room stands beside the path."
+    }
+  ]
+}

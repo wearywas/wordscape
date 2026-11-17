@@ -1,0 +1,20 @@
+{
+  "note": "Selected catalog attributes from the spatial query at -122.4102,37.8008. Service-returned geometry, overview rasters and field definitions omitted.",
+  "service": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "queryPoint": {
+    "wkid": 4326,
+    "latitude": 37.8008,
+    "longitude": -122.4102
+  },
+  "accessed": "2026-11-15",
+  "attributes": {
+    "OBJECTID": 11934,
+    "Name": "m_3712213_se_10_060_20240520",
+    "Category": 1,
+    "year_ts": 2024,
+    "ST": "CA",
+    "QQNAME": "3712213SE060",
+    "QQDATE": 1716163200000,
+    "iDate_ts": 1750023165501
+  }
+}

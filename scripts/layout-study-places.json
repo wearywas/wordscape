@@ -1,0 +1,190 @@
+{
+  "regions": {
+    "monaco": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+    "liechtenstein": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+    "maldives": "https://download.geofabrik.de/asia/maldives-latest.osm.pbf",
+    "seychelles": "https://download.geofabrik.de/africa/seychelles-latest.osm.pbf",
+    "nauru": "https://download.geofabrik.de/australia-oceania/nauru-latest.osm.pbf",
+    "samoa": "https://download.geofabrik.de/australia-oceania/samoa-latest.osm.pbf"
+  },
+  "places": [
+    {
+      "id": "sf-washington",
+      "label": "Washington Square, San Francisco",
+      "intendedContext": "urban park and surrounding blocks",
+      "retained": "washington-square-osm.json",
+      "manifest": "washington-square-osm-manifest.json"
+    },
+    {
+      "id": "sf-wharf",
+      "label": "Fisherman's Wharf, San Francisco",
+      "intendedContext": "working waterfront and visitor district",
+      "retained": "fishermans-wharf-osm-regression.json",
+      "manifest": "fishermans-wharf-regression-manifest.json"
+    },
+    {
+      "id": "monaco-old-town",
+      "label": "Monaco old town",
+      "intendedContext": "compact historic urban fabric",
+      "region": "monaco",
+      "lat": 43.7308,
+      "lon": 7.4223,
+      "size": 350
+    },
+    {
+      "id": "monaco-harbor",
+      "label": "Monaco harbor edge",
+      "intendedContext": "dense urban waterfront",
+      "region": "monaco",
+      "lat": 43.738,
+      "lon": 7.4247,
+      "size": 400
+    },
+    {
+      "id": "vaduz-center",
+      "label": "Vaduz center",
+      "intendedContext": "small civic center",
+      "region": "liechtenstein",
+      "lat": 47.1412,
+      "lon": 9.5215,
+      "size": 400
+    },
+    {
+      "id": "schaan-housing",
+      "label": "Schaan residential area",
+      "intendedContext": "residential streets and gardens",
+      "region": "liechtenstein",
+      "lat": 47.1667,
+      "lon": 9.5103,
+      "size": 450
+    },
+    {
+      "id": "ruggell-fields",
+      "label": "Ruggell fields",
+      "intendedContext": "agricultural edge",
+      "region": "liechtenstein",
+      "lat": 47.258312,
+      "lon": 9.551906,
+      "selectionNote": "After inspecting the first crop, moved to the center of mapped farmland way/462210812; purposive selection, not random sampling.",
+      "size": 500
+    },
+    {
+      "id": "malbun-village",
+      "label": "Malbun village",
+      "intendedContext": "mountain village",
+      "region": "liechtenstein",
+      "lat": 47.1027,
+      "lon": 9.6097,
+      "size": 500
+    },
+    {
+      "id": "male-center",
+      "label": "Male center",
+      "intendedContext": "dense island city",
+      "region": "maldives",
+      "lat": 4.1758,
+      "lon": 73.509,
+      "size": 350
+    },
+    {
+      "id": "hulhumale-grid",
+      "label": "Hulhumale streets",
+      "intendedContext": "planned island street grid",
+      "region": "maldives",
+      "lat": 4.2176,
+      "lon": 73.5414,
+      "size": 400
+    },
+    {
+      "id": "thulusdhoo-village",
+      "label": "Thulusdhoo settlement",
+      "intendedContext": "island village",
+      "region": "maldives",
+      "lat": 4.3738,
+      "lon": 73.6529,
+      "size": 400
+    },
+    {
+      "id": "victoria-center",
+      "label": "Victoria, Seychelles",
+      "intendedContext": "island civic and commercial center",
+      "region": "seychelles",
+      "lat": -4.6208,
+      "lon": 55.4531,
+      "size": 400
+    },
+    {
+      "id": "la-digue-coast",
+      "label": "La Digue coastal settlement",
+      "intendedContext": "rural island coast",
+      "region": "seychelles",
+      "lat": -4.351,
+      "lon": 55.83,
+      "size": 500
+    },
+    {
+      "id": "mahe-forest",
+      "label": "Mahe interior",
+      "intendedContext": "forest and sparse routes",
+      "region": "seychelles",
+      "lat": -4.646,
+      "lon": 55.437,
+      "size": 500
+    },
+    {
+      "id": "yaren-coast",
+      "label": "Yaren coastal strip",
+      "intendedContext": "low-density coastal settlement",
+      "region": "nauru",
+      "lat": -0.5485,
+      "lon": 166.918,
+      "size": 400
+    },
+    {
+      "id": "buada-lagoon",
+      "label": "Buada lagoon surroundings",
+      "intendedContext": "village and inland water",
+      "region": "nauru",
+      "lat": -0.5323,
+      "lon": 166.9258,
+      "size": 500
+    },
+    {
+      "id": "nauru-interior",
+      "label": "Nauru interior",
+      "intendedContext": "mining landscape and tracks",
+      "region": "nauru",
+      "lat": -0.519,
+      "lon": 166.939,
+      "size": 500
+    },
+    {
+      "id": "apia-center",
+      "label": "Apia center",
+      "intendedContext": "coastal town center",
+      "region": "samoa",
+      "lat": -13.831,
+      "lon": -171.768,
+      "size": 450
+    },
+    {
+      "id": "lefaga-village",
+      "label": "Matautu Lefaga village",
+      "intendedContext": "rural coastal settlement",
+      "region": "samoa",
+      "lat": -13.959986,
+      "lon": -171.938105,
+      "selectionNote": "Centered on the mapped Matautu Lefaga place node after the initial location contained only sparse road mapping.",
+      "size": 500
+    },
+    {
+      "id": "upolu-interior",
+      "label": "Upolu interior",
+      "intendedContext": "forest and agricultural edge",
+      "region": "samoa",
+      "lat": -13.905,
+      "lon": -171.739,
+      "size": 500
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Fishermans Wharf",
+    "bounds": {
+      "west": -122.41868162595988,
+      "south": 37.806798014784974,
+      "east": -122.41458837404012,
+      "north": 37.81003194980763
+    },
+    "provider": "mapzen-terrarium",
+    "columns": 65,
+    "rows": 65,
+    "spacing": 5.625,
+    "nativeResolution": null,
+    "sampledResolution": 3.774,
+    "verticalDatum": "Mixed source vertical datums; local datum not established",
+    "diagnostics": {
+      "provider": "mapzen-terrarium",
+      "tiles": 1,
+      "requests": 1,
+      "validSamples": 4225,
+      "totalSamples": 4225,
+      "min": -10.277,
+      "max": 5.866,
+      "warnings": [
+        "USGS elevation was unavailable; the complete grid uses the global terrain archive instead.",
+        "Global terrain is a multi-source visualization DEM. Native resolution, local vertical datum and acquisition dates are not established; pixel spacing is not survey accuracy."
+      ]
+    },
+    "source": {
+      "id": "terrain-mapzen-terrarium-89722d0c9646",
+      "title": "Mapzen / AWS Terrain Tiles",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "attribution": "Mapzen / Tilezen terrain, hosted by AWS Open Data. Sources include USGS 3DEP, SRTM and GMTED2010; NOAA ETOPO1; ArcticDEM; Geoscience Australia; Austria DGM; Canada CDEM; EU-DEM / Copernicus; INEGI; LINZ; Kartverket; and the UK Environment Agency. Source-specific credits: https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "accessed": "2026-11-16",
+      "notes": "Mapzen/Tilezen Terrarium zoom 15; bilinear raster sampling. Tile pixel pitch is sampledResolution; native DEM resolution and acquisition date are unknown and deliberately omitted. Tiles may include bathymetry below water. Tile source metadata was not provided."
+    },
+    "cached": false
+  },
+  {
+    "name": "Alamo Square",
+    "bounds": {
+      "west": -122.4359,
+      "south": 37.7759,
+      "east": -122.4345,
+      "north": 37.777
+    },
+    "provider": "usgs-3dep",
+    "columns": 26,
+    "rows": 26,
+    "spacing": 5,
+    "nativeResolution": 1,
+    "sampledResolution": null,
+    "verticalDatum": "NAVD88 (CA_SanFrancisco_B23; GEOID18)",
+    "diagnostics": {
+      "provider": "usgs-3dep",
+      "tiles": 0,
+      "requests": 1,
+      "validSamples": 676,
+      "totalSamples": 676,
+      "min": 64.254,
+      "max": 80.731,
+      "warnings": []
+    },
+    "source": {
+      "id": "terrain-usgs-3dep-2459b6b5b351",
+      "title": "USGS 3DEP terrain sample",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/getSamples",
+      "attribution": "USGS National Map 3D Elevation Program. Public-domain elevation data courtesy of the U.S. Geological Survey.",
+      "accessed": "2026-11-16",
+      "notes": "USGS source raster(s): CA_SanFrancisco_B23. Native resolution is the coarsest reported sample resolution, not vertical accuracy. Retrieval date is not acquisition date. Missing samples remain null."
+    },
+    "cached": false
+  },
+  {
+    "name": "Paris Eiffel Tower",
+    "bounds": {
+      "west": 2.293,
+      "south": 48.857,
+      "east": 2.296,
+      "north": 48.86
+    },
+    "provider": "mapzen-terrarium",
+    "columns": 44,
+    "rows": 65,
+    "spacing": 5.219,
+    "nativeResolution": null,
+    "sampledResolution": 3.143,
+    "verticalDatum": "Mixed source vertical datums; local datum not established",
+    "diagnostics": {
+      "provider": "mapzen-terrarium",
+      "tiles": 2,
+      "requests": 2,
+      "validSamples": 2860,
+      "totalSamples": 2860,
+      "min": 28.464,
+      "max": 44.39,
+      "warnings": [
+        "Global terrain is a multi-source visualization DEM. Native resolution, local vertical datum and acquisition dates are not established; pixel spacing is not survey accuracy."
+      ]
+    },
+    "source": {
+      "id": "terrain-mapzen-terrarium-728ef3953f5f",
+      "title": "Mapzen / AWS Terrain Tiles",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "attribution": "Mapzen / Tilezen terrain, hosted by AWS Open Data. Sources include USGS 3DEP, SRTM and GMTED2010; NOAA ETOPO1; ArcticDEM; Geoscience Australia; Austria DGM; Canada CDEM; EU-DEM / Copernicus; INEGI; LINZ; Kartverket; and the UK Environment Agency. Source-specific credits: https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "accessed": "2026-11-16",
+      "notes": "Mapzen/Tilezen Terrarium zoom 15; bilinear raster sampling. Tile pixel pitch is sampledResolution; native DEM resolution and acquisition date are unknown and deliberately omitted. Tiles may include bathymetry below water. Tile source metadata was not provided."
+    },
+    "cached": false
+  },
+  {
+    "name": "Fishermans Wharf - verified primary retry",
+    "bounds": {
+      "west": -122.41868162595988,
+      "south": 37.806798014784974,
+      "east": -122.41458837404012,
+      "north": 37.81003194980763
+    },
+    "provider": "usgs-3dep",
+    "columns": 65,
+    "rows": 65,
+    "spacing": 5.625,
+    "nativeResolution": 1,
+    "sampledResolution": null,
+    "verticalDatum": "NAVD88 (CA_SanFrancisco_B23; GEOID18)",
+    "diagnostics": {
+      "provider": "usgs-3dep",
+      "tiles": 0,
+      "requests": 5,
+      "validSamples": 4225,
+      "totalSamples": 4225,
+      "min": -1.07,
+      "max": 6.847,
+      "warnings": []
+    },
+    "source": {
+      "id": "terrain-usgs-3dep-89722d0c9646",
+      "title": "USGS 3DEP terrain sample",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/getSamples",
+      "attribution": "USGS National Map 3D Elevation Program. Public-domain elevation data courtesy of the U.S. Geological Survey.",
+      "accessed": "2026-11-16",
+      "notes": "USGS source raster(s): CA_SanFrancisco_B23. Native resolution is the coarsest reported sample resolution, not vertical accuracy. Retrieval date is not acquisition date. Missing samples remain null."
+    },
+    "cached": false
+  }
+]

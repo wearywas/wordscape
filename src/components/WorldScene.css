@@ -1,0 +1,65 @@
+.world-walk-controls {
+  position: absolute;
+  left: 18px;
+  bottom: 96px;
+  z-index: 4;
+  max-width: min(520px, calc(100% - 36px));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+}
+.world-walk-controls button {
+  pointer-events: auto;
+  padding: 9px 13px;
+  border: 1px solid #9ba79b;
+  border-radius: 7px;
+  background: #faf9f2;
+  color: #304b3c;
+  font: inherit;
+  font-size: 12px;
+  box-shadow: 0 2px 9px #20372b14;
+  cursor: pointer;
+}
+.world-walk-controls button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.world-walk-controls p {
+  margin: 0;
+  padding: 9px 12px;
+  border: 1px solid #b9c1b5;
+  border-radius: 7px;
+  background: #faf9f2ed;
+  color: #344d3e;
+  font-size: 11px;
+  line-height: 1.65;
+  flex-basis: 100%;
+}
+.world-walk-controls p span {
+  color: #627167;
+}
+.world-scene.is-walking canvas {
+  cursor: grab;
+}
+.world-scene.is-walking canvas:active {
+  cursor: grabbing;
+}
+.world-scene.is-walking ~ .canvas-help,
+.world-scene.is-walking ~ .compass {
+  visibility: hidden;
+}
+.canvas-stage:has(.world-scene.is-walking) > .canvas-caption {
+  display: none;
+}
+@media (max-width: 640px) {
+  .world-walk-controls {
+    left: 10px;
+    bottom: 92px;
+    max-width: calc(100% - 20px);
+  }
+  .world-walk-controls p {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,8 @@
+# Prompt 7 — exact recorded text
+
+Super interesting -- thank you so much, GPT! I think given Google's edge in the real world, we should emphasize the new world creation aspect (though we should keep the functionality we already have), as that's something Google doesn't currently do, and the real world models were really anyway to begin with meant to be a way to create a learning understanding of how the real world is structured, and how it could fit into our tool. So, UI-wise, that means probably making the "fake" world generation the primary view and mode, with the real world being a secondary option (though this might be a polish phase item, along with some other UI/UX notes I'll make at the time, so feel free to queue that up for later and focus on actually creating that new mode next).
+
+For the new "imaginary" world creation, can you please deploy some agents to map a sampling of real-world places -- something like 20-100 map slices (whatever you think is viable for a single run, that might be way too many, I don't know) to put together an understanding of how the world connects in both urban and country settings (and beyond) and what might populate next to what, and with what distance, and such, in a way we can create rules and suggestions for the "imaginary" world generation (while also taking into account potential optional user suggestions on what to put in the world and how to structure it)?
+
+Also, a thought: can we add an iteration option to existing surveys (both real-world areas and the forthcoming imaginary ones) where we have an optional text entry box and can ask the models to improve the current world slice in different ways (such as what populates it, or the 3D fidelity of what populates it, etc)? 
+

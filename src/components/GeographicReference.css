@@ -1,0 +1,87 @@
+.geo-layer-choice {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 7px;
+}
+.geo-layer-choice button {
+  border: 1px solid #cad6c5;
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 11px;
+  background: #fafbf7;
+}
+.geo-layer-choice button[aria-pressed='true'] {
+  background: #345d4e;
+  color: white;
+  border-color: #345d4e;
+}
+.geo-layer-choice small {
+  color: #71816b;
+  font-size: 10px;
+}
+.geo-picker-note {
+  margin: 6px 0 0;
+  font-size: 10px;
+  line-height: 1.5;
+  color: #687a61;
+}
+.geo-aerial {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  background: #e0e5d8;
+}
+.geo-aerial-map {
+  position: absolute;
+  inset: 0;
+}
+.geo-aerial-controls {
+  position: absolute;
+  top: 13px;
+  left: 52px;
+  z-index: 600;
+  max-width: calc(100% - 65px);
+  padding: 4px;
+  border-radius: 7px;
+  background: #fafbf7e8;
+}
+.geo-aerial-status {
+  position: absolute;
+  bottom: 24px;
+  left: 10px;
+  z-index: 600;
+  max-width: min(420px, calc(100% - 20px));
+  padding: 6px 9px;
+  color: #324c3d;
+  background: #fafbf7ef;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 1.4;
+  pointer-events: none;
+}
+.geo-aerial .leaflet-control-attribution,
+.area-map .leaflet-control-attribution {
+  max-width: 100%;
+  font-size: 9px;
+  white-space: normal;
+}
+.geo-aerial .leaflet-tooltip {
+  font-family: inherit;
+  font-size: 10px;
+  padding: 3px 6px;
+  background: #fffdf2ed;
+  border: 1px solid #c7cdb9;
+  color: #2b4636;
+  box-shadow: none;
+}
+.geo-aerial-empty {
+  display: grid;
+  place-content: center;
+  height: 100%;
+  padding: 32px;
+  text-align: center;
+  color: #66765e;
+}

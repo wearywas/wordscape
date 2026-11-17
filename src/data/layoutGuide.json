@@ -1,0 +1,587 @@
+{
+  "version": "1.0",
+  "studyId": "wordscape-layout-study-v1",
+  "studyPending": false,
+  "sampleCount": 20,
+  "generatedAt": "2026-11-16T07:44:29.232Z",
+  "sourceLicense": {
+    "name": "Open Database License 1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "samples": [
+    {
+      "id": "sf-washington",
+      "label": "Washington Square, San Francisco",
+      "intendedContext": "urban park and surrounding blocks",
+      "metrics": {
+        "buildingCount": 326,
+        "roadSegmentCount": 208,
+        "pathSegmentCount": 344,
+        "medianBuildingAreaM2": 134.644,
+        "medianNearestBuildingGapM": 0,
+        "medianBuildingToRoadCenterlineM": 15.8,
+        "networkComponents": 3,
+        "largestNetworkFraction": 0.979,
+        "landUseClasses": ["leisure:garden", "leisure:park", "leisure:playground", "natural:water"]
+      }
+    },
+    {
+      "id": "sf-wharf",
+      "label": "Fisherman's Wharf, San Francisco",
+      "intendedContext": "working waterfront and visitor district",
+      "metrics": {
+        "buildingCount": 44,
+        "roadSegmentCount": 187,
+        "pathSegmentCount": 155,
+        "medianBuildingAreaM2": 454.794,
+        "medianNearestBuildingGapM": 0.244,
+        "medianBuildingToRoadCenterlineM": 22.431,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "landUseClasses": ["leisure:park"]
+      }
+    },
+    {
+      "id": "monaco-old-town",
+      "label": "Monaco old town",
+      "intendedContext": "compact historic urban fabric",
+      "metrics": {
+        "buildingCount": 58,
+        "roadSegmentCount": 233,
+        "pathSegmentCount": 534,
+        "medianBuildingAreaM2": 297.31,
+        "medianNearestBuildingGapM": 0,
+        "medianBuildingToRoadCenterlineM": 13.921,
+        "networkComponents": 6,
+        "largestNetworkFraction": 0.977,
+        "landUseClasses": [
+          "landuse:forest",
+          "landuse:residential",
+          "leisure:garden",
+          "leisure:outdoor_seating",
+          "leisure:playground",
+          "natural:bare_rock",
+          "natural:wood"
+        ]
+      }
+    },
+    {
+      "id": "monaco-harbor",
+      "label": "Monaco harbor edge",
+      "intendedContext": "dense urban waterfront",
+      "metrics": {
+        "buildingCount": 64,
+        "roadSegmentCount": 437,
+        "pathSegmentCount": 630,
+        "medianBuildingAreaM2": 480.068,
+        "medianNearestBuildingGapM": 1.31,
+        "medianBuildingToRoadCenterlineM": 15.565,
+        "networkComponents": 5,
+        "largestNetworkFraction": 0.983,
+        "landUseClasses": [
+          "landuse:construction",
+          "landuse:grass",
+          "landuse:residential",
+          "leisure:garden",
+          "leisure:outdoor_seating",
+          "leisure:park",
+          "leisure:playground",
+          "leisure:swimming_pool",
+          "natural:water"
+        ]
+      }
+    },
+    {
+      "id": "vaduz-center",
+      "label": "Vaduz center",
+      "intendedContext": "small civic center",
+      "metrics": {
+        "buildingCount": 172,
+        "roadSegmentCount": 439,
+        "pathSegmentCount": 502,
+        "medianBuildingAreaM2": 173.638,
+        "medianNearestBuildingGapM": 0,
+        "medianBuildingToRoadCenterlineM": 13.538,
+        "networkComponents": 9,
+        "largestNetworkFraction": 0.978,
+        "landUseClasses": [
+          "landuse:construction",
+          "landuse:grass",
+          "landuse:residential",
+          "landuse:retail",
+          "landuse:vineyard",
+          "leisure:outdoor_seating",
+          "leisure:park",
+          "natural:bare_rock",
+          "natural:heath",
+          "natural:scrub",
+          "natural:water"
+        ]
+      }
+    },
+    {
+      "id": "schaan-housing",
+      "label": "Schaan residential area",
+      "intendedContext": "residential streets and gardens",
+      "metrics": {
+        "buildingCount": 208,
+        "roadSegmentCount": 481,
+        "pathSegmentCount": 689,
+        "medianBuildingAreaM2": 156.151,
+        "medianNearestBuildingGapM": 3.481,
+        "medianBuildingToRoadCenterlineM": 15.514,
+        "networkComponents": 8,
+        "largestNetworkFraction": 0.959,
+        "landUseClasses": [
+          "landuse:cemetery",
+          "landuse:commercial",
+          "landuse:grass",
+          "landuse:industrial",
+          "landuse:meadow",
+          "landuse:railway",
+          "landuse:residential",
+          "landuse:retail",
+          "leisure:garden",
+          "leisure:playground",
+          "leisure:swimming_pool"
+        ]
+      }
+    },
+    {
+      "id": "ruggell-fields",
+      "label": "Ruggell fields",
+      "intendedContext": "agricultural edge",
+      "metrics": {
+        "buildingCount": 0,
+        "roadSegmentCount": 18,
+        "pathSegmentCount": 13,
+        "medianBuildingAreaM2": null,
+        "medianNearestBuildingGapM": null,
+        "medianBuildingToRoadCenterlineM": null,
+        "networkComponents": 3,
+        "largestNetworkFraction": 0.5,
+        "landUseClasses": ["landuse:farmland", "landuse:grass"]
+      }
+    },
+    {
+      "id": "malbun-village",
+      "label": "Malbun village",
+      "intendedContext": "mountain village",
+      "metrics": {
+        "buildingCount": 85,
+        "roadSegmentCount": 349,
+        "pathSegmentCount": 179,
+        "medianBuildingAreaM2": 132.992,
+        "medianNearestBuildingGapM": 6.378,
+        "medianBuildingToRoadCenterlineM": 13.313,
+        "networkComponents": 4,
+        "largestNetworkFraction": 0.982,
+        "landUseClasses": [
+          "landuse:forest",
+          "landuse:meadow",
+          "landuse:residential",
+          "landuse:winter_sports",
+          "leisure:playground",
+          "natural:wood"
+        ]
+      }
+    },
+    {
+      "id": "male-center",
+      "label": "Male center",
+      "intendedContext": "dense island city",
+      "metrics": {
+        "buildingCount": 30,
+        "roadSegmentCount": 121,
+        "pathSegmentCount": 4,
+        "medianBuildingAreaM2": 335.636,
+        "medianNearestBuildingGapM": 3.961,
+        "medianBuildingToRoadCenterlineM": 15.021,
+        "networkComponents": 3,
+        "largestNetworkFraction": 0.957,
+        "landUseClasses": ["leisure:park"]
+      }
+    },
+    {
+      "id": "hulhumale-grid",
+      "label": "Hulhumale streets",
+      "intendedContext": "planned island street grid",
+      "metrics": {
+        "buildingCount": 138,
+        "roadSegmentCount": 197,
+        "pathSegmentCount": 379,
+        "medianBuildingAreaM2": 77.118,
+        "medianNearestBuildingGapM": 0,
+        "medianBuildingToRoadCenterlineM": 14.231,
+        "networkComponents": 4,
+        "largestNetworkFraction": 0.971,
+        "landUseClasses": [
+          "landuse:construction",
+          "landuse:grass",
+          "leisure:garden",
+          "leisure:park",
+          "leisure:pitch",
+          "leisure:sports_centre",
+          "natural:heath",
+          "natural:sand",
+          "natural:scrub",
+          "natural:wood"
+        ]
+      }
+    },
+    {
+      "id": "thulusdhoo-village",
+      "label": "Thulusdhoo settlement",
+      "intendedContext": "island village",
+      "metrics": {
+        "buildingCount": 209,
+        "roadSegmentCount": 120,
+        "pathSegmentCount": 13,
+        "medianBuildingAreaM2": 129.953,
+        "medianNearestBuildingGapM": 0.99,
+        "medianBuildingToRoadCenterlineM": 10.629,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "landUseClasses": ["landuse:cemetery", "leisure:pitch", "natural:beach", "natural:wood"]
+      }
+    },
+    {
+      "id": "victoria-center",
+      "label": "Victoria, Seychelles",
+      "intendedContext": "island civic and commercial center",
+      "metrics": {
+        "buildingCount": 87,
+        "roadSegmentCount": 247,
+        "pathSegmentCount": 8,
+        "medianBuildingAreaM2": 416.892,
+        "medianNearestBuildingGapM": 2.776,
+        "medianBuildingToRoadCenterlineM": 17.919,
+        "networkComponents": 3,
+        "largestNetworkFraction": 0.972,
+        "landUseClasses": ["landuse:residential", "leisure:pitch"]
+      }
+    },
+    {
+      "id": "la-digue-coast",
+      "label": "La Digue coastal settlement",
+      "intendedContext": "rural island coast",
+      "metrics": {
+        "buildingCount": 262,
+        "roadSegmentCount": 63,
+        "pathSegmentCount": 15,
+        "medianBuildingAreaM2": 103.305,
+        "medianNearestBuildingGapM": 3.955,
+        "medianBuildingToRoadCenterlineM": 21.774,
+        "networkComponents": 2,
+        "largestNetworkFraction": 0.936,
+        "landUseClasses": ["landuse:residential", "natural:beach"]
+      }
+    },
+    {
+      "id": "mahe-forest",
+      "label": "Mahe interior",
+      "intendedContext": "forest and sparse routes",
+      "metrics": {
+        "buildingCount": 0,
+        "roadSegmentCount": 0,
+        "pathSegmentCount": 0,
+        "medianBuildingAreaM2": null,
+        "medianNearestBuildingGapM": null,
+        "medianBuildingToRoadCenterlineM": null,
+        "networkComponents": 0,
+        "largestNetworkFraction": null,
+        "landUseClasses": []
+      }
+    },
+    {
+      "id": "yaren-coast",
+      "label": "Yaren coastal strip",
+      "intendedContext": "low-density coastal settlement",
+      "metrics": {
+        "buildingCount": 62,
+        "roadSegmentCount": 38,
+        "pathSegmentCount": 0,
+        "medianBuildingAreaM2": 138.157,
+        "medianNearestBuildingGapM": 1.365,
+        "medianBuildingToRoadCenterlineM": 20.261,
+        "networkComponents": 4,
+        "largestNetworkFraction": 0.61,
+        "landUseClasses": ["landuse:grass", "landuse:residential", "natural:beach"]
+      }
+    },
+    {
+      "id": "buada-lagoon",
+      "label": "Buada lagoon surroundings",
+      "intendedContext": "village and inland water",
+      "metrics": {
+        "buildingCount": 28,
+        "roadSegmentCount": 65,
+        "pathSegmentCount": 3,
+        "medianBuildingAreaM2": 126.103,
+        "medianNearestBuildingGapM": 6.108,
+        "medianBuildingToRoadCenterlineM": 23.198,
+        "networkComponents": 5,
+        "largestNetworkFraction": 0.403,
+        "landUseClasses": ["landuse:residential", "leisure:pitch", "natural:scrub", "natural:wood"]
+      }
+    },
+    {
+      "id": "nauru-interior",
+      "label": "Nauru interior",
+      "intendedContext": "mining landscape and tracks",
+      "metrics": {
+        "buildingCount": 0,
+        "roadSegmentCount": 20,
+        "pathSegmentCount": 0,
+        "medianBuildingAreaM2": null,
+        "medianNearestBuildingGapM": null,
+        "medianBuildingToRoadCenterlineM": null,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "landUseClasses": ["natural:bare_rock", "natural:wood"]
+      }
+    },
+    {
+      "id": "apia-center",
+      "label": "Apia center",
+      "intendedContext": "coastal town center",
+      "metrics": {
+        "buildingCount": 130,
+        "roadSegmentCount": 342,
+        "pathSegmentCount": 178,
+        "medianBuildingAreaM2": 205.407,
+        "medianNearestBuildingGapM": 1.15,
+        "medianBuildingToRoadCenterlineM": 17.086,
+        "networkComponents": 4,
+        "largestNetworkFraction": 0.981,
+        "landUseClasses": [
+          "landuse:commercial",
+          "landuse:recreation_ground",
+          "landuse:religious",
+          "leisure:fitness_station",
+          "leisure:garden",
+          "leisure:park",
+          "leisure:pitch",
+          "leisure:stadium",
+          "natural:water",
+          "natural:wetland"
+        ]
+      }
+    },
+    {
+      "id": "lefaga-village",
+      "label": "Matautu Lefaga village",
+      "intendedContext": "rural coastal settlement",
+      "metrics": {
+        "buildingCount": 34,
+        "roadSegmentCount": 10,
+        "pathSegmentCount": 0,
+        "medianBuildingAreaM2": 72.039,
+        "medianNearestBuildingGapM": 7.189,
+        "medianBuildingToRoadCenterlineM": 50.544,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "landUseClasses": []
+      }
+    },
+    {
+      "id": "upolu-interior",
+      "label": "Upolu interior",
+      "intendedContext": "forest and agricultural edge",
+      "metrics": {
+        "buildingCount": 0,
+        "roadSegmentCount": 12,
+        "pathSegmentCount": 0,
+        "medianBuildingAreaM2": null,
+        "medianNearestBuildingGapM": null,
+        "medianBuildingToRoadCenterlineM": null,
+        "networkComponents": 1,
+        "largestNetworkFraction": 1,
+        "landUseClasses": []
+      }
+    }
+  ],
+  "patterns": [
+    {
+      "id": "spacing-varies",
+      "summary": "Among 16 windows with at least two mapped buildings, median edge-to-edge nearest-neighbor gaps range from 0 to 7.189 m; one universal spacing is not supported.",
+      "evidence": "derived",
+      "sampleIds": [
+        "sf-washington",
+        "sf-wharf",
+        "monaco-old-town",
+        "monaco-harbor",
+        "vaduz-center",
+        "schaan-housing",
+        "malbun-village",
+        "male-center",
+        "hulhumale-grid",
+        "thulusdhoo-village",
+        "victoria-center",
+        "la-digue-coast",
+        "yaren-coast",
+        "buada-lagoon",
+        "apia-center",
+        "lefaga-village"
+      ]
+    },
+    {
+      "id": "footprint-scale-varies",
+      "summary": "Median clipped building footprint area ranges from 72.039 to 480.068 m² across these building-containing windows.",
+      "evidence": "derived",
+      "sampleIds": [
+        "sf-washington",
+        "sf-wharf",
+        "monaco-old-town",
+        "monaco-harbor",
+        "vaduz-center",
+        "schaan-housing",
+        "malbun-village",
+        "male-center",
+        "hulhumale-grid",
+        "thulusdhoo-village",
+        "victoria-center",
+        "la-digue-coast",
+        "yaren-coast",
+        "buada-lagoon",
+        "apia-center",
+        "lefaga-village"
+      ]
+    },
+    {
+      "id": "routes-have-types",
+      "summary": "15 of 20 measured windows contain both mapped motor-road and pedestrian/cycle/path segments; these are distinct route classes.",
+      "evidence": "derived",
+      "sampleIds": [
+        "sf-washington",
+        "sf-wharf",
+        "monaco-old-town",
+        "monaco-harbor",
+        "vaduz-center",
+        "schaan-housing",
+        "ruggell-fields",
+        "malbun-village",
+        "male-center",
+        "hulhumale-grid",
+        "thulusdhoo-village",
+        "victoria-center",
+        "la-digue-coast",
+        "buada-lagoon",
+        "apia-center"
+      ]
+    },
+    {
+      "id": "mapped-sparse-examples",
+      "summary": "4 measured windows have fewer than five retained building footprints. This is mapped sparsity, not proof of an empty landscape.",
+      "evidence": "derived",
+      "sampleIds": ["ruggell-fields", "mahe-forest", "nauru-interior", "upolu-interior"]
+    },
+    {
+      "id": "buildings-and-area-context",
+      "summary": "14 windows contain mapped buildings within 10 m of a retained land-use/natural/leisure area polygon, including overlaps.",
+      "evidence": "derived",
+      "sampleIds": [
+        "sf-washington",
+        "monaco-old-town",
+        "monaco-harbor",
+        "vaduz-center",
+        "schaan-housing",
+        "malbun-village",
+        "male-center",
+        "hulhumale-grid",
+        "thulusdhoo-village",
+        "victoria-center",
+        "la-digue-coast",
+        "yaren-coast",
+        "buada-lagoon",
+        "apia-center"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "routes-first",
+      "instruction": "Plan connected routes and their junctions before placing building footprints. Reserve explicit open space for plazas and access.",
+      "evidence": "authored",
+      "sampleIds": [
+        "sf-washington",
+        "sf-wharf",
+        "monaco-old-town",
+        "monaco-harbor",
+        "vaduz-center",
+        "schaan-housing",
+        "ruggell-fields",
+        "malbun-village",
+        "male-center",
+        "hulhumale-grid",
+        "thulusdhoo-village",
+        "victoria-center",
+        "la-digue-coast",
+        "buada-lagoon",
+        "apia-center"
+      ]
+    },
+    {
+      "id": "variable-clearances",
+      "instruction": "Use deliberate variations in footprint size and route clearance appropriate to the requested place; do not scatter every object independently or reuse one universal spacing.",
+      "evidence": "authored",
+      "sampleIds": [
+        "sf-washington",
+        "sf-wharf",
+        "monaco-old-town",
+        "monaco-harbor",
+        "vaduz-center",
+        "schaan-housing",
+        "malbun-village",
+        "male-center",
+        "hulhumale-grid",
+        "thulusdhoo-village",
+        "victoria-center",
+        "la-digue-coast",
+        "yaren-coast",
+        "buada-lagoon",
+        "apia-center",
+        "lefaga-village"
+      ]
+    },
+    {
+      "id": "walkable-openings",
+      "instruction": "Keep intended walk corridors clear of building footprints, tree trunks and fixtures; place seating and planting beside paths with space for passage.",
+      "evidence": "authored",
+      "sampleIds": [
+        "sf-washington",
+        "sf-wharf",
+        "monaco-old-town",
+        "monaco-harbor",
+        "vaduz-center",
+        "schaan-housing",
+        "ruggell-fields",
+        "malbun-village",
+        "male-center",
+        "hulhumale-grid",
+        "thulusdhoo-village",
+        "victoria-center",
+        "la-digue-coast",
+        "buada-lagoon",
+        "apia-center"
+      ]
+    },
+    {
+      "id": "water-boundaries",
+      "instruction": "Treat water as a spatial boundary. Connect land across it only through a deliberately authored crossing; do not invent real access or bridge measurements.",
+      "evidence": "authored",
+      "sampleIds": ["sf-washington", "monaco-harbor", "vaduz-center", "apia-center"]
+    }
+  ],
+  "limitations": [
+    "Purposive 20-window case study, selected partly by small downloadable regions after Overpass timeouts. Not random, statistically representative, or machine-learning training.",
+    "OSM records mapped geometry, not complete real-world inventories. Zero means no retained feature, never proven absence. The intendedContext labels are authored sampling intentions.",
+    "Only simple closed ways are measured as areas. Multipolygon relations/holes and building parts are omitted; very long ways over 5000 nodes are omitted. Retained SF query coverage differs from whole-region crops.",
+    "Distances use local scaled Web Mercator metres. Nearest-building gaps are edge-to-edge within the clipped window; edge censoring and unmapped neighbors bias them. Shared walls yield zero.",
+    "Road proximity is from each building footprint envelope center to a mapped motor-road centerline, not a setback, entrance distance, route length, or access guarantee.",
+    "Connectivity uses shared original OSM node identities and is cut by window boundaries. It is not navigation, access, accessibility, or grade-separation validation.",
+    "Land-use adjacency counts building/area pairs within an authored 10 m threshold, including overlaps. Areas may overlap; summed footprint coverage is not polygon-union coverage.",
+    "No terrain, imagery, field-verified heights/widths, traffic conditions, or tree-species inventory was acquired. Retained height tags are not used in these metrics. Snapshot/edit dates are not survey acquisition dates."
+  ]
+}

@@ -1,0 +1,5388 @@
+{
+  "format": "wordscape",
+  "version": "0.2",
+  "name": "Washington Square, San Francisco",
+  "description": "A 360 × 360 metre interpretation of North Beach, traced from 2024 NAIP and audited against official park, art and street records. Structured facts distinguish sourced measurements, observations, estimates and unknowns. The 2022 NOAA reference offers finer detail at an older date. This is a spatial sketch, not a measured survey.",
+  "units": "metres",
+  "bounds": {
+    "width": 360,
+    "depth": 360
+  },
+  "origin": {
+    "latitude": 37.799183014789826,
+    "longitude": -122.41224641494269,
+    "note": "Southwest corner. x east, y north. Scaled Web Mercator local frame (cos 37.8008°); reference image 1200 × 1200 px at 0.3 local m/px. See public/reference/washington-square-georeference.json."
+  },
+  "seed": 20240520,
+  "sources": [
+    {
+      "id": "noaa-2022",
+      "title": "NOAA orthophoto · August 2022 · 25 cm",
+      "url": "https://www.fisheries.noaa.gov/inport/item/69582",
+      "attribution": "NOAA National Geodetic Survey / Office for Coastal Management. CC0-1.0.",
+      "accessed": "2026-11-15",
+      "notes": "Acquired 4–7 August 2022; nominal 0.25 m GSD. Higher detail but older than the 2024 NAIP reference. Metadata explicitly dedicates imagery to CC0."
+    },
+    {
+      "id": "sf-aerial-viewer",
+      "title": "SF Planning aerial viewer · 8 cm layers",
+      "url": "https://sfplanninggis.org/1938/",
+      "attribution": "City and County of San Francisco, Planning Department",
+      "accessed": "2026-11-15",
+      "notes": "External inspection link. Includes p2024_rgb8cm and p2025_rgb8cm. Dataset-specific redistribution rights were not established from official metadata, so city tiles are not bundled."
+    },
+    {
+      "id": "park-arbor-2017",
+      "title": "Washington Square · 2017 tree assessment / 2018 plans",
+      "url": "https://commissions.sfplanning.org/hpcpackets/2018-003700COA.pdf",
+      "attribution": "SF Planning / SF Recreation and Parks / HortScience",
+      "accessed": "2026-11-15",
+      "notes": "Pages 45–46, 58 and 65 identify central Lombardy poplars and provide a schematic tree map. Pages 2–5 describe wood benches with CMU legs and perimeter improvements. Historical inventory, not proof of every present tree."
+    },
+    {
+      "id": "street-trees",
+      "title": "SF Public Works street tree inventory",
+      "url": "https://data.sf.gov/City-Infrastructure/Street-Tree-List/tkzw-k3nq",
+      "attribution": "San Francisco Public Works; Open Data Commons PDDL",
+      "accessed": "2026-11-15",
+      "notes": "668 Filbert records 142751–142754 locate four London planes. Positions imported; no DBH used as crown diameter. Extract saved in public/reference."
+    },
+    {
+      "id": "street-directions",
+      "title": "SF streets · active centerlines and direction",
+      "url": "https://data.sf.gov/Geographic-Locations-and-Boundaries/Streets-Active-and-Retired/3psu-pn9h",
+      "attribution": "City and County of San Francisco; Open Data Commons PDDL",
+      "accessed": "2026-11-15",
+      "notes": "Active crop-intersecting segments: B means traffic legal both directions. Powell contains B/F/T segments, so no single direction is assigned to its aggregate road object."
+    },
+    {
+      "id": "street-speeds",
+      "title": "SFMTA speed limits per street segment",
+      "url": "https://data.sf.gov/Transportation/Speed-Limits-per-Street-Segment/3t7b-gebn",
+      "attribution": "SFMTA; Open Data Commons PDDL",
+      "accessed": "2026-11-15",
+      "notes": "Columbus 20 mph; Union/Stockton/Green have 20 mph sections. Preserve segment scope. Zero is a default-data code, not a 0 mph restriction. Filbert school-zone record is 15 mph and dated 2018. These are reference attributes, not live driving advice."
+    },
+    {
+      "id": "sfac-franklin",
+      "title": "Benjamin Franklin · city art collection",
+      "url": "https://kiosk.sfartscommission.org/objects-1/info?objectName=Benjamin+Franklin+%281706-1790%29&query=keywordPath+%3D+%22CE%22+and+Creation_Place2+%3D+%22%22%22%22&sort=0",
+      "attribution": "San Francisco Arts Commission; accession 1879.1",
+      "accessed": "2026-11-15",
+      "notes": "Catalog reports installed dimensions of 204 × 40 × 40 in, sculpture 66 in tall, base 138 in tall; pot metal on concrete. Photos remain external."
+    },
+    {
+      "id": "church-guide",
+      "title": "Sacred Space International · church architecture",
+      "url": "https://www.pbs.org/godinamerica/art/sfo_cityguide.pdf#page=7",
+      "attribution": "Sacred Space International / PBS, 2010",
+      "accessed": "2026-11-15",
+      "notes": "Pages 5–7: Charles Fantoni; Gothic Revival with Romanesque details; steel and reinforced concrete; school on fifth level; nave interior 60 ft high. Interior clearance is not roof height."
+    },
+    {
+      "id": "park-history",
+      "title": "Washington Square · city landmark history",
+      "url": "https://sfplanninggis.org/docs/landmarks_and_districts/LM226.pdf",
+      "attribution": "San Francisco Planning, landmark 226, 1999",
+      "accessed": "2026-11-15",
+      "notes": "Park history and context, including Franklin statue relocation 1904, predominance of three-story buildings on park perimeter and surviving historic landscape."
+    },
+    {
+      "id": "maps-detail",
+      "title": "Washington Square · map and street-level reference",
+      "url": "https://www.google.com/maps/@37.8008,-122.4102,19z/data=!3m1!1e3",
+      "attribution": "Google Maps; imagery attribution shown by the provider",
+      "accessed": "2026-11-15",
+      "notes": "External inspection only. Used qualitatively for visible benches and monument comparison; no Google imagery is redistributed."
+    },
+    {
+      "id": "naip-2024",
+      "title": "USDA NAIP aerial · 20 May 2024",
+      "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "attribution": "USDA Farm Production and Conservation, National Agriculture Imagery Program. Public-domain U.S. government imagery.",
+      "accessed": "2026-11-15",
+      "notes": "Raster m_3712213_se_10_060_20240520 (OBJECTID 11934), 0.6 m source. Downloaded north-up as 1200 px JPEG, 0.3 local m/px (resampled, not additional detail). Local reference: /reference/washington-square-naip.jpg. Geometry hand-traced; no OSM data used."
+    },
+    {
+      "id": "parish",
+      "title": "Saints Peter and Paul · parish history",
+      "url": "https://www.salesiansspp.org/our-history",
+      "attribution": "Saints Peter and Paul Church",
+      "accessed": "2026-11-15",
+      "notes": "Reports 100 × 160 ft church dimensions and 191 ft twin spires. Tower bases and nave mass remain approximate."
+    },
+    {
+      "id": "sf-parks",
+      "title": "Washington Square · San Francisco Recreation and Parks",
+      "url": "https://www.sfrecpark.org/902/Washington-Square",
+      "attribution": "San Francisco Recreation and Parks",
+      "accessed": "2026-11-15",
+      "notes": "Confirms park identity, lawn setting, Filbert/Stockton address, and 3.17 acre area. Scene includes surrounding blocks."
+    }
+  ],
+  "objects": [
+    {
+      "id": "filbert",
+      "label": "Filbert Street",
+      "kind": "road",
+      "description": "Observed east–west street separating the church from the square; curb edges simplified.",
+      "x": 180,
+      "y": 235.35,
+      "width": 360,
+      "depth": 61.5,
+      "height": 0.08,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 0,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-180, -19.35],
+        [180, 30.75],
+        [180, 19.65],
+        [-180, -30.75]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [
+        {
+          "key": "road.direction",
+          "value": "two-way",
+          "evidence": "sourced",
+          "sourceIds": ["street-directions"],
+          "note": "All active centerline segments intersecting this crop are coded B."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Lane count varies around intersections; not reliably inventoried."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": null,
+          "evidence": "unknown",
+          "note": "The aggregate road may span different segment or school-zone restrictions."
+        },
+        {
+          "key": "road.schoolZoneLimit",
+          "value": 15,
+          "evidence": "sourced",
+          "sourceIds": ["street-speeds"],
+          "note": "Record dated 2018; conditions and current signs require verification.",
+          "unit": "mph"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "street-directions",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "street-speeds",
+          "role": "dataset"
+        }
+      ]
+    },
+    {
+      "id": "union",
+      "label": "Union Street",
+      "kind": "road",
+      "description": "Observed southern edge of the square; road width varies near Columbus.",
+      "x": 180,
+      "y": 127.65,
+      "width": 360,
+      "depth": 63.3,
+      "height": 0.08,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 0,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-180, -18.45],
+        [180, 31.65],
+        [180, 18.45],
+        [-180, -31.65]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [
+        {
+          "key": "road.direction",
+          "value": "two-way",
+          "evidence": "sourced",
+          "sourceIds": ["street-directions"],
+          "note": "All active centerline segments intersecting this crop are coded B."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Lane count varies around intersections; not reliably inventoried."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": null,
+          "evidence": "unknown",
+          "note": "The aggregate road may span different segment or school-zone restrictions."
+        },
+        {
+          "key": "road.parkFrontageSpeedLimit",
+          "value": 20,
+          "evidence": "sourced",
+          "sourceIds": ["street-speeds"],
+          "note": "Powell–Columbus–Stockton, implemented 2023-10-05.",
+          "unit": "mph"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "street-directions",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "street-speeds",
+          "role": "dataset"
+        }
+      ]
+    },
+    {
+      "id": "powell",
+      "label": "Powell Street",
+      "kind": "road",
+      "description": "Observed street west of the main square; extends through the study boundary.",
+      "x": 111.3,
+      "y": 180,
+      "width": 60.6,
+      "depth": 360,
+      "height": 0.08,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 0,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-30.3, 180],
+        [-20.1, 180],
+        [30.3, -180],
+        [17.7, -180]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [
+        {
+          "key": "road.direction",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Aggregate includes both one-way and two-way segments; split before routing."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Lane count varies around intersections; not reliably inventoried."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": null,
+          "evidence": "unknown",
+          "note": "The aggregate road may span different segment or school-zone restrictions."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "street-directions",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "street-speeds",
+          "role": "dataset"
+        }
+      ]
+    },
+    {
+      "id": "stockton",
+      "label": "Stockton Street",
+      "kind": "road",
+      "description": "Observed eastern park frontage; straightened between visible junctions.",
+      "x": 259.2,
+      "y": 180,
+      "width": 65.4,
+      "depth": 360,
+      "height": 0.08,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 0,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-32.7, 180],
+        [-21.3, 180],
+        [32.7, -180],
+        [21.3, -180]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [
+        {
+          "key": "road.direction",
+          "value": "two-way",
+          "evidence": "sourced",
+          "sourceIds": ["street-directions"],
+          "note": "All active centerline segments intersecting this crop are coded B."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Lane count varies around intersections; not reliably inventoried."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": null,
+          "evidence": "unknown",
+          "note": "The aggregate road may span different segment or school-zone restrictions."
+        },
+        {
+          "key": "road.parkFrontageSpeedLimit",
+          "value": 20,
+          "evidence": "sourced",
+          "sourceIds": ["street-speeds"],
+          "note": "Green–Union–Filbert, implemented 2023-02-14; north of Filbert differs.",
+          "unit": "mph"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "street-directions",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "street-speeds",
+          "role": "dataset"
+        }
+      ]
+    },
+    {
+      "id": "columbus",
+      "label": "Columbus Avenue",
+      "kind": "road",
+      "description": "Observed northwest–southeast diagonal that cuts off Marini Plaza from the main park.",
+      "x": 158.25,
+      "y": 145.2,
+      "width": 316.5,
+      "depth": 290.4,
+      "height": 0.09,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 0,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-158.25, 145.2],
+        [158.25, -145.2],
+        [133.95, -145.2],
+        [-158.25, 127.5]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [
+        {
+          "key": "road.direction",
+          "value": "two-way",
+          "evidence": "sourced",
+          "sourceIds": ["street-directions"],
+          "note": "All active centerline segments intersecting this crop are coded B."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Lane count varies around intersections; not reliably inventoried."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": 20,
+          "evidence": "sourced",
+          "sourceIds": ["street-speeds"],
+          "note": "Implemented 2023; crop-intersecting Columbus segments.",
+          "unit": "mph"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "street-directions",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "street-speeds",
+          "role": "dataset"
+        }
+      ]
+    },
+    {
+      "id": "greenwich",
+      "label": "Greenwich Street",
+      "kind": "road",
+      "description": "Observed northern cross street, clipped to the image boundary.",
+      "x": 180,
+      "y": 332.85,
+      "width": 360,
+      "depth": 54.3,
+      "height": 0.08,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 0,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-180, -15.45],
+        [119.4, 27.15],
+        [180, 27.15],
+        [-180, -27.15]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [
+        {
+          "key": "road.direction",
+          "value": "two-way",
+          "evidence": "sourced",
+          "sourceIds": ["street-directions"],
+          "note": "All active centerline segments intersecting this crop are coded B."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Lane count varies around intersections; not reliably inventoried."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": null,
+          "evidence": "unknown",
+          "note": "The aggregate road may span different segment or school-zone restrictions."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "street-directions",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "street-speeds",
+          "role": "dataset"
+        }
+      ]
+    },
+    {
+      "id": "green",
+      "label": "Green Street",
+      "kind": "road",
+      "description": "Observed southern cross street, clipped to the image boundary.",
+      "x": 180,
+      "y": 29.7,
+      "width": 360,
+      "depth": 59.4,
+      "height": 0.08,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 0,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-180, -21.6],
+        [180, 29.7],
+        [180, 17.1],
+        [-149.4, -29.7],
+        [-180, -29.7]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [
+        {
+          "key": "road.direction",
+          "value": "two-way",
+          "evidence": "sourced",
+          "sourceIds": ["street-directions"],
+          "note": "All active centerline segments intersecting this crop are coded B."
+        },
+        {
+          "key": "road.lanes",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Lane count varies around intersections; not reliably inventoried."
+        },
+        {
+          "key": "road.speedLimit",
+          "value": null,
+          "evidence": "unknown",
+          "note": "The aggregate road may span different segment or school-zone restrictions."
+        },
+        {
+          "key": "road.parkFrontageSpeedLimit",
+          "value": 20,
+          "evidence": "sourced",
+          "sourceIds": ["street-speeds"],
+          "note": "Powell–Stockton, implemented 2024-02-29; western segment differs.",
+          "unit": "mph"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "street-directions",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "street-speeds",
+          "role": "dataset"
+        }
+      ]
+    },
+    {
+      "id": "park-walk",
+      "label": "Perimeter promenade",
+      "kind": "pavement",
+      "description": "Observed paved park perimeter, simplified as a base beneath lawn and canopy; hidden edges interpolated.",
+      "x": 185.1,
+      "y": 185.7,
+      "width": 138.6,
+      "depth": 96.6,
+      "height": 0.12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 1,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-69.3, 31.2],
+        [55.8, 48.3],
+        [60.6, 26.4],
+        [69.3, -32.7],
+        [-12.6, -48.3],
+        [-64.8, 1.2]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [
+        {
+          "key": "landscape.designDate",
+          "value": 1958,
+          "evidence": "sourced",
+          "sourceIds": ["park-history"]
+        },
+        {
+          "key": "landscape.material",
+          "value": "concrete walks with planted edges",
+          "evidence": "sourced",
+          "sourceIds": ["park-arbor-2017"]
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "main-lawn",
+      "label": "Washington Square lawn",
+      "kind": "grass",
+      "description": "Broad continuous lawn traced from visible green edge. Tree crowns obscure portions of the western boundary.",
+      "x": 198.15,
+      "y": 185.4,
+      "width": 83.7,
+      "depth": 61.2,
+      "height": 0.12,
+      "elevation": 0.08,
+      "rotation": 0,
+      "layer": 2,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-37.95, 12.3],
+        [-27.75, 19.5],
+        [-11.55, 25.2],
+        [4.05, 30],
+        [17.85, 30.6],
+        [28.05, 26.7],
+        [35.85, 19.5],
+        [41.55, 7.2],
+        [41.85, -5.7],
+        [37.35, -18.3],
+        [30.45, -25.8],
+        [20.55, -30],
+        [8.85, -30.6],
+        [-0.15, -27.6],
+        [-9.45, -21.9],
+        [-21.75, -19.5],
+        [-32.25, -20.4],
+        [-38.55, -12.6],
+        [-41.85, -0.6]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "south-garden",
+      "label": "South garden",
+      "kind": "grass",
+      "description": "Small planted island between paths near the southern park entrance; planting type not identified.",
+      "x": 182.25,
+      "y": 149.4,
+      "width": 31.5,
+      "depth": 16.8,
+      "height": 0.12,
+      "elevation": 0.08,
+      "rotation": 0,
+      "layer": 2,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-11.55, 3.9],
+        [-0.75, 8.4],
+        [10.35, 4.5],
+        [15.75, -3.3],
+        [4.05, -8.4],
+        [-7.65, -7.5],
+        [-15.75, -2.7]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "playground",
+      "label": "Children’s play area",
+      "kind": "pavement",
+      "description": "Observed pale green play surface northwest of the lawn; equipment is represented by the area only.",
+      "x": 131.85,
+      "y": 199.8,
+      "width": 18.3,
+      "depth": 24,
+      "height": 0.14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 1,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-7.05, 11.4],
+        [2.85, 12],
+        [9.15, 4.2],
+        [7.65, -5.7],
+        [1.65, -12],
+        [-5.25, -8.4],
+        [-9.15, 0.9]
+      ],
+      "tags": ["aerial-trace", "playground"],
+      "facts": [],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "marini-plaza",
+      "label": "Marini Plaza",
+      "kind": "pavement",
+      "description": "The triangular public space west of Columbus, visible mostly beneath mature tree crowns.",
+      "x": 134.1,
+      "y": 145.35,
+      "width": 31.8,
+      "depth": 37.5,
+      "height": 0.14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 1,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-15.9, 18.75],
+        [11.7, -8.25],
+        [15.9, -13.65],
+        [-9, -18.75],
+        [-12.9, -5.25]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "church-forecourt",
+      "label": "Church forecourt",
+      "kind": "pavement",
+      "description": "Narrow visible paved approach between the church frontage and Filbert Street.",
+      "x": 180.45,
+      "y": 242.25,
+      "width": 36.9,
+      "depth": 13.5,
+      "height": 0.14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 1,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-18.45, 1.65],
+        [17.25, 6.75],
+        [18.45, -1.65],
+        [-17.25, -6.75]
+      ],
+      "tags": ["aerial-trace"],
+      "facts": [],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "church",
+      "label": "Saints Peter and Paul",
+      "kind": "landmark",
+      "description": "Observed church roof and approximate ground footprint. Parish reports 100 × 160 ft overall; nave mass height estimated at 23 m. Towers are separate objects.",
+      "x": 177.75,
+      "y": 269.55,
+      "width": 36.3,
+      "depth": 51.3,
+      "height": 23,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-18.15, 21.15],
+        [10.95, 25.65],
+        [18.15, -21.15],
+        [-11.25, -25.65]
+      ],
+      "tags": ["aerial-trace", "height-estimate", "church", "gabled-roof"],
+      "facts": [
+        {
+          "key": "building.material",
+          "value": "concrete",
+          "evidence": "sourced",
+          "sourceIds": ["church-guide"],
+          "note": "Steel and reinforced-concrete structure; finish not separately measured."
+        },
+        {
+          "key": "building.style",
+          "value": "Gothic Revival with Romanesque details",
+          "evidence": "sourced",
+          "sourceIds": ["church-guide"]
+        },
+        {
+          "key": "building.color",
+          "value": "#eee8da",
+          "evidence": "inferred",
+          "sourceIds": ["parish"],
+          "note": "Approximate pale facade appearance."
+        },
+        {
+          "key": "building.facade",
+          "value": "front-church",
+          "evidence": "sourced",
+          "sourceIds": ["parish"]
+        },
+        {
+          "key": "building.roofShape",
+          "value": "gabled",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "parish"]
+        },
+        {
+          "key": "building.reportedWidth",
+          "value": 30.48,
+          "evidence": "sourced",
+          "sourceIds": ["parish"],
+          "note": "100 ft overall, not axis-aligned trace width.",
+          "unit": "m"
+        },
+        {
+          "key": "building.reportedLength",
+          "value": 48.768,
+          "evidence": "sourced",
+          "sourceIds": ["parish"],
+          "note": "160 ft overall.",
+          "unit": "m"
+        },
+        {
+          "key": "building.interiorHeight",
+          "value": 18.288,
+          "evidence": "sourced",
+          "sourceIds": ["church-guide"],
+          "note": "Nave interior 60 ft; not exterior roof height.",
+          "unit": "m"
+        },
+        {
+          "key": "building.levels",
+          "value": 5,
+          "evidence": "sourced",
+          "sourceIds": ["church-guide"],
+          "note": "Historical school occupied fifth level; not five equal nave floors."
+        },
+        {
+          "key": "history.completed",
+          "value": 1924,
+          "evidence": "sourced",
+          "sourceIds": ["parish"]
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "parish",
+          "role": "history"
+        },
+        {
+          "sourceId": "church-guide",
+          "role": "photo",
+          "view": "Architecture and sanctuary"
+        }
+      ]
+    },
+    {
+      "id": "church-west-tower",
+      "label": "West bell tower",
+      "kind": "landmark",
+      "description": "Approximate tower base inferred beneath the visible roof. Total spire height is parish-reported 191 ft (58.22 m).",
+      "x": 169.5,
+      "y": 249.9,
+      "width": 9,
+      "depth": 9,
+      "height": 58.22,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "inferred",
+      "sourceId": "parish",
+      "footprint": [
+        [-4.5, 3.3],
+        [3, 4.5],
+        [4.5, -3.3],
+        [-3, -4.5]
+      ],
+      "tags": ["aerial-trace", "church", "tower", "reported-height"],
+      "facts": [
+        {
+          "key": "building.material",
+          "value": "concrete",
+          "evidence": "sourced",
+          "sourceIds": ["church-guide"],
+          "note": "Steel and reinforced-concrete structure; finish not separately measured."
+        },
+        {
+          "key": "building.style",
+          "value": "Gothic Revival with Romanesque details",
+          "evidence": "sourced",
+          "sourceIds": ["church-guide"]
+        },
+        {
+          "key": "building.color",
+          "value": "#eee8da",
+          "evidence": "inferred",
+          "sourceIds": ["parish"],
+          "note": "Approximate pale facade appearance."
+        },
+        {
+          "key": "building.facade",
+          "value": "church-tower",
+          "evidence": "sourced",
+          "sourceIds": ["parish"]
+        },
+        {
+          "key": "building.roofShape",
+          "value": "spire",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "parish"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 58.22,
+          "evidence": "sourced",
+          "sourceIds": ["parish"],
+          "note": "191 ft includes the spire.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "parish",
+          "role": "history"
+        },
+        {
+          "sourceId": "church-guide",
+          "role": "photo",
+          "view": "Architecture and sanctuary"
+        }
+      ],
+      "parentId": "church"
+    },
+    {
+      "id": "church-east-tower",
+      "label": "East bell tower",
+      "kind": "landmark",
+      "description": "Approximate tower base inferred beneath the visible roof. Total spire height is parish-reported 191 ft (58.22 m).",
+      "x": 191.55,
+      "y": 253.2,
+      "width": 8.7,
+      "depth": 9,
+      "height": 58.22,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "inferred",
+      "sourceId": "parish",
+      "footprint": [
+        [-4.35, 3.3],
+        [3.15, 4.5],
+        [4.35, -3.3],
+        [-3.15, -4.5]
+      ],
+      "tags": ["aerial-trace", "church", "tower", "reported-height"],
+      "facts": [
+        {
+          "key": "building.material",
+          "value": "concrete",
+          "evidence": "sourced",
+          "sourceIds": ["church-guide"],
+          "note": "Steel and reinforced-concrete structure; finish not separately measured."
+        },
+        {
+          "key": "building.style",
+          "value": "Gothic Revival with Romanesque details",
+          "evidence": "sourced",
+          "sourceIds": ["church-guide"]
+        },
+        {
+          "key": "building.color",
+          "value": "#eee8da",
+          "evidence": "inferred",
+          "sourceIds": ["parish"],
+          "note": "Approximate pale facade appearance."
+        },
+        {
+          "key": "building.facade",
+          "value": "church-tower",
+          "evidence": "sourced",
+          "sourceIds": ["parish"]
+        },
+        {
+          "key": "building.roofShape",
+          "value": "spire",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "parish"]
+        },
+        {
+          "key": "building.reportedHeight",
+          "value": 58.22,
+          "evidence": "sourced",
+          "sourceIds": ["parish"],
+          "note": "191 ft includes the spire.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "parish",
+          "role": "history"
+        },
+        {
+          "sourceId": "church-guide",
+          "role": "photo",
+          "view": "Architecture and sanctuary"
+        }
+      ],
+      "parentId": "church"
+    },
+    {
+      "id": "school-north",
+      "label": "School building",
+      "kind": "building",
+      "description": "Observed large light roof west of the church; school use inferred from the church campus. Height estimated.",
+      "x": 128.4,
+      "y": 281.85,
+      "width": 41.4,
+      "depth": 27.9,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-20.7, 8.25],
+        [16.8, 13.95],
+        [20.7, -8.25],
+        [-17.4, -13.95]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "school-hall",
+      "label": "Campus hall",
+      "kind": "building",
+      "description": "Observed broad pale roof on the church campus. East edge follows the seam beside the terracotta annex; hidden ground boundary, program and height inferred.",
+      "x": 131.55,
+      "y": 253.35,
+      "width": 39.3,
+      "depth": 38.7,
+      "height": 11,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-19.65, 13.95],
+        [14.85, 19.35],
+        [19.65, -13.95],
+        [-14.55, -19.35]
+      ],
+      "tags": ["aerial-trace", "height-estimate", "flat-roof"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 1,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "campus-annex",
+      "label": "Campus annex",
+      "kind": "building",
+      "description": "Observed terracotta roof beside the hall; height estimated.",
+      "x": 156.75,
+      "y": 250.8,
+      "width": 16.5,
+      "depth": 21,
+      "height": 10,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-8.25, 8.4],
+        [5.25, 10.5],
+        [8.25, -8.1],
+        [-4.65, -10.5]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#a85d42",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "filbert-west-corner",
+      "label": "Corner apartments",
+      "kind": "building",
+      "description": "Observed corner roof west of Powell; residential use and height inferred.",
+      "x": 80.4,
+      "y": 246.75,
+      "width": 24.6,
+      "depth": 32.1,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-12.3, 13.05],
+        [8.4, 16.05],
+        [12.3, -13.05],
+        [-5.1, -16.05],
+        [-9.6, -11.55]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "filbert-east-1",
+      "label": "Filbert row 1",
+      "kind": "building",
+      "description": "Observed attached roof east of the church; property boundary and height approximate.",
+      "x": 208.5,
+      "y": 263.55,
+      "width": 15.6,
+      "depth": 24.3,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-7.8, 10.05],
+        [4.8, 12.15],
+        [7.8, -10.05],
+        [-4.8, -12.15]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "filbert-east-2",
+      "label": "Filbert row 2",
+      "kind": "building",
+      "description": "Observed attached roof on Filbert; property boundary and height approximate.",
+      "x": 224.25,
+      "y": 265.65,
+      "width": 20.7,
+      "depth": 24.9,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-10.35, 10.05],
+        [6.75, 12.45],
+        [10.35, -9.75],
+        [-7.05, -12.45]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "campus-northeast",
+      "label": "North courtyard block",
+      "kind": "building",
+      "description": "Observed roof group behind the Filbert row; courtyards omitted and height estimated.",
+      "x": 215.7,
+      "y": 288.3,
+      "width": 34.8,
+      "depth": 27.6,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-17.4, 9],
+        [13.8, 13.8],
+        [17.4, -9],
+        [-13.5, -13.8]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "greenwich-row-1",
+      "label": "Greenwich row 1",
+      "kind": "building",
+      "description": "Observed north-block roof; detailed parcel divisions omitted. Height estimated.",
+      "x": 116.1,
+      "y": 307.05,
+      "width": 25.2,
+      "depth": 27.3,
+      "height": 11,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-12.6, 10.05],
+        [8.7, 13.65],
+        [12.6, -10.35],
+        [-8.7, -13.65]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "greenwich-row-2",
+      "label": "Greenwich row 2",
+      "kind": "building",
+      "description": "Observed north-block roof; height estimated.",
+      "x": 137.85,
+      "y": 310.95,
+      "width": 19.5,
+      "depth": 26.7,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-9.75, 10.65],
+        [5.55, 13.35],
+        [9.75, -10.95],
+        [-5.85, -13.35]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "greenwich-row-3",
+      "label": "Greenwich row 3",
+      "kind": "building",
+      "description": "Observed north-block roof; height estimated.",
+      "x": 158.25,
+      "y": 313.35,
+      "width": 22.5,
+      "depth": 28.5,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-11.25, 11.25],
+        [7.05, 14.25],
+        [11.25, -11.25],
+        [-7.05, -14.25]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "greenwich-row-4",
+      "label": "Greenwich row 4",
+      "kind": "building",
+      "description": "Observed north-block light roof; height estimated.",
+      "x": 183.6,
+      "y": 317.1,
+      "width": 29.4,
+      "depth": 30,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-14.7, 11.4],
+        [10.2, 15],
+        [14.7, -11.1],
+        [-10.2, -15]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "greenwich-row-5",
+      "label": "Greenwich row 5",
+      "kind": "building",
+      "description": "Observed corner roof at Greenwich and Stockton; height estimated.",
+      "x": 214.35,
+      "y": 322.2,
+      "width": 29.1,
+      "depth": 30,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-14.55, 11.1],
+        [10.35, 15],
+        [14.55, -11.1],
+        [-10.35, -15]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "stockton-northwest",
+      "label": "Stockton north block",
+      "kind": "building",
+      "description": "Observed northeast neighborhood roof; height and residential use inferred.",
+      "x": 259.95,
+      "y": 331.2,
+      "width": 27.3,
+      "depth": 25.8,
+      "height": 14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-13.65, 9.6],
+        [10.05, 12.9],
+        [13.65, -9.3],
+        [-9.75, -12.9]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "stockton-northeast",
+      "label": "Stockton roof cluster",
+      "kind": "building",
+      "description": "Observed contiguous roofs east of Stockton, aggregated into one simplified mass.",
+      "x": 267.6,
+      "y": 297.75,
+      "width": 28.8,
+      "depth": 35.1,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-14.4, 14.25],
+        [9, 17.55],
+        [14.4, -13.65],
+        [-9.6, -17.55]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "filbert-northeast",
+      "label": "Filbert corner block",
+      "kind": "building",
+      "description": "Observed roof group on the northeast side of the Filbert intersection; height estimated.",
+      "x": 275.1,
+      "y": 271.65,
+      "width": 31.2,
+      "depth": 24.9,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-15.6, 7.65],
+        [12.6, 12.45],
+        [15.6, -7.95],
+        [-12, -12.45]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "park-east-1",
+      "label": "East frontage 1",
+      "kind": "building",
+      "description": "Observed corner building opposite the park. Street-level uses and height not measured.",
+      "x": 278.7,
+      "y": 227.25,
+      "width": 28.8,
+      "depth": 27.9,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-14.4, 9.75],
+        [10.8, 13.95],
+        [14.4, -9.75],
+        [-10.8, -13.95]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "park-east-2",
+      "label": "East frontage 2",
+      "kind": "building",
+      "description": "Observed light roofs east of the park; adjacent structures grouped. Height estimated.",
+      "x": 284.7,
+      "y": 204.3,
+      "width": 32.4,
+      "depth": 23.4,
+      "height": 11,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-16.2, 7.2],
+        [13.2, 11.7],
+        [16.2, -7.5],
+        [-13.2, -11.7]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "park-east-3",
+      "label": "East frontage 3",
+      "kind": "building",
+      "description": "Observed large light roof opposite the southeast park corner; height estimated.",
+      "x": 288.3,
+      "y": 174.15,
+      "width": 30.6,
+      "depth": 41.1,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-15.3, 16.95],
+        [9.6, 20.55],
+        [15.3, -16.65],
+        [-10.2, -20.55]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "park-east-back",
+      "label": "East block rooftops",
+      "kind": "building",
+      "description": "Observed deeper east-block roofs, represented by one envelope; height estimated.",
+      "x": 315.6,
+      "y": 186.9,
+      "width": 28.2,
+      "depth": 56.4,
+      "height": 14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-14.1, 25.2],
+        [6.3, 28.2],
+        [14.1, -24.9],
+        [-7.2, -28.2]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "union-south-1",
+      "label": "Union south frontage",
+      "kind": "building",
+      "description": "Observed sloping roof envelope on the block south of Union; clipped near the diagonal frontage.",
+      "x": 218.7,
+      "y": 114.6,
+      "width": 38.4,
+      "depth": 24,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-19.2, 6.6],
+        [15.6, 12],
+        [19.2, -7.8],
+        [-5.1, -12]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "union-south-2",
+      "label": "South block corner",
+      "kind": "building",
+      "description": "Observed building at Union and Stockton; height estimated.",
+      "x": 249.6,
+      "y": 118.35,
+      "width": 27,
+      "depth": 24.3,
+      "height": 14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-13.5, 8.55],
+        [9.9, 12.15],
+        [13.5, -8.55],
+        [-9.9, -12.15]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "columbus-south",
+      "label": "Columbus south frontage",
+      "kind": "building",
+      "description": "Observed pale roof along Columbus southeast of the square; height estimated.",
+      "x": 246.45,
+      "y": 94.8,
+      "width": 39.9,
+      "depth": 21,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-19.95, 4.8],
+        [17.25, 10.5],
+        [19.95, -6.3],
+        [-3.15, -10.5]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "west-frontage-1",
+      "label": "Columbus west frontage",
+      "kind": "building",
+      "description": "Observed pale roof west of Columbus; height estimated.",
+      "x": 84.75,
+      "y": 170.1,
+      "width": 38.7,
+      "depth": 24,
+      "height": 11,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-19.35, 6.9],
+        [15.15, 12],
+        [19.35, -6.6],
+        [-15.75, -12]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "west-frontage-2",
+      "label": "Union west corner",
+      "kind": "building",
+      "description": "Observed west-block roof group beside Union; fine parcel divisions omitted.",
+      "x": 92.1,
+      "y": 138.3,
+      "width": 36.6,
+      "depth": 39,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-18.3, 15],
+        [12.9, 19.5],
+        [18.3, -14.4],
+        [-12.9, -19.5]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "southwest-block",
+      "label": "Southwest rooftops",
+      "kind": "building",
+      "description": "Observed broad roof south of Union and west of Columbus; grouped mass and height estimated.",
+      "x": 161.7,
+      "y": 82.05,
+      "width": 58.8,
+      "depth": 25.5,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-29.4, 4.95],
+        [24.9, 12.75],
+        [29.4, -4.65],
+        [-26.7, -12.75]
+      ],
+      "tags": ["aerial-trace", "height-estimate"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 3,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "tree-north-1",
+      "label": "North grove 1",
+      "kind": "tree",
+      "x": 148.8,
+      "y": 208.5,
+      "width": 21.6,
+      "depth": 21.6,
+      "height": 16,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 21.6,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 16,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-north-2",
+      "label": "North grove 2",
+      "kind": "tree",
+      "x": 162.9,
+      "y": 211.5,
+      "width": 20.4,
+      "depth": 20.4,
+      "height": 15,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 20.4,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 15,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-north-3",
+      "label": "North grove 3",
+      "kind": "tree",
+      "x": 174.9,
+      "y": 212.1,
+      "width": 20.4,
+      "depth": 20.4,
+      "height": 16,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 20.4,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 16,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-north-4",
+      "label": "North grove 4",
+      "kind": "tree",
+      "x": 193.2,
+      "y": 215.4,
+      "width": 17.4,
+      "depth": 17.4,
+      "height": 14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 17.4,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 14,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-north-5",
+      "label": "North grove 5",
+      "kind": "tree",
+      "x": 206.1,
+      "y": 222.3,
+      "width": 14.4,
+      "depth": 14.4,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 14.4,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 12,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-north-6",
+      "label": "North grove 6",
+      "kind": "tree",
+      "x": 220.5,
+      "y": 222.6,
+      "width": 15.6,
+      "depth": 15.6,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 15.6,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 13,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-east-1",
+      "label": "East edge 1",
+      "kind": "tree",
+      "x": 241.8,
+      "y": 228.6,
+      "width": 12.9,
+      "depth": 12.9,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 12.9,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 12,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-east-2",
+      "label": "East edge 2",
+      "kind": "tree",
+      "x": 240.6,
+      "y": 214.2,
+      "width": 13.5,
+      "depth": 13.5,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 13.5,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 12,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-east-3",
+      "label": "East edge 3",
+      "kind": "tree",
+      "x": 243.9,
+      "y": 203.4,
+      "width": 12.9,
+      "depth": 12.9,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 12.9,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 13,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-east-4",
+      "label": "East edge 4",
+      "kind": "tree",
+      "x": 246.6,
+      "y": 192,
+      "width": 10.5,
+      "depth": 10.5,
+      "height": 11,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 10.5,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 11,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-east-5",
+      "label": "East grove",
+      "kind": "tree",
+      "x": 246.3,
+      "y": 173.7,
+      "width": 26.1,
+      "depth": 26.1,
+      "height": 17,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 26.1,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 17,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-south-1",
+      "label": "South edge 1",
+      "kind": "tree",
+      "x": 253.8,
+      "y": 150.3,
+      "width": 12.6,
+      "depth": 12.6,
+      "height": 11,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 12.6,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 11,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-south-2",
+      "label": "South edge 2",
+      "kind": "tree",
+      "x": 237,
+      "y": 154.5,
+      "width": 17.1,
+      "depth": 17.1,
+      "height": 13,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 17.1,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 13,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-south-3",
+      "label": "South edge 3",
+      "kind": "tree",
+      "x": 226.5,
+      "y": 150.3,
+      "width": 16.2,
+      "depth": 16.2,
+      "height": 14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 16.2,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 14,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-south-4",
+      "label": "South edge 4",
+      "kind": "tree",
+      "x": 219,
+      "y": 144,
+      "width": 10.2,
+      "depth": 10.2,
+      "height": 10,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 10.2,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 10,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-south-5",
+      "label": "South grove",
+      "kind": "tree",
+      "x": 169.2,
+      "y": 148.5,
+      "width": 19.8,
+      "depth": 19.8,
+      "height": 16,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 19.8,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 16,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-west-1",
+      "label": "West grove 1",
+      "kind": "tree",
+      "x": 154.5,
+      "y": 165.6,
+      "width": 23.1,
+      "depth": 23.1,
+      "height": 16,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 23.1,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 16,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-west-2",
+      "label": "West grove 2",
+      "kind": "tree",
+      "x": 150.9,
+      "y": 176.4,
+      "width": 21.3,
+      "depth": 21.3,
+      "height": 15,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 21.3,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 15,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-west-3",
+      "label": "West grove 3",
+      "kind": "tree",
+      "x": 145.2,
+      "y": 191.4,
+      "width": 17.1,
+      "depth": 17.1,
+      "height": 14,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 17.1,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 14,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-west-4",
+      "label": "West grove 4",
+      "kind": "tree",
+      "x": 146.4,
+      "y": 145.8,
+      "width": 15.3,
+      "depth": 15.3,
+      "height": 12,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 15.3,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 12,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "park-walk"
+    },
+    {
+      "id": "tree-marini-1",
+      "label": "Marini canopy 1",
+      "kind": "tree",
+      "x": 122.4,
+      "y": 161.4,
+      "width": 20.7,
+      "depth": 20.7,
+      "height": 16,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 20.7,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 16,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "marini-plaza"
+    },
+    {
+      "id": "tree-marini-2",
+      "label": "Marini canopy 2",
+      "kind": "tree",
+      "x": 128.1,
+      "y": 147.3,
+      "width": 18.6,
+      "depth": 18.6,
+      "height": 15,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 18.6,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 15,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "marini-plaza"
+    },
+    {
+      "id": "tree-marini-3",
+      "label": "Marini canopy 3",
+      "kind": "tree",
+      "x": 124.8,
+      "y": 133.5,
+      "width": 17.4,
+      "depth": 17.4,
+      "height": 15,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected canopy visible in the 2024 aerial. Crown centre and size are approximate; trunk position, species and height are inferred. Overlapping crowns may contain more than one tree.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.species",
+          "value": null,
+          "evidence": "unknown",
+          "note": "No reliable individual species match; crown appearance alone is insufficient."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 17.4,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 15,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "marini-plaza"
+    },
+    {
+      "id": "tree-central-1",
+      "label": "Lawn poplar 1",
+      "kind": "tree",
+      "x": 197.4,
+      "y": 192.9,
+      "width": 8.4,
+      "depth": 8.4,
+      "height": 17,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected central canopy group. The 2017 arbor report identifies Lombardy poplars here; the earlier palm interpretation was incorrect. Crown location and height remain approximate.",
+      "tags": ["canopy-observation", "height-estimate", "columnar"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "columnar",
+          "evidence": "inferred",
+          "sourceIds": ["park-arbor-2017"]
+        },
+        {
+          "key": "tree.species",
+          "value": "Populus nigra 'Italica' — Lombardy poplar",
+          "evidence": "inferred",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historical central group identified; crown-to-inventory matching is approximate."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 8.4,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 17,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "main-lawn"
+    },
+    {
+      "id": "tree-central-2",
+      "label": "Lawn poplar 2",
+      "kind": "tree",
+      "x": 199.5,
+      "y": 185.4,
+      "width": 7.5,
+      "depth": 7.5,
+      "height": 16,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected central canopy group. The 2017 arbor report identifies Lombardy poplars here; the earlier palm interpretation was incorrect. Crown location and height remain approximate.",
+      "tags": ["canopy-observation", "height-estimate", "columnar"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "columnar",
+          "evidence": "inferred",
+          "sourceIds": ["park-arbor-2017"]
+        },
+        {
+          "key": "tree.species",
+          "value": "Populus nigra 'Italica' — Lombardy poplar",
+          "evidence": "inferred",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historical central group identified; crown-to-inventory matching is approximate."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 7.5,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 16,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "main-lawn"
+    },
+    {
+      "id": "tree-central-3",
+      "label": "Lawn poplar 3",
+      "kind": "tree",
+      "x": 195,
+      "y": 179.4,
+      "width": 7.8,
+      "depth": 7.8,
+      "height": 16,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "description": "Selected central canopy group. The 2017 arbor report identifies Lombardy poplars here; the earlier palm interpretation was incorrect. Crown location and height remain approximate.",
+      "tags": ["canopy-observation", "height-estimate", "columnar"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "columnar",
+          "evidence": "inferred",
+          "sourceIds": ["park-arbor-2017"]
+        },
+        {
+          "key": "tree.species",
+          "value": "Populus nigra 'Italica' — Lombardy poplar",
+          "evidence": "inferred",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historical central group identified; crown-to-inventory matching is approximate."
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 7.8,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 16,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        }
+      ],
+      "parentId": "main-lawn"
+    },
+    {
+      "id": "tree-filbert-1",
+      "label": "Filbert plane 1",
+      "kind": "tree",
+      "x": 123,
+      "y": 229.65,
+      "width": 7.5,
+      "depth": 7.5,
+      "height": 8,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "street-trees",
+      "description": "London plane at 668 Filbert, positioned from the city street-tree inventory. The original canopy sketch was matched in west-to-east order. Inventory coordinates are not a new ground survey; crown size and height remain estimates.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 7.5,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 8,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.species",
+          "value": "Platanus × hispanica — London plane",
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"]
+        },
+        {
+          "key": "tree.inventoryId",
+          "value": 142754,
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"]
+        },
+        {
+          "key": "tree.positionMethod",
+          "value": "city inventory coordinate",
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"],
+          "note": "WGS84 converted to the shared local frame."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        },
+        {
+          "sourceId": "street-trees",
+          "role": "dataset",
+          "view": "Tree record 142754"
+        }
+      ],
+      "parentId": "filbert"
+    },
+    {
+      "id": "tree-filbert-2",
+      "label": "Filbert plane 2",
+      "kind": "tree",
+      "x": 130.74,
+      "y": 231.21,
+      "width": 7.2,
+      "depth": 7.2,
+      "height": 8,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "street-trees",
+      "description": "London plane at 668 Filbert, positioned from the city street-tree inventory. The original canopy sketch was matched in west-to-east order. Inventory coordinates are not a new ground survey; crown size and height remain estimates.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 7.2,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 8,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.species",
+          "value": "Platanus × hispanica — London plane",
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"]
+        },
+        {
+          "key": "tree.inventoryId",
+          "value": 142753,
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"]
+        },
+        {
+          "key": "tree.positionMethod",
+          "value": "city inventory coordinate",
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"],
+          "note": "WGS84 converted to the shared local frame."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        },
+        {
+          "sourceId": "street-trees",
+          "role": "dataset",
+          "view": "Tree record 142753"
+        }
+      ],
+      "parentId": "filbert"
+    },
+    {
+      "id": "tree-filbert-3",
+      "label": "Filbert plane 3",
+      "kind": "tree",
+      "x": 138.13,
+      "y": 231.88,
+      "width": 7.2,
+      "depth": 7.2,
+      "height": 8,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "street-trees",
+      "description": "London plane at 668 Filbert, positioned from the city street-tree inventory. The original canopy sketch was matched in west-to-east order. Inventory coordinates are not a new ground survey; crown size and height remain estimates.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 7.2,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 8,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.species",
+          "value": "Platanus × hispanica — London plane",
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"]
+        },
+        {
+          "key": "tree.inventoryId",
+          "value": 142752,
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"]
+        },
+        {
+          "key": "tree.positionMethod",
+          "value": "city inventory coordinate",
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"],
+          "note": "WGS84 converted to the shared local frame."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        },
+        {
+          "sourceId": "street-trees",
+          "role": "dataset",
+          "view": "Tree record 142752"
+        }
+      ],
+      "parentId": "filbert"
+    },
+    {
+      "id": "tree-filbert-4",
+      "label": "Filbert plane 4",
+      "kind": "tree",
+      "x": 145.7,
+      "y": 233.43,
+      "width": 7.2,
+      "depth": 7.2,
+      "height": 8,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 4,
+      "evidence": "observed",
+      "sourceId": "street-trees",
+      "description": "London plane at 668 Filbert, positioned from the city street-tree inventory. The original canopy sketch was matched in west-to-east order. Inventory coordinates are not a new ground survey; crown size and height remain estimates.",
+      "tags": ["canopy-observation", "height-estimate"],
+      "facts": [
+        {
+          "key": "tree.form",
+          "value": "spreading",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"]
+        },
+        {
+          "key": "tree.canopyDiameter",
+          "value": 7.2,
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate crown envelope; not trunk diameter.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.height",
+          "value": 8,
+          "evidence": "inferred",
+          "note": "Unmeasured scene estimate.",
+          "unit": "m"
+        },
+        {
+          "key": "tree.species",
+          "value": "Platanus × hispanica — London plane",
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"]
+        },
+        {
+          "key": "tree.inventoryId",
+          "value": 142751,
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"]
+        },
+        {
+          "key": "tree.positionMethod",
+          "value": "city inventory coordinate",
+          "evidence": "sourced",
+          "sourceIds": ["street-trees"],
+          "note": "WGS84 converted to the shared local frame."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "street-trees",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        },
+        {
+          "sourceId": "park-arbor-2017",
+          "role": "dataset",
+          "view": "2017 tree assessment and schematic map"
+        },
+        {
+          "sourceId": "street-trees",
+          "role": "dataset",
+          "view": "Tree record 142751"
+        }
+      ],
+      "parentId": "filbert"
+    },
+    {
+      "id": "franklin-statue",
+      "label": "Benjamin Franklin memorial",
+      "kind": "fixture",
+      "x": 192.9,
+      "y": 186.3,
+      "width": 1.016,
+      "depth": 1.016,
+      "height": 5.1816,
+      "elevation": 0.15,
+      "rotation": 0,
+      "layer": 5,
+      "evidence": "inferred",
+      "sourceId": "sfac-franklin",
+      "parentId": "main-lawn",
+      "tags": ["statue", "detail-sample"],
+      "description": "Benjamin Franklin memorial on the central lawn. Overall dimensions and material are catalogued by SFAC; location is approximate from the aerial and park plan. The figure is rendered symbolically.",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "statue",
+          "evidence": "sourced",
+          "sourceIds": ["sfac-franklin"]
+        },
+        {
+          "key": "fixture.material",
+          "value": "pot metal on concrete",
+          "evidence": "sourced",
+          "sourceIds": ["sfac-franklin"]
+        },
+        {
+          "key": "fixture.totalHeight",
+          "value": 5.1816,
+          "evidence": "sourced",
+          "sourceIds": ["sfac-franklin"],
+          "note": "Installed overall height: 204 in.",
+          "unit": "m"
+        },
+        {
+          "key": "fixture.baseHeight",
+          "value": 3.5052,
+          "evidence": "sourced",
+          "sourceIds": ["sfac-franklin"],
+          "note": "138 in base.",
+          "unit": "m"
+        },
+        {
+          "key": "fixture.figureHeight",
+          "value": 1.6764,
+          "evidence": "sourced",
+          "sourceIds": ["sfac-franklin"],
+          "note": "66 in figure.",
+          "unit": "m"
+        },
+        {
+          "key": "history.created",
+          "value": 1879,
+          "evidence": "sourced",
+          "sourceIds": ["sfac-franklin"]
+        },
+        {
+          "key": "history.parkRelocation",
+          "value": 1904,
+          "evidence": "sourced",
+          "sourceIds": ["park-history"]
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "sfac-franklin",
+          "role": "photo",
+          "view": "Catalog object and detail photos"
+        },
+        {
+          "sourceId": "park-history",
+          "role": "history"
+        },
+        {
+          "sourceId": "sfac-franklin",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "bench-east-1",
+      "label": "East promenade bench 1",
+      "kind": "fixture",
+      "x": 242.1,
+      "y": 208.2,
+      "width": 2.1,
+      "depth": 0.65,
+      "height": 0.85,
+      "elevation": 0.15,
+      "rotation": 98,
+      "layer": 5,
+      "evidence": "inferred",
+      "sourceId": "naip-2024",
+      "parentId": "park-walk",
+      "tags": ["bench", "detail-sample"],
+      "description": "Selected visible park detail, placed approximately from imagery. Dimensions and exact orientation are estimates; this is not a complete furniture inventory.",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "bench",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "maps-detail"]
+        },
+        {
+          "key": "fixture.material",
+          "value": "wood seating on masonry supports",
+          "evidence": "sourced",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historic bench specification; individual replacement condition unknown."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "maps-detail",
+          "role": "map",
+          "view": "Park detail"
+        },
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "bench-east-2",
+      "label": "East promenade bench 2",
+      "kind": "fixture",
+      "x": 244.2,
+      "y": 199.5,
+      "width": 2.1,
+      "depth": 0.65,
+      "height": 0.85,
+      "elevation": 0.15,
+      "rotation": 98,
+      "layer": 5,
+      "evidence": "inferred",
+      "sourceId": "naip-2024",
+      "parentId": "park-walk",
+      "tags": ["bench", "detail-sample"],
+      "description": "Selected visible park detail, placed approximately from imagery. Dimensions and exact orientation are estimates; this is not a complete furniture inventory.",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "bench",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "maps-detail"]
+        },
+        {
+          "key": "fixture.material",
+          "value": "wood seating on masonry supports",
+          "evidence": "sourced",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historic bench specification; individual replacement condition unknown."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "maps-detail",
+          "role": "map",
+          "view": "Park detail"
+        },
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "bench-south-1",
+      "label": "South promenade bench 1",
+      "kind": "fixture",
+      "x": 241.5,
+      "y": 149.4,
+      "width": 2.1,
+      "depth": 0.65,
+      "height": 0.85,
+      "elevation": 0.15,
+      "rotation": 8,
+      "layer": 5,
+      "evidence": "inferred",
+      "sourceId": "naip-2024",
+      "parentId": "park-walk",
+      "tags": ["bench", "detail-sample"],
+      "description": "Selected visible park detail, placed approximately from imagery. Dimensions and exact orientation are estimates; this is not a complete furniture inventory.",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "bench",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "maps-detail"]
+        },
+        {
+          "key": "fixture.material",
+          "value": "wood seating on masonry supports",
+          "evidence": "sourced",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historic bench specification; individual replacement condition unknown."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "maps-detail",
+          "role": "map",
+          "view": "Park detail"
+        },
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "bench-south-2",
+      "label": "South promenade bench 2",
+      "kind": "fixture",
+      "x": 229.5,
+      "y": 147.3,
+      "width": 2.1,
+      "depth": 0.65,
+      "height": 0.85,
+      "elevation": 0.15,
+      "rotation": 8,
+      "layer": 5,
+      "evidence": "inferred",
+      "sourceId": "naip-2024",
+      "parentId": "park-walk",
+      "tags": ["bench", "detail-sample"],
+      "description": "Selected visible park detail, placed approximately from imagery. Dimensions and exact orientation are estimates; this is not a complete furniture inventory.",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "bench",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "maps-detail"]
+        },
+        {
+          "key": "fixture.material",
+          "value": "wood seating on masonry supports",
+          "evidence": "sourced",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historic bench specification; individual replacement condition unknown."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "maps-detail",
+          "role": "map",
+          "view": "Park detail"
+        },
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "bench-south-3",
+      "label": "South promenade bench 3",
+      "kind": "fixture",
+      "x": 211.8,
+      "y": 147.6,
+      "width": 2.1,
+      "depth": 0.65,
+      "height": 0.85,
+      "elevation": 0.15,
+      "rotation": 8,
+      "layer": 5,
+      "evidence": "inferred",
+      "sourceId": "naip-2024",
+      "parentId": "park-walk",
+      "tags": ["bench", "detail-sample"],
+      "description": "Selected visible park detail, placed approximately from imagery. Dimensions and exact orientation are estimates; this is not a complete furniture inventory.",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "bench",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "maps-detail"]
+        },
+        {
+          "key": "fixture.material",
+          "value": "wood seating on masonry supports",
+          "evidence": "sourced",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historic bench specification; individual replacement condition unknown."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "maps-detail",
+          "role": "map",
+          "view": "Park detail"
+        },
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "bench-south-4",
+      "label": "South promenade bench 4",
+      "kind": "fixture",
+      "x": 211.8,
+      "y": 144.3,
+      "width": 2.1,
+      "depth": 0.65,
+      "height": 0.85,
+      "elevation": 0.15,
+      "rotation": 8,
+      "layer": 5,
+      "evidence": "inferred",
+      "sourceId": "naip-2024",
+      "parentId": "park-walk",
+      "tags": ["bench", "detail-sample"],
+      "description": "Selected visible park detail, placed approximately from imagery. Dimensions and exact orientation are estimates; this is not a complete furniture inventory.",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "bench",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024", "maps-detail"]
+        },
+        {
+          "key": "fixture.material",
+          "value": "wood seating on masonry supports",
+          "evidence": "sourced",
+          "sourceIds": ["park-arbor-2017"],
+          "note": "Historic bench specification; individual replacement condition unknown."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "maps-detail",
+          "role": "map",
+          "view": "Park detail"
+        },
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "play-structure",
+      "label": "Play structure",
+      "kind": "fixture",
+      "x": 131.4,
+      "y": 200.4,
+      "width": 5,
+      "depth": 4,
+      "height": 2.6,
+      "elevation": 0.15,
+      "rotation": 0,
+      "layer": 5,
+      "evidence": "authored",
+      "sourceId": "naip-2024",
+      "parentId": "playground",
+      "tags": ["playground", "detail-sample"],
+      "description": "A representative play structure within the verified playground. Its exact equipment layout is an authored simplification, not a manufacturer model.",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "playground",
+          "evidence": "sourced",
+          "sourceIds": ["sf-parks"]
+        },
+        {
+          "key": "fixture.geometry",
+          "value": "representative play equipment",
+          "evidence": "authored"
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "maps-detail",
+          "role": "map",
+          "view": "Park detail"
+        },
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "crosswalk-north-east",
+      "label": "Filbert / Stockton crossing",
+      "kind": "fixture",
+      "description": "Visible striped pedestrian crossing; envelope traced approximately. Stripe count and paint condition are not inventoried.",
+      "x": 248.4,
+      "y": 241.35,
+      "width": 16.2,
+      "depth": 6.9,
+      "height": 0.03,
+      "elevation": 0.11,
+      "rotation": 0,
+      "layer": 5,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-8.1, 1.05],
+        [7.2, 3.45],
+        [8.1, -1.05],
+        [-7.5, -3.45]
+      ],
+      "tags": ["crosswalk"],
+      "parentId": "stockton",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "crosswalk",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"]
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "crosswalk-north-west",
+      "label": "Filbert park crossing",
+      "kind": "fixture",
+      "description": "Visible striped pedestrian crossing; envelope traced approximately. Stripe count and paint condition are not inventoried.",
+      "x": 114.6,
+      "y": 220.8,
+      "width": 5.4,
+      "depth": 10.8,
+      "height": 0.03,
+      "elevation": 0.11,
+      "rotation": 0,
+      "layer": 5,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-2.7, 5.1],
+        [1.2, 5.4],
+        [2.7, -4.8],
+        [-1.2, -5.4]
+      ],
+      "tags": ["crosswalk"],
+      "parentId": "filbert",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "crosswalk",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"]
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "crosswalk-south-east",
+      "label": "Union / Stockton crossing",
+      "kind": "fixture",
+      "description": "Visible striped pedestrian crossing; envelope traced approximately. Stripe count and paint condition are not inventoried.",
+      "x": 264.15,
+      "y": 150.6,
+      "width": 15.9,
+      "depth": 6,
+      "height": 0.03,
+      "elevation": 0.11,
+      "rotation": 0,
+      "layer": 5,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-7.95, 0.9],
+        [7.35, 3],
+        [7.95, -0.9],
+        [-7.35, -3]
+      ],
+      "tags": ["crosswalk"],
+      "parentId": "stockton",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "crosswalk",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"]
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "crosswalk-union",
+      "label": "Union park crossing",
+      "kind": "fixture",
+      "description": "Visible striped pedestrian crossing; envelope traced approximately. Stripe count and paint condition are not inventoried.",
+      "x": 263.85,
+      "y": 142.65,
+      "width": 5.7,
+      "depth": 11.1,
+      "height": 0.03,
+      "elevation": 0.11,
+      "rotation": 0,
+      "layer": 5,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-2.85, 4.95],
+        [1.35, 5.55],
+        [2.85, -4.95],
+        [-1.35, -5.55]
+      ],
+      "tags": ["crosswalk"],
+      "parentId": "union",
+      "facts": [
+        {
+          "key": "fixture.type",
+          "value": "crosswalk",
+          "evidence": "observed",
+          "sourceIds": ["naip-2024"]
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ]
+    },
+    {
+      "id": "park-restroom",
+      "label": "Park restroom",
+      "kind": "building",
+      "description": "Small roof at the northwest park entrance, identified as the restroom from official park plans. Footprint and exterior height are approximate.",
+      "x": 138.3,
+      "y": 213.75,
+      "width": 9.6,
+      "depth": 5.7,
+      "height": 3.5,
+      "elevation": 0,
+      "rotation": 0,
+      "layer": 3,
+      "evidence": "observed",
+      "sourceId": "naip-2024",
+      "footprint": [
+        [-4.8, 1.65],
+        [3.6, 2.85],
+        [4.8, -1.65],
+        [-3.3, -2.85]
+      ],
+      "tags": ["aerial-trace", "height-estimate", "park-facility"],
+      "facts": [
+        {
+          "key": "building.roofShape",
+          "value": "flat",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Simplified roof form; aerial does not resolve every roof plane."
+        },
+        {
+          "key": "building.material",
+          "value": null,
+          "evidence": "unknown",
+          "note": "Wall material is not established by this overhead survey."
+        },
+        {
+          "key": "building.levels",
+          "value": 1,
+          "evidence": "inferred",
+          "sourceIds": ["park-history"],
+          "note": "Scene estimate from mass height and neighborhood context, not a property record."
+        },
+        {
+          "key": "building.roofColor",
+          "value": "#c6c4b9",
+          "evidence": "inferred",
+          "sourceIds": ["naip-2024"],
+          "note": "Approximate roof color in aerial; lighting affects appearance."
+        }
+      ],
+      "references": [
+        {
+          "sourceId": "naip-2024",
+          "role": "dataset"
+        },
+        {
+          "sourceId": "sf-aerial-viewer",
+          "role": "photo",
+          "view": "North-up city aerial"
+        }
+      ],
+      "parentId": "park-walk"
+    }
+  ],
+  "relations": [
+    {
+      "from": "main-lawn",
+      "to": "park-walk",
+      "type": "within",
+      "note": "Lawn is enclosed by the perimeter promenade."
+    },
+    {
+      "from": "church",
+      "to": "main-lawn",
+      "type": "near",
+      "note": "The church faces the square across Filbert Street."
+    },
+    {
+      "from": "church-west-tower",
+      "to": "church",
+      "type": "overlaps",
+      "note": "Tower is part of the church frontage."
+    },
+    {
+      "from": "church-east-tower",
+      "to": "church",
+      "type": "overlaps",
+      "note": "Tower is part of the church frontage."
+    },
+    {
+      "from": "playground",
+      "to": "park-walk",
+      "type": "within"
+    },
+    {
+      "from": "filbert",
+      "to": "stockton",
+      "type": "connects"
+    },
+    {
+      "from": "union",
+      "to": "columbus",
+      "type": "connects"
+    },
+    {
+      "from": "marini-plaza",
+      "to": "columbus",
+      "type": "near"
+    }
+  ]
+}

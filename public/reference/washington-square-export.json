@@ -1,0 +1,16 @@
+{
+  "href": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/directories/arcgisoutput/naip/conus_naip_ImageServer/_ags_648ff5f5_fe31_440a_a785_759591c7a066.jpg",
+  "width": 1200,
+  "height": 1200,
+  "extent": {
+    "xmin": -13626868.937772121,
+    "ymin": 4551095.820916071,
+    "xmax": -13626413.32603338,
+    "ymax": 4551551.432654811,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    }
+  },
+  "scale": 0
+}

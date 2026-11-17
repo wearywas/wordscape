@@ -1,0 +1,32 @@
+{
+  "image": "/reference/washington-square-naip.jpg",
+  "title": "Washington Square, San Francisco — USDA NAIP 2024",
+  "northUp": true,
+  "imageSize": { "width": 1200, "height": 1200 },
+  "worldBoundsMetres": { "width": 360, "depth": 360 },
+  "worldOrigin": "southwest; x east, y north; z above local flat ground",
+  "pixelToWorld": { "x": "u * 0.3", "y": "(1200 - v) * 0.3" },
+  "geographicBoundsEPSG4326": {
+    "west": -122.41224641494269,
+    "south": 37.799183014789826,
+    "east": -122.4081535850573,
+    "north": 37.80241694981248
+  },
+  "exportBoundsEPSG3857": {
+    "xmin": -13626868.937772121,
+    "ymin": 4551095.820916071,
+    "xmax": -13626413.32603338,
+    "ymax": 4551551.432654811
+  },
+  "metresPerMercatorUnit": 0.7901464545017922,
+  "projectionNote": "Local ground scale is Web Mercator multiplied by cos(37.8008 degrees). Scale varies slightly across the square. This is an approximate local frame, not a survey projection.",
+  "sourceService": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "rasterObjectId": 11934,
+  "rasterName": "m_3712213_se_10_060_20240520",
+  "acquired": "2024-05-20",
+  "accessed": "2026-11-15",
+  "nominalSourceResolutionMetres": 0.6,
+  "exportPixelSizeLocalMetres": 0.3,
+  "resolutionNote": "Export resampling does not add spatial detail to the source.",
+  "attribution": "USDA Farm Production and Conservation — National Agriculture Imagery Program (NAIP). Public-domain U.S. government imagery."
+}
