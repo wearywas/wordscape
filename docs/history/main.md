@@ -6,7 +6,7 @@ Client: Codex Desktop 0.169.0-alpha.11.1
 
 Models recorded: gpt-6-astra
 
-Snapshot generated: 2026-11-17T03:12:25.996Z. This is a working snapshot; rerun after a turn ends to include its final response.
+Snapshot generated: 2026-11-17T03:48:10.934Z. This is a working snapshot; rerun after a turn ends to include its final response.
 
 Contains all recorded user/assistant dialogue, including commentary. Original tool traces are retained in ignored .history-private/ and the original Codex sessions. Analysis/reasoning records are excluded. Redactions are marked explicitly. Automatic subagent instructions are not additional human prompts.
 
@@ -987,3 +987,25 @@ I’m also organizing the public docs around the document format, interpreter co
 Both live terrain checks succeeded. The woodland improvement kept all 29 objects and their plan positions while adding a continuous hill and basin; the separate creation test generated terrain from the start. Both retain their heightfields in JSON and GLB exports.
 
 The publication audit found account thumbnails in four older screenshots, already present in Git history. I’ll keep that original history private and publish a clean snapshot at the Wordscape URL, with the omitted attachments clearly marked. That avoids exposing the old copies through public commits.
+
+---
+
+## 84. Assistant
+
+The UI and documentation now present Wordscape as a portable document framework, and Washington Square has grown from 139 to 165 objects while preserving the original evidence. The README includes clone-and-run steps, licensing, and guides for users and interpreter developers.
+
+All 297 tests and eight browser workflows pass. I’m now checking a clean copy of the release before publishing it, including opening bundled examples without account setup.
+
+---
+
+## 85. Assistant
+
+The clean copy passes all 297 tests and the example-opening browser workflow. I’m publishing it now, while retaining the original repository privately for build verification. The GitHub connector doesn’t expose repository settings, so I’m using the GitHub CLI for this step.
+
+---
+
+## 86. Assistant
+
+[Wordscape is now public](https://github.com/wearywas/wordscape), and its first public CI run has passed. The original repository remains private as `wordscape-build-history`; the public snapshot includes the framework, examples, guides and readable build records, with the four account-bearing screenshots withheld.
+
+I’m finishing the anonymous-clone check and recording the publication details.
