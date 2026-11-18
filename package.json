@@ -16,6 +16,7 @@
     "lint": "eslint .",
     "check": "npm run lint && npm test && npm run build",
     "history": "node scripts/export-history.mjs",
+    "history:final": "node scripts/finalize-history.mjs",
     "test:browser": "node scripts/smoke.mjs",
     "format": "prettier --write src scripts server *.json *.js *.ts .github README.md AGENTS.md",
     "format:check": "prettier --check src scripts server *.json *.js *.ts .github README.md AGENTS.md",

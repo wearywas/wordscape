@@ -28,6 +28,9 @@ Wordscape application **0.9** demonstrates the **0.8 world document format**. Th
 
 These records explain how this prototype was built; they are not current usage instructions. Their existing paths remain intact.
 
+- [Final submission packet](SUBMISSION.md), [ready-to-copy Discord entry](DISCORD_ENTRY.md) and [final verification](FINAL_VERIFICATION.md).
+- [Recorded demonstration](media/README.md) and [every prompt in order](history/prompts-all.md).
+
 - [Design notes](DESIGN.md), [build notes](BUILD_NOTES.md) and [challenge prompt ledger](PROMPT_LEDGER.md).
 - [Retained history](history/), including original prompt records, experiments and validation artifacts.
 - [Round 9 decisions](PROMPT_09_PLAN.md), [public snapshot/redactions](PUBLICATION.md), and [short demo sequence](DEMO_SCRIPT.md).

@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-11-18T22:40:47.377Z",
+  "rootSessionId": "01a1e1f7-817a-7811-8ab8-0c113f98b64b",
+  "finalReply": {
+    "complete": false,
+    "turnId": "01a1f0c6-69af-78c1-8566-453c6dbe121e",
+    "finalRecordedAt": null,
+    "completedAt": null,
+    "finalTextSha256": null,
+    "note": "Round 10 remains in progress or the matching completion evidence is unavailable."
+  },
+  "prompts": [
+    {
+      "number": 1,
+      "recordedAt": "2026-11-16T01:27:41.817Z",
+      "file": "prompt-01.md",
+      "outcome": "First Wordscape workbench: real 360 m aerial reference, 70-object spatial document, isometric editor, Three.js interpretation, JSON/glTF export, schema/tests and source provenance",
+      "originalTextSha256": "01c8589b5b0a13844d2225c3babcfd13b8932658ada100ee23f09eb002e299b4"
+    },
+    {
+      "number": 2,
+      "recordedAt": "2026-11-16T02:02:37.454Z",
+      "file": "prompt-02.md",
+      "outcome": "Format 0.2 containers, fact/reference editor and container packets; default locked pan/inspect mode; enriched sourced specimen and improved procedural rendering; sharper dated aerial comparison and survey audit",
+      "originalTextSha256": "012d922907c0c7811db803355f831f8bd8be1baf911ba483ffc68362acdbbe3c"
+    },
+    {
+      "number": 3,
+      "recordedAt": "2026-11-16T02:38:07.478Z",
+      "file": "prompt-03.md",
+      "outcome": "Sourced terrain grid and explicit grounding; terrain-aware 3D; interactive survey notebook, evidence review queue and descriptive pattern export",
+      "originalTextSha256": "ae33f7382ba9f4390993ce91c27ff28feec5663c1461d37954a3cb77e328a302"
+    },
+    {
+      "number": 4,
+      "recordedAt": "2026-11-16T03:16:46.277Z",
+      "file": "prompt-04.md",
+      "outcome": "Bounded OpenStreetMap extraction with reviewable 3D preview; connected baseline walking paths; portable part recipes and local templates; isolated Codex sign-in, a live generated pavilion, and explicit API fallback with validated proposals",
+      "originalTextSha256": "47b28bdb8e7c83b546d98c656b028790f6362000f937b153e28cefdc062b2cab"
+    },
+    {
+      "number": 5,
+      "recordedAt": "2026-11-16T04:21:31.146Z",
+      "file": "prompt-05.md",
+      "outcome": "Sourced elevation service with explicit global fallback, three real Wharf water polygons, portable aerial references, safe existing-survey completion, IndexedDB library and saved-area outlines",
+      "originalTextSha256": "76de1c469392db371d650af45bb1e5457397966eb8f4d7019fb96155aa0b9967"
+    },
+    {
+      "number": 6,
+      "recordedAt": "2026-11-16T05:03:26.837Z",
+      "file": "prompt-06.md",
+      "outcome": "Exact cardinal neighbor selection; reviewable 2–4 survey composition; cursor-anchored zoom; human-scale walking; Google API/licensing review; terrain seam and preserved-edit regressions",
+      "originalTextSha256": "c742c204427e7e28b8f40e6df86a05370e3c99abbf63c688f12063b74238f535"
+    },
+    {
+      "number": 7,
+      "recordedAt": "2026-11-16T07:11:59.314Z",
+      "file": "prompt-07.md",
+      "outcome": "Twenty measured OSM windows with traceable advisory guidance; whole-scene model proposals; preserved-evidence iteration; live Lanternwater creation and refinement, preview/apply/export checks",
+      "originalTextSha256": "c40b21a7ff8eb750e05b240fcab4e0222e4bc391b823f544eec3f757ffb31e50"
+    },
+    {
+      "number": 8,
+      "recordedAt": "2026-11-16T16:24:40.486Z",
+      "file": "prompt-08.md",
+      "outcome": "Ten complete reference Wordscapes with source geometry excerpts; automatic/manual selection and 3D previews; clustered/planned/open preferences; polygon proposals, descriptive layout review and retained live examples",
+      "originalTextSha256": "904f5aba70ec49a75f5bd05a17613fe7c5e76eb0f5280a8d7351a0ddd9e7a860"
+    },
+    {
+      "number": 9,
+      "recordedAt": "2026-11-17T00:12:03.610Z",
+      "file": "prompt-09.md",
+      "outcome": "Authored heightfields and explicit re-grounding; format 0.8; compact framework UI/examples; public framework/demo/interpreter guides and licensing; 165-object Washington baseline; privacy-reviewed public source snapshot",
+      "originalTextSha256": "d85ab9538b73b02d39c9404f90c6af07da220af5053b7295227eaa8b46388df5"
+    },
+    {
+      "number": 10,
+      "recordedAt": "2026-11-18T22:28:21.145Z",
+      "file": "prompt-10.md",
+      "outcome": "Submission packet, final verification and completion-checked history export workflow; original sessions retained privately and actual final reply captured only after it finishes",
+      "originalTextSha256": "04fe4bd596e42978810022e2fc5d8c2e87fbcabdf353eee73929d5fdd9734a1d"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "01a1e1f7-817a-7811-8ab8-0c113f98b64b",
+      "task": "main",
+      "client": "Codex Desktop",
+      "clientVersion": "0.169.0-alpha.11.1",
+      "models": [
+        "gpt-6-astra"
+      ],
+      "messages": 478,
+      "encryptedBlocks": 317,
+      "originalRetained": true,
+      "originalSha256": "297b805cd0b63ed5d70496f477256bfa9d34a2509110e9c4aa606036dc6737ee",
+      "trailingPartial": false
+    },
+    {
+      "id": "01a1e1f8-fd74-77d2-86fd-e64d6a6a22c3",
+      "task": "renderer",
+      "client": "Codex Desktop",
+      "clientVersion": "0.169.0-alpha.11.1",
+      "models": [
+        "gpt-6-astra"
+      ],
+      "messages": 172,
+      "encryptedBlocks": 96,
+      "originalRetained": true,
+      "originalSha256": "ca7af5f6f3105e490c0cb8515375fb5cfbad7706698581fa14ec5073f9fe5ff0",
+      "trailingPartial": false
+    },
+    {
+      "id": "01a1e1f8-9f76-7202-965f-5cf4e1fe2291",
+      "task": "survey",
+      "client": "Codex Desktop",
+      "clientVersion": "0.169.0-alpha.11.1",
+      "models": [
+        "gpt-6-astra"
+      ],
+      "messages": 186,
+      "encryptedBlocks": 95,
+      "originalRetained": true,
+      "originalSha256": "cff28b2091d7e8d368a22ff587c7d04e30870d148f48e61cd30a32d65ca1af70",
+      "trailingPartial": false
+    },
+    {
+      "id": "01a1e1f8-c64e-7b91-b994-df4baa898c27",
+      "task": "world_engine",
+      "client": "Codex Desktop",
+      "clientVersion": "0.169.0-alpha.11.1",
+      "models": [
+        "gpt-6-astra"
+      ],
+      "messages": 204,
+      "encryptedBlocks": 123,
+      "originalRetained": true,
+      "originalSha256": "79f9512e5d811bb666ca3e52ea8afa14297526fc0066e590c19fdd35d96f6e7f",
+      "trailingPartial": false
+    }
+  ],
+  "supportingInstructionRecords": 2,
+  "limitations": [
+    "Encrypted content cannot be decoded by this exporter and is explicitly marked.",
+    "Binary attachments and tool/reasoning traces are not included in the public Markdown; original sessions are retained privately.",
+    "Recorded client/version is session-creation metadata, not an inferred current app version.",
+    "Exporting does not publish, submit, share, or create a native full-history artifact."
+  ]
+}

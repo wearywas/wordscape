@@ -1,5 +1,15 @@
 # Build notes
 
+## Final build disclosure
+
+The submitted alpha is application **0.9.0**, document format **0.8**; [SUBMISSION.md](SUBMISSION.md) is the delivery index. The dated sections below preserve their actual round's capabilities and limitations rather than rewriting history as if later features existed from the start.
+
+All-round consulted skills, as observed in the retained build tool records: Superpowers **using-superpowers**, **brainstorming**, **dispatching-parallel-agents**, **writing-plans**, **systematic-debugging**, **test-driven-development**, and **verification-before-completion**; **frontend-design**, **React conventions**, **webapp-testing**, **code-review**, **openai-docs**, **pdf**, and **call-human**. The user delegated routine design decisions and requested no extra clarification rounds; that instruction took precedence over skill suggestions to ask questions. These are workflow/documentation resources, not evidence that another AI provider was used. Automatic subagents and application model checks remain part of the recorded Codex build.
+
+Manual participation across the project consisted of written briefs, supplied screenshots, opening map comparisons, UI testing, one-time sign-in and environment setup/restart. No manual application feature or bug-fix coding was reported. Final export, artifact privacy review, sharing and Discord posting remain the owner's submission steps. The native full-session artifact must be checked for the original account-bearing image attachments before publication.
+
+## Initial environment and decisions
+
 - Project started from an empty local directory during prompt 1 on **November 15, 2026, America/Los_Angeles**.
 - Client: Codex Desktop for Windows, recorded CLI runtime `0.169.0-alpha.11.1`.
 - Model recorded in main session: `gpt-6-astra`. All automatic subagents use the inherited model. The model identifier is from the session record, not inferred from UI labels.
@@ -11,7 +21,7 @@
 - Initial architectural choices are recorded in [DESIGN.md](DESIGN.md); format semantics and validation in [FORMAT.md](FORMAT.md).
 - `AGENTS.md` at the repository root was authored by Codex during prompt 1 to preserve project conventions and the ten-prompt agreement across subsequent turns. It is part of this recorded build.
 - DM Sans is bundled locally from `@fontsource/dm-sans`; the app makes no runtime font-network requests. A transitive development-only minimatch dependency is overridden to the patched 11.x line; lint/build/tests pass with that resolution.
-- No API keys, paid generation, backend account system, or cloud application runtime required. Worlds persist in this browser's local storage. Import/export is local.
+- In the initial build, no API keys, paid generation, backend account system, or cloud application runtime were required. Later rounds added optional model providers and an IndexedDB library; the included examples still work without an account. Import/export remains local.
 - Repository requested private. Public publishing, contest submission, and public sharing are not performed in build 1.
 - Earlier failed concept: the user clarified in prompt 2 that it was a separate ghost-photography game in another project. We follow their fresh-run counting convention and preserve the disclosure; Discord chatter is not represented as an official ruling. See [PROMPT_LEDGER.md](PROMPT_LEDGER.md).
 
@@ -20,6 +30,16 @@
 `npm run history` reads the original project Codex session and its automatic subagents, copies original JSONL files into ignored `.history-private/`, and creates readable user/assistant dialogue snapshots in `docs/history/`. It omits internal reasoning and marks credential/profile-path redactions. Do not commit the private archive. Keep the original sessions intact. The current dialogue snapshot is provisional until refreshed after the final reply.
 
 The app has a native `share_thread` capability available in this environment; invoke it only when ready to publish a reviewed full-thread snapshot. A snapshot is immutable, so produce the final one after the last reply. No public snapshot has been created yet.
+
+## Prompt 10 verification and delivery
+
+- Restarted the local UI and loopback companion after the owner's reboot; the production preview was also restarted for verification. No new world generation or paid API call was made.
+- Prepared the [submission packet](SUBMISSION.md), a 1,714-character Discord draft, exact combined prompts/outcomes, updated supporting instructions and four readable dialogue exports. Original sessions stay private; encrypted agent-message content is explicitly marked rather than reconstructed. A complete native export/share or the event's screenshot/recording fallback remains a post-reply owner step.
+- Added `npm run history:final`, which requires the actual Round 10 final message and matching completed-turn event. Four behavior tests pass, and the command correctly refuses to claim completion during this active reply. It only exports; it makes no model calls, publishes nothing and never sends a Discord message.
+- Corrected test discovery to exclude ignored private clean-checkout archives. The initial broad discovery ran three copies of the existing tests; the final count is **301 unique tests across 38 project files**, including the four new history tests. Lint, TypeScript, production build, formatting and whitespace checks pass. The existing initial-bundle size warning remains disclosed in [final verification](FINAL_VERIFICATION.md).
+- Eight production browser workflows and the dev-only library metadata regression pass. [The 32.64-second recorded demo](media/README.md) uses an isolated browser and retained examples, checks unchanged data and exact JSON export, and makes no provider/API requests. Actual terrain, flat-comparison and JSON/export video frames were decoded and visually reviewed. Three screenshots and a SHA-256 media manifest are included.
+- Independent audit verified the public repository, source/privacy separation, 10 reference-world counts, minimal-document size, prompt ordering and complete private snapshot hashes. The immutable `v0.9.0-challenge` tag pins the submitted source; a later documentation-only update can capture the actual final response without changing that version.
+- Owner actions after the reply are documented: complete and publish the reviewed history, add the full-session artifact link, check public links signed out and post the prepared Discord entry by the displayed deadline. The repository does not submit itself. Keep original sessions, images, private history and submitted source through judging.
 
 ## First-build limitations
 

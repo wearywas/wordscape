@@ -8,6 +8,8 @@ The included workbench is an example implementation. Its Words map and procedura
 
 [Understand the concept](docs/FRAMEWORK.md) · [Read the format](docs/FORMAT.md) · [Use the demo](docs/DEMO_GUIDE.md) · [Build an interpreter](docs/INTERPRETERS.md)
 
+[Watch the short demo](docs/media/wordscape-demo.webm) · [Ten-prompt submission and build history](docs/SUBMISSION.md)
+
 ![The example interpreter showing an authored heightfield and named world objects](docs/media/terrain-demo.png)
 
 _One interpretation of the stored document: the hill, object placements and evidence remain editable data._

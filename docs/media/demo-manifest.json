@@ -1,0 +1,57 @@
+{
+  "recordedAt": "2026-11-18T22:39:20.234Z",
+  "applicationVersion": "0.9",
+  "worldFormat": "0.8",
+  "recording": "wordscape-demo.webm",
+  "bytes": 5783458,
+  "sha256": "9fec58c26d3878250d0d33c0a4e10b1b35aa9e2acabf727e73ecfc6155b65b52",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "audio": false,
+  "description": "Unedited recording of the production workbench in an isolated browser. Retained examples only; no model or geographic provider requests. View changes preserve the document; downloaded JSON matches the open record.",
+  "phases": [
+    {
+      "seconds": 0.9,
+      "label": "Washington Square: Words view of the portable record"
+    },
+    {
+      "seconds": 3.7,
+      "label": "Select a named placement and inspect its data"
+    },
+    {
+      "seconds": 6.8,
+      "label": "Three.js interprets the same surveyed document"
+    },
+    {
+      "seconds": 11.1,
+      "label": "Bundled examples require no model connection"
+    },
+    {
+      "seconds": 14.5,
+      "label": "Mossbell: actual authored height grid at true scale"
+    },
+    {
+      "seconds": 18.9,
+      "label": "Flat comparison changes the view only"
+    },
+    {
+      "seconds": 21.8,
+      "label": "Recorded terrain remains in the world"
+    },
+    {
+      "seconds": 24.3,
+      "label": "The editable source is ordinary portable JSON"
+    },
+    {
+      "seconds": 28.6,
+      "label": "Export the source document or this interpreter’s GLB"
+    }
+  ],
+  "examples": [
+    "Washington Square (165 placements)",
+    "Mossbell Retreat, authored terrain revision (29 placements)"
+  ],
+  "attribution": "Washington Square incorporates © OpenStreetMap contributors (ODbL) and public-domain USGS terrain. Mossbell is authored fiction with separately attributed OSM-derived layout inspiration. See ../../NOTICE.md and source records in each world."
+}
