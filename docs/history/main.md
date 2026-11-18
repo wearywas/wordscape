@@ -6,7 +6,7 @@ Client recorded at session creation: Codex Desktop 0.169.0-alpha.11.1
 
 Models recorded in original turn_context entries: gpt-6-astra
 
-Snapshot generated: 2026-11-18T22:40:47.377Z. Working snapshot: Round 10 is not yet recorded as complete; rerun after its final reply.
+Snapshot generated: 2026-11-18T23:18:12.805Z. The actual Round 10 final reply and matching completion event are recorded.
 
 Contains recorded readable user/assistant dialogue, including commentary, and automatic agent-message envelopes. Encrypted blocks are marked unavailable, not invented or silently removed. Original JSONL/tool traces are retained in ignored .history-private/ and original Codex sessions. Analysis/reasoning and other tool traces are excluded from this public dialogue. Attachments are referenced separately; account-bearing images remain withheld. This is not a native full-history export. Automatic subagent work is not an additional human prompt.
 
@@ -6719,3 +6719,36 @@ Reply 10 — Verification and presentation are complete.
 - Script lint/format pass. Vitest discovery correctly lists 38 unique files.
 
 Video: 5,783,458 bytes; SHA-256 `9fec58c26d3878250d0d33c0a4e10b1b35aa9e2acabf727e73ecfc6155b65b52`.
+
+---
+
+## 479. Assistant (commentary)
+
+Recorded: 2026-11-18T22:41:03.956Z
+
+The final local checks pass: 301 tests across 38 test files, all eight production browser suites, and the additional saved-world migration check. The 33-second demo is recorded and visually checked.
+
+I’m publishing the release packet now. The only steps that must follow this reply are capturing the completed conversation, reviewing its private attachments, and posting your Discord entry; the packet has exact instructions for each.
+
+---
+
+## 480. Assistant (final_answer)
+
+Recorded: 2026-11-18T22:43:21.384Z
+
+**Reply 10 of 10.** The release packet is published, and the [local app](http://127.0.0.1:5173) is running again.
+
+- [Pinned submission version](https://github.com/wearywas/wordscape/tree/v0.9.0-challenge)
+- [Ready-to-copy Discord entry](https://github.com/wearywas/wordscape/blob/main/docs/DISCORD_ENTRY.md)
+- [Submission packet and final checklist](https://github.com/wearywas/wordscape/blob/main/docs/SUBMISSION.md)
+- [33-second demo](https://github.com/wearywas/wordscape/blob/main/docs/media/wordscape-demo.webm)
+
+The packet includes all ten prompts, supporting instructions, build disclosures and history exports. **301 tests, eight production browser suites and GitHub CI passed.**
+
+Three things remain on your end:
+
+1. **After this reply finishes**, run `npm run history:final`, then follow the checklist’s Git commands to publish the refreshed history. This captures the final response itself.
+2. Save the complete conversation export/share or screenshot recording. Review the original account-bearing attachments before publishing, and replace the Discord draft’s history placeholder with your reviewed artifact.
+3. Paste the entry into the challenge thread before **Sunday, November 22, 11:59 PM**, as displayed in your Discord notice.
+
+The checklist includes native CLI export instructions and privacy details. Exporting and sharing alone do not spend another build prompt under the supplied rules; no additional reply is needed.

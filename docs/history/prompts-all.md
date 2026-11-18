@@ -2,7 +2,7 @@
 
 Generated from the original main-session user records. Text is verbatim except marked privacy/credential redactions. Attachment notices follow the relevant prompts. The separate [main dialogue](main.md) retains setup acknowledgements and all readable assistant responses.
 
-**Working snapshot:** the Round 10 final reply is not yet recorded as complete. This export does not by itself establish contest eligibility or replace a required native full-history artifact.
+The actual final reply is recorded. This export does not by itself establish contest eligibility or replace a required native full-history artifact.
 
 ## Prompt 1
 

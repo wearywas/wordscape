@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-18T22:40:47.377Z",
+  "generatedAt": "2026-11-18T23:18:12.805Z",
   "rootSessionId": "01a1e1f7-817a-7811-8ab8-0c113f98b64b",
   "finalReply": {
-    "complete": false,
+    "complete": true,
     "turnId": "01a1f0c6-69af-78c1-8566-453c6dbe121e",
-    "finalRecordedAt": null,
-    "completedAt": null,
-    "finalTextSha256": null,
-    "note": "Round 10 remains in progress or the matching completion evidence is unavailable."
+    "finalRecordedAt": "2026-11-18T22:43:21.384Z",
+    "completedAt": "2026-11-18T22:43:21.496Z",
+    "finalTextSha256": "e1f9a47f552c299f92f2a4b00afd4a8619e9cf0f0c871c342a59456a924c1ad8",
+    "note": "Actual final message matches the original task completion event."
   },
   "prompts": [
     {
@@ -90,10 +90,10 @@
       "models": [
         "gpt-6-astra"
       ],
-      "messages": 478,
+      "messages": 480,
       "encryptedBlocks": 317,
       "originalRetained": true,
-      "originalSha256": "297b805cd0b63ed5d70496f477256bfa9d34a2509110e9c4aa606036dc6737ee",
+      "originalSha256": "64e4e0a047598546b77411747948ed0d81c91663729945af7dea3927cca208b8",
       "trailingPartial": false
     },
     {
